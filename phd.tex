@@ -1,0 +1,219 @@
+\documentclass[12pt,twoside,book]{article}
+
+\usepackage{epsf}
+\usepackage{amsmath,amssymb}
+\usepackage{slashed}
+
+\usepackage[dvipdfmx]{graphicx,hyperref}
+\usepackage{ascmac}
+\usepackage{braket}
+\usepackage{multirow}
+\usepackage{cite}
+\usepackage[titletoc]{appendix}
+
+\hypersetup{% hyperref option list
+setpagesize=false,
+ bookmarksnumbered=true,%
+ bookmarksopen=true,%
+ colorlinks=true,%
+ linkcolor=blue,
+ citecolor=red,
+}
+
+\usepackage{titlesec}
+\usepackage{picture}
+\usepackage{ulem}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usetikzlibrary{%
+   decorations.fractals%
+  ,decorations.pathmorphing%
+  ,shadows%
+  }
+
+\usepackage{colortbl}
+\usepackage{comment}
+
+\setlength{\textwidth}{16.5cm}
+\setlength{\textheight}{21.5cm}
+\setlength{\oddsidemargin}{30truemm}
+\addtolength{\oddsidemargin}{-1truein}
+\setlength{\evensidemargin}{20truemm}
+\addtolength{\evensidemargin}{-1.2truein}
+\setlength{\topmargin}{0cm}
+\setlength{\footskip}{1cm}
+
+\makeatletter
+\newcommand{\figcaption}[1]{\def\@captype{figure}\caption{#1}}
+\newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
+\makeatother
+
+\makeatletter
+  \renewcommand{\theequation}{%
+  \thesubsection.\arabic{equation}}
+  \@addtoreset{equation}{subsection}
+\makeatother
+
+\renewcommand{\arraystretch}{1.2}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\baselinestretch}{1.1}
+
+\newenvironment{titlelineskip}{
+\baselineskip=12mm
+}
+
+\makeatletter
+\def\ps@fancy{%
+\def\sectionmark##1{\markboth{\ifnum \c@secnumdepth>\z@ Section \thesection . \hskip 1em\relax \fi ##1}{}}%
+% \def\chaptermark##1{\markboth{\ifnum \c@secnumdepth>\z@ \thechapter\hskip 0.5em\relax \fi ##1}{}}%
+\def\subsectionmark##1{\markright {\ifnum \c@secnumdepth >\@ne \thesubsection \hskip 1em\relax \fi ##1}}%
+% \def\sectionmark##1{\markright {\ifnum \c@secnumdepth >\@ne \thesection\hskip 0.5em\relax \fi ##1}}%
+\ps@@fancy
+\gdef\ps@fancy{\@fancyplainfalse\ps@@fancy}%
+\ifdim\headwidth<0sp
+\global\advance\headwidth123456789sp\global\advance\headwidth\textwidth
+\fi
+}
+\makeatother
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{\small\thepage}
+\fancyhead[CO]{\rightmark}
+\fancyhead[CE]{\leftmark}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\allowdisplaybreaks[1]
+
+\DeclareSymbolFont{lettersA}{U}{txmia}{m}{it}
+\DeclareMathSymbol{\RRR}{\mathord}{lettersA}{'222}
+
+\begin{document}
+
+\newcommand{\lsim}{\stackrel{<}{_\sim}}
+\newcommand{\gsim}{\stackrel{>}{_\sim}}
+
+\newcommand{\rem}[1]{{$\spadesuit$\bf #1$\spadesuit$}}
+
+\renewcommand{\thefootnote}{\arabic{footnote})}
+\setcounter{footnote}{0}
+
+% Section
+\titleformat{\section}[display]
+  {\LARGE\fillast\bfseries}
+  {Section \thesection}
+  {1ex minus .1ex}
+  {\LARGE\bf}
+  \titlespacing{\section}
+  {3pc}{*3}{*2}[3pc]
+
+\begin{titlepage}
+
+\begin{center}
+ 
+\begin{titlelineskip}
+
+\vskip .75in
+
+{\Large \it
+
+ Ph.D. Thesis
+
+}
+
+\vskip 1.0in
+
+{\Huge \bf
+
+ Indirect study of electroweakly\\
+ interacting particles\\
+ at 100 TeV hadron colliders
+
+}
+
+\vskip .75in
+
+{\Large 
+So Chigusa
+}\\
+
+{\Large \it Department of Physics}
+
+\vfill
+
+\begin{figure}[h]
+ \begin{center}
+  \includegraphics[width=0.6\hsize]{figure/univ.eps}
+ \end{center}
+\end{figure}
+
+\vskip 0.35in
+
+{\Large December 2019}
+
+\end{titlelineskip}
+
+\end{center}
+
+\vspace{0.5in}
+
+\end{titlepage}
+
+\thispagestyle{empty}
+
+\vspace*{1.50in}
+
+\begin{abstract}
+ \rem{To be written}
+\end{abstract}
+
+\clearpage
+
+\thispagestyle{empty}
+
+\vspace*{.75in}
+
+{\LARGE \bf
+Acknowledgments
+}
+
+\vskip .50in
+
+\rem{To be written}
+
+% I would like to thank my supervisor, Takeo Moroi, who provided
+% stimulating discussions, helpful comments, fruitful suggestions and
+% collaboration.  I am also grateful to Koichi Hamaguchi, Kazunori
+% Nakayama, Natsumi Nagata and all the members of the particle physics
+% group at the University of Tokyo for their hospitality.  My work is
+% supported by the Program for Leading Graduate Schools, MEXT, Japan.
+% Finally, I would like to express my gratitude to my family, friends and
+% all things which allow me to enjoy studying physics.
+
+\clearpage
+
+\thispagestyle{empty}
+
+\tableofcontents
+
+\clearpage
+
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+\section[Introduction]{Introduction}
+\setcounter{equation}{0}
+
+\vskip 0.1in
+
+\begin{appendices}
+ 
+\end{appendices}
+
+\clearpage
+
+%% bibtex
+
+\end{document}
