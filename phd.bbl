@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Zwicky:1933}
+F.~Zwicky, {Die Rotverschiebung von extragalaktischen Nebeln}, Helvetica
+  Physica Acta 6 (1933) 110.
+
+\bibitem{Zwicky:1937}
+F.~Zwicky, {On the Masses of Nebulae and of Clusters of Nebulae}, Astrophysical
+  Journal 86 (1937) 217.
+
+\bibitem{Trimble:1987ee}
+V.~Trimble, {Existence and Nature of Dark Matter in the Universe}, Ann. Rev.
+  Astron. Astrophys. 25 (1987) 425--472.
+\newblock \href {http://dx.doi.org/10.1146/annurev.aa.25.090187.002233}
+  {\path{doi:10.1146/annurev.aa.25.090187.002233}}.
+
+\bibitem{1939LicOB..19...41B}
+H.~W. {Babcock}, {The rotation of the Andromeda Nebula}, Lick Observatory
+  Bulletin 19 (1939) 41--51.
+\newblock \href {http://dx.doi.org/10.5479/ADS/bib/1939LicOB.19.41B}
+  {\path{doi:10.5479/ADS/bib/1939LicOB.19.41B}}.
+
+\bibitem{Begeman:1991iy}
+K.~G. Begeman, A.~H. Broeils, R.~H. Sanders, {Extended rotation curves of
+  spiral galaxies: Dark haloes and modified dynamics}, Mon. Not. Roy. Astron.
+  Soc. 249 (1991) 523.
+
+\bibitem{Jungman:1995av}
+G.~Jungman, M.~Kamionkowski, A.~Kosowsky, D.~N. Spergel, {Weighing the universe
+  with the cosmic microwave background}, Phys. Rev. Lett. 76 (1996) 1007--1010.
+\newblock \href {http://arxiv.org/abs/astro-ph/9507080}
+  {\path{arXiv:astro-ph/9507080}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.76.1007}
+  {\path{doi:10.1103/PhysRevLett.76.1007}}.
+
+\bibitem{Jungman:1995bz}
+G.~Jungman, M.~Kamionkowski, A.~Kosowsky, D.~N. Spergel, {Cosmological
+  parameter determination with microwave background maps}, Phys. Rev. D54
+  (1996) 1332--1344.
+\newblock \href {http://arxiv.org/abs/astro-ph/9512139}
+  {\path{arXiv:astro-ph/9512139}}, \href
+  {http://dx.doi.org/10.1103/PhysRevD.54.1332}
+  {\path{doi:10.1103/PhysRevD.54.1332}}.
+
+\bibitem{Aghanim:2018eyx}
+N.~Aghanim, et~al., {Planck 2018 results. VI. Cosmological parameters}\href
+  {http://arxiv.org/abs/1807.06209} {\path{arXiv:1807.06209}}.
+
+\end{thebibliography}

@@ -50,7 +50,7 @@ setpagesize=false,
 
 \makeatletter
   \renewcommand{\theequation}{%
-  \thesubsection.\arabic{equation}}
+  \thesection.\arabic{equation}}
   \@addtoreset{equation}{subsection}
 \makeatother
 
@@ -58,6 +58,13 @@ setpagesize=false,
 \renewcommand{\topfraction}{1.0}
 \renewcommand{\bottomfraction}{1.0}
 \renewcommand{\baselinestretch}{1.1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%    remove the following commands when finalizing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\rem#1{ {\bf\textcolor{red}{($\clubsuit$ #1 $\clubsuit$)}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newenvironment{titlelineskip}{
 \baselineskip=12mm
@@ -95,9 +102,7 @@ setpagesize=false,
 \newcommand{\lsim}{\stackrel{<}{_\sim}}
 \newcommand{\gsim}{\stackrel{>}{_\sim}}
 
-\newcommand{\rem}[1]{{$\spadesuit$\bf #1$\spadesuit$}}
-
-\renewcommand{\thefootnote}{\arabic{footnote})}
+\renewcommand{\thefootnote}{$\natural$\arabic{footnote}}
 \setcounter{footnote}{0}
 
 % Section
@@ -208,12 +213,58 @@ Acknowledgments
 
 \vskip 0.1in
 
+\rem{Definition of ``SM''}
+
+\rem{Definition of ``WIMP''}
+
+\section[Weakly interacting massive particle]{Weakly interacting
+ massive particle}
+\setcounter{equation}{0}
+
+\vskip 0.1in
+
+\subsection[WIMPs as a dark matter candidate]{WIMPs as a dark matter candidate}
+
+One of the most important evidences of the beyond SM is the existence
+of dark matter (DM) \cite{Zwicky:1933}.  DM is an unknown object that
+occupies a non-negligible ratio of the total energy of our Universe,
+but has not yet been directly observed because of its weak interaction
+with the SM particles.\footnote{
+%%
+At worst DM interacts with the SM particles through the gravity, which
+is considerably weaker than all the other known interactions.
+\rem{Mention to Ema paper??}
+}
+%%
+In spite of its invisibility, the existence of DM is confirmed by
+several astrophysical observations such as the mass measurement using
+the gravitational lensing effect caused by galaxies and clusters
+\cite{Zwicky:1937, Trimble:1987ee}, the flatness of galactic rotation
+curves further the optical radius \cite{1939LicOB..19...41B,
+Begeman:1991iy}, the measurement of the power spectrum of the cosmic
+microwave background (CMB), and so on.  In particular, the observation
+of CMB allows us to determine various cosmological parameters
+\cite{Jungman:1995av, Jungman:1995bz} including the density of the
+non-relativistic matter and baryon,
+which is currently determined as \cite{Aghanim:2018eyx}
+\begin{align}
+ \Omega_m h^2 &= 0.1430 \pm 0.0011,\\
+ \Omega_b h^2 &= 0.02237 \pm 0.00015,
+\end{align}
+where $h \sim \mathcal{O}(1)$ is the Hubble constant in units of
+$100\, \mathrm{km}\, \mathrm{s}^{-1}\, \mathrm{Mpc}^{-1}$.  The
+difference between $\Omega_m h^2$ and $\Omega_b h^2$ implies the
+existence of DM and its abundance $\Omega_c h^2 \simeq 0.12$.
+
+
+
 \begin{appendices}
  
 \end{appendices}
 
 \clearpage
 
-%% bibtex
+\bibliographystyle{elsarticle-num}
+\bibliography{phd}
 
 \end{document}
