@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -50,5 +50,21 @@ G.~Jungman, M.~Kamionkowski, A.~Kosowsky, D.~N. Spergel, {Cosmological
 \bibitem{Aghanim:2018eyx}
 N.~Aghanim, et~al., {Planck 2018 results. VI. Cosmological parameters}\href
   {http://arxiv.org/abs/1807.06209} {\path{arXiv:1807.06209}}.
+
+\bibitem{Belanger:2001fz}
+G.~Belanger, F.~Boudjema, A.~Pukhov, A.~Semenov, {MicrOMEGAs: A Program for
+  calculating the relic density in the MSSM}, Comput. Phys. Commun. 149 (2002)
+  103--120.
+\newblock \href {http://arxiv.org/abs/hep-ph/0112278}
+  {\path{arXiv:hep-ph/0112278}}, \href
+  {http://dx.doi.org/10.1016/S0010-4655(02)00596-9}
+  {\path{doi:10.1016/S0010-4655(02)00596-9}}.
+
+\bibitem{Belanger:2018mqt}
+G.~B{\'{e}}langer, F.~Boudjema, A.~Goudelis, A.~Pukhov, B.~Zaldivar,
+  {micrOMEGAs5.0 : Freeze-in}, Comput. Phys. Commun. 231 (2018) 173--186.
+\newblock \href {http://arxiv.org/abs/1801.03509} {\path{arXiv:1801.03509}},
+  \href {http://dx.doi.org/10.1016/j.cpc.2018.04.027}
+  {\path{doi:10.1016/j.cpc.2018.04.027}}.
 
 \end{thebibliography}

@@ -216,6 +216,8 @@ Acknowledgments
 
 \rem{Unit: $\hbar=c=k_B=1$}
 
+\rem{Convention: dot as time derivative}
+
 \rem{Definition of ``SM''}
 
 \rem{Definition of ``WIMP''}
@@ -281,43 +283,124 @@ DM has some fixed velocity distribution.  \rem{More clearly}  Let $v$
 be the relative velocity of annihilating DM particles and
 $\Braket{\sigma v}$ be the thermal average of the product of $\sigma$
 and $v$.  By using this quantity, we can write down the Boltzmann
-equation for the DM number density $n$ as
+equation for the DM number density $n_\chi$ as
 \begin{align}
- \frac{d (n a^3)}{d t} =
- - (n^2 - n_{\mathrm{eq}}^2) a^3 \Braket{\sigma v},\label{eq_boltzmann}
+ \frac{d (n_\chi a^3)}{d t} =
+ - a^3 \Braket{\sigma v} (n_\chi^2 - n_{\mathrm{eq}}^2),\label{eq_boltzmann}
 \end{align}
-where $t$ and $a$ are the time coordinate and the scale factor of the
-Friedmann Robertson Walker metric
+where $t$ and $a$ are the time coordinate and the scale factor,
+respectively, of the Friedmann Robertson Walker metric
 \begin{align}
  d s^2 = - d t^2 + a(t)^2 d \bm{x}^2,
 \end{align}
 while $n_{\mathrm{eq}}$ denotes the number density of DM in
-equilibrium.
+equilibrium.  The first term of the right handed-side of
+Eq.~\eqref{eq_boltzmann} represents the annihilation rate of DM pairs
+that should be proportional to $n_\chi^2$, while the second term
+describes the DM creation through the inverse process.  As desired,
+the number density does not change in time if $n_\chi =
+n_{\mathrm{eq}}$.  Recalling the total entropy conservation in a
+comoving volume $s a^3 = (\mathrm{const})$, it turns out to be
+convenient to define the ratio $Y \equiv n_\chi / s$.  In fact, this
+modification cancels the effect of the expansion of the universe
+$\dot{a} > 0$ from Eq.~\eqref{eq_boltzmann}, leading to a simpler
+equation
+\begin{align}
+ \frac{d Y}{d t} =
+ -s \Braket{\sigma v} (Y^2 - Y_{\mathrm{eq}}^2),\label{eq_boltzmann_Yt}
+\end{align}
+with $Y_{\mathrm{eq}} \equiv n_{\mathrm{eq}} / s$.
 
 Here we assume that the freezeout occurs when the relativistic
 radiation dominates the total energy of the universe, which will be
-verified to be correct later.  Then we can use the Einstein equation
-together with the knowledge of thermodynamics to derive $a \propto
-T^{-1}$ and
+verified to be correct later.  In this case, we can derive $a \propto
+T^{-1}$ from the entropy conservation with $s \propto T^3$.  For the
+numerical calculation, we define a dimensionless parameter $x \equiv
+m_\chi / T$.  Since the time dependence of $x$ is the same as $a$,
+$\dot{x} = x H$ with $H$ being the Hubble parameter.  In addition, $H
+\propto \rho^{1/2} \propto x^{-2}$ and $s \propto x^{-3}$ allows us to
+extract the $x$ dependence as $H(x) = H(x=1) x^{-2}$ and $s(x) =
+s(x=1) x^{-3}$, respectively.  Finally, we can rewrite
+Eq.~\eqref{eq_boltzmann_Yt} as
 \begin{align}
- d t = -2 \sqrt{\frac
- {3}{16\pi G g_{*} a_B}} \frac{d T}{T^3},
+ \frac{d Y}{d x} = -\frac{\lambda}{x^2} (Y^2 - Y_{\mathrm{eq}}^2),\label{eq_boltzmann_Yx}
 \end{align}
-with $G$ and $a_B$ being the gravitational constant and the
-coefficient of the Stefan-Boltzmann law.  $g_{*}$ represents the
-effective degrees of freedom of relativistic particles in the thermal
-bath
+with
 \begin{align}
- g_{*} \equiv \sum_{\mathrm{bosons}} g_B +
- \frac{7}{8} \sum_{\mathrm{fermions}} g_F,
+ \lambda &\equiv \frac{\Braket{\sigma v} s(x=1)}{H(x=1)}.\label{eq_lambda}
 \end{align}
-where both $g_B$ and $g_F$ denote the spin degrees of freedom of each
-particle in the summation.  Finally, by defining dimensionless
-parameters $x \equiv T / m_\chi$ and $u(x) \equiv n / T^3$ and
-substituting $a_B = \pi^2 / 15$, Eq.~\ref{eq_boltzmann} is deformed as
+
+\rem{Please mention s-wave dominance}
+
+\begin{figure}[t]
+ \centering \includegraphics[width=0.5\hsize]{figure/DMrelic.pdf}
+ \caption{Plot of $Y(x) / Y(x=1)$ with $Y(x)$ being a solution of the
+ evolution equation Eq.~\eqref{eq_boltzmann_Yx}.  The yellow dotted
+ line is the solution for $\lambda = 10^{8}$, while the black dotted
+ line denotes $Y_{\mathrm{eq}}$.  The solid lines are the
+ approximation to the solutions described in the text.  The blue, red,
+ and green colors correspond to $\lambda = 10^8$, $10^{10}$, and
+ $10^{12}$, respectively.  The vertical dotted line denotes the
+ freezeout temperature $x_f$ for the $\lambda = 10^{10}$ case.} \label{fig_DM_relic}
+\end{figure}
+In Fig.~\ref{fig_DM_relic}, we show the solution of
+Eq.~\eqref{eq_boltzmann_Yx} for $\lambda = 10^8$ by the yellow dotted
+line.  In the calculation, we use the boundary condition $Y(x=1) =
+Y_{\mathrm{eq}} (x=1)$ and plot the normalized value $Y(x) / Y(x=1)$.
+We also plot the function $Y_{\mathrm{eq}} / Y_{\mathrm{eq}} (x=1)$ by
+the black dotted line.
+
+Unfortunately, it is computationally hard to solve
+Eq.~\eqref{eq_boltzmann_Yx} for larger values of $lambda$ because of
+the almost complete cancellation between two terms of the right handed
+side for small $x\sim \mathcal{O}(1)$ and its amplification caused by
+large $\lambda$.  We adopt instead to use an approximation that is
+same with the one adopted in the public code
+\texttt{MicrOMEGAs}~\cite{Belanger:2001fz, Belanger:2018mqt}.  For the
+small $x$ region, temperature is still high enough to maintain the
+equilibrium $Y \simeq Y_{\mathrm{eq}}$, which means that $d \Delta Y /
+d x \ll d Y_{\mathrm{eq}} / d x$ with $\Delta Y \equiv Y -
+Y_{\mathrm{eq}}$.  From this approximation we obtain a formula
 \begin{align}
- test
+ \Delta Y \simeq -\frac{x^2}{2 \lambda} \frac{d \ln Y_{\mathrm{eq}}}{d x}.\label{eq_relic_app_1}
 \end{align}
+Then we define the time $x_f$, or equivalently the so-called freezeout
+temperature $T_f$, when the approximation becomes invalid through the
+equation
+\begin{align}
+ \Delta Y (x_f) = 2.5 Y_{\mathrm{eq}} (x_f).
+\end{align}
+After the freezeout $x > x_f$, the annihilation of the DM pairs
+rapidly slows down and the DM abundance far exceeds its equilibrium
+value: $Y \gg Y_{\mathrm{eq}}$.  \rem{Comma?}  Then we can neglect the
+second term of the right hand of Eq.~\eqref{eq_boltzmann_Yx} and
+obtain the analytical solution
+\begin{align}
+ Y(x) \simeq - \frac{x}{c_1 x + \lambda},\label{eq_relic_app_2}
+\end{align}
+where $c_1$ is a integration constant.  In Fig.~\ref{fig_DM_relic}, we
+show results obtained with these two approximations
+Eqs.~\eqref{eq_relic_app_1} and \eqref{eq_relic_app_2} for $\lambda =
+10^8$ (blue), $10^{10}$ (red), and $10^{12}$ (green).  In particular,
+the blue and the yellow lines almost completely overlaps with each
+other, which proves the validity of the approximations.  The vertical
+dotted line in the figure shows the freezeout temperature $x_f \simeq
+20$ for the case of $\lambda = 10^{10}$.  \rem{Plot all $x_f$s!! with
+corresponding colors!!}  It can be seen from the figure that $x = x_f$
+does correspond to the time when $Y$ starts to deviate from
+$Y_{\mathrm{eq}}$.  Note that as $\lambda \propto \Braket{\sigma v}$
+becomes larger, the freezeout time becomes later and the late time
+relic abundance becomes smaller.
+
+When the DM properties (\textit{i.e.}, the mass $m_\chi$ and the
+annihilation cross section $\Braket{\sigma v}$) are given,
+corresponding relic abundance can be calculated using above procedure.
+In particular, $m_\chi$ determines the normalization of the figure,
+namely $Y_{\mathrm{eq}} (x=1) = Y_{\mathrm{eq}} (T=m_\chi)$, and
+$\Braket{\sigma v}$ determines the freezeout temperature through the
+combination of Eq.~\eqref{eq_lambda}.  Assuming the absence of
+non-thermal effect, only some good combination of these two values
+should explain the current relic abundance of the DM.
 
 \begin{appendices}
  
