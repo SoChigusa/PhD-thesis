@@ -51,6 +51,12 @@ G.~Jungman, M.~Kamionkowski, A.~Kosowsky, D.~N. Spergel, {Cosmological
 N.~Aghanim, et~al., {Planck 2018 results. VI. Cosmological parameters}\href
   {http://arxiv.org/abs/1807.06209} {\path{arXiv:1807.06209}}.
 
+\bibitem{Gondolo:1990dk}
+P.~Gondolo, G.~Gelmini, {Cosmic abundances of stable particles: Improved
+  analysis}, Nucl. Phys. B360 (1991) 145--179.
+\newblock \href {http://dx.doi.org/10.1016/0550-3213(91)90438-4}
+  {\path{doi:10.1016/0550-3213(91)90438-4}}.
+
 \bibitem{Belanger:2001fz}
 G.~Belanger, F.~Boudjema, A.~Pukhov, A.~Semenov, {MicrOMEGAs: A Program for
   calculating the relic density in the MSSM}, Comput. Phys. Commun. 149 (2002)
@@ -66,5 +72,83 @@ G.~B{\'{e}}langer, F.~Boudjema, A.~Goudelis, A.~Pukhov, B.~Zaldivar,
 \newblock \href {http://arxiv.org/abs/1801.03509} {\path{arXiv:1801.03509}},
   \href {http://dx.doi.org/10.1016/j.cpc.2018.04.027}
   {\path{doi:10.1016/j.cpc.2018.04.027}}.
+
+\bibitem{Farina:2013mla}
+M.~Farina, D.~Pappadopulo, A.~Strumia, {A modified naturalness principle and
+  its experimental tests}, JHEP 08 (2013) 022.
+\newblock \href {http://arxiv.org/abs/1303.7244} {\path{arXiv:1303.7244}},
+  \href {http://dx.doi.org/10.1007/JHEP08(2013)022}
+  {\path{doi:10.1007/JHEP08(2013)022}}.
+
+\bibitem{ArkaniHamed:2006mb}
+N.~Arkani-Hamed, A.~Delgado, G.~F. Giudice, {The Well-tempered neutralino},
+  Nucl. Phys. B741 (2006) 108--130.
+\newblock \href {http://arxiv.org/abs/hep-ph/0601041}
+  {\path{arXiv:hep-ph/0601041}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysb.2006.02.010}
+  {\path{doi:10.1016/j.nuclphysb.2006.02.010}}.
+
+\bibitem{Hisano:2006nn}
+J.~Hisano, S.~Matsumoto, M.~Nagai, O.~Saito, M.~Senami, {Non-perturbative
+  effect on thermal relic abundance of dark matter}, Phys. Lett. B646 (2007)
+  34--38.
+\newblock \href {http://arxiv.org/abs/hep-ph/0610249}
+  {\path{arXiv:hep-ph/0610249}}, \href
+  {http://dx.doi.org/10.1016/j.physletb.2007.01.012}
+  {\path{doi:10.1016/j.physletb.2007.01.012}}.
+
+\bibitem{Cirelli:2007xd}
+M.~Cirelli, A.~Strumia, M.~Tamburini, {Cosmology and Astrophysics of Minimal
+  Dark Matter}, Nucl. Phys. B787 (2007) 152--175.
+\newblock \href {http://arxiv.org/abs/0706.4071} {\path{arXiv:0706.4071}},
+  \href {http://dx.doi.org/10.1016/j.nuclphysb.2007.07.023}
+  {\path{doi:10.1016/j.nuclphysb.2007.07.023}}.
+
+\bibitem{Moroi:2013sla}
+T.~Moroi, M.~Nagai, M.~Takimoto, {Non-Thermal Production of Wino Dark Matter
+  via the Decay of Long-Lived Particles}, JHEP 07 (2013) 066.
+\newblock \href {http://arxiv.org/abs/1303.0948} {\path{arXiv:1303.0948}},
+  \href {http://dx.doi.org/10.1007/JHEP07(2013)066}
+  {\path{doi:10.1007/JHEP07(2013)066}}.
+
+\bibitem{Beneke:2016ync}
+M.~Beneke, A.~Bharucha, F.~Dighera, C.~Hellmann, A.~Hryczuk, S.~Recksiegel,
+  P.~Ruiz-Femenia, {Relic density of wino-like dark matter in the MSSM}, JHEP
+  03 (2016) 119.
+\newblock \href {http://arxiv.org/abs/1601.04718} {\path{arXiv:1601.04718}},
+  \href {http://dx.doi.org/10.1007/JHEP03(2016)119}
+  {\path{doi:10.1007/JHEP03(2016)119}}.
+
+\bibitem{Martin:1997ns}
+S.~P. Martin, {A Supersymmetry primer} (1997) 1--98[Adv. Ser. Direct. High
+  Energy Phys.18,1(1998)].
+\newblock \href {http://arxiv.org/abs/hep-ph/9709356}
+  {\path{arXiv:hep-ph/9709356}}, \href
+  {http://dx.doi.org/10.1142/9789812839657_0001, 10.1142/9789814307505_0001}
+  {\path{doi:10.1142/9789812839657_0001, 10.1142/9789814307505_0001}}.
+
+\bibitem{Cirelli:2005uq}
+M.~Cirelli, N.~Fornengo, A.~Strumia, {Minimal dark matter}, Nucl. Phys. B753
+  (2006) 178--194.
+\newblock \href {http://arxiv.org/abs/hep-ph/0512090}
+  {\path{arXiv:hep-ph/0512090}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysb.2006.07.012}
+  {\path{doi:10.1016/j.nuclphysb.2006.07.012}}.
+
+\bibitem{Cirelli:2009uv}
+M.~Cirelli, A.~Strumia, {Minimal Dark Matter: Model and results}, New J. Phys.
+  11 (2009) 105005.
+\newblock \href {http://arxiv.org/abs/0903.3381} {\path{arXiv:0903.3381}},
+  \href {http://dx.doi.org/10.1088/1367-2630/11/10/105005}
+  {\path{doi:10.1088/1367-2630/11/10/105005}}.
+
+\bibitem{Hisano:2004ds}
+J.~Hisano, S.~Matsumoto, M.~M. Nojiri, O.~Saito, {Non-perturbative effect on
+  dark matter annihilation and gamma ray signature from galactic center}, Phys.
+  Rev. D71 (2005) 063528.
+\newblock \href {http://arxiv.org/abs/hep-ph/0412403}
+  {\path{arXiv:hep-ph/0412403}}, \href
+  {http://dx.doi.org/10.1103/PhysRevD.71.063528}
+  {\path{doi:10.1103/PhysRevD.71.063528}}.
 
 \end{thebibliography}
