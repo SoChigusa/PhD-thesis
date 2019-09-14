@@ -318,11 +318,12 @@ with $Y_{\mathrm{eq}} \equiv n_{\mathrm{eq}} / s$.
 \begin{figure}[t]
  \centering \includegraphics[width=0.5\hsize]{figure/DMrelic.pdf}
  \caption{Plot of $Y(x) / Y(x=1)$ with $Y(x)$ being a solution of the
- evolution equation Eq.~\eqref{eq_boltzmann_Yx}.  The yellow dotted line
- is a solution for $\lambda = 10^{8}$, while the black dotted line
- denotes $Y_{\mathrm{eq}} / Y_{\mathrm{eq}} (x=1)$.  The solid lines are
- the approximation to the solutions described in the text.  The blue,
- red, and green colors correspond to $\lambda = 10^8$, $10^{10}$, and
+ evolution equation Eq.~\eqref{eq_boltzmann_Yx}.  The yellow dotted
+ line is a solution for $\lambda \equiv \left. \Gamma / H
+ \right|_{x=1} = 10^6$, while the black dotted line denotes
+ $Y_{\mathrm{eq}} (x) / Y_{\mathrm{eq}} (x=1)$.  The solid lines are the
+ approximation to the solutions described in the text.  The blue, red,
+ and green colors correspond to $\lambda = 10^8$, $10^{10}$, and
  $10^{12}$, respectively.  The vertical dotted lines denote the
  freezeout temperature $x_f$.}  \label{fig_DM_relic}
 \end{figure}
@@ -352,22 +353,22 @@ as~\cite{Gondolo:1990dk}
  \Braket{\sigma v} = \Braket{\sigma v}_s +
  \Braket{\sigma v}_p x^{-1} + \cdots,
 \end{align}
-collesponding to the $s$-wave, $p$-wave, and so on, contributions to the
-cross section.  When $x \gg 1$, the term with the highest power of $x$
-dominates the cross section.  When the $x^{-p}$ term dominates ($p \geq
-0$), temperature dependence of the interaction rate is $\Gamma \propto
-x^{-3/2-p} e^{-x}$, while the Hubble parameter only reduces as $H
-\propto \rho^{1/2} \propto x^{-2}$.  As a result, at some point $\Gamma$
-becomes smaller than $H$ and $Y$ freezes out as
-Eq.~\eqref{eq_boltzmann_Yx} indicates.  Hereafter, we focus on the case
-of the $s$-wave domination with $\Braket{\sigma v}_s \neq 0$ for
-simplicity.  \rem{What is the difference for $p$-wave and so on?}
-\rem{Please remake figures!!}  In Fig.~\ref{fig_DM_relic}, we show the
-solution of Eq.~\eqref{eq_boltzmann_Yx} for $\lambda = 10^8$ by the
-yellow dotted line.  In the calculation, we use the boundary condition
-$Y(x=1) = Y_{\mathrm{eq}} (x=1)$ and plot the normalized value $Y(x) /
-Y(x=1)$.  We also plot the function $Y_{\mathrm{eq}} / Y_{\mathrm{eq}}
-(x=1)$ by the black dotted line.
+collesponding to the $s$-wave, $p$-wave, and so on, contributions to
+the cross section.  When $x \gg 1$, the term with the highest power of
+$x$ dominates the cross section.  When the $x^{-p}$ term dominates ($p
+\geq 0$), temperature dependence of the interaction rate is $\Gamma
+\propto x^{-3/2-p} e^{-x}$, while the Hubble parameter only reduces as
+$H \propto \rho^{1/2} \propto x^{-2}$.  As a result, at some point
+$\Gamma$ becomes smaller than $H$ and $Y$ freezes out as
+Eq.~\eqref{eq_boltzmann_Yx} indicates.  Hereafter, we focus on the
+case of the $s$-wave domination with $\Braket{\sigma v}_s \neq 0$ for
+simplicity.  \rem{What is the difference for $p$-wave and so on?}  In
+Fig.~\ref{fig_DM_relic}, we show the solution of
+Eq.~\eqref{eq_boltzmann_Yx} for $\lambda \equiv \left. \Gamma / H
+\right|_{x=1} = 10^6$ by the yellow dotted line.  In the calculation,
+we use the boundary condition $Y(x=1) = Y_{\mathrm{eq}} (x=1)$ and
+plot the normalized value $Y(x) / Y(x=1)$.  We also plot the function
+$Y_{\mathrm{eq}} (x) / Y_{\mathrm{eq}} (x=1)$ by the black dotted line.
 
 Unfortunately, it is computationally hard to solve
 Eq.~\eqref{eq_boltzmann_Yx} for larger values of $\lambda$ because of
@@ -381,7 +382,7 @@ equilibrium $Y \simeq Y_{\mathrm{eq}}$, which means that $d \Delta Y / d
 x \ll d Y_{\mathrm{eq}} / d x$ with $\Delta Y \equiv Y -
 Y_{\mathrm{eq}}$.  From this approximation we obtain a formula
 \begin{align}
- \Delta Y \simeq -\frac{x^2}{2 \lambda} \frac{d \ln Y_{\mathrm{eq}}}{d x}.\label{eq_relic_app_1}
+ \Delta Y \simeq -\frac{x}{2 \lambda} \frac{d Y_{\mathrm{eq}}}{d x}.\label{eq_relic_app_1}
 \end{align}
 Then we define the time $x_f$, or equivalently the so-called freezeout
 temperature $T_f$, when the approximation becomes invalid through the
@@ -391,16 +392,16 @@ equation
 \end{align}
 After the freezeout $x > x_f$, the annihilation of the DM pairs
 rapidly slows down and the DM abundance far exceeds its equilibrium
-value: $Y \gg Y_{\mathrm{eq}}$.  \rem{Comma?}  Then we can neglect the
-second term of the right hand of Eq.~\eqref{eq_boltzmann_Yx} and
-obtain the analytical solution
+value: $Y \gg Y_{\mathrm{eq}}$.  Then we can neglect the second term
+of the right hand of Eq.~\eqref{eq_boltzmann_Yx} and obtain the
+analytical solution
 \begin{align}
- Y(x) \simeq - \frac{x}{c_1 x + \lambda},\label{eq_relic_app_2}
+ Y(x) \simeq - \frac{x}{c_1 x + \lambda / Y_{\mathrm{eq}} (x=1)},\label{eq_relic_app_2}
 \end{align}
 where $c_1$ is a integration constant.  In Fig.~\ref{fig_DM_relic}, we
 show results obtained with these two approximations
 Eqs.~\eqref{eq_relic_app_1} and \eqref{eq_relic_app_2} for $\lambda =
-10^8$ (blue), $10^{10}$ (red), and $10^{12}$ (green).  In particular,
+10^6$ (blue), $10^8$ (red), and $10^{10}$ (green).  In particular,
 the blue and the yellow lines almost completely overlaps with each
 other, which proves the validity of the approximations.  The vertical
 dotted lines in the figure show the freezeout temperature.  It can be
