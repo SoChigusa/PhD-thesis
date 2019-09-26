@@ -230,7 +230,7 @@ Acknowledgments
 \vskip 0.1in
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection[WIMPs as a dark matter candidate]{WIMPs as a dark matter candidate}
+\subsection{WIMPs as a dark matter candidate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 One of the most important evidences of the beyond SM is the existence of
@@ -321,9 +321,9 @@ with $Y_{\mathrm{eq}} \equiv n_{\mathrm{eq}} / s$.
  evolution equation Eq.~\eqref{eq_boltzmann_Yx}.  The yellow dotted
  line is a solution for $\lambda \equiv \left. \Gamma / H
  \right|_{x=1} = 10^6$, while the black dotted line denotes
- $Y_{\mathrm{eq}} (x) / Y_{\mathrm{eq}} (x=1)$.  The solid lines are the
- approximation to the solutions described in the text.  The blue, red,
- and green colors correspond to $\lambda = 10^8$, $10^{10}$, and
+ $Y_{\mathrm{eq}} (x) / Y_{\mathrm{eq}} (x=1)$.  The solid lines are
+ the approximation to the solutions described in the text.  The blue,
+ red, and green colors correspond to $\lambda = 10^8$, $10^{10}$, and
  $10^{12}$, respectively.  The vertical dotted lines denote the
  freezeout temperature $x_f$.}  \label{fig_DM_relic}
 \end{figure}
@@ -426,14 +426,28 @@ numerical calculation, we obtain an order estimation formula
  0.1 \left( \frac{0.01}{\alpha} \right)^2
  \left( \frac{m_\chi}{300\,\mathrm{GeV}} \right)^2,\label{eq_relic_abundance}
 \end{align}
-where the rough estimation $\Braket{\sigma v} \sim \alpha^2/m_\chi^2$ is
-used in the last equation with $\alpha$ being the fine structure
+where the rough estimation $\Braket{\sigma v} \sim \alpha^2/m_\chi^2$
+is used in the last equation with $\alpha$ being the fine structure
 constant for the DM-SM coupling.  What is fascinating in
 Eq.~\eqref{eq_relic_abundance} is that an object can be a DM candidate
-if it has mass comparable to the electroweak scale and coupling constant
-comparable to the electroweak coupling constant.  This is the so-called
-\textit{WIMP miracle}, which suppport the hypothesis of the WIMP as a
-cadidate of the DM.
+if it has mass comparable to the electroweak scale and coupling
+constant comparable to the electroweak coupling constant.  This is the
+so-called \textit{WIMP miracle}, which suppport the hypothesis of the
+WIMP as a cadidate of the DM.  Such $\mathrm{TeV}$-scale WIMPs are
+theoretically well-motivated in connection with problems of the SM
+such as the naturalness problem.  Several examples are briefly
+reviewed in the next section.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Brief review of models}
+\label{sec:mssm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+There are several examples of the models that contain WIMP DM
+candidates.  In this subsection, two of them \rem{Really?} are briefly
+reviewed.  \rem{EWIMP and WIMP??}
+
+\subsubsection*{Minimally supersymmetric standard model (MSSM)}
 
 \begin{table}
  \centering 
@@ -456,7 +470,7 @@ cadidate of the DM.
  column.}  \label{tab_WIMP_property}
 \end{table}
 
-\rem{EWIMP and WIMP??}
+
 \rem{Relationship between $\lambda$ parameter above should be clearer}
 WIMPs with mass around or just above the electroweak scale are
 theoretically well-motivated in connection with problems of the SM such
@@ -469,7 +483,7 @@ For a review of the MSSM, see for example~\cite{Martin:1997ns}.
 %%
 Another example is the minimal dark matter (MDM)
 model~\cite{Cirelli:2005uq, Cirelli:2007xd, Cirelli:2009uv}, which is a
-simple extention of the SM with an $SU(2)_L$ electroweak multiplet such
+simple extension of the SM with an $SU(2)_L$ electroweak multiplet such
 as a $5$-plet scalar / fermion.  In these models, the stability of the
 DM is ensured by the $R$-parity (for the MSSM case) and by high
 dimensionality of the operator that describes the decay of the DM (for
@@ -490,8 +504,54 @@ couterpart that will be explained in detail in Sec.~\ref{???}.
 \subsection{WIMP DM search : indirect detection}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\clearpage
+
 \begin{appendices}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Review of supersymmetry}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
+In this appendix, we briefly review the $\mathcal{N}=1$ supersymmetry,
+which is an essential element of the MSSM reviewed in
+Sec.~\ref{sec:mssm}.  Our argument is based on~\cite{Wess:320631,
+Martin:1997ns}.
+
+The $\mathcal{N}=1$ supersymmetry is 
+
+%%%%%%%%%%%%%%%%%%%%
+First example is the MSSM, extension of the SM with the so-called
+$\mathcal{N}=1$ supersymmetry (SUSY)~\cite{Wess:320631, Martin:1997ns}
+that relates a bosonic particle and a fermionic particle.  The
+supersymmetry transformations for a complex scalar $\phi$ and its
+``superpartner'' Weyl fermion $\psi$ are defined as
+\begin{align}
+ \delta \phi = \left( \epsilon \psi \right),
+ ~&~
+ \delta \phi^{*} = \left( \epsilon^\dagger \psi^\dagger \right),\\
+ \delta \psi = -i \left(\sigma^\mu \epsilon^\dagger \right) \partial_\mu \phi,
+ ~&~
+ \delta \psi^\dagger = i \left(\epsilon \sigma^\mu \right) \partial_\mu \phi^{*},
+\end{align}
+where $\sigma^\mu \equiv (\bm{1}, \bm{\sigma})$ with $\bm{\sigma}$
+being Pauli matrices, while $\epsilon$ is an anti-commuting Weyl
+fermionic object that parameterizes the SUSY transformation.  The
+summation over the spinor indices is assumed inside each parenthesis.
+These transformations, if denoted by operators $\epsilon Q$ and
+$\epsilon^\dagger Q^\dagger$, are known to form a closed algebra
+\begin{align}
+ \left[ Q, Q^\dagger \right] &= 2 i \sigma^\mu \partial_\mu,\\
+ \left[ Q, Q \right] &= \left[ Q^\dagger, Q^\dagger \right] = 0,
+\end{align}
+when fields are on-shell.\footnote{
+%%
+In order for the algebra to be closed off-shell, one can introduce a
+new scalar field $F$ without a kinetic term that is often called as an
+\textit{auxiliary} field.  $F$ works as a Lagrange multiplier whose
+equation of motion }
+%%
+%%%%%%%%%%%%%%%%%%%%
+
 \end{appendices}
 
 \clearpage
