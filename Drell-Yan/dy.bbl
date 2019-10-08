@@ -5,167 +5,6 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
-\bibitem{Cirelli:2007xd}
-M.~Cirelli, A.~Strumia, M.~Tamburini, {Cosmology and Astrophysics of Minimal
-  Dark Matter}, Nucl. Phys. B787 (2007) 152--175.
-\newblock \href {http://arxiv.org/abs/0706.4071} {\path{arXiv:0706.4071}},
-  \href {https://doi.org/10.1016/j.nuclphysb.2007.07.023}
-  {\path{doi:10.1016/j.nuclphysb.2007.07.023}}.
-
-\bibitem{ArkaniHamed:2006mb}
-N.~Arkani-Hamed, A.~Delgado, G.~F. Giudice, {The Well-tempered neutralino},
-  Nucl. Phys. B741 (2006) 108--130.
-\newblock \href {http://arxiv.org/abs/hep-ph/0601041}
-  {\path{arXiv:hep-ph/0601041}}, \href
-  {https://doi.org/10.1016/j.nuclphysb.2006.02.010}
-  {\path{doi:10.1016/j.nuclphysb.2006.02.010}}.
-
-\bibitem{Hisano:2006nn}
-J.~Hisano, S.~Matsumoto, M.~Nagai, O.~Saito, M.~Senami, {Non-perturbative
-  effect on thermal relic abundance of dark matter}, Phys. Lett. B646 (2007)
-  34--38.
-\newblock \href {http://arxiv.org/abs/hep-ph/0610249}
-  {\path{arXiv:hep-ph/0610249}}, \href
-  {https://doi.org/10.1016/j.physletb.2007.01.012}
-  {\path{doi:10.1016/j.physletb.2007.01.012}}.
-
-\bibitem{Moroi:2013sla}
-T.~Moroi, M.~Nagai, M.~Takimoto, {Non-Thermal Production of Wino Dark Matter
-  via the Decay of Long-Lived Particles}, JHEP 07 (2013) 066.
-\newblock \href {http://arxiv.org/abs/1303.0948} {\path{arXiv:1303.0948}},
-  \href {https://doi.org/10.1007/JHEP07(2013)066}
-  {\path{doi:10.1007/JHEP07(2013)066}}.
-
-\bibitem{Beneke:2016ync}
-M.~Beneke, A.~Bharucha, F.~Dighera, C.~Hellmann, A.~Hryczuk, S.~Recksiegel,
-  P.~Ruiz-Femenia, {Relic density of wino-like dark matter in the MSSM}, JHEP
-  03 (2016) 119.
-\newblock \href {http://arxiv.org/abs/1601.04718} {\path{arXiv:1601.04718}},
-  \href {https://doi.org/10.1007/JHEP03(2016)119}
-  {\path{doi:10.1007/JHEP03(2016)119}}.
-
-\bibitem{Cirelli:2005uq}
-M.~Cirelli, N.~Fornengo, A.~Strumia, {Minimal dark matter}, Nucl. Phys. B753
-  (2006) 178--194.
-\newblock \href {http://arxiv.org/abs/hep-ph/0512090}
-  {\path{arXiv:hep-ph/0512090}}, \href
-  {https://doi.org/10.1016/j.nuclphysb.2006.07.012}
-  {\path{doi:10.1016/j.nuclphysb.2006.07.012}}.
-
-\bibitem{Cirelli:2009uv}
-M.~Cirelli, A.~Strumia, {Minimal Dark Matter: Model and results}, New J. Phys.
-  11 (2009) 105005.
-\newblock \href {http://arxiv.org/abs/0903.3381} {\path{arXiv:0903.3381}},
-  \href {https://doi.org/10.1088/1367-2630/11/10/105005}
-  {\path{doi:10.1088/1367-2630/11/10/105005}}.
-
-\bibitem{Baer:2014cua}
-H.~Baer, A.~Mustafayev, X.~Tata, {Monojets and mono-photons from light higgsino
-  pair production at LHC14}, Phys. Rev. D89~(5) (2014) 055007.
-\newblock \href {http://arxiv.org/abs/1401.1162} {\path{arXiv:1401.1162}},
-  \href {https://doi.org/10.1103/PhysRevD.89.055007}
-  {\path{doi:10.1103/PhysRevD.89.055007}}.
-
-\bibitem{Alves:2014cda}
-D.~S.~M. Alves, J.~Galloway, J.~T. Ruderman, J.~R. Walsh, {Running Electroweak
-  Couplings as a Probe of New Physics}, JHEP 02 (2015) 007.
-\newblock \href {http://arxiv.org/abs/1410.6810} {\path{arXiv:1410.6810}},
-  \href {https://doi.org/10.1007/JHEP02(2015)007}
-  {\path{doi:10.1007/JHEP02(2015)007}}.
-
-\bibitem{Gross:2016ioi}
-C.~Gross, O.~Lebedev, J.~M. No, {Drell-Yan constraints on new electroweak
-  states: LHC as a $p p \to l^+ l^-$ precision machine}, Mod. Phys. Lett.
-  A32~(16) (2017) 1750094.
-\newblock \href {http://arxiv.org/abs/1602.03877} {\path{arXiv:1602.03877}},
-  \href {https://doi.org/10.1142/S0217732317500948}
-  {\path{doi:10.1142/S0217732317500948}}.
-
-\bibitem{Farina:2016rws}
-M.~Farina, G.~Panico, D.~Pappadopulo, J.~T. Ruderman, R.~Torre, A.~Wulzer,
-  {Energy helps accuracy: electroweak precision tests at hadron colliders},
-  Phys. Lett. B772 (2017) 210--215.
-\newblock \href {http://arxiv.org/abs/1609.08157} {\path{arXiv:1609.08157}},
-  \href {https://doi.org/10.1016/j.physletb.2017.06.043}
-  {\path{doi:10.1016/j.physletb.2017.06.043}}.
-
-\bibitem{Harigaya:2015yaa}
-K.~Harigaya, K.~Ichikawa, A.~Kundu, S.~Matsumoto, S.~Shirai, {Indirect Probe of
-  Electroweak-Interacting Particles at Future Lepton Colliders}, JHEP 09 (2015)
-  105.
-\newblock \href {http://arxiv.org/abs/1504.03402} {\path{arXiv:1504.03402}},
-  \href {https://doi.org/10.1007/JHEP09(2015)105}
-  {\path{doi:10.1007/JHEP09(2015)105}}.
-
-\bibitem{Matsumoto:2017vfu}
-S.~Matsumoto, S.~Shirai, M.~Takeuchi, {Indirect Probe of Electroweakly
-  Interacting Particles at the High-Luminosity Large Hadron Collider}, JHEP 06
-  (2018) 049.
-\newblock \href {http://arxiv.org/abs/1711.05449} {\path{arXiv:1711.05449}},
-  \href {https://doi.org/10.1007/JHEP06(2018)049}
-  {\path{doi:10.1007/JHEP06(2018)049}}.
-
-\bibitem{Chigusa:2018vxz}
-S.~Chigusa, Y.~Ema, T.~Moroi, {Probing electroweakly interacting massive
-  particles with Drell-Yan process at 100 TeV hadron colliders}, Phys. Lett.
-  B789 (2019) 106--113.
-\newblock \href {http://arxiv.org/abs/1810.07349} {\path{arXiv:1810.07349}},
-  \href {https://doi.org/10.1016/j.physletb.2018.12.011}
-  {\path{doi:10.1016/j.physletb.2018.12.011}}.
-
-\bibitem{DiLuzio:2018jwd}
-L.~Di~Luzio, R.~Gr{\"o}ber, G.~Panico, {Probing new electroweak states via
-  precision measurements at the LHC and future colliders}, JHEP 01 (2019) 011.
-\newblock \href {http://arxiv.org/abs/1810.10993} {\path{arXiv:1810.10993}},
-  \href {https://doi.org/10.1007/JHEP01(2019)011}
-  {\path{doi:10.1007/JHEP01(2019)011}}.
-
-\bibitem{Matsumoto:2018ioi}
-S.~Matsumoto, S.~Shirai, M.~Takeuchi, {Indirect Probe of
-  Electroweak-Interacting Particles with Mono-Lepton Signatures at Hadron
-  Colliders} (2018).
-\newblock \href {http://arxiv.org/abs/1810.12234} {\path{arXiv:1810.12234}}.
-
-\bibitem{Mangano:2016jyj}
-M.~L. Mangano, et~al., {Physics at a 100 TeV pp Collider: Standard Model
-  Processes}, CERN Yellow Report~(3) (2017) 1--254.
-\newblock \href {http://arxiv.org/abs/1607.01831} {\path{arXiv:1607.01831}},
-  \href {https://doi.org/10.23731/CYRM-2017-003.1}
-  {\path{doi:10.23731/CYRM-2017-003.1}}.
-
-\bibitem{Contino:2016spe}
-R.~Contino, et~al., {Physics at a 100 TeV pp collider: Higgs and EW symmetry
-  breaking studies}, CERN Yellow Report~(3) (2017) 255--440.
-\newblock \href {http://arxiv.org/abs/1606.09408} {\path{arXiv:1606.09408}},
-  \href {https://doi.org/10.23731/CYRM-2017-003.255}
-  {\path{doi:10.23731/CYRM-2017-003.255}}.
-
-\bibitem{Golling:2016gvc}
-T.~Golling, et~al., {Physics at a 100 TeV pp collider: beyond the Standard
-  Model phenomena}, CERN Yellow Report~(3) (2017) 441--634.
-\newblock \href {http://arxiv.org/abs/1606.00947} {\path{arXiv:1606.00947}},
-  \href {https://doi.org/10.23731/CYRM-2017-003.441}
-  {\path{doi:10.23731/CYRM-2017-003.441}}.
-
-\bibitem{Benedikt:2651300}
-M.~Benedikt, M.~Capeans~Garrido, F.~Cerutti, B.~Goddard, J.~Gutleber, J.~M.
-  Jimenez, M.~Mangano, V.~Mertens, J.~A. Osborne, T.~Otto, J.~Poole,
-  W.~Riegler, D.~Schulte, L.~J. Tavian, D.~Tommasini, F.~Zimmermann,
-  \href{https://cds.cern.ch/record/2651300}{{Future Circular Collider}}, Tech.
-  Rep. CERN-ACC-2018-0058, CERN, Geneva, submitted for publication to Eur.
-  Phys. J. ST. (Dec 2018).
-\newline\urlprefix\url{https://cds.cern.ch/record/2651300}
-
-\bibitem{CEPC-SPPCStudyGroup:2015csa}
-{CEPC-SPPC Study Group}, {CEPC-SPPC Preliminary Conceptual Design Report. 1.
-  Physics and Detector}, CEPC-SPPC Preliminary Conceptual Design Report. 1.
-  Physics and Detector (2015).
-
-\bibitem{CEPC-SPPCStudyGroup:2015esa}
-{CEPC-SPPC Study Group}, {CEPC-SPPC Preliminary Conceptual Design Report. 2.
-  Accelerator}, CEPC-SPPC Preliminary Conceptual Design Report. 2. Accelerator
-  (2015).
-
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, T.~Stelzer, {MadGraph 5 :
   Going Beyond}, JHEP 06 (2011) 128.
@@ -248,6 +87,19 @@ A.~Buckley, J.~Ferrando, S.~Lloyd, K.~Nordström, B.~Page, M.~Rüfenacht,
   \href {https://doi.org/10.1140/epjc/s10052-015-3318-8}
   {\path{doi:10.1140/epjc/s10052-015-3318-8}}.
 
+\bibitem{DiLuzio:2018jwd}
+L.~Di~Luzio, R.~Gr{\"o}ber, G.~Panico, {Probing new electroweak states via
+  precision measurements at the LHC and future colliders}, JHEP 01 (2019) 011.
+\newblock \href {http://arxiv.org/abs/1810.10993} {\path{arXiv:1810.10993}},
+  \href {https://doi.org/10.1007/JHEP01(2019)011}
+  {\path{doi:10.1007/JHEP01(2019)011}}.
+
+\bibitem{Matsumoto:2018ioi}
+S.~Matsumoto, S.~Shirai, M.~Takeuchi, {Indirect Probe of
+  Electroweak-Interacting Particles with Mono-Lepton Signatures at Hadron
+  Colliders} (2018).
+\newblock \href {http://arxiv.org/abs/1810.12234} {\path{arXiv:1810.12234}}.
+
 \bibitem{Tanabashi:2018oca}
 M.~Tanabashi, et~al., {Review of Particle Physics}, Phys. Rev. D98~(3) (2018)
   030001.
@@ -267,5 +119,13 @@ E.~Del~Nobile, M.~Nardecchia, P.~Panci, {Millicharge or Decay: A Critical Take
 \newblock \href {http://arxiv.org/abs/1512.05353} {\path{arXiv:1512.05353}},
   \href {https://doi.org/10.1088/1475-7516/2016/04/048}
   {\path{doi:10.1088/1475-7516/2016/04/048}}.
+
+\bibitem{Chigusa:2018vxz}
+S.~Chigusa, Y.~Ema, T.~Moroi, {Probing electroweakly interacting massive
+  particles with Drell-Yan process at 100 TeV hadron colliders}, Phys. Lett.
+  B789 (2019) 106--113.
+\newblock \href {http://arxiv.org/abs/1810.07349} {\path{arXiv:1810.07349}},
+  \href {https://doi.org/10.1016/j.physletb.2018.12.011}
+  {\path{doi:10.1016/j.physletb.2018.12.011}}.
 
 \end{thebibliography}

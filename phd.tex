@@ -3,6 +3,8 @@
 
 \input{settings}
 
+\graphicspath{{./WIMP/}{./Drell-Yan/}{./SUSY/}}
+
 \begin{document}
 
 \begin{titlepage}
@@ -113,17 +115,19 @@ Acknowledgments
 \rem{Definition of ``WIMP''}
 
 % Erase biblio in input file before turning on
-% \input{WIMP/wimp.tex}
+\input{WIMP/wimp.tex}
+
+\clearpage
 
 % Erase biblio in input file before turning on
-% \input{Drell-Yan/dy.tex}
+\input{Drell-Yan/dy.tex}
 
 \clearpage
 
 \begin{appendices}
 
 % Erase biblio in input file before turning on
-% \input{SUSY/susy.tex}
+\input{SUSY/susy.tex}
 
 \end{appendices}
 
