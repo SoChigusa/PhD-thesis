@@ -12,6 +12,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/docmute/docmute.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/docmute/docmute.sty
 INPUT ../settings
 INPUT ../settings
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/epsf/epsf.sty

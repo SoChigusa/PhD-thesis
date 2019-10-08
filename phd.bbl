@@ -1,8 +1,22 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Wess:320631}
+J.~Wess, J.~A. Bagger, \href{https://cds.cern.ch/record/320631}{{Supersymmetry
+  and supergravity; 2nd ed.}}, Princeton Series in Physics, Princeton Univ.
+  Press, Princeton, NJ, 1992.
+\newline\urlprefix\url{https://cds.cern.ch/record/320631}
+
+\bibitem{Martin:1997ns}
+S.~P. Martin, {A Supersymmetry primer} (1997) 1--98[Adv. Ser. Direct. High
+  Energy Phys.18,1(1998)].
+\newblock \href {http://arxiv.org/abs/hep-ph/9709356}
+  {\path{arXiv:hep-ph/9709356}}, \href
+  {https://doi.org/10.1142/9789812839657_0001, 10.1142/9789814307505_0001}
+  {\path{doi:10.1142/9789812839657_0001, 10.1142/9789814307505_0001}}.
 
 \end{thebibliography}
