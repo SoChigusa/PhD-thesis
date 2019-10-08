@@ -1,6 +1,9 @@
-phd.aux
-phd.log
-phd.out
-phd.synctex.gz
-phd.toc
-phd.blg
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.blg
+*.fdb_latexmk
+*.dvi
+*.fls
