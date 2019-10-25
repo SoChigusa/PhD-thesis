@@ -124,3 +124,14 @@ setpagesize=false,
 
 \newcommand{\Slash}[1]{{\ooalign{\hfil/\hfil\crcr$#1$}}}
 \newcommand{\hyphen}{\,\mathchar`-\mathchar`-\,}
+
+\newcommand{\Q}{\tilde{Q}}
+\renewcommand{\L}{\tilde{L}}
+\newcommand{\U}{\tilde{U}}
+\newcommand{\D}{\tilde{D}}
+\newcommand{\E}{\tilde{E}}
+\newcommand{\Hu}{\tilde{H}_u}
+\newcommand{\Hd}{\tilde{H}_d}
+\newcommand{\g}{\tilde{g}}
+\newcommand{\W}{\tilde{W}}
+\newcommand{\B}{\tilde{B}}
