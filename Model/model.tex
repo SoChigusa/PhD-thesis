@@ -20,43 +20,40 @@ reviewed.  \rem{EWIMP and WIMP??}
 \subsection{Minimally supersymmetric standard model}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The minimally supersymmetric standard model (MSSM) is the simple extension of the SM with $\mathcal{N} = 1$ supersymmetry (SUSY).
-For a brief review of the $\mathcal{N} = 1$ SUSY, see Sec.~\ref{sec:susy}.
-SUSY is well-motivated since it provides a good solution to the so-called hierarchy problem.~\cite{Weinberg:1975gm,Gildener:1976ai,Susskind:1978ms}.
-
-
 \begin{figure}[b]
   \centering
   \includegraphics[width=0.6\hsize]{Higgs_mass.pdf}
-  \caption{One-loop correction to the Higgs mass from (a) a fermion $f$ and (b) a scalar $S$.}
+  \caption{One-loop correction to the Higgs mass from (a) a Weyl fermion $f$ and (b) a complex scalar $S$.}
   \label{fig:Higgs_mass}
 \end{figure}
 
-We summarize the notations and quantum numbers of the chiral and vector superfields in the MSSM in Table~\ref{tab:mssm_csf} and \ref{tab:mssm_vsf}, respectively.
-The supersymmetric part of the MSSM lagrangian is described by the superpotential
+The minimally supersymmetric standard model (MSSM) is the simple extension of the SM with $\mathcal{N} = 1$ supersymmetry (SUSY). \footnote{
+  For a brief review of the $\mathcal{N} = 1$ SUSY, see Sec.~\ref{sec:susy}.
+}
+One of the motivations to introduce SUSY is to solve the so-called hierarchy (or naturalness) problem \cite{Weinberg:1975gm,Gildener:1976ai,Susskind:1978ms} in the SM.
+The problem is related to the quantum correction to the SM Higgs boson mass from heavy new physics particles.
+For example, we can consider the one-loop correction to the Higgs mass from a Weyl fermion $f$ and a complex scalar $S$ as illustrated in Fig.~\ref{fig:Higgs_mass}.
+The corrections to the Higgs mass is given by
 \begin{align}
-  W = Y_u^{i j} U_i Q_j H_u - Y_d^{i j} D_i Q_j H_d
-  - Y_e^{i j} E_i L_j H_d + \mu H_u H_d,
-  \label{eq:mssm_sup}
+  \Delta m_h^2 &= -\frac{|\lambda_f|^2}{8 \pi^2} \left[
+  \Lambda_{\mathrm{UV}}^2 - 2 m_f^2 \ln \left( \frac{\Lambda_{\mathrm{UV}}}{m_f} \right)
+  + \cdots \right] & &\mathrm{(fermion)}, \label{eq:delmh_f}\\
+  \Delta m_h^2 &= \frac{\lambda_S}{16 \pi^2} \left[
+  \Lambda_{\mathrm{UV}}^2 - 2 m_S^2 \ln \left( \frac{\Lambda_{\mathrm{UV}}}{m_S} \right)
+  + \cdots \right] & &\mathrm{(scalar)}, \label{eq:delmh_S}
 \end{align}
-where $i,j=1,2,3$ labels the quark and lepton generation, while $Q, L, U, D, E$ are superfields that contain the left-handed quark, left-handed lepton, right-handed up-type quark, right-handed down-type quark, and right-handed charged lepton, respectively.
-In Eq.~\eqref{eq:mssm_sup}, proper contraction of $SU(3)_C$ and $SU(2)_L$ indices is assumed.
-Note that two Higgs doublets $H_u$ and $H_d$ with opposite values of $U(1)_Y$ hypercharges are introduced, which is needed to cancel the contributions to the gauge anomaly from Higgs superpartners, Higgsinos.
+\rem{Check this!}
+where $\lambda_f$ and $m_f$ are the Higgs-fermion coupling constant and the fermion mass, respectively, and $\lambda_S$ and $m_S$ are those for the scalar $S$.
+We take the cut-off scale of the theory to be $\Lambda_{\mathrm{UV}}$ to regularize the otherwise divergent loop integral and neglect the lower order terms of $\Lambda_{\mathrm{UV}}$.
+Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} show the quadratic dependence of $\Delta m_H^2$ on $\Lambda_{\mathrm{UV}}$, which means that the Higgs mass is sensitive to the energy scale of the beyond the SM physics.
+However, there is at least one extremelly high energy scale physics in the nature, gravity at the Planck scale $M_{\mathrm{pl}} \sim 10^{18 \hyphen 19}\,\mathrm{GeV}$.
+By substituting $\Lambda_{\mathrm{UV}} = M_{\mathrm{pl}}$ in Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} and assuming $\lambda_f \sim \lambda_S \sim \mathcal{O} (1)$, we notice that orders-of-magnitude fine-tuning is required to obtain the correct Higgs mass $m_h = 125.09\,\mathrm{GeV}$ \rem{Reference}, which is unnatural.
 
-Since no superpartner of any SM particle is observed yet, SUSY should be broken and superpartners should obtain the SUSY breaking masses.  \rem{ref: boson and fermion obtain equal mass}
-The SUSY breaking part of the lagrangian is expressed as
-\begin{align}
-  \mathcal{L}_{\mathrm{soft}} =&
-  -\frac{1}{2} \left( M_3 \g \g + M_2 \W \W + M_1 \B \B + \mathrm{c.c.} \right) \notag \\&
-  -\left( A_u^{ij} \U_i \Q_j H_u - A_d^{ij} \D_i \Q_j H_d - A_e^{ij} \E_i \L_j H_d \right) \notag \\&
-  -m_Q^{2ij} \Q^\dagger_i \Q_j - m_L^{2ij} \L^\dagger_i \L_j - m_U^{2ij} \U^\dagger_i \U_j
-  -m_D^{2ij} \D^\dagger_i \D_j - m_E^{2ij} \E^\dagger_i \E_j \notag \\&
-  -m_{H_u}^2 H_u^{*} H_u - m_{H_d}^2 H_d^{*} H_d - \left( b H_u H_d + \mathrm{c.c.} \right),
-  \label{eq:mssm_soft}
-\end{align}
-where the tilde is used to express the superpartner of the SM particle contained in a superfield, while a field without a hat nor tilde denotes the other component.
-
-
+SUSY provides a nice solution to this fine-tuning problem.
+As is summarized in Appendix~\ref{sec:susy}, \rem{summarize later} each Weyl fermion in a supersymmetric model has two complex scalars with the same mass $m_f = m_S$.
+In addition, their coupling constants should have a relationship $|\lambda_f|^2 = \lambda_S$ due to the fact that $\lambda_S$ is a coupling constant in the F-term potential sourced by a superpotential term proportional to $\lambda_f$. \rem{description of F-term}
+By using both equations and summing the corrections \eqref{eq:delmh_f} and \eqref{eq:delmh_S} with factor of two multiplied to the latter, we obtain a result independent of the cut-off scale $\Lambda_{\mathrm{UV}}$ without fine-tuning.
+This cancellation is ensured by the so-called non-renormalization theorem. \rem{Reference}
 
 \begin{table}[t]
   \centering
@@ -86,7 +83,37 @@ where the tilde is used to express the superpartner of the SM particle contained
   \label{tab:mssm_vsf}
 \end{table}
 
+We now summarize the notations and quantum numbers of the chiral and vector superfields in the MSSM in Table~\ref{tab:mssm_csf} and \ref{tab:mssm_vsf}, respectively.
+The supersymmetric part of the MSSM lagrangian is described by the superpotential
+\begin{align}
+  W = Y_u^{i j} U_i Q_j H_u - Y_d^{i j} D_i Q_j H_d
+  - Y_e^{i j} E_i L_j H_d + \mu H_u H_d,
+  \label{eq:mssm_sup}
+\end{align}
+where $i,j=1,2,3$ labels the quark and lepton generation, while $Q, L, U, D, E$ are superfields that contain the left-handed quark, left-handed lepton, right-handed up-type quark, right-handed down-type quark, and right-handed charged lepton, respectively.
+In Eq.~\eqref{eq:mssm_sup}, proper contraction of $SU(3)_C$ and $SU(2)_L$ indices is assumed.
+Note that two Higgs doublets $H_u$ and $H_d$ with opposite values of $U(1)_Y$ hypercharges are introduced, which is needed to cancel the contributions to the gauge anomaly from Higgs superpartners, Higgsinos.
 
+Since no superpartner of any SM particle is observed yet, SUSY should be broken and superpartners should obtain the SUSY breaking masses.  \rem{ref: boson and fermion obtain equal mass}
+The SUSY breaking part of the lagrangian is expressed as
+\begin{align}
+  \mathcal{L}_{\mathrm{soft}} =&
+  -\frac{1}{2} \left( M_3 \g \g + M_2 \W \W + M_1 \B \B + \mathrm{c.c.} \right) \notag \\&
+  -\left( A_u^{ij} \U_i \Q_j H_u - A_d^{ij} \D_i \Q_j H_d - A_e^{ij} \E_i \L_j H_d \right) \notag \\&
+  -m_Q^{2ij} \Q^\dagger_i \Q_j - m_L^{2ij} \L^\dagger_i \L_j - m_U^{2ij} \U^\dagger_i \U_j
+  -m_D^{2ij} \D^\dagger_i \D_j - m_E^{2ij} \E^\dagger_i \E_j \notag \\&
+  -m_{H_u}^2 H_u^{*} H_u - m_{H_d}^2 H_d^{*} H_d - \left( b H_u H_d + \mathrm{c.c.} \right),
+  \label{eq:mssm_soft}
+\end{align}
+where the tilde is used to express the superpartner of the SM particle contained in a superfield, while a field without a hat nor tilde denotes the other component.
+
+Under the spontaneously broken SUSY, the cancellation of the quantum correction to the Higgs boson discussed above is not exact.
+One obvious consequence of the SUSY breaking in Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} is the hierarchy between $m_f$ and $m_S$ that appear in the second term of each contribution.
+In the case of the MSSM, the largest contribution comes from the top quark and its partner that have the largest Yukawa coupling with the Higgs boson
+
+\rem{More precisely, we need RGE calculation}
+
+\subsection{Need review}
 
 \begin{table}
  \centering
@@ -108,7 +135,6 @@ where the tilde is used to express the superpartner of the SM particle contained
  shown.  See Sec.~\ref{???}  \rem{Caution!!} for the details of the last
  column.}  \label{tab_WIMP_property}
 \end{table}
-
 
 \rem{Relationship between $\lambda$ parameter above should be clearer}
 WIMPs with mass around or just above the electroweak scale are
