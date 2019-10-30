@@ -47,13 +47,13 @@ where $\lambda_f$ and $m_f$ are the Higgs-fermion coupling constant and the ferm
 We take the cut-off scale of the theory to be $\Lambda_{\mathrm{UV}}$ to regularize the otherwise divergent loop integral and neglect the lower order terms of $\Lambda_{\mathrm{UV}}$.
 Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} show the quadratic dependence of $\Delta m_H^2$ on $\Lambda_{\mathrm{UV}}$, which means that the Higgs mass is sensitive to the energy scale of the beyond the SM physics.
 However, there is at least one extremelly high energy scale physics in the nature, gravity at the Planck scale $M_{\mathrm{pl}} \sim 10^{18 \hyphen 19}\,\mathrm{GeV}$.
-By substituting $\Lambda_{\mathrm{UV}} = M_{\mathrm{pl}}$ in Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} and assuming $\lambda_f \sim \lambda_S \sim \mathcal{O} (1)$, we notice that orders-of-magnitude fine-tuning is required to obtain the correct Higgs mass $m_h = 125.09\,\mathrm{GeV}$ \rem{Reference}, which is unnatural.
+By substituting $\Lambda_{\mathrm{UV}} = M_{\mathrm{pl}}$ in Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} and assuming $\lambda_f \sim \lambda_S \sim \mathcal{O} (1)$, we notice that orders-of-magnitude fine-tuning is required to obtain the correct Higgs mass $m_h = 125.09\,\mathrm{GeV}$ \cite{Tanabashi:2018oca}, which is unnatural.
 
 SUSY provides a nice solution to this fine-tuning problem.
 As is summarized in Appendix~\ref{sec:susy}, \rem{summarize later} each Weyl fermion in a supersymmetric model has two complex scalars with the same mass $m_f = m_S$.
-In addition, their coupling constants should have a relationship $|\lambda_f|^2 = \lambda_S$ due to the fact that $\lambda_S$ is a coupling constant in the F-term potential sourced by a superpotential term proportional to $\lambda_f$. \rem{description of F-term}
+In addition, their coupling constants should have a relationship $|\lambda_f|^2 = \lambda_S$ due to the fact that $\lambda_S$ is a coupling constant in the F-term potential sourced by a superpotential term proportional to $\lambda_f$. \rem{description of F-term and D-term}
 By using both equations and summing the corrections \eqref{eq:delmh_f} and \eqref{eq:delmh_S} with factor of two multiplied to the latter, we obtain a result independent of the cut-off scale $\Lambda_{\mathrm{UV}}$ without fine-tuning.
-This cancellation is ensured by the so-called non-renormalization theorem. \rem{Reference}
+This cancellation is ensured by the so-called non-renormalization theorem. \cite{Salam:1974jj, Grisaru:1979wc}
 
 \begin{table}[t]
   \centering
@@ -107,11 +107,72 @@ The SUSY breaking part of the lagrangian is expressed as
 \end{align}
 where the tilde is used to express the superpartner of the SM particle contained in a superfield, while a field without a hat nor tilde denotes the other component.
 
+\subsubsection*{Higgs mass in the MSSM}
+
 Under the spontaneously broken SUSY, the cancellation of the quantum correction to the Higgs boson discussed above is not exact.
 One obvious consequence of the SUSY breaking in Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} is the hierarchy between $m_f$ and $m_S$ that appear in the second term of each contribution.
-In the case of the MSSM, the largest contribution comes from the top quark and its partner that have the largest Yukawa coupling with the Higgs boson
+In the case of the MSSM, the largest contribution comes from the superpartner of the top quark, stop, that have the largest Yukawa coupling with the Higgs boson.
 
-\rem{More precisely, we need RGE calculation}
+\begin{table}[t]
+  \centering
+  \begin{tabular}{ccc}
+    Value & Description & Reference\\ \hline
+    $M_W = 80.384 \pm 0.014\, \mathrm{GeV}$ & Pole mass of the W boson
+      & \cite{Group:2012gb,Alcaraz:1016509} \\
+    $M_Z = 91.1876 \pm 0.0021\, \mathrm{GeV}$ & Pole mass of the Z boson
+      & \cite{Beringer:1900zz} \\
+    $M_h = 125.15 \pm 0.24\, \mathrm{GeV}$ & Pole mass of the Higgs
+      & \cite{Aad:2013wqa,Chatrchyan:2013mxa} \\
+    $M_t = 173.34 \pm 0.82\, \mathrm{GeV}$ & Pole mass of the top quark
+      & \cite{ATLAS:2014wva} \\
+    $\left( \sqrt{2} G_\mu \right)^{-1/2} = 246.21971 \pm 0.00006\, \mathrm{GeV}$
+      & Fermi constant for $\mu$ decay & \cite{Tishchenko:2012ie} \\
+    $\alpha_3 (M_Z) = 0.1184 \pm 0.0007$
+      & $\overline{\mathrm{MS}}$ $SU(3)_C$ gauge coupling & \cite{Bethke:2012jm}
+  \end{tabular}
+  \caption{Experimentally measured SM parameters used for the derivation of Eq.~\eqref{eq:lambda_at_top}.}
+  \label{tab:SM_param}
+\end{table}
+
+When there is a large hierarchy between the SUSY breaking scale $M_S$, which is comparable with stop masses, and the top mass $M_t$, the stop contributions to the Higgs mass contains a large logarithm of the form of $\log \left( M_S^2 / M_t^2 \right)$.
+\rem{Consistency with above equations.  Maybe MSbar better}
+To resum this large logarithm and obtain a precise result, we have to rely on the renormalization group equation (RGE).
+In this framework, the value of the Higgs self coupling $\lambda$ at the electroweak scale is closely related to the Higgs mass.
+We assume the SM parameters summarized in Table~\ref{tab:SM_param} and the definition of the SM Higgs potential
+\begin{align}
+  V(H) = -\frac{m^2}{2} |H|^2 + \lambda |H|^4,
+\end{align}
+with $H$ being the SM Higgs doublet.
+Then, according to \cite{Buttazzo:2013uya}, we obtain the relationship
+\footnote{
+  Although the values listed in Table~\ref{tab:SM_param} are different from the latest ones given in \cite{Tanabashi:2018oca}, we use older ones because the change in input values may cause the slight change in coefficients of second and third terms of Eq.~\eqref{eq:lambda_at_top}.
+  The latest central values of the Higgs and top masses are $M_h = 125.09\,\mathrm{GeV}$ and $M_t = 173.1\,\mathrm{GeV}$, with which we can estimate $\lambda (M_t) = 0.12593$.
+}
+\begin{align}
+  \lambda (M_t) = 0.12604
+  + 0.00206 \left( \frac{M_h}{\mathrm{GeV}} - 125.15 \right)
+  - 0.00004 \left( \frac{M_t}{\mathrm{GeV}} - 173.34 \right).
+  \label{eq:lambda_at_top}
+\end{align}
+
+In the MSSM, the value of $\lambda$ at the SUSY breaking scale $M_S$ is given by
+\begin{align}
+  \lambda (M_S) = \frac{g_1^2 (M_S) + g_2^2 (M_S)}{8} \cos^2 2\beta + \delta \lambda,
+  \label{eq:lambda_at_ms}
+\end{align}
+where $g_1$ and $g_2$ are $U(1)_Y$ and $SU(2)_L$ gauge coupling constants, respectively, while $\beta$ parametrizes the ratio of the vacuum expectation values
+\begin{align}
+  \frac{\Braket{H_u^0}}{\Braket{H_d^0}} = \tan \beta,
+\end{align}
+with $H_u^0$ and $H_d^0$ being electromagnetically neutral components of the corresponding Higgs doublets.
+In Eq.~\eqref{eq:lambda_at_ms}, the first term shows the tree-level contribution from the D-term potential and $\delta \lambda$ denotes the threshold correction from heavy superpartners.
+Once the spectrum of the MSSM particles is fixed, we can evaluate the Higgs self coupling using Eq.~\eqref{eq:lambda_at_ms}, calculate its running according to the RGE, and obtain the prediction for the Higgs mass through Eq.~\eqref{eq:lambda_at_top}.
+
+\rem{Contour plot of $m_h$ in $\tan \beta$ vs. $M_S$ plane here.}
+\rem{Simply assume $m_{Q3} = m_{U3}$ and compare minimal and maximal mixings}
+\rem{Discussion and confirm that heavy SUSY is motivated}
+
+
 
 \subsection{Need review}
 
