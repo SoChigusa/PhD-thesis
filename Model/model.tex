@@ -92,7 +92,7 @@ The supersymmetric part of the MSSM lagrangian is described by the superpotentia
 \end{align}
 where $i,j=1,2,3$ labels the quark and lepton generation, while $Q, L, U, D, E$ are superfields that contain the left-handed quark, left-handed lepton, right-handed up-type quark, right-handed down-type quark, and right-handed charged lepton, respectively.
 In Eq.~\eqref{eq:mssm_sup}, proper contraction of $SU(3)_C$ and $SU(2)_L$ indices is assumed.
-Note that two Higgs doublets $H_u$ and $H_d$ with opposite values of $U(1)_Y$ hypercharges are introduced, which is needed to cancel the contributions to the gauge anomaly from Higgs superpartners, Higgsinos.
+Note that two Higgs doublets $H_u$ and $H_d$ with opposite values of $U(1)_Y$ hypercharges are introduced, which is needed to cancel the contributions to the gauge anomaly from fermionic partners of the Higgs doublets.
 
 Since no superpartner of any SM particle is observed yet, SUSY should be broken and superpartners should obtain the SUSY breaking masses.  \rem{ref: boson and fermion obtain equal mass}
 The SUSY breaking part of the lagrangian is expressed as
@@ -106,8 +106,14 @@ The SUSY breaking part of the lagrangian is expressed as
   \label{eq:mssm_soft}
 \end{align}
 where the tilde is used to express the superpartner of the SM particle contained in a superfield, while a field without a hat nor tilde denotes the other component.
+An exception is two Higgs doublets, where $H_u$ and $H_d$ express the scalar components, while $\tilde{H}_u$ and $\tilde{H}_d$ express their superpartners called Higgsinos.
+The SM-like Higgs doublet $H$ collesponds to a linear combination of $H_u$ and $H_d$.
 
-\rem{Comment on the need of SUSY breaking sector?}
+It is known that, within the MSSM, almost all SUSY breaking mechanisms, such as the F-term (O$^{\mathrm{\prime}}$Raifeartaigh) \cite{ORaifeartaigh:1975nky} or D-term (Fayet-Iliopoulos) SUSY breaking \cite{Fayet:1974jb, Fayet:1974pd}, fail to generate masses of superpartners with remaining the SM gauge group in the low energy effective theory.
+Thus, we need a so-called hidden sector in addition to the MSSM sector, in which SUSY is spontaneously broken.
+In order for the MSSM sector to have Lagrangian terms \eqref{eq:mssm_soft}, we also need some mediation mechanism of the SUSY breaking.
+The relative size of the SUSY breaking parameters in Eq.~\eqref{eq:mssm_soft} highly depends on the mediation mechanism.
+Among many mediation mechanisms of SUSY breaking, the anomaly mediated SUSY breaking \cite{Giudice:1998xp, Randall:1998uk} leads to an interesting phenomenology with relatively light WIMPs, so it will be reviewed later.
 
 \subsubsection*{Higgs mass in the MSSM}
 
@@ -153,9 +159,10 @@ Then, according to \cite{Buttazzo:2013uya}, we obtain the relationship
 \begin{align}
   \lambda (M_t) = 0.12604
   + 0.00206 \left( \frac{M_h}{\mathrm{GeV}} - 125.15 \right)
-  - 0.00004 \left( \frac{M_t}{\mathrm{GeV}} - 173.34 \right).
+  - 0.00004 \left( \frac{M_t}{\mathrm{GeV}} - 173.34 \right),
   \label{eq:lambda_at_top}
 \end{align}
+where the $\overline{\mathrm{MS}}$ scheme is used to renormalize the divergence of loop integrals.
 
 In the MSSM, the value of $\lambda$ at the SUSY breaking scale $M_S$ is given by
 \begin{align}
@@ -177,7 +184,23 @@ Once the spectrum of the MSSM particles is fixed, we can evaluate the Higgs self
 
 \subsubsection*{Light Wino in the anomaly mediated SUSY breaking model}
 
-Among many SUSY breaking mechanisms, the anomaly mediated SUSY breaking \cite{Giudice:1998xp, Randall:1998uk} leads to
+The anomaly mediated SUSY breaking \cite{Giudice:1998xp, Randall:1998uk} or the pure gravity mediation scenario \cite{Ibe:2006de, Ibe:2011aa, ArkaniHamed:2012gw}, combined with the observed value of the Higgs mass, naturally predicts the existence of WIMPs (basically Winos denoted as $\tilde{W}$) in the TeV range.
+In this scenario, the SUSY breaking effect is directly mediated to the quark and lepton supermultiplets, and they obtain masses comparable to the scale of the SUSY breaking, which is approximated by the gravitino mass $m_{3/2}$.
+On the other hand, the superparners of gauge bosons, gauginos, is affected only through a one-loop diagram, which is related to the scale anomaly.
+\rem{Correct?}
+As a result, gaugino mass parameters in Eq.~\eqref{eq:mssm_soft} are one-loop suppressed compared with other mass parameters as
+\begin{align}
+  M_i (M_S) = -\left. \frac{\beta_i}{2 g_i^2} \right|_{M_S} m_{3/2},
+\end{align}
+where $i=1,2,3$ is a gauge index and $\beta_i$ denote the beta functions of gauge coupling constants.
+\rem{All-order expression or not? $M_S$? $M_{\mathrm{GUT}}$?}
+At the one-loop level, this gives
+\begin{align}
+  M_1 (M_S) &= \frac{11 g_1^2 (M_S)}{16 \pi^2} m_{3/2},\\
+  M_2 (M_S) &= \frac{g_2^2 (M_S)}{16 \pi^2} m_{3/2},\\
+  M_3 (M_S) &= -\frac{3 g_3^2 (M_S)}{16 \pi^2} m_{3/2}.
+\end{align}
+\rem{Normalization of $g_1$?}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
