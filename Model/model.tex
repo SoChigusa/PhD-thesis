@@ -20,6 +20,8 @@ reviewed.  \rem{EWIMP and WIMP??}
 \subsection{Minimally supersymmetric standard model}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\rem{Summary of SUSY particle names somewhere}
+
 \begin{figure}[b]
   \centering
   \includegraphics[width=0.6\hsize]{loop_correction.pdf}
@@ -27,7 +29,8 @@ reviewed.  \rem{EWIMP and WIMP??}
   \label{fig:loop_correction}
 \end{figure}
 
-The minimally supersymmetric standard model (MSSM) is the simple extension of the SM with $\mathcal{N} = 1$ supersymmetry (SUSY). \footnote{
+The minimally supersymmetric standard model (MSSM) is the simple extension of the SM with $\mathcal{N} = 1$ supersymmetry (SUSY).
+\footnote{
   For a brief review of the $\mathcal{N} = 1$ SUSY, see Sec.~\ref{sec:susy}.
 }
 One of the motivations to introduce SUSY is to solve the so-called hierarchy (or naturalness) problem \cite{Weinberg:1975gm,Gildener:1976ai,Susskind:1978ms} in the SM.
@@ -85,6 +88,9 @@ This cancellation is ensured by the so-called non-renormalization theorem. \cite
 
 We now summarize the notations and quantum numbers of the chiral and vector superfields in the MSSM in Table~\ref{tab:mssm_csf} and \ref{tab:mssm_vsf}, respectively.
 The supersymmetric part of the MSSM lagrangian is described by the superpotential
+\footnote{
+  For a more detailed review of the MSSM, see for example~\cite{Martin:1997ns}.
+}
 \begin{align}
   W = Y_u^{i j} U_i Q_j H_u - Y_d^{i j} D_i Q_j H_d
   - Y_e^{i j} E_i L_j H_d + \mu H_u H_d,
@@ -197,7 +203,7 @@ Under this assumption, the largest contribution to the threshold correction $\de
   \tilde{X}_t &\equiv \frac{(A_t - \mu \cot \beta)^2}{M_S^2},
 \end{align}
 with $y_t \equiv Y_u^{33}$ and $A_t \equiv A_u^{33}$.
-It is obvious from Eq.~\eqref{eq:del_lambda} that, for a moderate value of $\tilde{X}_t \lsim \mathcal{O}(1)$, $\tilde{X}_t = 0$ ($6$) corresponds to the case with minimum (maximum) threshold correction, often called as the minimal (maximal) stop mixing.
+It is obvious from Eq.~\eqref{eq:del_lambda} that, for a moderate value of $\tilde{X}_t \lsim \mathcal{O}(1)$, $\tilde{X}_t = 0$ ($\tilde{X}_t = 6$) corresponds to the case with minimum (maximum) threshold correction, often called as the minimal (maximal) stop mixing.
 \footnote{
   Eq.~\eqref{eq:del_lambda} shows that $\delta \lambda < 0$ for $\tilde{X}_t > 12$, resulting in the prediction of a lighter Higgs mass than the minimal stop mixing case.
   However, the parameter space with $\tilde{X}_t \gsim 6$ is severely constrained by the requirement of the stability of the electroweak vacuum \rem{Reference!!} and is not considered here.
@@ -206,7 +212,41 @@ It is obvious from Eq.~\eqref{eq:del_lambda} that, for a moderate value of $\til
 The red (blue) lines in Fig.~\ref{fig:higgs_mass} denote from top to bottom the contours of $m_h = 131$, $128$, $125$, $122$, $119\, \mathrm{GeV}$ for the minimal (maximal) stop mixing.
 Gray shade corresponds to the region where the central value of the observation $m_h = 125.10\,\mathrm{GeV}$ can be explained.
 From the figure, we can see that the discovery of the Higgs with $m_h = 125.10\,\mathrm{GeV}$ may indicate a somewhat heavy SUSY breaking scale $M_S \gsim 10\,\mathrm{TeV}$ for the case with a small stop mixing or a small $\tan \beta$.
-By combining with the fact that there is still no sign of the superpartners at the collider experiment, this motivates us to consider a heavy SUSY scenario.
+Combined with the fact that there is still no sign of the superpartners at the collider experiment, this motivates us to consider a heavy SUSY scenario.
+
+
+\subsubsection*{Light Higgsino and its relation to the naturalness}
+
+When we consider a heavy SUSY model in relation to the Higgs mass, there is another problem called the little hierarchy problem.
+This mentions the hierarchy between the electroweak scale and the heavy SUSY breaking scale and an accompanying fine-tuning.
+Although the degree of the required fine-tuning is several orders of magnitude smaller than that for the large hierarchy between the electroweak and Planck scales, it will be more acceptable if some mechanism relieves the fine-tuning.
+The problem can be summarized in the equation
+\begin{align}
+  \frac{1}{2} m_Z^2 = \frac{m_{H_d}^2 - m_{H_u}^2 \tan^2 \beta}{\tan \beta^2 - 1} - \mu^2,
+\end{align}
+where the right-handed side is the MSSM prediction for the $Z$-boson mass assuming the successful electroweak symmetry breaking.
+If some of the MSSM parameters $m_{H_d}$, $m_{H_u}$, $\mu$ are much larger than $m_Z$, there should be some amount of fine-tuning to satisfy the equation.
+
+There is a measure of the fine-tuning in this sence, proposed in \cite{Ellis:1986yg,Barbieri:1987fn}:
+\begin{align}
+  \Delta_{a_i} \equiv \frac{a_i}{m_Z^2} \frac{\partial m_Z^2}{\partial a_i},
+\end{align}
+where $a_i$ is a MSSM model parameter.
+In order for the model to be "natural", we require $|\Delta_{a_i}| < \Delta$ for any $a_i$ with a typical choice of $\Delta \sim \mathcal{O}(10 \hyphen 100)}$.
+\rem{Typical??}
+Since $m_Z$ is sensitive to the Higgsino mass $\mu$, this gives an upper bound on the "natural" choice of the Higgsino mass
+\begin{align}
+  \mu^2 < \frac{m_Z^2}{2} \Delta,
+\end{align}
+predicting the (sub-)TeV scale Higgsino.
+As we will see in Sec.~\ref{????}, \rem{Caution!!} this light Higgsino is also fascinating as a dark matter candidate.
+
+Even when the SUSY breaking scale is much higher than the electroweak scale, it is natural for Higgsino to be around the electroweak scale since it is protected by an R-symmetry and a Peccei Quinn symmetry.  \rem{Reference!!}
+
+\rem{Model with small $\mu$??}
+This naturalness requirement also impose an upper bound on other parameters, in particular on $m_{H_u}^2$ for $\tan^2 \beta \gg 1$.
+The small value of $m_{H_u}^2$ can be realized by the focus point mechanism \cite{Feng:1999hg, Feng:1999mn, Feng:1999zg}, where the choice of the SM parameters in our universe, in particular that of $y_t$, allows $m_{H_u}^2$ at the low energy scale to be insensitive to its boundary condition at the high energy scale.
+
 
 \subsubsection*{Light Wino in the anomaly mediated SUSY breaking model}
 
@@ -231,17 +271,29 @@ At the one-loop level, this gives
 Since Higgsinos are assumed to have a mass comparable to $m_{3/2} \sim M_S$, they decouple from the effective theory below the scale $M_S$.
 To take account of the correction to the gaugino masses from the Higgs-Higgsino loop, one has to include the threshold correction at $M_S$
 \begin{align}
-  \Delta M_1 = \frac{g_1^2 (M_S)}{16\pi^2} L
-  ~~;~~
+  \Delta M_1 = \frac{g_1^2 (M_S)}{16\pi^2} L,
+  ~~
   \Delta M_2 = \frac{g_2^2 (M_S)}{16\pi^2} L,
 \end{align}
 with
 \begin{align}
-  L \equiv \mu \sin 2\beta \frac{m_A^2}{\mu^2 - m_A^2} \ln \frac{\mu^2}{m_A^2},
+  L \equiv \mu \sin 2\beta \frac{m_A^2}{|\mu|^2 - m_A^2} \ln \frac{|\mu|^2}{m_A^2},
 \end{align}
 where $m_A$ is the mass of the heavy CP-odd Higgs which is given by a linear combination of $H_u^0$ and $H_d^0$.
 
+Below $M_S$, gaugino mass parameters further run towards the gaugino mass scale $M_{\tilde{G}}$, where the physical gaugino masses are determined.
+Note that the bino and wino masses are roughly given by $|M_1 (M_{\tilde{G}})|$ and $M_2 (M_{\tilde{G}})$, while the gluino pole mass $m_{\tilde{g}}$ includes a sizable effect from the threshold correction as \cite{Giudice:2004tc}
+\begin{align}
+  m_{\tilde{g}} = |M_3 (M_{\tilde{G}})| \left[
+  1 + \frac{g_3^2}{16\pi^2} \left( 12 + 9\ln \frac{M_{\tilde{G}}^2}{|M_3|^2} \right)
+  \right].
+\end{align}
+In Fig.~,,,,
 
+\rem{AMSB spectrum here}
+
+
+\subsubsection*{Dark matter and the R-parity}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -274,11 +326,7 @@ WIMPs with mass around or just above the electroweak scale are
 theoretically well-motivated in connection with problems of the SM such
 as the naturalness problem.  For example, the minimal supersymmetric
 extension of the SM (the so-called MSSM) contains several WIMP DM
-candidate such as Higgsino and Wino.\footnote{
-%%
-For a review of the MSSM, see for example~\cite{Martin:1997ns}.
-}
-%%
+candidate such as Higgsino and Wino.
 Another example is the minimal dark matter (MDM)
 model~\cite{Cirelli:2005uq, Cirelli:2007xd, Cirelli:2009uv}, which is a
 simple extension of the SM with an $SU(2)_L$ electroweak multiplet such

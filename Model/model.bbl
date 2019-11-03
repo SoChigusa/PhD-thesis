@@ -41,6 +41,14 @@ M.~T. Grisaru, W.~Siegel, M.~Rocek, {Improved Methods for Supergraphs}, Nucl.
 \newblock \href {http://dx.doi.org/10.1016/0550-3213(79)90344-4}
   {\path{doi:10.1016/0550-3213(79)90344-4}}.
 
+\bibitem{Martin:1997ns}
+S.~P. Martin, {A Supersymmetry primer} (1997) 1--98[Adv. Ser. Direct. High
+  Energy Phys.18,1(1998)].
+\newblock \href {http://arxiv.org/abs/hep-ph/9709356}
+  {\path{arXiv:hep-ph/9709356}}, \href
+  {http://dx.doi.org/10.1142/9789812839657_0001, 10.1142/9789814307505_0001}
+  {\path{doi:10.1142/9789812839657_0001, 10.1142/9789814307505_0001}}.
+
 \bibitem{ORaifeartaigh:1975nky}
 L.~O'Raifeartaigh, {Spontaneous Symmetry Breaking for Chiral Scalar
   Superfields}, Nucl. Phys. B96 (1975) 331--352.
@@ -146,6 +154,43 @@ D.~Buttazzo, G.~Degrassi, P.~P. Giardino, G.~F. Giudice, F.~Sala, A.~Salvio,
   \href {http://dx.doi.org/10.1007/JHEP12(2013)089}
   {\path{doi:10.1007/JHEP12(2013)089}}.
 
+\bibitem{Ellis:1986yg}
+J.~R. Ellis, K.~Enqvist, D.~V. Nanopoulos, F.~Zwirner, {Observables in
+  Low-Energy Superstring Models}, Mod. Phys. Lett. A1 (1986) 57.
+\newblock \href {http://dx.doi.org/10.1142/S0217732386000105}
+  {\path{doi:10.1142/S0217732386000105}}.
+
+\bibitem{Barbieri:1987fn}
+R.~Barbieri, G.~F. Giudice, {Upper Bounds on Supersymmetric Particle Masses},
+  Nucl. Phys. B306 (1988) 63--76.
+\newblock \href {http://dx.doi.org/10.1016/0550-3213(88)90171-X}
+  {\path{doi:10.1016/0550-3213(88)90171-X}}.
+
+\bibitem{Feng:1999hg}
+J.~L. Feng, T.~Moroi, {Supernatural supersymmetry: Phenomenological
+  implications of anomaly mediated supersymmetry breaking}, Phys. Rev. D61
+  (2000) 095004.
+\newblock \href {http://arxiv.org/abs/hep-ph/9907319}
+  {\path{arXiv:hep-ph/9907319}}, \href
+  {http://dx.doi.org/10.1103/PhysRevD.61.095004}
+  {\path{doi:10.1103/PhysRevD.61.095004}}.
+
+\bibitem{Feng:1999mn}
+J.~L. Feng, K.~T. Matchev, T.~Moroi, {Multi - TeV scalars are natural in
+  minimal supergravity}, Phys. Rev. Lett. 84 (2000) 2322--2325.
+\newblock \href {http://arxiv.org/abs/hep-ph/9908309}
+  {\path{arXiv:hep-ph/9908309}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.84.2322}
+  {\path{doi:10.1103/PhysRevLett.84.2322}}.
+
+\bibitem{Feng:1999zg}
+J.~L. Feng, K.~T. Matchev, T.~Moroi, {Focus points and naturalness in
+  supersymmetry}, Phys. Rev. D61 (2000) 075005.
+\newblock \href {http://arxiv.org/abs/hep-ph/9909334}
+  {\path{arXiv:hep-ph/9909334}}, \href
+  {http://dx.doi.org/10.1103/PhysRevD.61.075005}
+  {\path{doi:10.1103/PhysRevD.61.075005}}.
+
 \bibitem{Ibe:2006de}
 M.~Ibe, T.~Moroi, T.~T. Yanagida, {Possible Signals of Wino LSP at the Large
   Hadron Collider}, Phys. Lett. B644 (2007) 355--360.
@@ -165,6 +210,15 @@ M.~Ibe, T.~T. Yanagida, {The Lightest Higgs Boson Mass in Pure Gravity
 N.~Arkani-Hamed, A.~Gupta, D.~E. Kaplan, N.~Weiner, T.~Zorawski, {Simply
   Unnatural Supersymmetry}\href {http://arxiv.org/abs/1212.6971}
   {\path{arXiv:1212.6971}}.
+
+\bibitem{Giudice:2004tc}
+G.~F. Giudice, A.~Romanino, {Split supersymmetry}, Nucl. Phys. B699 (2004)
+  65--89, [Erratum: Nucl. Phys.B706,487(2005)].
+\newblock \href {http://arxiv.org/abs/hep-ph/0406088}
+  {\path{arXiv:hep-ph/0406088}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysb.2004.11.048,
+  10.1016/j.nuclphysb.2004.08.001} {\path{doi:10.1016/j.nuclphysb.2004.11.048,
+  10.1016/j.nuclphysb.2004.08.001}}.
 
 \bibitem{Farina:2013mla}
 M.~Farina, D.~Pappadopulo, A.~Strumia, {A modified naturalness principle and
@@ -211,14 +265,6 @@ M.~Beneke, A.~Bharucha, F.~Dighera, C.~Hellmann, A.~Hryczuk, S.~Recksiegel,
 \newblock \href {http://arxiv.org/abs/1601.04718} {\path{arXiv:1601.04718}},
   \href {http://dx.doi.org/10.1007/JHEP03(2016)119}
   {\path{doi:10.1007/JHEP03(2016)119}}.
-
-\bibitem{Martin:1997ns}
-S.~P. Martin, {A Supersymmetry primer} (1997) 1--98[Adv. Ser. Direct. High
-  Energy Phys.18,1(1998)].
-\newblock \href {http://arxiv.org/abs/hep-ph/9709356}
-  {\path{arXiv:hep-ph/9709356}}, \href
-  {http://dx.doi.org/10.1142/9789812839657_0001, 10.1142/9789814307505_0001}
-  {\path{doi:10.1142/9789812839657_0001, 10.1142/9789814307505_0001}}.
 
 \bibitem{Cirelli:2005uq}
 M.~Cirelli, N.~Fornengo, A.~Strumia, {Minimal dark matter}, Nucl. Phys. B753
