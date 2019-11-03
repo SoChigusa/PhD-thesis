@@ -22,9 +22,9 @@ reviewed.  \rem{EWIMP and WIMP??}
 
 \begin{figure}[b]
   \centering
-  \includegraphics[width=0.6\hsize]{Higgs_mass.pdf}
+  \includegraphics[width=0.6\hsize]{loop_correction.pdf}
   \caption{One-loop correction to the Higgs mass from (a) a Weyl fermion $f$ and (b) a complex scalar $S$.}
-  \label{fig:Higgs_mass}
+  \label{fig:loop_correction}
 \end{figure}
 
 The minimally supersymmetric standard model (MSSM) is the simple extension of the SM with $\mathcal{N} = 1$ supersymmetry (SUSY). \footnote{
@@ -32,7 +32,7 @@ The minimally supersymmetric standard model (MSSM) is the simple extension of th
 }
 One of the motivations to introduce SUSY is to solve the so-called hierarchy (or naturalness) problem \cite{Weinberg:1975gm,Gildener:1976ai,Susskind:1978ms} in the SM.
 The problem is related to the quantum correction to the SM Higgs boson mass from heavy new physics particles.
-For example, we can consider the one-loop correction to the Higgs mass from a Weyl fermion $f$ and a complex scalar $S$ as illustrated in Fig.~\ref{fig:Higgs_mass}.
+For example, we can consider the one-loop correction to the Higgs mass from a Weyl fermion $f$ and a complex scalar $S$ as illustrated in Fig.~\ref{fig:loop_correction}.
 The corrections to the Higgs mass is given by
 \begin{align}
   \Delta m_h^2 &= -\frac{|\lambda_f|^2}{8 \pi^2} \left[
@@ -177,17 +177,43 @@ with $H_u^0$ and $H_d^0$ being electromagnetically neutral components of the cor
 In Eq.~\eqref{eq:lambda_at_ms}, the first term shows the tree-level contribution from the D-term potential and $\delta \lambda$ denotes the threshold correction from heavy superpartners.
 Once the spectrum of the MSSM particles is fixed, we can evaluate the Higgs self coupling using Eq.~\eqref{eq:lambda_at_ms}, calculate its running according to the RGE, and obtain the prediction for the Higgs mass through Eq.~\eqref{eq:lambda_at_top}.
 
-\rem{Contour plot of $m_h$ in $\tan \beta$ vs. $M_S$ plane here.}
-\rem{Simply assume $m_{Q3} = m_{U3}$ and compare minimal and maximal mixings}
-\rem{Discussion and confirm that heavy SUSY is motivated}
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.6\hsize]{higgs_mass.pdf}
+  \caption{
+    Contour of the Higgs mass $m_h$ in the $\tan\beta$ vs. $M_S$ plane.
+    The universal mass $M_S$ is assumed for all the SUSY particles.
+    Blue (red) lines correspond from top to bottom to the contours of $m_h = 131, 128, 125, 122, 119\, \mathrm{GeV}$ for the minimal (maximal) stop mixing.
+    Gray shade corresponds to the region where $m_h = 125.10\,\mathrm{GeV}$ can be explained.
+  }
+  \label{fig:higgs_mass}
+\end{figure}
 
+In Fig.~\ref{fig:higgs_mass}, we show the contour plot of the Higgs mass $m_h$ in the $\tan\beta$ vs. $M_S$ plane.
+We assume the universal mass $M_S$ for all the SUSY particles.
+Under this assumption, the largest contribution to the threshold correction $\delta \lambda$ from stops can be written as
+\begin{align}
+  \delta \lambda &\simeq \frac{9 y_t^2 (M_S)}{16 \pi^2} \tilde{X}_t \left[ 1-\frac{\tilde{X}_t}{12} \right], \label{eq:del_lambda}\\
+  \tilde{X}_t &\equiv \frac{(A_t - \mu \cot \beta)^2}{M_S^2},
+\end{align}
+with $y_t \equiv Y_u^{33}$ and $A_t \equiv A_u^{33}$.
+It is obvious from Eq.~\eqref{eq:del_lambda} that, for a moderate value of $\tilde{X}_t \lsim \mathcal{O}(1)$, $\tilde{X}_t = 0$ ($6$) corresponds to the case with minimum (maximum) threshold correction, often called as the minimal (maximal) stop mixing.
+\footnote{
+  Eq.~\eqref{eq:del_lambda} shows that $\delta \lambda < 0$ for $\tilde{X}_t > 12$, resulting in the prediction of a lighter Higgs mass than the minimal stop mixing case.
+  However, the parameter space with $\tilde{X}_t \gsim 6$ is severely constrained by the requirement of the stability of the electroweak vacuum \rem{Reference!!} and is not considered here.
+}
+
+The red (blue) lines in Fig.~\ref{fig:higgs_mass} denote from top to bottom the contours of $m_h = 131$, $128$, $125$, $122$, $119\, \mathrm{GeV}$ for the minimal (maximal) stop mixing.
+Gray shade corresponds to the region where the central value of the observation $m_h = 125.10\,\mathrm{GeV}$ can be explained.
+From the figure, we can see that the discovery of the Higgs with $m_h = 125.10\,\mathrm{GeV}$ may indicate a somewhat heavy SUSY breaking scale $M_S \gsim 10\,\mathrm{TeV}$ for the case with a small stop mixing or a small $\tan \beta$.
+By combining with the fact that there is still no sign of the superpartners at the collider experiment, this motivates us to consider a heavy SUSY scenario.
 
 \subsubsection*{Light Wino in the anomaly mediated SUSY breaking model}
 
-The anomaly mediated SUSY breaking \cite{Giudice:1998xp, Randall:1998uk} or the pure gravity mediation scenario \cite{Ibe:2006de, Ibe:2011aa, ArkaniHamed:2012gw}, combined with the observed value of the Higgs mass, naturally predicts the existence of WIMPs (basically Winos denoted as $\tilde{W}$) in the TeV range.
+Among heavy SUSY models, the anomaly mediated SUSY breaking \cite{Giudice:1998xp, Randall:1998uk} or the pure gravity mediation scenario \cite{Ibe:2006de, Ibe:2011aa, ArkaniHamed:2012gw} is of particular interest since it naturally predicts the existence of WIMPs (basically Winos denoted as $\tilde{W}$) in the TeV range.
 In this scenario, the SUSY breaking effect is directly mediated to the quark and lepton supermultiplets, and they obtain masses comparable to the scale of the SUSY breaking, which is approximated by the gravitino mass $m_{3/2}$.
-On the other hand, the superparners of gauge bosons, gauginos, is affected only through a one-loop diagram, which is related to the scale anomaly.
-\rem{Correct?}
+The situation is similar for Higgsino, since it is easy to realize the hidden sector dynamics that generates the $\mu$-term of $\mathcal{O} (m_{3/2})$.
+On the other hand, the superparners of gauge bosons, gauginos, is affected only through a one-loop diagram, which is related to the conformal anomaly.
 As a result, gaugino mass parameters in Eq.~\eqref{eq:mssm_soft} are one-loop suppressed compared with other mass parameters as
 \begin{align}
   M_i (M_S) = -\left. \frac{\beta_i}{2 g_i^2} \right|_{M_S} m_{3/2},
@@ -201,6 +227,21 @@ At the one-loop level, this gives
   M_3 (M_S) &= -\frac{3 g_3^2 (M_S)}{16 \pi^2} m_{3/2}.
 \end{align}
 \rem{Normalization of $g_1$?}
+
+Since Higgsinos are assumed to have a mass comparable to $m_{3/2} \sim M_S$, they decouple from the effective theory below the scale $M_S$.
+To take account of the correction to the gaugino masses from the Higgs-Higgsino loop, one has to include the threshold correction at $M_S$
+\begin{align}
+  \Delta M_1 = \frac{g_1^2 (M_S)}{16\pi^2} L
+  ~~;~~
+  \Delta M_2 = \frac{g_2^2 (M_S)}{16\pi^2} L,
+\end{align}
+with
+\begin{align}
+  L \equiv \mu \sin 2\beta \frac{m_A^2}{\mu^2 - m_A^2} \ln \frac{\mu^2}{m_A^2},
+\end{align}
+where $m_A$ is the mass of the heavy CP-odd Higgs which is given by a linear combination of $H_u^0$ and $H_d^0$.
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
