@@ -92,13 +92,30 @@ The supersymmetric part of the MSSM lagrangian is described by the superpotentia
   For a more detailed review of the MSSM, see for example~\cite{Martin:1997ns}.
 }
 \begin{align}
-  W = Y_u^{i j} U_i Q_j H_u - Y_d^{i j} D_i Q_j H_d
-  - Y_e^{i j} E_i L_j H_d + \mu H_u H_d,
+  W = Y_u^{i j} \hat{U}_i \hat{Q}_j \hat{H}_u - Y_d^{i j} \hat{D}_i \hat{Q}_j \hat{H}_d
+  - Y_e^{i j} \hat{E}_i \hat{L}_j \hat{H}_d + \mu \hat{H}_u \hat{H}_d,
   \label{eq:mssm_sup}
 \end{align}
 where $i,j=1,2,3$ labels the quark and lepton generation, while $Q, L, U, D, E$ are superfields that contain the left-handed quark, left-handed lepton, right-handed up-type quark, right-handed down-type quark, and right-handed charged lepton, respectively.
 In Eq.~\eqref{eq:mssm_sup}, proper contraction of $SU(3)_C$ and $SU(2)_L$ indices is assumed.
 Note that two Higgs doublets $H_u$ and $H_d$ with opposite values of $U(1)_Y$ hypercharges are introduced, which is needed to cancel the contributions to the gauge anomaly from fermionic partners of the Higgs doublets.
+
+Postulating SM gauge symmetries as a unique guideline to construct a model, there are a few more terms allowed in the superpotential:
+\begin{align}
+  W_{\Delta L=1} &= \lambda^{ijk} \hat{L}_i \hat{L}_j \hat{E}_k + \lambda^{'ijk} \hat{L}_i \hat{Q}_j \hat{D}_k
+  + \mu^i \hat{L}_i \hat{H}_u, \label{eq:super_L} \\
+  W_{\Delta B=1} &= \lambda^{''ijk} \hat{U}_i \hat{D}_j \hat{D}_k. \label{eq:super_B}
+\end{align}
+Terms in Eqs.~\eqref{eq:super_L} and \eqref{eq:super_B} are phenomenologically problematic since they lead to the lepton and baryon number violating operators, respectively, which may cause a too fast proton decay, depending on parameters (see for example \cite{Sakai:1981pk}).
+To avoid this problem, we often rely on a symmetry called the R-parity \cite{Farrar:1978xj} or the matter parity \cite{Dimopoulos:1981zb, Weinberg:1981wj, Sakai:1981pk, Dimopoulos:1981yj}.
+Charges of the R-parity, which is basically a $Z_2$ symmetry, are calculated as
+\begin{align}
+  P_R = (-1)^{3(B-L)+2s},
+\end{align}
+where $B$, $L$, and $s$ are the baryon number, lepton number, and spin of the particle, respectively.
+According to the definition, we can see that all the SM particles have even parity ($P_R = +1$), while all the supersymmetric particles have odd parity ($P_R = -1$).
+Then it is easy to check that Eqs.\eqref{eq:super_L} and \eqref{eq:super_B} lead to the R-parity violating terms in the Lagrangian and thus are forbidden, while all the terms in Eq.~\eqref{eq:mssm_sup} remain allowed.
+From now on, we only focus on the R-parity conserving MSSM.
 
 Since no superpartner of any SM particle is observed yet, SUSY should be broken and superpartners should obtain the SUSY breaking masses.  \rem{ref: boson and fermion obtain equal mass}
 The SUSY breaking part of the lagrangian is expressed as
@@ -120,6 +137,17 @@ Thus, we need a so-called hidden sector in addition to the MSSM sector, in which
 In order for the MSSM sector to have Lagrangian terms \eqref{eq:mssm_soft}, we also need some mediation mechanism of the SUSY breaking.
 The relative size of the SUSY breaking parameters in Eq.~\eqref{eq:mssm_soft} highly depends on the mediation mechanism.
 Among many mediation mechanisms of SUSY breaking, the anomaly mediated SUSY breaking \cite{Giudice:1998xp, Randall:1998uk} leads to an interesting phenomenology with relatively light WIMPs, so it will be reviewed later.
+
+
+\subsubsection*{Dark matter candidate in the MSSM}
+
+There is another motivation to consider the (R-parity preserving) MSSM: the existence of the DM.
+Since there is a sizable amount of DM in the current universe, a DM candidate should be stable or have sufficiently small decay width.
+In many models, the stability of DM is ensured by imposing a symmetry such as the $Z_2$ symmetry and/or by kinematically forbidding the DM decay.
+
+
+\rem{Definition of LSP}
+
 
 \subsubsection*{Higgs mass in the MSSM}
 
@@ -318,11 +346,6 @@ For simplicity, we neglect the relative phase of $m_{3/2}$ and $L$ and only cons
 It can be seen that the hierarchy between gaugino masses is changed when a large value of $|L|$ is considered.
 However, we can safely say that when the threshold correction is sufficiently small, $|L| \lsim \mathcal{O}(m_{3/2})$, Wino remains to be the LSP.
 In addition, dependence of $m_h$ on $L$ is negligiblly small and $m_h$ changes only $\mathcal{O} (0.1)\,\mathrm{GeV}$ within the parameter choice of the right panel.
-
-
-\subsubsection*{Dark matter and the R-parity}
-
-\rem{Definition of LSP}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
