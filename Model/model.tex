@@ -143,10 +143,14 @@ Among many mediation mechanisms of SUSY breaking, the anomaly mediated SUSY brea
 
 There is another motivation to consider the (R-parity preserving) MSSM: the existence of the DM.
 Since there is a sizable amount of DM in the current universe, a DM candidate should be stable or have sufficiently small decay width.
-In many models, the stability of DM is ensured by imposing a symmetry such as the $Z_2$ symmetry and/or by kinematically forbidding the DM decay.
+In many models, the stability of DM is ensured by imposing a symmetry and/or by kinematically forbidding the DM decay.
+In the MSSM, the role of stabilizer can be played by the R-symmetry described above.
+Recalling that all the SM (supersymmetric) particles have even (odd) parity, each interaction vertex in the MSSM Lagrangian should contain an even number of supersymmetric particles.
+If we consider the lightest supersymmetric particle (LSP), such vertices can not construct the kinematically allowed LSP decay chain and, as a result, the LSP becomes a stable DM candidate.
 
-
-\rem{Definition of LSP}
+The DM phenomenology, such as the production and annihilation of DM in the universe and processes that allow us to efficiently detect it, highly depends on which species of supersymmetric particle becomes the LSP.
+Hereafter, we only focus on the cases where one of the gauginos and Higgsinos becomes the LSP with some motivations described below.
+In addition, all the LSP candidates to be described have non-zero electroweak charges and they can be viewed as examples of the WIMPs.
 
 
 \subsubsection*{Higgs mass in the MSSM}
@@ -349,59 +353,57 @@ In addition, dependence of $m_h$ on $L$ is negligiblly small and $m_h$ changes o
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Need review}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{table}
- \centering
- \begin{tabular}{c|ccc|cc}
-  & \multicolumn{3}{c|}{Quntum numbers} & \multicolumn{2}{c}{Masses}\\
-  WIMP DM candidate & $SU(2)_L$ & $U(1)_Y$ & Spin & $m_\chi / \mathrm{TeV}$ &
-  $\Delta m_\chi / \mathrm{MeV}$ \\
-  \hline
-  Higgsino & $2$ & $1/2$ & Dirac fermion & 1.1 & 341 \\
-  Wino & $3$ & $0$ & Majorana fermion & 2.9 & 166 \\
-  5-plet scalar & $5$ & $0$ & real scalar & 9.4 & 166 \\
-  5-plet fermion & $5$ & $0$ & Majorana fermion & 10 & 166
- \end{tabular}
- \caption{Table of properties of popular WIMP DM
- candidates~\cite{Farina:2013mla, ArkaniHamed:2006mb, Hisano:2006nn,
- Cirelli:2007xd, Moroi:2013sla, Beneke:2016ync}.  The $SU(2)_L$
- electroweak charge, $U(1)_Y$ hypercharge, spin nature, mass, and mass
- difference compared with a charged component of the multiplet are
- shown.  See Sec.~\ref{???}  \rem{Caution!!} for the details of the last
- column.}  \label{tab_WIMP_property}
-\end{table}
-
-\rem{Relationship between $\lambda$ parameter above should be clearer}
-WIMPs with mass around or just above the electroweak scale are
-theoretically well-motivated in connection with problems of the SM such
-as the naturalness problem.  For example, the minimal supersymmetric
-extension of the SM (the so-called MSSM) contains several WIMP DM
-candidate such as Higgsino and Wino.
-Another example is the minimal dark matter (MDM)
-model~\cite{Cirelli:2005uq, Cirelli:2007xd, Cirelli:2009uv}, which is a
-simple extension of the SM with an $SU(2)_L$ electroweak multiplet such
-as a $5$-plet scalar / fermion.  In these models, the stability of the
-DM is ensured by the $R$-parity (for the MSSM case) and by high
-dimensionality of the operator that describes the decay of the DM (for
-the MDM case).  The properties of these WIMP DM candidates are
-summarized in Table~\ref{tab_WIMP_property}.  The required masses to
-explain the DM relic abundance through the freezeout mechanism are also
-shown.  Since the non-relativistic annihilation cross section of
-$\mathrm{TeV}$ mass particles is significantly enhanced by the
-Sommerfeld enhancement effect~\cite{Hisano:2004ds, Hisano:2006nn}, there
-are deviations from the rough estimation formula
-Eq.~\eqref{eq_relic_abundance}.  We will return to this point later in
-Sec.~\ref{???}.  \rem{Caution!!}  In addition, in the last column there
-are mass differences $\Delta m_\chi$ between the DM and its charged
-couterpart that will be explained in detail in Sec.~\ref{???}.
-\rem{Caution!!}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Minimal dark matter model}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+The minimal dark matter (MDM) \cite{Cirelli:2005uq, Cirelli:2007xd, Cirelli:2009uv} is another example model that contains a WIMP DM candidate.
+This model attempts to explain the existence of the stable DM by extending the SM as simply as possible.
+More specifically, we just assume the same gauge groups as the SM and add only one $SU(2)_L$ $n$-plet with/without $U(1)_Y$ hypercharge in the model.
+The point is that, when $n$ is large, there are examples of multiplets that are sufficiently long-lived to be a DM candidate.
+
+The stability can be understood through a simple group theoretical argument.
+To write down the effective operator that describes the decay of the $n$-plet field, we have to make a $n$-plet representation out of several SM fields.
+However, since the largest $SU(2)_L$ representation in the SM is doublet, we need at least $n-1$ SM fields in the operator.
+The operator made out of this large number of fields should be suppressed by a power of the cutoff scale $\Lambda$, at least by $\Lambda^{4-n}$, and results in a small decay rate.
+
+\rem{Possible choice of hypercharges}
+
+% For some choice of charges and spin, such as the $n=5$ Majorana fermion without $U(1)_Y$ charge, even the existence of such operator is denied and the complete stability of the new particle is ensured.
+
+\rem{About anomaly}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Summary}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}
+  \centering
+  \begin{tabular}{c|ccc|cc}
+    & \multicolumn{3}{c|}{Quantum numbers} & \multicolumn{2}{c}{Masses}\\
+    WIMP DM candidate & $SU(2)_L$ & $U(1)_Y$ & Spin & $m_\chi / \mathrm{TeV}$ &
+    $\Delta m_\chi / \mathrm{MeV}$ \\
+    \hline
+    Higgsino & $2$ & $1/2$ & Dirac fermion & 1.1 & 341 \\
+    Wino & $3$ & $0$ & Majorana fermion & 2.9 & 166 \\
+    5-plet scalar & $5$ & $0$ & real scalar & 9.4 & 166 \\
+    5-plet fermion & $5$ & $0$ & Majorana fermion & 10 & 166
+  \end{tabular}
+  \caption{
+    Table of properties of WIMPs discussed in this thesis.
+    In the ``Quantum numbers'' block, the $SU(2)_L$ and $U(1)_Y$ charges and spin nature are shown.
+    In the ``Masses'' block, the proper mass of the thermally produced DM $m_\chi$ and mass difference between the neutral and charged components of the multiplet $\Delta m_\chi$ are shown.
+    See Sec.~\ref{???} \rem{Caution!!} for the descriptions and implications of $m_\chi$ and Sec.~\ref{???} \rem{Caution!!} for those of $\Delta m_\chi$.
+  }
+  \label{tab:WIMP_property}
+\end{table}
+
+In Table~\ref{tab:WIMP_property}, we summarize the properties of WIMPs discussed in this thesis.
+In the first block named ``Quantum numbers'', we show the $SU(2)_L$ electroweak charge, $U(1)_Y$ hypercharge, and spin nature.
+In the second block named ``Masses'', two types of masses are shown.
+$m_\chi$ is the required masses to explain the DM relic abundance without non-thermal production (see Sec.~?? \rem{Caution!!} for the detail).
+$\Delta m_\chi$ is the mass difference between the electromagnetically neutral and charged components of the multiplet, as discussed in Sec.~?? \rem{Caution!!}.
+Values of these masses are taken from \cite{Farina:2013mla, ArkaniHamed:2006mb, Hisano:2006nn,  Cirelli:2007xd, Moroi:2013sla, Beneke:2016ync}.
 
 
 \bibliographystyle{elsarticle-num}
