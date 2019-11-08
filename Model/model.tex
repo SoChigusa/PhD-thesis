@@ -213,6 +213,7 @@ where $g_1$ and $g_2$ are $U(1)_Y$ and $SU(2)_L$ gauge coupling constants, respe
 \end{align}
 with $H_u^0$ and $H_d^0$ being electromagnetically neutral components of the corresponding Higgs doublets.
 In Eq.~\eqref{eq:lambda_at_ms}, the first term shows the tree-level contribution from the D-term potential and $\delta \lambda$ denotes the threshold correction from heavy superpartners.
+$M_S$ is often chosen to be the geometric mean of stop masses to minimize the largest contribution to $\delta \lambda$ from stops.
 Once the spectrum of the MSSM particles is fixed, we can evaluate the Higgs self coupling using Eq.~\eqref{eq:lambda_at_ms}, calculate its running according to the RGE, and obtain the prediction for the Higgs mass through Eq.~\eqref{eq:lambda_at_top}.
 
 \begin{figure}[t]
@@ -283,6 +284,8 @@ In particular, the phenomenology of Higgsino will be summarized in Sec.~??? \rem
 Finally, the naturalness requirement discussed above also impose an upper bound on other parameters, in particular on $m_{H_u}^2$ for $\tan^2 \beta \gg 1$.
 The small value of $m_{H_u}^2$ can be realized by the focus point mechanism \cite{Feng:1999hg, Feng:1999mn, Feng:1999zg}, where the choice of the SM parameters in our universe, in particular that of $y_t$, allows $m_{H_u}^2$ at the low energy scale to be insensitive to its boundary condition at the high energy scale.
 
+\rem{Dirac nature of Higgsino?}
+
 
 \subsubsection*{Light Wino in the anomaly mediated SUSY breaking model}
 
@@ -333,10 +336,12 @@ where $m_A$ is the mass of the heavy CP-odd Higgs which is given by a linear com
 Below $M_S$, gaugino mass parameters further run towards the gaugino mass scale $M_{\tilde{G}}$, where the physical gaugino masses are determined.
 Note that the bino and wino masses are roughly given by $|M_1 (M_{\tilde{G}})|$ and $M_2 (M_{\tilde{G}})$, while the gluino pole mass $m_{\tilde{g}}$ includes a sizable effect from the threshold correction as \cite{Giudice:2004tc}
 \begin{align}
-  m_{\tilde{g}} = |M_3 (M_{\tilde{G}})| \left[
+  m_{\tilde{g}} = \left| M_3 (M_{\tilde{G}}) \right| \left[
   1 + \frac{g_3^2}{16\pi^2} \left( 12 + 9\ln \frac{M_{\tilde{G}}^2}{|M_3|^2} \right)
   \right].
+  \label{eq:mg_threshold}
 \end{align}
+The gaugino scale is often defined through $M_3 (M_{\tilde{G}}) = M_{\tilde{G}}$ to minimize the size of the logarithmic term in Eq.~\eqref{eq:mg_threshold}.
 
 In Fig.~\ref{fig:amsb_spectrum}, we show the dependence of gaugino masses on $m_{3/2}$ and $L$.
 In the left panel, we take $\tan\beta = 2.5$ and $L=0$, and the $m_{3/2}$ dependence is shown.
@@ -351,6 +356,8 @@ It can be seen that the hierarchy between gaugino masses is changed when a large
 However, we can safely say that when the threshold correction is sufficiently small, $|L| \lsim \mathcal{O}(m_{3/2})$, Wino remains to be the LSP.
 In addition, dependence of $m_h$ on $L$ is negligiblly small and $m_h$ changes only $\mathcal{O} (0.1)\,\mathrm{GeV}$ within the parameter choice of the right panel.
 
+\rem{Majorana nature of Wino?}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Minimal dark matter model}
@@ -358,19 +365,106 @@ In addition, dependence of $m_h$ on $L$ is negligiblly small and $m_h$ changes o
 
 The minimal dark matter (MDM) \cite{Cirelli:2005uq, Cirelli:2007xd, Cirelli:2009uv} is another example model that contains a WIMP DM candidate.
 This model attempts to explain the existence of the stable DM by extending the SM as simply as possible.
-More specifically, we just assume the same gauge groups as the SM and add only one $SU(2)_L$ $n$-plet with/without $U(1)_Y$ hypercharge in the model.
-The point is that, when $n$ is large, there are examples of multiplets that are sufficiently long-lived to be a DM candidate.
+More specifically, we just assume the same gauge groups as the SM and add only one $SU(2)_L$ $n$-plet with/without $U(1)_Y$ hypercharge $Y$ in the model.
+\footnote{
+  This new particle, when it is a fermion, does not contribute to the $SU(2)_L^2\, U(1)_Y$, $U(1)_Y^3$, nor $U(1)_Y\,\text{grav}^2$ anomalies if $Y=0$.
+  When $Y \neq 0$, we always consider a vector-like pair of Weyl fermions, which as a whole consists of a Dirac fermion and cancels the contributions to the gauge anomalies.
+}
+$Y$ is chosen such that one component of the multiplet, after the electroweak symmetry breaking, has no $U(1)_{\mathrm{EM}}$ charge, and thus can be a DM candidate.
+This condition leaves only $n$ discrete choices of $Y$ for an $SU(2)_L$ $n$-plet.
 
-The stability can be understood through a simple group theoretical argument.
-To write down the effective operator that describes the decay of the $n$-plet field, we have to make a $n$-plet representation out of several SM fields.
+In the $SU(2)_L$ limit, masses of all the components in the multiplet are the same.
+Since $SU(2)_L$ symmetry is spontaneously broken, the mass difference among them is generated at one-loop level and a heavy component can decay into a lighter component.
+In order for the multiplet to explain the DM in the current universe, the $U(1)_{\mathrm{EM}}$ neutral component should have the lowest mass.
+We will return to this point and check that this is the case in Sec.~??? \rem{Caution!!}, related to the collider search for MDMs using the disappering track signal.
+
+In some sence, the MDM is just a generalization of the WIMP described above.
+Actually, if we choose the set of $SU(2)_L$ and $U(1)_Y$ charges as $(n,Y) = (2,\pm 1/2)$ and $(3, 0)$, they correspond to the Higgsino and Wino, respectively.
+However, for these choices, the stability of the $U(1)_{\mathrm{EM}}$ neutral component is not automatically ensured, and some extra symmetry (in this case the R-parity) is needed for the DM to survive until now.
+The important point of the new framework MDM is that, when we use large $n \geq 5$, there are examples of multiplets that automatically contain a sufficiently long-lived DM candidate.
+
+The stability of such multiplets can be understood through a simple group theoretical argument.
+To write down the effective operator that describes the decay of a $n$-plet field to SM particles, we have to make a $n$-plet representation out of several SM fields.
 However, since the largest $SU(2)_L$ representation in the SM is doublet, we need at least $n-1$ SM fields in the operator.
-The operator made out of this large number of fields should be suppressed by a power of the cutoff scale $\Lambda$, at least by $\Lambda^{4-n}$, and results in a small decay rate.
+The operator made out of this large number of fields should be suppressed by a power of the cutoff scale $\Lambda$, at least by $\Lambda^{4-n}$ ($\Lambda^{3-n}$) for a scalar (fermion) MDM, and results in a small decay rate.
+Since the well-motivated DM mass is of $\mathcal{O} (\mathrm{TeV})$ as we will see in Sec.~?? \rem{Caution!!}, the resulting lifetime of the DM candidate is estimated as $\tau \sim \Lambda^{-2p} (\mathrm{TeV})^{2p-1}$ for an operator with a suppression factor $\Lambda^{-p}$.
+By demanding $\tau$ to be larger than the age of the universe under the assumption for the cut off scale $\Lambda < M_{\mathrm{pl}}$, we can conclude that the operator of the DM decay should have a dimension larger than five.
+Then, we recast this condition to that for $n$ and obtain
+\begin{align}
+  n \geq
+  \begin{cases}
+    6 & \text{scalar MDM},\\
+    5 & \text{fermion MDM}.
+  \end{cases}
+\end{align}
 
-\rem{Possible choice of hypercharges}
+Since we consider large $SU(2)_L$ multiplets, the RGE running of the $SU(2)_L$ gauge structure constant $\alpha_2$ above the MDM mass is drastically modified.
+At the one-loop level, we have (see for example \cite{Machacek:1983tz})
+\begin{align}
+  \alpha_2^{-1} (Q) &= \alpha_2^{-1} (M_{\mathrm{MDM}}) - \frac{b_2}{2\pi} \ln \frac{Q}{M_{\mathrm{MDM}}},\\
+  b_2 &\equiv -\frac{19}{6} + c\, \frac{n^3 - n}{18},
+  \label{eq:b2_mdm}
+\end{align}
+with $c = 1$ $(1/4)$ for a Majorana/Weyl fermion (real scalar).
+Note that the first and second term of Eq.~\eqref{eq:b2_mdm} represent the contributions from SM particles and the MDM, respectively.
+Then, assuming the perturbativity of $SU(2)_L$ gauge coupling upto $M_{\mathrm{pl}}$, this relationship puts an upper bound on the choise of $n$.
+According to the strong dependence on $n$ of $b_2$, a strong bound is obtained,
+\begin{align}
+  n \leq
+  \begin{cases}
+    8 & \text{real scalar MDM},\\
+    5 & \text{Majorana fermion MDM}.
+  \end{cases}
+\end{align}
 
-% For some choice of charges and spin, such as the $n=5$ Majorana fermion without $U(1)_Y$ charge, even the existence of such operator is denied and the complete stability of the new particle is ensured.
+\begin{table}
+  \centering
+  \begin{tabular}{ccc|c|c|c}
+    \multicolumn{3}{c|}{Quntum numbers} & DM & Not excluded by & Examples\\
+    $SU(2)_L$ & $U(1)_Y$ & Spin & stability & direct detection & \\ \hline
+    \hline
+    2 & 1/2 & Scalar & & & \\
+    2 & 1/2 & Fermion & & & Higgsino\\ \hline
+    3 & 0 & Scalar & & $\checkmark$ & \cite{Farina:2013mla} \\
+    3 & 0 & Fermion & & $\checkmark$ & Wino\\
+    3 & 1 & Scalar/Fermion & & & \cite{Farina:2013mla} \\ \hline
+    4 & 1/2 & Scalar/Fermion & & & \cite{Farina:2013mla} \\
+    4 & 3/2 & Scalar/Fermion & & & \cite{Farina:2013mla} \\ \hline
+    5 & 0 & Scalar & & $\checkmark$ & \cite{Farina:2013mla} \\
+    5 & 0 & Fermion & $\checkmark$ & $\checkmark$ &
+      \cite{Cirelli:2005uq, Cirelli:2007xd, Cirelli:2009uv} \\
+    5 & 1 & Scalar & & & \\
+    5 & 1 & Fermion & $\checkmark$ & & \\
+    5 & 2 & Scalar & & & \\
+    5 & 2 & Fermion & $\checkmark$ & & \\ \hline
+    6 & 1/2, 3/2, 5/2 & Scalar & $\checkmark$ & & \\ \hline
+    7 & 0 & Scalar & $\checkmark$ & $\checkmark$ &
+      \cite{Cirelli:2005uq, Cirelli:2007xd, Cirelli:2009uv} \\
+    7 & 1, 2, 3 & Scalar & $\checkmark$ & & \\
+  \end{tabular}
+  \caption{
+    Table of the MDM properties.
+    In the first three columns, we show the quantum numbers of our choice.
+    In the next two columns, the DM stability (the checkmark means "stable") and its status under the DM direct detection experiment (the checkmark means it is still alive) are shown.
+    The last column is devoted to the examples in the literature.
+  }
+  \label{tab:mdms}
+\end{table}
 
-\rem{About anomaly}
+In Table~\ref{tab:mdms}, we summarize the properties of MDMs for several different choices of $(n, Y)$.
+Throughout the table, the checkmark represents a suitable property as a DM candidate.
+In the first three columns, we show the quantum nubers of our choice, namely the set of $(n,y)$ and spin.
+In the next column, we show the condition for the DM stability, namely, whether all the DM decay operators have dimensions larger than five or not.
+The checkmarks correspond to the automatically stable DM candidates.
+The next column shows if the DM direct detection experiment has already excluded these DM candidates or not.
+Since the non-zero value of $Y$ usually leads to the large cross section as will be discussed in Sec.~??? \rem{Caution!!}, only $Y=0$ candidates are associated with checkmarks.
+\rem{Correct? in particular for $5$- and $7$-plets?  References??}
+However, note that these properties may be changed due to a small modification to the model, such as imposition of an extra symmetry or the mixing between other new physics particles.
+The final column shows examples of the viable DM candidates analyzed in the literature.
+
+From the table, we can see that there are two fascinating targets, a $5$-plet fermion and a $7$-plet scalar both of which has $Y=0$.
+Among them, we neglect the latter possibility because it has been pointed out \cite{DiLuzio:2015oha, DelNobile:2015bqo} that a dimension five operator combined with a loop consisted of the $\mathrm{TeV}$ scale $7$-plet induces a sizable decay rate for the $U(1)_{\mathrm{EM}}$ neutral component.
+Instead, we will take a $5$-plet scalar with $Y=0$ just as a working example, assuming that its stability is ensured by some other mechanism.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -403,10 +497,10 @@ In the first block named ``Quantum numbers'', we show the $SU(2)_L$ electroweak 
 In the second block named ``Masses'', two types of masses are shown.
 $m_\chi$ is the required masses to explain the DM relic abundance without non-thermal production (see Sec.~?? \rem{Caution!!} for the detail).
 $\Delta m_\chi$ is the mass difference between the electromagnetically neutral and charged components of the multiplet, as discussed in Sec.~?? \rem{Caution!!}.
-Values of these masses are taken from \cite{Farina:2013mla, ArkaniHamed:2006mb, Hisano:2006nn,  Cirelli:2007xd, Moroi:2013sla, Beneke:2016ync}.
+Values are taken from \cite{Farina:2013mla, ArkaniHamed:2006mb, Hisano:2006nn,  Cirelli:2007xd, Moroi:2013sla, Beneke:2016ync}.
 
 
-\bibliographystyle{elsarticle-num}
-\bibliography{../phd}
+% \bibliographystyle{elsarticle-num}
+% \bibliography{../phd}
 
 \end{document}
