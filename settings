@@ -34,6 +34,10 @@ setpagesize=false,
 \usepackage{comment}
 \usepackage{bm}
 
+\usepackage{axodraw4j}
+\usepackage{pstricks}
+\usepackage{color}
+
 \setlength{\textwidth}{16.5cm}
 \setlength{\textheight}{21.5cm}
 \setlength{\oddsidemargin}{30truemm}

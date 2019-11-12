@@ -39,7 +39,13 @@ In this subsection, we will review these two in order.
 \end{figure}
 
 Since all the WIMPs considered here possess non-zero $SU(2)_L$ and $U(1)_Y$ charges, they can be directly produced via electroweak interaction at the hadron collider as shown in Fig.~\ref{fig:wimp_production}.
-In the figure, $q^a$ and $q^b$ denote the partons of the incident protons relevant for the process, while $\chi$ denotes the WIMP and $q$ is the momentum transfer.
+\footnote{
+  All the Feynman diagrams in this thesis are drawn with the public code \texttt{JaxoDraw-2.1} \cite{BINOSI20091709}, which is a graphical user interface that allows users to draw Feynman diagrams intuitively and export them in the \texttt{eps} format with the help of the (modification of) \texttt{axodraw} style file for \LaTeX \cite{VERMASEREN199445}.
+  Under the environment of macOS Mojave, it apparently fails to start, but one can still execute it by looking inside the application and start the Java executable file \texttt{jaxodraw-2.1-0.jar} directly.
+  The author of this thesis would like to thank the authors for providing the best tools to write the thesis with.
+  \rem{Correct here?}
+}
+In the figure, $q^\alpha$ and $q^\beta$ denote the partons (namely, one of quarks or gluon) of the incident protons relevant for the process, while $\chi$ denotes the WIMP and $q$ is the momentum transfer.
 Assuming the WIMP to be a $SU(2)_L$ $n$-plet with $U(1)_Y$ charge $Y$ and the mass $m_\chi$, this process is well described by the effective lagrangian
 \footnote{
   In this subsection, we neglect the small mass difference among different components in the multiplet $\chi$ described in \ref{sec:disappearing_track}.
@@ -60,25 +66,38 @@ Note that when $\chi$ is a real scalar (Majorana fermion) with $Y=0$, the terms 
 
 For the calculation, we neglect the effect of the electroweak symmetry breaking, which is valid because we are interested in the high-energy collision with the parton-level center-of-mass (CM) energy $\sqrt{s'} \equiv \sqrt{q^2} \gsim \mathrm{TeV}$.
 Then, we consider the process in the CM frame and estimate the parton-level differential cross section as
-\rem{Scalar case!!}
 \begin{align}
-  \left. \frac{d \sigma_{a b}}{d \sqrt{s'} d \Omega} \right|_{\text{CM}}
-  = \frac{C}{4 s'} \sqrt{1 - \frac{4 m_\chi^2}{s'}}
-  \left[ 1 + \frac{4 m_\chi^2}{s'} + \left( 1 - \frac{4 m_\chi^2}{s'} \right) \cos^2 \theta \right],
+  \left. \frac{d \sigma_{\alpha \beta}}{d \sqrt{s'} d \Omega} \right|_{\text{CM}}
+  &= \frac{C_{\alpha \beta}}{8 s'} \left( 1 - \frac{4 m_\chi^2}{s'} \right)^{3/2} \sin^2 \theta
+  & &(\text{complex scalar})\\
+  \left. \frac{d \sigma_{\alpha \beta}}{d \sqrt{s'} d \Omega} \right|_{\text{CM}}
+  &= \frac{C_{\alpha \beta}}{4 s'} \sqrt{1 - \frac{4 m_\chi^2}{s'}}
+  \left[ 1 + \frac{4 m_\chi^2}{s'} + \left( 1 - \frac{4 m_\chi^2}{s'} \right) \cos^2 \theta \right]
+  & &(\text{Dirac fermion}),
 \end{align}
 where $\theta$ is the angle between the momentum of the initial parton $q_a$ and that of one of the final state WIMPs.
 Note that this expression represents an inclusive cross section, \textit{i.e.} the total cross section for the production of any component of the WIMP multiplet $\chi$.
-The coefficient $C$ consists of contributions from $U(1)_Y$ and $SU(2)_L$ gauge bosons,
+The coefficient $C_{\alpha \beta}$ consists of contributions from $U(1)_Y$ and $SU(2)_L$ gauge bosons,
+\footnote{
+  There is no contribution from the interference term between $U(1)_Y$ and $SU(2)_L$ contributions, since it is proportional to $\mathrm{Tr} (T^a_n) = 0$.
+}
 \begin{align}
-  C = Y^2 \alpha_1^2 + \frac{3}{2} I(n) \alpha_2^2,
+  C_{\alpha \beta} = c_{1 \alpha \beta} Y^2 \alpha_1^2
+  + c_{2 \alpha \beta} I(n) \alpha_2^2,
 \end{align}
 with $I(n)$ being the Dynkin index for the $n$-dimensional representation given by
 \begin{align}
   I(n) \equiv \frac{n^3-n}{12}.
+  \label{eq:dynkin}
 \end{align}
-Recalling that $\alpha_1 < \alpha_2$ and that we often consider the WIMPs with large $n$ and moderate $Y$, this cross section grows as $n^3$ for larger multiplets.
+The explicit form of $c_{1 \alpha \beta}$ and $c_{2 \alpha \beta}$, which are sizes of the couplings between partons of our choice and gauge bosons, can be expressed using the $U(1)_Y$ charge for a parton $Y_\alpha$ and the $SU(2)_L$ reducible 13-dimensional representation matrices for partons $T^a_{\alpha \beta}$ as
+\begin{align}
+  c_{1 \alpha \beta} &= Y_\alpha^2 \delta_{\alpha \beta},\\
+  c_{2 \alpha \beta} &= \sum_a \left| T^a_{\alpha \beta} \right|^2.
+\end{align}
+Recalling that $\alpha_1 < \alpha_2$ and that we often consider the WIMPs with large $n$ and moderate $Y$, the WIMP production cross section grows as $n^3$ for larger multiplets according to Eq.~\eqref{eq:dynkin}.
 
-As is well-known, the initial state of the hadron collider is not the individual partons like quarks and gluons but two protons.
+As is well-known, the initial state of the hadron collider is not the individual partons but two protons.
 To obtain the cross section for the two protons initial state, we rely on the parton distribution function (PDF), which expresses the fraction of the partons with some given momentum in each accelerated proton.
 Let $f_a (x)$ ($0 < x < 1$) be the PDF for a given parton $a$ inside a proton with momentum $p^\mu$.
 $f_a (x)$ can be interpreted as a probability distribution to find the parton $a$ with momentum $x p^\mu$, so we have a relationship
@@ -99,13 +118,68 @@ Using the PDF, the cross section for the process of interest at the hadron colli
 \end{align}
 where $\sqrt{s}$ is the CM energy of the proton-proton collision.
 Note that the cross section in the integrand is a function of $x_1$ and $x_2$, which is obtained by performing the appropriate Lorentz transformation to $\left. d \sigma_{a b} / d \Omega\, \right|_{\text{CM}}$.
+\rem{Comment on factorization scale?}
 
-\rem{Table of cross sections}
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.8\hsize]{WIMP_production_NLO.pdf}
+  \caption{Example of NLO QCD contributions to the WIMP pair production process.}
+  \label{fig:WIMP_production_NLO}
+\end{figure}
+
+Hadron colliders have several more features related to the strong interaction of quantum chromodynamics (QCD).
+Firstly, the next-to-leading order (NLO) QCD contribution to each process is not necessarily negligible.
+For the WIMP pair production, the real and virtual emission of a gluon shown in the left and right panels of Fig.~\ref{fig:WIMP_production_NLO}, respectively, give the NLO QCD contributions, which will also be taken into account from now on.
+In particular, when the large transverse momentum is important for the phenomenology of our concern, such as the case in Sec.~\rem{???}, the real emission of a gluon with sizable transverse momentum significantly modifies the calculation.
+Secondly, all the colored particles in the initial, intermediate, and final states should be accompanied with numbers of soft emissions of gluons, which is the phenomena so-called the parton shower.
+In practice, there is a difficulty caused by the partial overlap of the gluon phase space between the one-gluon emission cross section considered as an NLO QCD effect and the same considered as the parton shower.
+To avoid this overlap, we often perform the matching procedure, in which we set some merging energy scale by hand and include the contribution to the cross section with gluon energy above (below) the scale only from the NLO QCD (parton shower) calculation.
+Finally, the colored particles in the final states should eventually be confined, which is called the hadronization, and observed as some energetic and collimated sprays of hadrons, which as a whole is called jets.
+
+In the following, we perform the numerical calculation, taking account of all the above complexities.
+For this purpose, we make use of the Monte Carlo generator \texttt{MadGraph5 aMC@NLO (v2.6.3.2)} \cite{Alwall:2011uj,Alwall:2014hca} with the successive use of \texttt{Pythia8} \cite{Sjostrand:2014zea} for the parton shower, hadronization, and matching and \texttt{Delphes (v3.4.1)} \cite{deFavereau:2013fsa} for the detector simulation, including the definition of jets as observed objects.
+We use the so-called MLM-style matching \cite{Mangano:2006rw} with the merging scale of $67.5\,\mathrm{GeV}$ and \texttt{NNPDF2.3QED} with $\alpha_3 (M_Z) = 0.118$ \cite{Ball:2013hta} as a canonical set of PDFs.
+% For the renormalization and factorization scales, we adopt the default values of MadGraph5 aMC@NLO, \textit{i.e.}, the central $m^2_T$ scale after $k_T$-clustering of the event.
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{c|cccc}
+    WIMP name & Higgsino & Wino & $5$-plet Majorana fermion & $5$-plet real scalar \\ \hline
+    $\sigma_{\mathrm{LO}}$ $[\mathrm{pb}]$ & 0.015 & 0.052 & \rem{???} & \rem{???} \\
+    $\sigma_{\mathrm{NLO}}$ $[\mathrm{pb}]$ & 0.018 & 0.060 & \rem{???} & \rem{???} \\ \hline
+    $K$-factor & 1.17 & 1.15 & &
+  \end{tabular}
+  \caption{
+    Table of pair production cross sections of several types of WIMPs.
+    The CM energy $\sqrt{s} = 100\,\mathrm{TeV}$ is assumed and WIMP masses are set to be $1\,\mathrm{TeV}$.
+  }
+  \label{tab:cross_section_WIMPs}
+\end{table}
+
+In Table~\ref{tab:cross_section_WIMPs}, we list the production cross sections of various WIMPs via a weak gauge boson exchange at a $\sqrt{s} = 100\,\mathrm{TeV}$ hadron collider.
+As for the WIMP mass, we use the common value $m = 1\,\mathrm{TeV}$ to compare the cross sections among different choice of quantum numbers.
+$\sigma_{\mathrm{LO}}$ and $\sigma_{\mathrm{NLO}}$ denote the production cross sections without and with the NLO QCD correction, respectively, while the last line is the so-called $K$-factor defined as $K = \sigma_{\mathrm{NLO}} / \sigma_{\mathrm{LO}}$.
+From the table, by paying attention to the factor two difference in degrees of freedom between the Dirac (Higgsino) and Majorana (Wino and $5$-plet) fermions, we can roughly see the dependence of the cross section on the $SU(2)_L$ charge $\sigma \propto n^3$.
+\rem{Correct? Seems that Higgsino cross section is too small?}
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{c|cccc}
+    Wino mass $\mathrm{[TeV]}$ & 1.0 & 1.5 & 2.0 & 2.9 \\ \hline
+    $\sigma_{\mathrm{LO}}$ $[\mathrm{pb}]$ & 0.052 & 0.012 & 0.0040 & 0.00086\\
+    $\sigma_{\mathrm{NLO}}$ $[\mathrm{pb}]$ & 0.060 & 0.015 & 0.0047 & 0.0010 \\ \hline
+    $K$-factor & 1.15 & 1.20 & 1.19 & 1.21
+  \end{tabular}
+  \caption{
+    Table of pair production cross sections of Wino with several choice of masses.
+    The CM energy $\sqrt{s} = 100\,\mathrm{TeV}$ is assumed.
+  }
+  \label{tab:cross_section_Wino_mass}
+\end{table}
 
 \rem{Histogram of angular dependence}
 
 \rem{Is angular dependence affected by the Lorentz boost?}
-
 
 \subsubsection*{Decay of colored particles}
 
