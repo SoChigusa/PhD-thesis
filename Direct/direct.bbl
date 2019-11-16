@@ -16,18 +16,18 @@ M.~Benedikt, M.~Capeans~Garrido, F.~Cerutti, B.~Goddard, J.~Gutleber, J.~M.
 
 \bibitem{CEPC-SPPCStudyGroup:2015csa}
 M.~Ahmad, et~al., {CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics
-  and Detector} (2015).
+  and Detector}.
 
 \bibitem{CEPC-SPPCStudyGroup:2015esa}
 C.-S.~S. Group, {CEPC-SPPC Preliminary Conceptual Design Report. 2.
-  Accelerator} (2015).
+  Accelerator}.
 
 \bibitem{BINOSI20091709}
 D.~Binosi, J.~Collins, C.~Kaufhold, L.~Theussl,
   \href{http://www.sciencedirect.com/science/article/pii/S0010465509000757}{Jaxodraw:
   A graphical user interface for drawing feynman diagrams. version 2.0 release
   notes}, Computer Physics Communications 180~(9) (2009) 1709 -- 1715.
-\newblock \href {https://doi.org/https://doi.org/10.1016/j.cpc.2009.02.020}
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.cpc.2009.02.020}
   {\path{doi:https://doi.org/10.1016/j.cpc.2009.02.020}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0010465509000757}
 
@@ -35,7 +35,8 @@ D.~Binosi, J.~Collins, C.~Kaufhold, L.~Theussl,
 J.~Vermaseren,
   \href{http://www.sciencedirect.com/science/article/pii/0010465594900345}{Axodraw},
   Computer Physics Communications 83~(1) (1994) 45 -- 58.
-\newblock \href {https://doi.org/https://doi.org/10.1016/0010-4655(94)90034-5}
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/0010-4655(94)90034-5}
   {\path{doi:https://doi.org/10.1016/0010-4655(94)90034-5}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0010465594900345}
 
@@ -43,7 +44,7 @@ J.~Vermaseren,
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, T.~Stelzer, {MadGraph 5 :
   Going Beyond}, JHEP 06 (2011) 128.
 \newblock \href {http://arxiv.org/abs/1106.0522} {\path{arXiv:1106.0522}},
-  \href {https://doi.org/10.1007/JHEP06(2011)128}
+  \href {http://dx.doi.org/10.1007/JHEP06(2011)128}
   {\path{doi:10.1007/JHEP06(2011)128}}.
 
 \bibitem{Alwall:2014hca}
@@ -52,7 +53,7 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
   tree-level and next-to-leading order differential cross sections, and their
   matching to parton shower simulations}, JHEP 07 (2014) 079.
 \newblock \href {http://arxiv.org/abs/1405.0301} {\path{arXiv:1405.0301}},
-  \href {https://doi.org/10.1007/JHEP07(2014)079}
+  \href {http://dx.doi.org/10.1007/JHEP07(2014)079}
   {\path{doi:10.1007/JHEP07(2014)079}}.
 
 \bibitem{Sjostrand:2014zea}
@@ -60,7 +61,7 @@ T.~Sj{\"o}strand, S.~Ask, J.~R. Christiansen, R.~Corke, N.~Desai, P.~Ilten,
   S.~Mrenna, S.~Prestel, C.~O. Rasmussen, P.~Z. Skands, {An Introduction to
   PYTHIA 8.2}, Comput. Phys. Commun. 191 (2015) 159--177.
 \newblock \href {http://arxiv.org/abs/1410.3012} {\path{arXiv:1410.3012}},
-  \href {https://doi.org/10.1016/j.cpc.2015.01.024}
+  \href {http://dx.doi.org/10.1016/j.cpc.2015.01.024}
   {\path{doi:10.1016/j.cpc.2015.01.024}}.
 
 \bibitem{deFavereau:2013fsa}
@@ -68,7 +69,7 @@ J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco, V.~Lema{\^i}tre,
   A.~Mertens, M.~Selvaggi, {DELPHES 3, A modular framework for fast simulation
   of a generic collider experiment}, JHEP 02 (2014) 057.
 \newblock \href {http://arxiv.org/abs/1307.6346} {\path{arXiv:1307.6346}},
-  \href {https://doi.org/10.1007/JHEP02(2014)057}
+  \href {http://dx.doi.org/10.1007/JHEP02(2014)057}
   {\path{doi:10.1007/JHEP02(2014)057}}.
 
 \bibitem{Mangano:2006rw}
@@ -77,7 +78,7 @@ M.~L. Mangano, M.~Moretti, F.~Piccinini, M.~Treccani, {Matching matrix elements
   01 (2007) 013.
 \newblock \href {http://arxiv.org/abs/hep-ph/0611129}
   {\path{arXiv:hep-ph/0611129}}, \href
-  {https://doi.org/10.1088/1126-6708/2007/01/013}
+  {http://dx.doi.org/10.1088/1126-6708/2007/01/013}
   {\path{doi:10.1088/1126-6708/2007/01/013}}.
 
 \bibitem{Ball:2013hta}
@@ -85,7 +86,7 @@ R.~D. Ball, V.~Bertone, S.~Carrazza, L.~Del~Debbio, S.~Forte, A.~Guffanti,
   N.~P. Hartland, J.~Rojo, {Parton distributions with QED corrections}, Nucl.
   Phys. B877 (2013) 290--320.
 \newblock \href {http://arxiv.org/abs/1308.0598} {\path{arXiv:1308.0598}},
-  \href {https://doi.org/10.1016/j.nuclphysb.2013.10.010}
+  \href {http://dx.doi.org/10.1016/j.nuclphysb.2013.10.010}
   {\path{doi:10.1016/j.nuclphysb.2013.10.010}}.
 
 \bibitem{Asai:2019wst}
@@ -93,7 +94,7 @@ S.~Asai, S.~Chigusa, T.~Kaji, T.~Moroi, M.~Saito, R.~Sawada, J.~Tanaka,
   K.~Terashi, K.~Uno, {Studying gaugino masses in supersymmetric model at
   future 100 TeV $pp$ collider}, JHEP 05 (2019) 179.
 \newblock \href {http://arxiv.org/abs/1901.10389} {\path{arXiv:1901.10389}},
-  \href {https://doi.org/10.1007/JHEP05(2019)179}
+  \href {http://dx.doi.org/10.1007/JHEP05(2019)179}
   {\path{doi:10.1007/JHEP05(2019)179}}.
 
 \bibitem{Gherghetta:1999sw}
@@ -101,7 +102,15 @@ T.~Gherghetta, G.~F. Giudice, J.~D. Wells, {Phenomenological consequences of
   supersymmetry with anomaly induced masses}, Nucl. Phys. B559 (1999) 27--47.
 \newblock \href {http://arxiv.org/abs/hep-ph/9904378}
   {\path{arXiv:hep-ph/9904378}}, \href
-  {https://doi.org/10.1016/S0550-3213(99)00429-0}
+  {http://dx.doi.org/10.1016/S0550-3213(99)00429-0}
   {\path{doi:10.1016/S0550-3213(99)00429-0}}.
+
+\bibitem{Fukuda:2017jmk}
+H.~Fukuda, N.~Nagata, H.~Otono, S.~Shirai, {Higgsino Dark Matter or Not: Role
+  of Disappearing Track Searches at the LHC and Future Colliders}, Phys. Lett.
+  B781 (2018) 306--311.
+\newblock \href {http://arxiv.org/abs/1703.09675} {\path{arXiv:1703.09675}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2018.03.088}
+  {\path{doi:10.1016/j.physletb.2018.03.088}}.
 
 \end{thebibliography}
