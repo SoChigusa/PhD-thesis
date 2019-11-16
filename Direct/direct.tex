@@ -42,7 +42,7 @@ Since all the WIMPs considered here possess non-zero $SU(2)_L$ and $U(1)_Y$ char
 \footnote{
   All the Feynman diagrams in this thesis are drawn with the public code \texttt{JaxoDraw-2.1} \cite{BINOSI20091709}, which is a graphical user interface that allows users to draw Feynman diagrams intuitively and export them in the \texttt{eps} format with the help of the (modification of) \texttt{axodraw} style file for \LaTeX \cite{VERMASEREN199445}.
   Under the environment of macOS Mojave, it apparently fails to start, but one can still execute it by looking inside the application and start the Java executable file \texttt{jaxodraw-2.1-0.jar} directly.
-  The author of this thesis would like to thank the authors for providing the best tools to write the thesis with.
+  We would like to thank the authors for providing the best tools to write the thesis with.
   \rem{Where is the first place of Feynman diagrams?}
 }
 In the figure, $q^\alpha$ and $q^\beta$ denote the partons (namely, one of quarks or gluon) of the incident protons relevant for the process, while $\chi$ denotes the WIMP and $q$ is the momentum transfer.
@@ -161,7 +161,7 @@ In Table~\ref{tab:cross_section_WIMPs}, we list the production cross sections of
 As for the WIMP mass, we use the common value $m = 1\,\mathrm{TeV}$ to compare the cross sections among different choice of quantum numbers.
 $\sigma_{\mathrm{LO}}$ and $\sigma_{\mathrm{NLO}}$ denote the production cross sections without and with the NLO QCD correction, respectively, while the last line is the so-called $K$-factor defined as $K = \sigma_{\mathrm{NLO}} / \sigma_{\mathrm{LO}}$.
 From the table, by paying attention to the factor two difference in degrees of freedom between the Dirac (Higgsino) and Majorana (Wino and $5$-plet) fermions, we can roughly see the dependence of the cross section on the $SU(2)_L$ charge $\sigma \propto n^3$.
-\rem{Correct? Seems that Higgsino cross section is too small?}
+\rem{Cross section to neutral Higgsino seems missing}
 
 \begin{table}[t]
   \centering
@@ -182,7 +182,20 @@ In Table \ref{tab:cross_section_Wino_mass}, we also show the mass dependence of 
 For heavier mass, wider range of $\sqrt{s'}$ is below the production threshold $2 m_{\chi}$ or accompanied with a small suppression factor $(1-4 m_\chi^2 / s')^{1/2}$ as shown in Eq.~\eqref{eq:parton_cross_section_fermion}, and the cross section becomes significantly smaller.
 However, values in the tables still denote that plenty of well-motivated WIMP DM candidates, such as $1\,\mathrm{TeV}$ Higgsino and $3\,\mathrm{TeV}$ Wino, are produced at, for example, the $3\,\mathrm{ab}^{-1}$ option of the FCC-hh.
 
-\rem{Higstogram of $\sqrt{s'}$}
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.5\hsize]{invariant_mass.pdf}
+  \caption{
+    Histogram of the $\sqrt{s'}$ distribution, taking $1\,\mathrm{TeV}$ Higgsino as an example.
+    $\sqrt{s} = 100\,\mathrm{TeV}$ and $\mathcal{L} = 3\,\mathrm{ab}^{-1}$ are assumed.}
+  \label{fig:invariant_mass}
+\end{figure}
+
+In Fig.~\ref{fig:invariant_mass}, we show the $\sqrt{s'}$ distribution for the pair production process of the $m_\chi = 1\,\mathrm{TeV}$ Higgsino.
+We assume the setup $\sqrt{s} = 100\,\mathrm{TeV}$ and the integrated luminosity $\mathcal{L} = 3\,\mathrm{ab}^{-1}$.
+At around $\sqrt{s'} \sim 2 m_\chi$, we clearly see the production threshold and the suppression effect $\sigma \propto (1-4 m_\chi^2 / s')^{1/2}$.
+On the other hand, when $\sqrt{s'}$ becomes much larger than $2m_\chi$, we can see the correct behavior of the cross section, which decreses as $\sigma \propto (\sqrt{s'})^{-3}$ as Eq.~\eqref{eq:parton_cross_section_fermion} indicates.
+Note that these properties are universal among several processes, including the dominant contribution \rem{Correct?} to the gluino pair production through the $s$-channel gluon exchange disscused in the next subsection, and the lepton pair production through via an electroweak gauge boson that is the main topics in Sec.~\rem{???}.
 
 \rem{Histogram of angular dependence}
 
