@@ -43,7 +43,7 @@ Since all the WIMPs considered here possess non-zero $SU(2)_L$ and $U(1)_Y$ char
   All the Feynman diagrams in this thesis are drawn with the public code \texttt{JaxoDraw-2.1} \cite{BINOSI20091709}, which is a graphical user interface that allows users to draw Feynman diagrams intuitively and export them in the \texttt{eps} format with the help of the (modification of) \texttt{axodraw} style file for \LaTeX \cite{VERMASEREN199445}.
   Under the environment of macOS Mojave, it apparently fails to start, but one can still execute it by looking inside the application and start the Java executable file \texttt{jaxodraw-2.1-0.jar} directly.
   The author of this thesis would like to thank the authors for providing the best tools to write the thesis with.
-  \rem{Correct here?}
+  \rem{Where is the first place of Feynman diagrams?}
 }
 In the figure, $q^\alpha$ and $q^\beta$ denote the partons (namely, one of quarks or gluon) of the incident protons relevant for the process, while $\chi$ denotes the WIMP and $q$ is the momentum transfer.
 Assuming the WIMP to be a $SU(2)_L$ $n$-plet with $U(1)_Y$ charge $Y$ and the mass $m_\chi$, this process is well described by the effective lagrangian
@@ -69,14 +69,15 @@ Then, we consider the process in the CM frame and estimate the parton-level diff
 \begin{align}
   \left. \frac{d \sigma_{\alpha \beta}}{d \sqrt{s'} d \Omega} \right|_{\text{CM}}
   &= \frac{C_{\alpha \beta}}{8 s'} \left( 1 - \frac{4 m_\chi^2}{s'} \right)^{3/2} \sin^2 \theta
-  & &(\text{complex scalar})\\
+  & &(\text{complex scalar}) \label{eq:parton_cross_section_scalar} \\
   \left. \frac{d \sigma_{\alpha \beta}}{d \sqrt{s'} d \Omega} \right|_{\text{CM}}
   &= \frac{C_{\alpha \beta}}{4 s'} \sqrt{1 - \frac{4 m_\chi^2}{s'}}
   \left[ 1 + \frac{4 m_\chi^2}{s'} + \left( 1 - \frac{4 m_\chi^2}{s'} \right) \cos^2 \theta \right]
-  & &(\text{Dirac fermion}),
+  & &(\text{Dirac fermion}), \label{eq:parton_cross_section_fermion}
 \end{align}
 where $\theta$ is the angle between the momentum of the initial parton $q_a$ and that of one of the final state WIMPs.
-Note that this expression represents an inclusive cross section, \textit{i.e.} the total cross section for the production of any component of the WIMP multiplet $\chi$.
+These expressions are valid only when the center of mass energy exceeds the production threshold, $\sqrt{s'} > 2m_\chi$.
+Note also that these expressions represent inclusive cross sections, \textit{i.e.}, the total cross section for the production of any component of the WIMP multiplet $\chi$.
 The coefficient $C_{\alpha \beta}$ consists of contributions from $U(1)_Y$ and $SU(2)_L$ gauge bosons,
 \footnote{
   There is no contribution from the interference term between $U(1)_Y$ and $SU(2)_L$ contributions, since it is proportional to $\mathrm{Tr} (T^a_n) = 0$.
@@ -145,9 +146,9 @@ We use the so-called MLM-style matching \cite{Mangano:2006rw} with the merging s
   \centering
   \begin{tabular}{c|cccc}
     WIMP name & Higgsino & Wino & $5$-plet Majorana fermion & $5$-plet real scalar \\ \hline
-    $\sigma_{\mathrm{LO}}$ $[\mathrm{pb}]$ & 0.015 & 0.052 & \rem{???} & \rem{???} \\
-    $\sigma_{\mathrm{NLO}}$ $[\mathrm{pb}]$ & 0.018 & 0.060 & \rem{???} & \rem{???} \\ \hline
-    $K$-factor & 1.17 & 1.15 & &
+    $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 15 & 52 & \rem{???} & \rem{???} \\
+    $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 17 & 60 & \rem{???} & \rem{???} \\ \hline
+    $K$-factor & 1.15 & 1.15 & &
   \end{tabular}
   \caption{
     Table of pair production cross sections of several types of WIMPs.
@@ -166,8 +167,8 @@ From the table, by paying attention to the factor two difference in degrees of f
   \centering
   \begin{tabular}{c|cccc}
     Wino mass $\mathrm{[TeV]}$ & 1.0 & 1.5 & 2.0 & 2.9 \\ \hline
-    $\sigma_{\mathrm{LO}}$ $[\mathrm{pb}]$ & 0.052 & 0.012 & 0.0040 & 0.00086\\
-    $\sigma_{\mathrm{NLO}}$ $[\mathrm{pb}]$ & 0.060 & 0.015 & 0.0047 & 0.0010 \\ \hline
+    $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 52 & 12 & 4.0 & 0.86\\
+    $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 60 & 15 & 4.7 & 1.0 \\ \hline
     $K$-factor & 1.15 & 1.20 & 1.19 & 1.21
   \end{tabular}
   \caption{
@@ -177,11 +178,40 @@ From the table, by paying attention to the factor two difference in degrees of f
   \label{tab:cross_section_Wino_mass}
 \end{table}
 
+In Table \ref{tab:cross_section_Wino_mass}, we also show the mass dependence of the Wino pair production cross section.
+For heavier mass, wider range of $\sqrt{s'}$ is below the production threshold $2 m_{\chi}$ or accompanied with a small suppression factor $(1-4 m_\chi^2 / s')^{1/2}$ as shown in Eq.~\eqref{eq:parton_cross_section_fermion}, and the cross section becomes significantly smaller.
+However, values in the tables still denote that plenty of well-motivated WIMP DM candidates, such as $1\,\mathrm{TeV}$ Higgsino and $3\,\mathrm{TeV}$ Wino, are produced at, for example, the $3\,\mathrm{ab}^{-1}$ option of the FCC-hh.
+
+\rem{Higstogram of $\sqrt{s'}$}
+
 \rem{Histogram of angular dependence}
 
 \rem{Is angular dependence affected by the Lorentz boost?}
 
+
 \subsubsection*{Decay of colored particles}
+
+In hadron colliders, particles with color charges have far more chance to be produced than non-colored particles.
+When we consider the split SUSY or the anomaly mediation model reviewed in Sec.~\ref{sec:MSSM}, gluino tends to be relatively light, whose decay produces WIMPs.
+Without fine-tuning of Higgsino and gaugino masses, gluino lifetime is sufficiently short and only its decay products are observed by the detectors.
+Since all the SUSY particles finally decay into the LSP as described in Sec.~\ref{sec:MSSM}, the gluino production cross section can effectively be counted as the production cross section of WIMPs in these models.
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{c|ccc}
+    gluino mass $\mathrm{[TeV]}$ & 6.0 & 7.0 & 8.0 \\ \hline
+    $\sigma(p p \to \tilde{g} \tilde{g})\, \mathrm{[fb]}$ & 7.9 & 2.7 & 1.0
+  \end{tabular}
+  \caption{Gluino pair production cross section at $\sqrt{s} = 100\,\mathrm{TeV}$.}
+  \label{tab:gluino_pair}
+\end{table}
+
+Keeping the R-parity conservation in our mind, the dominant process accompanied with gluinos in these models is the gluino pair production.
+In Table \ref{tab:gluino_pair}, we summarize the gluino pair production cross section for various gluino masses at $\sqrt{s} = 100\,\mathrm{TeV}$, taken from \cite{Asai:2019wst}.
+The calculation is again performed using \texttt{MadGraph5 aMC@NLO} and only the LO QCD processes are considered.
+The values in the table show that the gluino pair production process, dependeing on its mass, may give much larger cross section for the WIMP production than the purely electroweak processes described above.
+
+\rem{Comment on AMSB $m_{3/2}$ and $L$ for the table?}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -189,9 +219,50 @@ From the table, by paying attention to the factor two difference in degrees of f
 \label{sec:disappearing_track}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsubsection*{Mass splitting among an $SU(2)_L$ multiplet}
+
+So far we have neglected the effect from the electroweak symmetry breaking and treated every component of an $SU(2)_L$ multiplet equally.
+However, in the reality, spontaneously breaking of the $SU(2)_L$ symmetry occurs and this results in the mass splitting among an $SU(2)_L$ multiplet as we will see from now on.
+
+First, we consider the mass splitting caused by the tree-level propagation of heavy particles, such as the SUSY particles other than the LSP, or another unknown particles.
+After integrating out all the heavy particles other than the SM particles and the light WIMP, we may obtain operators of the form of $\mathcal{O} = M_{i j} \chi_i \chi_j$, where $\chi$ denotes the WIMP and $i$ is the $SU(2)_L$ index.
+This operator causes the mass splitting only when $M_{i j}$ transforms non-trivially under the $SU(2)_L$ symmetry.
+Then, we can explicitlly construct the lowest dimensional operator among those relevant for the mass splitting.
+For Higgsino,
+\begin{align}
+  \mathcal{O} = \frac{1}{\Lambda} (\bar{\chi} H^{*}) (H \chi),
+\end{align}
+where $\chi = (\tilde{H}_u, -i \sigma_2 \tilde{H}_d^{*})^t$, $\Phi$ is the SM Higgs doublet with $Y = 1/2$, $\Lambda$ is the cut-off scale of the effective theory, \textit{i.e.}, the typical mass scale of the relevant heavy particles, and the parenthesis denotes the $SU(2)_L$ invariant product of fundamental representations.
+Similarly, for Wino, \cite{Gherghetta:1999sw}
+\begin{align}
+  \mathcal{O} = \frac{1}{\Lambda^3} (H^\dagger \sigma^a H) (H^\dagger \sigma^b H) \tilde{W}^a \tilde{W}^b,
+\end{align}
+and higher dimensional operators for MDMs with $n \simeq 5$, as is easily anticipated.
+A simple implication of this observation is that, for multiplets with large $n$, there are suppression factors that keeps the tree-level mass splitting small.
+Already for Wino, the suppression is of $\mathcal{O} (m_W^4)$, which yields a splitting smaller than $10\,\mathrm{MeV}$ for heavy paritlces with a few $\mathrm{TeV}$ masses.
+This is the main reason why the loop correction plays more important role for the mass splitting of Wino and MDMs.
+
+
+
+
 \rem{Histogram of surviving probability}
 
 \rem{Histogram of beta distribution before / after 10cm cut}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Soft lepton search}
+\label{sec:disappearing_track}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\rem{If possible}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mono-jet search}
+\label{sec:disappearing_track}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \bibliographystyle{elsarticle-num}
 \bibliography{../phd}

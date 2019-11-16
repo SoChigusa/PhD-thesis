@@ -417,6 +417,40 @@ J.~Hisano, S.~Matsumoto, M.~M. Nojiri, O.~Saito, {Non-perturbative effect on
   {https://doi.org/10.1103/PhysRevD.71.063528}
   {\path{doi:10.1103/PhysRevD.71.063528}}.
 
+\bibitem{Benedikt:2651300}
+M.~Benedikt, M.~Capeans~Garrido, F.~Cerutti, B.~Goddard, J.~Gutleber, J.~M.
+  Jimenez, M.~Mangano, V.~Mertens, J.~A. Osborne, T.~Otto, J.~Poole,
+  W.~Riegler, D.~Schulte, L.~J. Tavian, D.~Tommasini, F.~Zimmermann,
+  \href{https://cds.cern.ch/record/2651300}{{Future Circular Collider}}, Tech.
+  Rep. CERN-ACC-2018-0058, CERN, Geneva, submitted for publication to Eur.
+  Phys. J. ST. (Dec 2018).
+\newline\urlprefix\url{https://cds.cern.ch/record/2651300}
+
+\bibitem{CEPC-SPPCStudyGroup:2015csa}
+M.~Ahmad, et~al., {CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics
+  and Detector} (2015).
+
+\bibitem{CEPC-SPPCStudyGroup:2015esa}
+C.-S.~S. Group, {CEPC-SPPC Preliminary Conceptual Design Report. 2.
+  Accelerator} (2015).
+
+\bibitem{BINOSI20091709}
+D.~Binosi, J.~Collins, C.~Kaufhold, L.~Theussl,
+  \href{http://www.sciencedirect.com/science/article/pii/S0010465509000757}{Jaxodraw:
+  A graphical user interface for drawing feynman diagrams. version 2.0 release
+  notes}, Computer Physics Communications 180~(9) (2009) 1709 -- 1715.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.cpc.2009.02.020}
+  {\path{doi:https://doi.org/10.1016/j.cpc.2009.02.020}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0010465509000757}
+
+\bibitem{VERMASEREN199445}
+J.~Vermaseren,
+  \href{http://www.sciencedirect.com/science/article/pii/0010465594900345}{Axodraw},
+  Computer Physics Communications 83~(1) (1994) 45 -- 58.
+\newblock \href {https://doi.org/https://doi.org/10.1016/0010-4655(94)90034-5}
+  {\path{doi:https://doi.org/10.1016/0010-4655(94)90034-5}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0010465594900345}
+
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, T.~Stelzer, {MadGraph 5 :
   Going Beyond}, JHEP 06 (2011) 128.
@@ -449,6 +483,15 @@ J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco, V.~Lema{\^i}tre,
   \href {https://doi.org/10.1007/JHEP02(2014)057}
   {\path{doi:10.1007/JHEP02(2014)057}}.
 
+\bibitem{Mangano:2006rw}
+M.~L. Mangano, M.~Moretti, F.~Piccinini, M.~Treccani, {Matching matrix elements
+  and shower evolution for top-quark production in hadronic collisions}, JHEP
+  01 (2007) 013.
+\newblock \href {http://arxiv.org/abs/hep-ph/0611129}
+  {\path{arXiv:hep-ph/0611129}}, \href
+  {https://doi.org/10.1088/1126-6708/2007/01/013}
+  {\path{doi:10.1088/1126-6708/2007/01/013}}.
+
 \bibitem{Ball:2013hta}
 R.~D. Ball, V.~Bertone, S.~Carrazza, L.~Del~Debbio, S.~Forte, A.~Guffanti,
   N.~P. Hartland, J.~Rojo, {Parton distributions with QED corrections}, Nucl.
@@ -456,6 +499,14 @@ R.~D. Ball, V.~Bertone, S.~Carrazza, L.~Del~Debbio, S.~Forte, A.~Guffanti,
 \newblock \href {http://arxiv.org/abs/1308.0598} {\path{arXiv:1308.0598}},
   \href {https://doi.org/10.1016/j.nuclphysb.2013.10.010}
   {\path{doi:10.1016/j.nuclphysb.2013.10.010}}.
+
+\bibitem{Asai:2019wst}
+S.~Asai, S.~Chigusa, T.~Kaji, T.~Moroi, M.~Saito, R.~Sawada, J.~Tanaka,
+  K.~Terashi, K.~Uno, {Studying gaugino masses in supersymmetric model at
+  future 100 TeV $pp$ collider}, JHEP 05 (2019) 179.
+\newblock \href {http://arxiv.org/abs/1901.10389} {\path{arXiv:1901.10389}},
+  \href {https://doi.org/10.1007/JHEP05(2019)179}
+  {\path{doi:10.1007/JHEP05(2019)179}}.
 
 \bibitem{Aaboud:2017efa}
 M.~Aaboud, et~al., {Search for a new heavy gauge boson resonance decaying into
