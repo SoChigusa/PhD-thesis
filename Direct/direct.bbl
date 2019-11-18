@@ -128,4 +128,11 @@ M.~Cirelli, N.~Fornengo, A.~Strumia, {Minimal dark matter}, Nucl. Phys. B753
   {http://dx.doi.org/10.1016/j.nuclphysb.2006.07.012}
   {\path{doi:10.1016/j.nuclphysb.2006.07.012}}.
 
+\bibitem{Baer:2014cua}
+H.~Baer, A.~Mustafayev, X.~Tata, {Monojets and mono-photons from light higgsino
+  pair production at LHC14}, Phys. Rev. D89~(5) (2014) 055007.
+\newblock \href {http://arxiv.org/abs/1401.1162} {\path{arXiv:1401.1162}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.89.055007}
+  {\path{doi:10.1103/PhysRevD.89.055007}}.
+
 \end{thebibliography}

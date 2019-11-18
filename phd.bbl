@@ -8,94 +8,55 @@
 \bibitem{Weinberg:1975gm}
 S.~Weinberg, {Implications of Dynamical Symmetry Breaking}, Phys. Rev. D13
   (1976) 974--996, [Addendum: Phys. Rev.D19,1277(1979)].
-\newblock \href {https://doi.org/10.1103/PhysRevD.19.1277,
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.19.1277,
   10.1103/PhysRevD.13.974} {\path{doi:10.1103/PhysRevD.19.1277,
   10.1103/PhysRevD.13.974}}.
 
 \bibitem{Gildener:1976ai}
 E.~Gildener, {Gauge Symmetry Hierarchies}, Phys. Rev. D14 (1976) 1667.
-\newblock \href {https://doi.org/10.1103/PhysRevD.14.1667}
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.14.1667}
   {\path{doi:10.1103/PhysRevD.14.1667}}.
 
 \bibitem{Susskind:1978ms}
 L.~Susskind, {Dynamics of Spontaneous Symmetry Breaking in the Weinberg-Salam
   Theory}, Phys. Rev. D20 (1979) 2619--2625.
-\newblock \href {https://doi.org/10.1103/PhysRevD.20.2619}
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.20.2619}
   {\path{doi:10.1103/PhysRevD.20.2619}}.
 
 \bibitem{Tanabashi:2018oca}
 M.~Tanabashi, et~al., {Review of Particle Physics}, Phys. Rev. D98~(3) (2018)
   030001.
-\newblock \href {https://doi.org/10.1103/PhysRevD.98.030001}
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.98.030001}
   {\path{doi:10.1103/PhysRevD.98.030001}}.
 
 \bibitem{Salam:1974jj}
 A.~Salam, J.~A. Strathdee, {On Superfields and Fermi-Bose Symmetry}, Phys. Rev.
   D11 (1975) 1521--1535.
-\newblock \href {https://doi.org/10.1103/PhysRevD.11.1521}
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.11.1521}
   {\path{doi:10.1103/PhysRevD.11.1521}}.
 
 \bibitem{Grisaru:1979wc}
 M.~T. Grisaru, W.~Siegel, M.~Rocek, {Improved Methods for Supergraphs}, Nucl.
   Phys. B159 (1979) 429.
-\newblock \href {https://doi.org/10.1016/0550-3213(79)90344-4}
+\newblock \href {http://dx.doi.org/10.1016/0550-3213(79)90344-4}
   {\path{doi:10.1016/0550-3213(79)90344-4}}.
-
-\bibitem{Martin:1997ns}
-S.~P. Martin, {A Supersymmetry primer} (1997) 1--98[Adv. Ser. Direct. High
-  Energy Phys.18,1(1998)].
-\newblock \href {http://arxiv.org/abs/hep-ph/9709356}
-  {\path{arXiv:hep-ph/9709356}}, \href
-  {https://doi.org/10.1142/9789812839657_0001, 10.1142/9789814307505_0001}
-  {\path{doi:10.1142/9789812839657_0001, 10.1142/9789814307505_0001}}.
-
-\bibitem{Sakai:1981pk}
-N.~Sakai, T.~Yanagida, {Proton Decay in a Class of Supersymmetric Grand Unified
-  Models}, Nucl. Phys. B197 (1982) 533.
-\newblock \href {https://doi.org/10.1016/0550-3213(82)90457-6}
-  {\path{doi:10.1016/0550-3213(82)90457-6}}.
-
-\bibitem{Farrar:1978xj}
-G.~R. Farrar, P.~Fayet, {Phenomenology of the Production, Decay, and Detection
-  of New Hadronic States Associated with Supersymmetry}, Phys. Lett. 76B (1978)
-  575--579.
-\newblock \href {https://doi.org/10.1016/0370-2693(78)90858-4}
-  {\path{doi:10.1016/0370-2693(78)90858-4}}.
-
-\bibitem{Dimopoulos:1981zb}
-S.~Dimopoulos, H.~Georgi, {Softly Broken Supersymmetry and SU(5)}, Nucl. Phys.
-  B193 (1981) 150--162.
-\newblock \href {https://doi.org/10.1016/0550-3213(81)90522-8}
-  {\path{doi:10.1016/0550-3213(81)90522-8}}.
-
-\bibitem{Weinberg:1981wj}
-S.~Weinberg, {Supersymmetry at Ordinary Energies. 1. Masses and Conservation
-  Laws}, Phys. Rev. D26 (1982) 287.
-\newblock \href {https://doi.org/10.1103/PhysRevD.26.287}
-  {\path{doi:10.1103/PhysRevD.26.287}}.
-
-\bibitem{Dimopoulos:1981yj}
-S.~Dimopoulos, S.~Raby, F.~Wilczek, {Supersymmetry and the Scale of
-  Unification}, Phys. Rev. D24 (1981) 1681--1683.
-\newblock \href {https://doi.org/10.1103/PhysRevD.24.1681}
-  {\path{doi:10.1103/PhysRevD.24.1681}}.
 
 \bibitem{ORaifeartaigh:1975nky}
 L.~O'Raifeartaigh, {Spontaneous Symmetry Breaking for Chiral Scalar
   Superfields}, Nucl. Phys. B96 (1975) 331--352.
-\newblock \href {https://doi.org/10.1016/0550-3213(75)90585-4}
+\newblock \href {http://dx.doi.org/10.1016/0550-3213(75)90585-4}
   {\path{doi:10.1016/0550-3213(75)90585-4}}.
 
 \bibitem{Fayet:1974jb}
 P.~Fayet, J.~Iliopoulos, {Spontaneously Broken Supergauge Symmetries and
   Goldstone Spinors}, Phys. Lett. 51B (1974) 461--464.
-\newblock \href {https://doi.org/10.1016/0370-2693(74)90310-4}
+\newblock \href {http://dx.doi.org/10.1016/0370-2693(74)90310-4}
   {\path{doi:10.1016/0370-2693(74)90310-4}}.
 
 \bibitem{Fayet:1974pd}
 P.~Fayet, {Supergauge Invariant Extension of the Higgs Mechanism and a Model
   for the electron and Its Neutrino}, Nucl. Phys. B90 (1975) 104--124.
-\newblock \href {https://doi.org/10.1016/0550-3213(75)90636-7}
+\newblock \href {http://dx.doi.org/10.1016/0550-3213(75)90636-7}
   {\path{doi:10.1016/0550-3213(75)90636-7}}.
 
 \bibitem{Giudice:1998xp}
@@ -103,7 +64,7 @@ G.~F. Giudice, M.~A. Luty, H.~Murayama, R.~Rattazzi, {Gaugino mass without
   singlets}, JHEP 12 (1998) 027.
 \newblock \href {http://arxiv.org/abs/hep-ph/9810442}
   {\path{arXiv:hep-ph/9810442}}, \href
-  {https://doi.org/10.1088/1126-6708/1998/12/027}
+  {http://dx.doi.org/10.1088/1126-6708/1998/12/027}
   {\path{doi:10.1088/1126-6708/1998/12/027}}.
 
 \bibitem{Randall:1998uk}
@@ -111,13 +72,13 @@ L.~Randall, R.~Sundrum, {Out of this world supersymmetry breaking}, Nucl. Phys.
   B557 (1999) 79--118.
 \newblock \href {http://arxiv.org/abs/hep-th/9810155}
   {\path{arXiv:hep-th/9810155}}, \href
-  {https://doi.org/10.1016/S0550-3213(99)00359-4}
+  {http://dx.doi.org/10.1016/S0550-3213(99)00359-4}
   {\path{doi:10.1016/S0550-3213(99)00359-4}}.
 
 \bibitem{Group:2012gb}
 T.~E.~W. Group, {2012 Update of the Combination of CDF and D0 Results for the
-  Mass of the W Boson} (2012).
-\newblock \href {http://arxiv.org/abs/1204.0042} {\path{arXiv:1204.0042}}.
+  Mass of the W Boson}\href {http://arxiv.org/abs/1204.0042}
+  {\path{arXiv:1204.0042}}.
 
 \bibitem{Alcaraz:1016509}
 J.~Alcaraz, P.~Azzurri, A.~Bajo-Vaquero, E.~Barberio, A.~Blondel, D.~Bourilkov,
@@ -139,7 +100,7 @@ J.~Alcaraz, P.~Azzurri, A.~Bajo-Vaquero, E.~Barberio, A.~Blondel, D.~Bourilkov,
 \bibitem{Beringer:1900zz}
 J.~Beringer, et~al., {Review of Particle Physics (RPP)}, Phys. Rev. D86 (2012)
   010001.
-\newblock \href {https://doi.org/10.1103/PhysRevD.86.010001}
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.86.010001}
   {\path{doi:10.1103/PhysRevD.86.010001}}.
 
 \bibitem{Aad:2013wqa}
@@ -147,7 +108,7 @@ G.~Aad, et~al., {Measurements of Higgs boson production and couplings in
   diboson final states with the ATLAS detector at the LHC}, Phys. Lett. B726
   (2013) 88--119, [Erratum: Phys. Lett.B734,406(2014)].
 \newblock \href {http://arxiv.org/abs/1307.1427} {\path{arXiv:1307.1427}},
-  \href {https://doi.org/10.1016/j.physletb.2014.05.011,
+  \href {http://dx.doi.org/10.1016/j.physletb.2014.05.011,
   10.1016/j.physletb.2013.08.010} {\path{doi:10.1016/j.physletb.2014.05.011,
   10.1016/j.physletb.2013.08.010}}.
 
@@ -155,27 +116,26 @@ G.~Aad, et~al., {Measurements of Higgs boson production and couplings in
 S.~Chatrchyan, et~al., {Measurement of the properties of a Higgs boson in the
   four-lepton final state}, Phys. Rev. D89~(9) (2014) 092007.
 \newblock \href {http://arxiv.org/abs/1312.5353} {\path{arXiv:1312.5353}},
-  \href {https://doi.org/10.1103/PhysRevD.89.092007}
+  \href {http://dx.doi.org/10.1103/PhysRevD.89.092007}
   {\path{doi:10.1103/PhysRevD.89.092007}}.
 
 \bibitem{ATLAS:2014wva}
-{First combination of Tevatron and LHC measurements of the top-quark mass}
-  (2014).
-\newblock \href {http://arxiv.org/abs/1403.4427} {\path{arXiv:1403.4427}}.
+{First combination of Tevatron and LHC measurements of the top-quark mass}\href
+  {http://arxiv.org/abs/1403.4427} {\path{arXiv:1403.4427}}.
 
 \bibitem{Tishchenko:2012ie}
 V.~Tishchenko, et~al., {Detailed Report of the MuLan Measurement of the
   Positive Muon Lifetime and Determination of the Fermi Constant}, Phys. Rev.
   D87~(5) (2013) 052003.
 \newblock \href {http://arxiv.org/abs/1211.0960} {\path{arXiv:1211.0960}},
-  \href {https://doi.org/10.1103/PhysRevD.87.052003}
+  \href {http://dx.doi.org/10.1103/PhysRevD.87.052003}
   {\path{doi:10.1103/PhysRevD.87.052003}}.
 
 \bibitem{Bethke:2012jm}
 S.~Bethke, {World Summary of $\alpha_s$ (2012)}[Nucl. Phys. Proc.
-  Suppl.234,229(2013)] (2012).
+  Suppl.234,229(2013)].
 \newblock \href {http://arxiv.org/abs/1210.0325} {\path{arXiv:1210.0325}},
-  \href {https://doi.org/10.1016/j.nuclphysbps.2012.12.020}
+  \href {http://dx.doi.org/10.1016/j.nuclphysbps.2012.12.020}
   {\path{doi:10.1016/j.nuclphysbps.2012.12.020}}.
 
 \bibitem{Buttazzo:2013uya}
@@ -183,137 +143,42 @@ D.~Buttazzo, G.~Degrassi, P.~P. Giardino, G.~F. Giudice, F.~Sala, A.~Salvio,
   A.~Strumia, {Investigating the near-criticality of the Higgs boson}, JHEP 12
   (2013) 089.
 \newblock \href {http://arxiv.org/abs/1307.3536} {\path{arXiv:1307.3536}},
-  \href {https://doi.org/10.1007/JHEP12(2013)089}
+  \href {http://dx.doi.org/10.1007/JHEP12(2013)089}
   {\path{doi:10.1007/JHEP12(2013)089}}.
-
-\bibitem{Ellis:1986yg}
-J.~R. Ellis, K.~Enqvist, D.~V. Nanopoulos, F.~Zwirner, {Observables in
-  Low-Energy Superstring Models}, Mod. Phys. Lett. A1 (1986) 57.
-\newblock \href {https://doi.org/10.1142/S0217732386000105}
-  {\path{doi:10.1142/S0217732386000105}}.
-
-\bibitem{Barbieri:1987fn}
-R.~Barbieri, G.~F. Giudice, {Upper Bounds on Supersymmetric Particle Masses},
-  Nucl. Phys. B306 (1988) 63--76.
-\newblock \href {https://doi.org/10.1016/0550-3213(88)90171-X}
-  {\path{doi:10.1016/0550-3213(88)90171-X}}.
-
-\bibitem{Giudice:1988yz}
-G.~F. Giudice, A.~Masiero, {A Natural Solution to the mu Problem in
-  Supergravity Theories}, Phys. Lett. B206 (1988) 480--484.
-\newblock \href {https://doi.org/10.1016/0370-2693(88)91613-9}
-  {\path{doi:10.1016/0370-2693(88)91613-9}}.
-
-\bibitem{Giudice:2004tc}
-G.~F. Giudice, A.~Romanino, {Split supersymmetry}, Nucl. Phys. B699 (2004)
-  65--89, [Erratum: Nucl. Phys.B706,487(2005)].
-\newblock \href {http://arxiv.org/abs/hep-ph/0406088}
-  {\path{arXiv:hep-ph/0406088}}, \href
-  {https://doi.org/10.1016/j.nuclphysb.2004.11.048,
-  10.1016/j.nuclphysb.2004.08.001} {\path{doi:10.1016/j.nuclphysb.2004.11.048,
-  10.1016/j.nuclphysb.2004.08.001}}.
-
-\bibitem{Feng:1999hg}
-J.~L. Feng, T.~Moroi, {Supernatural supersymmetry: Phenomenological
-  implications of anomaly mediated supersymmetry breaking}, Phys. Rev. D61
-  (2000) 095004.
-\newblock \href {http://arxiv.org/abs/hep-ph/9907319}
-  {\path{arXiv:hep-ph/9907319}}, \href
-  {https://doi.org/10.1103/PhysRevD.61.095004}
-  {\path{doi:10.1103/PhysRevD.61.095004}}.
-
-\bibitem{Feng:1999mn}
-J.~L. Feng, K.~T. Matchev, T.~Moroi, {Multi - TeV scalars are natural in
-  minimal supergravity}, Phys. Rev. Lett. 84 (2000) 2322--2325.
-\newblock \href {http://arxiv.org/abs/hep-ph/9908309}
-  {\path{arXiv:hep-ph/9908309}}, \href
-  {https://doi.org/10.1103/PhysRevLett.84.2322}
-  {\path{doi:10.1103/PhysRevLett.84.2322}}.
-
-\bibitem{Feng:1999zg}
-J.~L. Feng, K.~T. Matchev, T.~Moroi, {Focus points and naturalness in
-  supersymmetry}, Phys. Rev. D61 (2000) 075005.
-\newblock \href {http://arxiv.org/abs/hep-ph/9909334}
-  {\path{arXiv:hep-ph/9909334}}, \href
-  {https://doi.org/10.1103/PhysRevD.61.075005}
-  {\path{doi:10.1103/PhysRevD.61.075005}}.
 
 \bibitem{Ibe:2006de}
 M.~Ibe, T.~Moroi, T.~T. Yanagida, {Possible Signals of Wino LSP at the Large
   Hadron Collider}, Phys. Lett. B644 (2007) 355--360.
 \newblock \href {http://arxiv.org/abs/hep-ph/0610277}
   {\path{arXiv:hep-ph/0610277}}, \href
-  {https://doi.org/10.1016/j.physletb.2006.11.061}
+  {http://dx.doi.org/10.1016/j.physletb.2006.11.061}
   {\path{doi:10.1016/j.physletb.2006.11.061}}.
 
 \bibitem{Ibe:2011aa}
 M.~Ibe, T.~T. Yanagida, {The Lightest Higgs Boson Mass in Pure Gravity
   Mediation Model}, Phys. Lett. B709 (2012) 374--380.
 \newblock \href {http://arxiv.org/abs/1112.2462} {\path{arXiv:1112.2462}},
-  \href {https://doi.org/10.1016/j.physletb.2012.02.034}
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.02.034}
   {\path{doi:10.1016/j.physletb.2012.02.034}}.
 
 \bibitem{ArkaniHamed:2012gw}
 N.~Arkani-Hamed, A.~Gupta, D.~E. Kaplan, N.~Weiner, T.~Zorawski, {Simply
-  Unnatural Supersymmetry} (2012).
-\newblock \href {http://arxiv.org/abs/1212.6971} {\path{arXiv:1212.6971}}.
-
-\bibitem{Cirelli:2005uq}
-M.~Cirelli, N.~Fornengo, A.~Strumia, {Minimal dark matter}, Nucl. Phys. B753
-  (2006) 178--194.
-\newblock \href {http://arxiv.org/abs/hep-ph/0512090}
-  {\path{arXiv:hep-ph/0512090}}, \href
-  {https://doi.org/10.1016/j.nuclphysb.2006.07.012}
-  {\path{doi:10.1016/j.nuclphysb.2006.07.012}}.
-
-\bibitem{Cirelli:2007xd}
-M.~Cirelli, A.~Strumia, M.~Tamburini, {Cosmology and Astrophysics of Minimal
-  Dark Matter}, Nucl. Phys. B787 (2007) 152--175.
-\newblock \href {http://arxiv.org/abs/0706.4071} {\path{arXiv:0706.4071}},
-  \href {https://doi.org/10.1016/j.nuclphysb.2007.07.023}
-  {\path{doi:10.1016/j.nuclphysb.2007.07.023}}.
-
-\bibitem{Cirelli:2009uv}
-M.~Cirelli, A.~Strumia, {Minimal Dark Matter: Model and results}, New J. Phys.
-  11 (2009) 105005.
-\newblock \href {http://arxiv.org/abs/0903.3381} {\path{arXiv:0903.3381}},
-  \href {https://doi.org/10.1088/1367-2630/11/10/105005}
-  {\path{doi:10.1088/1367-2630/11/10/105005}}.
-
-\bibitem{Machacek:1983tz}
-M.~E. Machacek, M.~T. Vaughn, {Two Loop Renormalization Group Equations in a
-  General Quantum Field Theory. 1. Wave Function Renormalization}, Nucl. Phys.
-  B222 (1983) 83--103.
-\newblock \href {https://doi.org/10.1016/0550-3213(83)90610-7}
-  {\path{doi:10.1016/0550-3213(83)90610-7}}.
+  Unnatural Supersymmetry}\href {http://arxiv.org/abs/1212.6971}
+  {\path{arXiv:1212.6971}}.
 
 \bibitem{Farina:2013mla}
 M.~Farina, D.~Pappadopulo, A.~Strumia, {A modified naturalness principle and
   its experimental tests}, JHEP 08 (2013) 022.
 \newblock \href {http://arxiv.org/abs/1303.7244} {\path{arXiv:1303.7244}},
-  \href {https://doi.org/10.1007/JHEP08(2013)022}
+  \href {http://dx.doi.org/10.1007/JHEP08(2013)022}
   {\path{doi:10.1007/JHEP08(2013)022}}.
-
-\bibitem{DiLuzio:2015oha}
-L.~Di~Luzio, R.~Gr{\"o}ber, J.~F. Kamenik, M.~Nardecchia, {Accidental matter at
-  the LHC}, JHEP 07 (2015) 074.
-\newblock \href {http://arxiv.org/abs/1504.00359} {\path{arXiv:1504.00359}},
-  \href {https://doi.org/10.1007/JHEP07(2015)074}
-  {\path{doi:10.1007/JHEP07(2015)074}}.
-
-\bibitem{DelNobile:2015bqo}
-E.~Del~Nobile, M.~Nardecchia, P.~Panci, {Millicharge or Decay: A Critical Take
-  on Minimal Dark Matter}, JCAP 1604~(04) (2016) 048.
-\newblock \href {http://arxiv.org/abs/1512.05353} {\path{arXiv:1512.05353}},
-  \href {https://doi.org/10.1088/1475-7516/2016/04/048}
-  {\path{doi:10.1088/1475-7516/2016/04/048}}.
 
 \bibitem{ArkaniHamed:2006mb}
 N.~Arkani-Hamed, A.~Delgado, G.~F. Giudice, {The Well-tempered neutralino},
   Nucl. Phys. B741 (2006) 108--130.
 \newblock \href {http://arxiv.org/abs/hep-ph/0601041}
   {\path{arXiv:hep-ph/0601041}}, \href
-  {https://doi.org/10.1016/j.nuclphysb.2006.02.010}
+  {http://dx.doi.org/10.1016/j.nuclphysb.2006.02.010}
   {\path{doi:10.1016/j.nuclphysb.2006.02.010}}.
 
 \bibitem{Hisano:2006nn}
@@ -322,14 +187,21 @@ J.~Hisano, S.~Matsumoto, M.~Nagai, O.~Saito, M.~Senami, {Non-perturbative
   34--38.
 \newblock \href {http://arxiv.org/abs/hep-ph/0610249}
   {\path{arXiv:hep-ph/0610249}}, \href
-  {https://doi.org/10.1016/j.physletb.2007.01.012}
+  {http://dx.doi.org/10.1016/j.physletb.2007.01.012}
   {\path{doi:10.1016/j.physletb.2007.01.012}}.
+
+\bibitem{Cirelli:2007xd}
+M.~Cirelli, A.~Strumia, M.~Tamburini, {Cosmology and Astrophysics of Minimal
+  Dark Matter}, Nucl. Phys. B787 (2007) 152--175.
+\newblock \href {http://arxiv.org/abs/0706.4071} {\path{arXiv:0706.4071}},
+  \href {http://dx.doi.org/10.1016/j.nuclphysb.2007.07.023}
+  {\path{doi:10.1016/j.nuclphysb.2007.07.023}}.
 
 \bibitem{Moroi:2013sla}
 T.~Moroi, M.~Nagai, M.~Takimoto, {Non-Thermal Production of Wino Dark Matter
   via the Decay of Long-Lived Particles}, JHEP 07 (2013) 066.
 \newblock \href {http://arxiv.org/abs/1303.0948} {\path{arXiv:1303.0948}},
-  \href {https://doi.org/10.1007/JHEP07(2013)066}
+  \href {http://dx.doi.org/10.1007/JHEP07(2013)066}
   {\path{doi:10.1007/JHEP07(2013)066}}.
 
 \bibitem{Beneke:2016ync}
@@ -337,8 +209,40 @@ M.~Beneke, A.~Bharucha, F.~Dighera, C.~Hellmann, A.~Hryczuk, S.~Recksiegel,
   P.~Ruiz-Femenia, {Relic density of wino-like dark matter in the MSSM}, JHEP
   03 (2016) 119.
 \newblock \href {http://arxiv.org/abs/1601.04718} {\path{arXiv:1601.04718}},
-  \href {https://doi.org/10.1007/JHEP03(2016)119}
+  \href {http://dx.doi.org/10.1007/JHEP03(2016)119}
   {\path{doi:10.1007/JHEP03(2016)119}}.
+
+\bibitem{Martin:1997ns}
+S.~P. Martin, {A Supersymmetry primer} (1997) 1--98[Adv. Ser. Direct. High
+  Energy Phys.18,1(1998)].
+\newblock \href {http://arxiv.org/abs/hep-ph/9709356}
+  {\path{arXiv:hep-ph/9709356}}, \href
+  {http://dx.doi.org/10.1142/9789812839657_0001, 10.1142/9789814307505_0001}
+  {\path{doi:10.1142/9789812839657_0001, 10.1142/9789814307505_0001}}.
+
+\bibitem{Cirelli:2005uq}
+M.~Cirelli, N.~Fornengo, A.~Strumia, {Minimal dark matter}, Nucl. Phys. B753
+  (2006) 178--194.
+\newblock \href {http://arxiv.org/abs/hep-ph/0512090}
+  {\path{arXiv:hep-ph/0512090}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysb.2006.07.012}
+  {\path{doi:10.1016/j.nuclphysb.2006.07.012}}.
+
+\bibitem{Cirelli:2009uv}
+M.~Cirelli, A.~Strumia, {Minimal Dark Matter: Model and results}, New J. Phys.
+  11 (2009) 105005.
+\newblock \href {http://arxiv.org/abs/0903.3381} {\path{arXiv:0903.3381}},
+  \href {http://dx.doi.org/10.1088/1367-2630/11/10/105005}
+  {\path{doi:10.1088/1367-2630/11/10/105005}}.
+
+\bibitem{Hisano:2004ds}
+J.~Hisano, S.~Matsumoto, M.~M. Nojiri, O.~Saito, {Non-perturbative effect on
+  dark matter annihilation and gamma ray signature from galactic center}, Phys.
+  Rev. D71 (2005) 063528.
+\newblock \href {http://arxiv.org/abs/hep-ph/0412403}
+  {\path{arXiv:hep-ph/0412403}}, \href
+  {http://dx.doi.org/10.1103/PhysRevD.71.063528}
+  {\path{doi:10.1103/PhysRevD.71.063528}}.
 
 \bibitem{Zwicky:1933}
 F.~Zwicky, {Die Rotverschiebung von extragalaktischen Nebeln}, Helvetica
@@ -351,13 +255,13 @@ F.~Zwicky, {On the Masses of Nebulae and of Clusters of Nebulae}, Astrophysical
 \bibitem{Trimble:1987ee}
 V.~Trimble, {Existence and Nature of Dark Matter in the Universe}, Ann. Rev.
   Astron. Astrophys. 25 (1987) 425--472.
-\newblock \href {https://doi.org/10.1146/annurev.aa.25.090187.002233}
+\newblock \href {http://dx.doi.org/10.1146/annurev.aa.25.090187.002233}
   {\path{doi:10.1146/annurev.aa.25.090187.002233}}.
 
 \bibitem{1939LicOB..19...41B}
 H.~W. {Babcock}, {The rotation of the Andromeda Nebula}, Lick Observatory
   Bulletin 19 (1939) 41--51.
-\newblock \href {https://doi.org/10.5479/ADS/bib/1939LicOB.19.41B}
+\newblock \href {http://dx.doi.org/10.5479/ADS/bib/1939LicOB.19.41B}
   {\path{doi:10.5479/ADS/bib/1939LicOB.19.41B}}.
 
 \bibitem{Begeman:1991iy}
@@ -370,7 +274,7 @@ G.~Jungman, M.~Kamionkowski, A.~Kosowsky, D.~N. Spergel, {Weighing the universe
   with the cosmic microwave background}, Phys. Rev. Lett. 76 (1996) 1007--1010.
 \newblock \href {http://arxiv.org/abs/astro-ph/9507080}
   {\path{arXiv:astro-ph/9507080}}, \href
-  {https://doi.org/10.1103/PhysRevLett.76.1007}
+  {http://dx.doi.org/10.1103/PhysRevLett.76.1007}
   {\path{doi:10.1103/PhysRevLett.76.1007}}.
 
 \bibitem{Jungman:1995bz}
@@ -379,17 +283,17 @@ G.~Jungman, M.~Kamionkowski, A.~Kosowsky, D.~N. Spergel, {Cosmological
   (1996) 1332--1344.
 \newblock \href {http://arxiv.org/abs/astro-ph/9512139}
   {\path{arXiv:astro-ph/9512139}}, \href
-  {https://doi.org/10.1103/PhysRevD.54.1332}
+  {http://dx.doi.org/10.1103/PhysRevD.54.1332}
   {\path{doi:10.1103/PhysRevD.54.1332}}.
 
 \bibitem{Aghanim:2018eyx}
-N.~Aghanim, et~al., {Planck 2018 results. VI. Cosmological parameters} (2018).
-\newblock \href {http://arxiv.org/abs/1807.06209} {\path{arXiv:1807.06209}}.
+N.~Aghanim, et~al., {Planck 2018 results. VI. Cosmological parameters}\href
+  {http://arxiv.org/abs/1807.06209} {\path{arXiv:1807.06209}}.
 
 \bibitem{Gondolo:1990dk}
 P.~Gondolo, G.~Gelmini, {Cosmic abundances of stable particles: Improved
   analysis}, Nucl. Phys. B360 (1991) 145--179.
-\newblock \href {https://doi.org/10.1016/0550-3213(91)90438-4}
+\newblock \href {http://dx.doi.org/10.1016/0550-3213(91)90438-4}
   {\path{doi:10.1016/0550-3213(91)90438-4}}.
 
 \bibitem{Belanger:2001fz}
@@ -398,64 +302,21 @@ G.~Belanger, F.~Boudjema, A.~Pukhov, A.~Semenov, {MicrOMEGAs: A Program for
   103--120.
 \newblock \href {http://arxiv.org/abs/hep-ph/0112278}
   {\path{arXiv:hep-ph/0112278}}, \href
-  {https://doi.org/10.1016/S0010-4655(02)00596-9}
+  {http://dx.doi.org/10.1016/S0010-4655(02)00596-9}
   {\path{doi:10.1016/S0010-4655(02)00596-9}}.
 
 \bibitem{Belanger:2018mqt}
 G.~B{\'{e}}langer, F.~Boudjema, A.~Goudelis, A.~Pukhov, B.~Zaldivar,
   {micrOMEGAs5.0 : Freeze-in}, Comput. Phys. Commun. 231 (2018) 173--186.
 \newblock \href {http://arxiv.org/abs/1801.03509} {\path{arXiv:1801.03509}},
-  \href {https://doi.org/10.1016/j.cpc.2018.04.027}
+  \href {http://dx.doi.org/10.1016/j.cpc.2018.04.027}
   {\path{doi:10.1016/j.cpc.2018.04.027}}.
-
-\bibitem{Hisano:2004ds}
-J.~Hisano, S.~Matsumoto, M.~M. Nojiri, O.~Saito, {Non-perturbative effect on
-  dark matter annihilation and gamma ray signature from galactic center}, Phys.
-  Rev. D71 (2005) 063528.
-\newblock \href {http://arxiv.org/abs/hep-ph/0412403}
-  {\path{arXiv:hep-ph/0412403}}, \href
-  {https://doi.org/10.1103/PhysRevD.71.063528}
-  {\path{doi:10.1103/PhysRevD.71.063528}}.
-
-\bibitem{Benedikt:2651300}
-M.~Benedikt, M.~Capeans~Garrido, F.~Cerutti, B.~Goddard, J.~Gutleber, J.~M.
-  Jimenez, M.~Mangano, V.~Mertens, J.~A. Osborne, T.~Otto, J.~Poole,
-  W.~Riegler, D.~Schulte, L.~J. Tavian, D.~Tommasini, F.~Zimmermann,
-  \href{https://cds.cern.ch/record/2651300}{{Future Circular Collider}}, Tech.
-  Rep. CERN-ACC-2018-0058, CERN, Geneva, submitted for publication to Eur.
-  Phys. J. ST. (Dec 2018).
-\newline\urlprefix\url{https://cds.cern.ch/record/2651300}
-
-\bibitem{CEPC-SPPCStudyGroup:2015csa}
-M.~Ahmad, et~al., {CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics
-  and Detector} (2015).
-
-\bibitem{CEPC-SPPCStudyGroup:2015esa}
-C.-S.~S. Group, {CEPC-SPPC Preliminary Conceptual Design Report. 2.
-  Accelerator} (2015).
-
-\bibitem{BINOSI20091709}
-D.~Binosi, J.~Collins, C.~Kaufhold, L.~Theussl,
-  \href{http://www.sciencedirect.com/science/article/pii/S0010465509000757}{Jaxodraw:
-  A graphical user interface for drawing feynman diagrams. version 2.0 release
-  notes}, Computer Physics Communications 180~(9) (2009) 1709 -- 1715.
-\newblock \href {https://doi.org/https://doi.org/10.1016/j.cpc.2009.02.020}
-  {\path{doi:https://doi.org/10.1016/j.cpc.2009.02.020}}.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0010465509000757}
-
-\bibitem{VERMASEREN199445}
-J.~Vermaseren,
-  \href{http://www.sciencedirect.com/science/article/pii/0010465594900345}{Axodraw},
-  Computer Physics Communications 83~(1) (1994) 45 -- 58.
-\newblock \href {https://doi.org/https://doi.org/10.1016/0010-4655(94)90034-5}
-  {\path{doi:https://doi.org/10.1016/0010-4655(94)90034-5}}.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0010465594900345}
 
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, T.~Stelzer, {MadGraph 5 :
   Going Beyond}, JHEP 06 (2011) 128.
 \newblock \href {http://arxiv.org/abs/1106.0522} {\path{arXiv:1106.0522}},
-  \href {https://doi.org/10.1007/JHEP06(2011)128}
+  \href {http://dx.doi.org/10.1007/JHEP06(2011)128}
   {\path{doi:10.1007/JHEP06(2011)128}}.
 
 \bibitem{Alwall:2014hca}
@@ -464,7 +325,7 @@ J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
   tree-level and next-to-leading order differential cross sections, and their
   matching to parton shower simulations}, JHEP 07 (2014) 079.
 \newblock \href {http://arxiv.org/abs/1405.0301} {\path{arXiv:1405.0301}},
-  \href {https://doi.org/10.1007/JHEP07(2014)079}
+  \href {http://dx.doi.org/10.1007/JHEP07(2014)079}
   {\path{doi:10.1007/JHEP07(2014)079}}.
 
 \bibitem{Sjostrand:2014zea}
@@ -472,7 +333,7 @@ T.~Sj{\"o}strand, S.~Ask, J.~R. Christiansen, R.~Corke, N.~Desai, P.~Ilten,
   S.~Mrenna, S.~Prestel, C.~O. Rasmussen, P.~Z. Skands, {An Introduction to
   PYTHIA 8.2}, Comput. Phys. Commun. 191 (2015) 159--177.
 \newblock \href {http://arxiv.org/abs/1410.3012} {\path{arXiv:1410.3012}},
-  \href {https://doi.org/10.1016/j.cpc.2015.01.024}
+  \href {http://dx.doi.org/10.1016/j.cpc.2015.01.024}
   {\path{doi:10.1016/j.cpc.2015.01.024}}.
 
 \bibitem{deFavereau:2013fsa}
@@ -480,33 +341,16 @@ J.~de~Favereau, C.~Delaere, P.~Demin, A.~Giammanco, V.~Lema{\^i}tre,
   A.~Mertens, M.~Selvaggi, {DELPHES 3, A modular framework for fast simulation
   of a generic collider experiment}, JHEP 02 (2014) 057.
 \newblock \href {http://arxiv.org/abs/1307.6346} {\path{arXiv:1307.6346}},
-  \href {https://doi.org/10.1007/JHEP02(2014)057}
+  \href {http://dx.doi.org/10.1007/JHEP02(2014)057}
   {\path{doi:10.1007/JHEP02(2014)057}}.
-
-\bibitem{Mangano:2006rw}
-M.~L. Mangano, M.~Moretti, F.~Piccinini, M.~Treccani, {Matching matrix elements
-  and shower evolution for top-quark production in hadronic collisions}, JHEP
-  01 (2007) 013.
-\newblock \href {http://arxiv.org/abs/hep-ph/0611129}
-  {\path{arXiv:hep-ph/0611129}}, \href
-  {https://doi.org/10.1088/1126-6708/2007/01/013}
-  {\path{doi:10.1088/1126-6708/2007/01/013}}.
 
 \bibitem{Ball:2013hta}
 R.~D. Ball, V.~Bertone, S.~Carrazza, L.~Del~Debbio, S.~Forte, A.~Guffanti,
   N.~P. Hartland, J.~Rojo, {Parton distributions with QED corrections}, Nucl.
   Phys. B877 (2013) 290--320.
 \newblock \href {http://arxiv.org/abs/1308.0598} {\path{arXiv:1308.0598}},
-  \href {https://doi.org/10.1016/j.nuclphysb.2013.10.010}
+  \href {http://dx.doi.org/10.1016/j.nuclphysb.2013.10.010}
   {\path{doi:10.1016/j.nuclphysb.2013.10.010}}.
-
-\bibitem{Asai:2019wst}
-S.~Asai, S.~Chigusa, T.~Kaji, T.~Moroi, M.~Saito, R.~Sawada, J.~Tanaka,
-  K.~Terashi, K.~Uno, {Studying gaugino masses in supersymmetric model at
-  future 100 TeV $pp$ collider}, JHEP 05 (2019) 179.
-\newblock \href {http://arxiv.org/abs/1901.10389} {\path{arXiv:1901.10389}},
-  \href {https://doi.org/10.1007/JHEP05(2019)179}
-  {\path{doi:10.1007/JHEP05(2019)179}}.
 
 \bibitem{Aaboud:2017efa}
 M.~Aaboud, et~al., {Search for a new heavy gauge boson resonance decaying into
@@ -514,7 +358,7 @@ M.~Aaboud, et~al., {Search for a new heavy gauge boson resonance decaying into
   at $\sqrt{s} =$ 13 TeV with the ATLAS experiment}, Eur. Phys. J. C78~(5)
   (2018) 401.
 \newblock \href {http://arxiv.org/abs/1706.04786} {\path{arXiv:1706.04786}},
-  \href {https://doi.org/10.1140/epjc/s10052-018-5877-y}
+  \href {http://dx.doi.org/10.1140/epjc/s10052-018-5877-y}
   {\path{doi:10.1140/epjc/s10052-018-5877-y}}.
 
 \bibitem{Sirunyan:2018mpc}
@@ -522,7 +366,7 @@ A.~M. Sirunyan, et~al., {Search for high-mass resonances in final states with a
   lepton and missing transverse momentum at $ \sqrt{s}=13 $ TeV}, JHEP 06
   (2018) 128.
 \newblock \href {http://arxiv.org/abs/1803.11133} {\path{arXiv:1803.11133}},
-  \href {https://doi.org/10.1007/JHEP06(2018)128}
+  \href {http://dx.doi.org/10.1007/JHEP06(2018)128}
   {\path{doi:10.1007/JHEP06(2018)128}}.
 
 \bibitem{Aaltonen:2008dn}
@@ -530,7 +374,7 @@ T.~Aaltonen, et~al., {Search for new particles decaying into dijets in
   proton-antiproton collisions at s**(1/2) = 1.96-TeV}, Phys. Rev. D79 (2009)
   112002.
 \newblock \href {http://arxiv.org/abs/0812.4036} {\path{arXiv:0812.4036}},
-  \href {https://doi.org/10.1103/PhysRevD.79.112002}
+  \href {http://dx.doi.org/10.1103/PhysRevD.79.112002}
   {\path{doi:10.1103/PhysRevD.79.112002}}.
 
 \bibitem{Cowan:2010js}
@@ -538,7 +382,7 @@ G.~Cowan, K.~Cranmer, E.~Gross, O.~Vitells, {Asymptotic formulae for
   likelihood-based tests of new physics}, Eur. Phys. J. C71 (2011) 1554,
   [Erratum: Eur. Phys. J.C73,2501(2013)].
 \newblock \href {http://arxiv.org/abs/1007.1727} {\path{arXiv:1007.1727}},
-  \href {https://doi.org/10.1140/epjc/s10052-011-1554-0,
+  \href {http://dx.doi.org/10.1140/epjc/s10052-011-1554-0,
   10.1140/epjc/s10052-013-2501-z} {\path{doi:10.1140/epjc/s10052-011-1554-0,
   10.1140/epjc/s10052-013-2501-z}}.
 
@@ -547,28 +391,34 @@ A.~Buckley, J.~Ferrando, S.~Lloyd, K.~Nordström, B.~Page, M.~Rüfenacht,
   M.~Schönherr, G.~Watt, {LHAPDF6: parton density access in the LHC precision
   era}, Eur. Phys. J. C75 (2015) 132.
 \newblock \href {http://arxiv.org/abs/1412.7420} {\path{arXiv:1412.7420}},
-  \href {https://doi.org/10.1140/epjc/s10052-015-3318-8}
+  \href {http://dx.doi.org/10.1140/epjc/s10052-015-3318-8}
   {\path{doi:10.1140/epjc/s10052-015-3318-8}}.
 
 \bibitem{DiLuzio:2018jwd}
 L.~Di~Luzio, R.~Gr{\"o}ber, G.~Panico, {Probing new electroweak states via
   precision measurements at the LHC and future colliders}, JHEP 01 (2019) 011.
 \newblock \href {http://arxiv.org/abs/1810.10993} {\path{arXiv:1810.10993}},
-  \href {https://doi.org/10.1007/JHEP01(2019)011}
+  \href {http://dx.doi.org/10.1007/JHEP01(2019)011}
   {\path{doi:10.1007/JHEP01(2019)011}}.
 
 \bibitem{Matsumoto:2018ioi}
 S.~Matsumoto, S.~Shirai, M.~Takeuchi, {Indirect Probe of
   Electroweak-Interacting Particles with Mono-Lepton Signatures at Hadron
-  Colliders} (2018).
-\newblock \href {http://arxiv.org/abs/1810.12234} {\path{arXiv:1810.12234}}.
+  Colliders}\href {http://arxiv.org/abs/1810.12234} {\path{arXiv:1810.12234}}.
+
+\bibitem{DelNobile:2015bqo}
+E.~Del~Nobile, M.~Nardecchia, P.~Panci, {Millicharge or Decay: A Critical Take
+  on Minimal Dark Matter}, JCAP 1604~(04) (2016) 048.
+\newblock \href {http://arxiv.org/abs/1512.05353} {\path{arXiv:1512.05353}},
+  \href {http://dx.doi.org/10.1088/1475-7516/2016/04/048}
+  {\path{doi:10.1088/1475-7516/2016/04/048}}.
 
 \bibitem{Chigusa:2018vxz}
 S.~Chigusa, Y.~Ema, T.~Moroi, {Probing electroweakly interacting massive
   particles with Drell-Yan process at 100 TeV hadron colliders}, Phys. Lett.
   B789 (2019) 106--113.
 \newblock \href {http://arxiv.org/abs/1810.07349} {\path{arXiv:1810.07349}},
-  \href {https://doi.org/10.1016/j.physletb.2018.12.011}
+  \href {http://dx.doi.org/10.1016/j.physletb.2018.12.011}
   {\path{doi:10.1016/j.physletb.2018.12.011}}.
 
 \bibitem{Wess:320631}
