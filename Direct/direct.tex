@@ -64,7 +64,7 @@ with $\mathcal{L}_{\mathrm{SM}}$ being the SM lagrangian, while the covariant de
 where $T_n^a$ ($a=1,2,3$) are $n$-dimensional representation matrices of $SU(2)_L$.
 Note that when $\chi$ is a real scalar (Majorana fermion) with $Y=0$, the terms with $\chi$ in Eq.~\eqref{eq:lag_scalar} (Eq.~\eqref{eq:lag_fermion}) should be devided by two.
 
-For the calculation, we neglect the effect of the electroweak symmetry breaking, which is valid because we are interested in the high-energy collision with the parton-level center-of-mass (CM) energy $\sqrt{s'} \equiv \sqrt{q^2} \gsim \mathrm{TeV}$.
+For the calculation, we neglect the effect of the electroweak symmetry breaking, which is valid because we are interested in the high-energy collision with the parton-level center-of-mass (CM) energy $\sqrt{s'} \equiv \sqrt{q^2} \gtrsim \mathrm{TeV}$.
 Then, we consider the process in the CM frame and estimate the parton-level differential cross section as
 \begin{align}
   \left. \frac{d \sigma_{\alpha \beta}}{d \sqrt{s'} d \Omega} \right|_{\text{CM}}
@@ -259,13 +259,14 @@ where $\chi = (\tilde{H}_u, -i \sigma_2 \tilde{H}_d^{*})^t$, $\Phi$ is the SM Hi
 Similarly, for Wino, \cite{Gherghetta:1999sw}
 \begin{align}
   \mathcal{O} = \frac{1}{\Lambda^3} (H^\dagger \sigma^a H) (H^\dagger \sigma^b H) \tilde{W}^a \tilde{W}^b,
+  \label{eq:Wino_mass_splitting}
 \end{align}
 and higher dimensional operators for MDMs with $n \simeq 5$, as is easily anticipated.
 A simple implication of this observation is that, for multiplets with large $n$, there are suppression factors that keeps the tree-level mass splitting small.
-Already for Wino, the suppression is of $\mathcal{O} (M_W^4) / \Lambda^3$, which yields a splitting smaller than $10\,\mathrm{MeV}$ for heavy paritlces with a few $\mathrm{TeV}$ masses.
+Already for Wino, the suppression is of $\mathcal{O} (M_W^4 / \Lambda^3)$, which yields a splitting smaller than $10\,\mathrm{MeV}$ for heavy paritlces with a few $\mathrm{TeV}$ masses.
 This is the main reason why the loop correction plays more important role for the mass splitting of Wino and MDMs.
 
-The situation is different for Higgsino because of the much less drastic suppression factor of $\mathcal{O} (M_W^2) / \Lambda$, which generates $\mathcal{O} (100)\,\mathrm{MeV}$ mass splitting for $\Lambda \lsim \mathrm{10}\,\mathrm{TeV}$.
+The situation is different for Higgsino because of the much less drastic suppression factor of $\mathcal{O} (M_W^2 / \Lambda)$, which generates $\mathcal{O} (100)\,\mathrm{MeV}$ mass splitting for $\Lambda \lesssim \mathrm{10}\,\mathrm{TeV}$.
 \footnote{
   For the order estimation of the mass splitting, we have taken account of the size of the coupling constants omitted in Eq.~\eqref{eq:Higgsino_mass_splitting}, using the rough estimation $g_1^2 \sim g_2^2 \sim 1/10$.
 }
@@ -280,6 +281,32 @@ According to \cite{Fukuda:2017jmk}, their approximate expressions are given by
 \end{align}
 assuming the CP invariance for simplicity.
 Note that the results agrees with the previous order estimation with $\Lambda \sim M_1$, $M_2$.
+
+Next we consider the loop correction to the WIMP masses.
+When the loop is composed of heavy particles, the effective operator that causes the mass splitting again becomes the same as above, which is now associated with a small loop factor.
+Thus, the largest contribution comes from the gauge boson - WIMP loop.
+For the charged componets of Higgsino, the one-loop result is known: \cite{Fukuda:2017jmk}
+\begin{align}
+  \Delta m_{+}^{\mathrm{(rad)}} \simeq \frac{1}{2} \alpha_2 M_Z \sin^2 \theta_W
+  \left( 1 - \frac{3 M_Z}{2\pi m_\chi} \right)
+  \sim 355\,\mathrm{MeV} \left( 1 - \frac{3 M_Z}{2\pi m_\chi} \right),
+\end{align}
+with $\theta_W$ being the Weinberg angle, which gives $\Delta m_{+}^{\mathrm{(rad)}} \simeq 341\,\mathrm{MeV}$ for $m_\chi = 1.1\,\mathrm{TeV}$ and may be comparable to $\Delta m_{+}^{\mathrm{(tree)}}$.
+On the other hand, for Wino, we have the two-loop result \cite{Ibe:2012sx}
+\newcommand{\logmchi}{\left( \log \frac{m_\chi}{\mathrm{GeV}} \right)}
+\begin{align}
+  \frac{\Delta m}{\mathrm{MeV}} =
+  &-413.315 + 305.383 \logmchi - 60.8831 \logmchi^2\\
+  &+ 5.41948 \logmchi^3 - 0.181509 \logmchi^4,
+\end{align}
+which exhibits $\Delta m \simeq 165\,\mathrm{MeV}$ for $m_\chi = 2.9\,\mathrm{TeV}$.
+
+\rem{How about MDM?}
+
+
+\subsubsection*{Lifetime of charged components}
+
+
 
 \rem{Histogram of surviving probability}
 

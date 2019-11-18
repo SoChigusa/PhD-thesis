@@ -97,9 +97,6 @@ setpagesize=false,
 \DeclareSymbolFont{lettersA}{U}{txmia}{m}{it}
 \DeclareMathSymbol{\RRR}{\mathord}{lettersA}{'222}
 
-\newcommand{\lsim}{\stackrel{<}{_\sim}}
-\newcommand{\gsim}{\stackrel{>}{_\sim}}
-
 \renewcommand{\thefootnote}{$\natural$\arabic{footnote}}
 \setcounter{footnote}{0}
 
