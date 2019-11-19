@@ -238,7 +238,7 @@ To reduce the background events and obtain the best possible reach for WIMPs, we
 
 As also mentioned in Sec.~\rem{DM??}, the spontaneous breaking of the electroweak symmetry leads to the mass splitting among an $SU(2)_L$ multiplet, leaving the charge neutral component as the lightest one.
 As a result, the charged components of a multiplet, if produced, are unstable and eventually decay into the neutral component.
-However, since the mass splitting is so small in many cases that the typical flight length of the charged components is comparable to the detector size.
+However, the mass splitting is so small in many cases that the typical flight length of the charged components is comparable to the detector size.
 Such long-lived charged particles, which travel for a few $\mathrm{cm}$ and then decay into an invisible counterpart, can be detected as charged tracks disappearing at the middle.
 They are very characteristic signals and can be used as the most efficient discriminator between the SM background and the WIMP signals.
 In this section, we will describe what we have summarized above in more detail.
@@ -285,6 +285,7 @@ According to \cite{Fukuda:2017jmk}, their approximate expressions are given by
   \Delta m_{+}^{\mathrm{(tree)}} &\simeq \frac{M_W^2}{2 g_2^2} \left[
   \left( \frac{g_1^2}{M_1} + \frac{g_2^2}{M_2} \right)
   + \mathrm{sgn} (\mu) \sin 2\beta \left( \frac{g_1^2}{M_1} - \frac{g_2^2}{M_2} \right) \right],
+  \label{eq:Higgsino_delm_tree}
 \end{align}
 assuming the CP invariance for simplicity.
 Note that the results agrees with the previous order estimation with $\Lambda \sim M_1$, $M_2$.
@@ -297,6 +298,7 @@ For the charged componets of Higgsino, the one-loop result is known: \cite{Fukud
   \Delta m_{+}^{\mathrm{(rad)}} \simeq \frac{1}{2} \alpha_2 M_Z \sin^2 \theta_W
   \left( 1 - \frac{3 M_Z}{2\pi m_\chi} \right)
   \sim 355\,\mathrm{MeV} \left( 1 - \frac{3 M_Z}{2\pi m_\chi} \right),
+  \label{eq:Higgsino_delm_rad}
 \end{align}
 with $\theta_W$ being the Weinberg angle, which gives $\Delta m_{+}^{\mathrm{(rad)}} \simeq 341\,\mathrm{MeV}$ for $m_\chi = 1.1\,\mathrm{TeV}$ and may be comparable to $\Delta m_{+}^{\mathrm{(tree)}}$.
 On the other hand, for Wino, we have the two-loop result \cite{Ibe:2012sx}
@@ -308,10 +310,48 @@ On the other hand, for Wino, we have the two-loop result \cite{Ibe:2012sx}
 \end{align}
 which exhibits $\Delta m \simeq 165\,\mathrm{MeV}$ for $m_\chi = 2.9\,\mathrm{TeV}$.
 For the MDM, there are neutral, singly charged, doubly charged, and so on, components.
-Among them, the neutral and singly charged components have the smallest mass difference, which is the most important for the collider search, of $\Delta m \simeq 166\, \mathrm{MeV}$ \cite{Cirelli:2005uq}.
+Among them, the neutral and singly charged components have the smallest mass difference of $\Delta m \simeq 166\, \mathrm{MeV}$ \cite{Cirelli:2005uq}, which is the most important value for the collider search.
 
 
 \subsubsection*{Lifetime of charged components}
+
+Small mass difference of a WIMP allows the heavier charged component to decay into the neutral component and SM particles via a off-shell $W$ boson.
+Depneding on the size of the relevant mass diferrence $\Delta m$, there are several channels that contributes to the decay \cite{Chen:1995yu}.
+For tiny $\Delta m < m_\pi$ with $m_\pi$ being the charged pion mass, $\chi^{+} \to \ell^{+} \nu_\ell \chi^0$ ($\ell = e, \mu$) are the unique decay modes.
+Once $\Delta m$ exceeds $m_\pi$, the mode $\chi^{+} \to \pi^{+} \chi^0$ opens up and becomes the dominant one.
+After $\Delta m \gtrsim 1\, \mathrm{GeV}$, final states with two and three pions start to give a sizable contribution, and the total decay rate asymptotes to that for $\chi^{+} \to q' \bar{q} \chi^0$.
+For larger mass difference, the mode $\chi^{+} \to \tau^{+} \nu_\tau \chi^0$ may also be allowed.
+As a whole, these decay modes determine the lifetime of a WIMP, which is typically long enough to be probed by experiments thanks to the small mass difference.
+
+Let $\tau$ be the lifetime of the (singly) charged component of a WIMP, defined using the total decay rate $\Gamma$ as $\tau \equiv 1/\Gamma$.
+Taking into account that a WIMP, if created at colliders with sufficiently high collision energy, has a velocity comparable to the speed of light $c$, $c \tau$ expresses the rough estimation of its flight length inside detectors.
+For Higgsino with $m_\pi < \Delta m \lesssim 1\,\mathrm{GeV}$,
+\footnote{
+  We are not interested in Higgsino with $\Delta m \gtrsim 1\, \mathrm{GeV}$ here, since the corresponding flight length will be much shorter than $\mathcal{O} (1)\, \mathrm{cm}$, which is the scale of the detectors.
+}
+we can estimate \cite{Chen:1995yu,Thomas:1998wy}
+\begin{align}
+  c \tau \simeq 0.7\, \mathrm{cm}
+  \left[ \left( \frac{\Delta m_{+}}{340\,\mathrm{MeV}} \right)^3
+  \sqrt{1 - \frac{m_\pi^2}{\Delta m_{+}^2}} \right]^{-1},
+\end{align}
+where $\Delta m_{+} \equiv \Delta m_{+}^{\mathrm{tree}} + \Delta m_{+}^{\mathrm{rad}}$ with using Eqs.~\eqref{eq:Higgsino_delm_tree} and \eqref{eq:Higgsino_delm_rad}.
+Since the mass difference for wino is a factor two smaller than Higgsino, we obtain a much longer flight length
+\begin{align}
+  c \tau \simeq 3.1\, \mathrm{cm} \left[
+  \left( \frac{\Delta m}{165\, \mathrm{MeV}} \right)^3
+  \sqrt{1 - \frac{m_\pi^2}{\Delta m^2}} \right]^{-1},
+\end{align}
+which gives $c\tau \simeq 5.8\,\mathrm{cm}$ for $\Delta m = 165\,\mathrm{MeV}$.
+The same calculation applies to the MDMs with $n \geq 5$ and $\Delta m = 166\, \mathrm{MeV}$, resulting in somewhat shorter flight length that scales as $c \tau \sim 44\, \mathrm{cm} / (n^2 - 1)$ \cite{Cirelli:2005uq} due to the stronger interaction with $W$ bosons.
+\rem{Scalar?}
+
+
+
+
+\subsubsection*{Current constraints and future prospects}
+
+The produced charged component of a WIMP is first detected by the trackers, which is equipped in the most inner part of detectors.
 
 
 
