@@ -347,12 +347,46 @@ The same calculation applies to the MDMs with $n \geq 5$ and $\Delta m = 166\, \
 \rem{Scalar?}
 
 
-
-
 \subsubsection*{Current constraints and future prospects}
 
 The produced charged component of a WIMP is first detected by the trackers, which is equipped in the most inner part of detectors.
+So far, the search is performed by both ATLAS \cite{Aaboud:2017mpt} and CMS \cite{Sirunyan:2018ldc} collborations at the LHC.
+Below, we will focus particularly on the ATLAS collaboration to explain the detector setup and the current status.
 
+In the ATLAS setup, several tracking detectors are equipped cyrindrically around the beam line from the radius $r = 3\,\mathrm{cm}$ to $108\,\mathrm{cm}$.
+The pixel detector spans the radius from $3\,\mathrm{cm}$ to $12\,\mathrm{cm}$, the strip semiconductor tracker (SCT) from $30\,\mathrm{cm}$ to $52\,\mathrm{cm}$, and the transition radiation tracker from $56\,\mathrm{cm}$ to $108\,\mathrm{cm}$.
+In particular, pixel detectors are the most important for our discussion, which are composed of four layers, with the innermost one being the rescently equipped so-called the insertable B-layer \cite{Capeans:1291633, CERN-LHCC-2012-009, Abbott:2018ikt}.
+To detect the charged track signal of a long-lived WIMP with the typical flight length of $\mathcal{O} (1)\, \mathrm{cm}$, they require the hit at every layer of the pixel detector and apply the SCT veto to search for the track signal disappearing in between $12\,\mathrm{cm} < r < 30\,\mathrm{cm}$.
+These two requirements efficiently reduce the contamination from the mis-reconstruction of the pile-up or SM background events and enable us to detect faint signals of WIMPs.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.5\hsize]{ATLAS_disappearing_track.pdf}
+  \caption{Current status of the disappearing track search taken from \cite{Aaboud:2017mpt}.}
+  \label{fig:ATLAS_disappearing_track}
+\end{figure}
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{c|ccc}
+    WIMP & pure Higgsino & Wino & $5$-plet fermion \\ \hline
+    Upper bound on $m_\chi$ & $120\, \mathrm{GeV}$ & $460\, \mathrm{GeV}$
+    & $260\, \mathrm{GeV}$
+  \end{tabular}
+  \caption{
+    Current upper bound for WIMP masses obtained from the disappearing track search shown in Fig.~\ref{fig:ATLAS_disappearing_track}.}
+  \label{tab:disp_track_current}
+\end{table}
+
+In Fig.~\ref{fig:ATLAS_disappearing_track}, we show the current status of the disappearing track search at the ATLAS collaboration \cite{Aaboud:2017mpt}.
+The yellow band shows the current constraint on the WIMP mass and lifetime plane and the left part of the band is already excluded.
+The sensitivity becomes weak when we consider $\tau \gtrsim 1\, \mathrm{ns}$ or $c \tau \gtrsim 30\, \mathrm{cm}$ due to the requirement of the SCT veto.
+In the figure, the lifetime of Wino as a function of its mass is also shown by the black dot-dashed line.
+It can be seen that the current contraint on Wino mass is $m_\chi \lesssim 460\,\mathrm{GeV}$.
+
+Using the lifetime evaluated in the previous subsection, we summarize the current status for several WIMPs in Table \ref{tab:disp_track_current}, which exhibits upper limits of $\mathcal{O} (100)\,\mathrm{GeV}$.
+However, note that the bound for the Higgsino listed in the table neglects the mixing between Higgsino and gauginos.
+Actually, $\Delta m_{+}$ and thus $\tau$ are sensitive to the mixing, and an order estimation shows that the mixing lowers the lifetime to be $\tau \lesssim 0.01\,\mathrm{ns}$ and spoils the bound for Higgsino when $M_1$, $M_2 \lesssim 100\,\mathrm{TeV}$ (without any non-trivial cancellation in Eq.~\eqref{eq:Higgsino_delm_tree}).
 
 
 \rem{Histogram of surviving probability}

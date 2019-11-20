@@ -144,6 +144,42 @@ S.~D. Thomas, J.~D. Wells, {Phenomenology of Massive Vectorlike Doublet
   {https://doi.org/10.1103/PhysRevLett.81.34}
   {\path{doi:10.1103/PhysRevLett.81.34}}.
 
+\bibitem{Aaboud:2017mpt}
+M.~Aaboud, et~al., {Search for long-lived charginos based on a
+  disappearing-track signature in pp collisions at $ \sqrt{s}=13 $ TeV with the
+  ATLAS detector}, JHEP 06 (2018) 022.
+\newblock \href {http://arxiv.org/abs/1712.02118} {\path{arXiv:1712.02118}},
+  \href {https://doi.org/10.1007/JHEP06(2018)022}
+  {\path{doi:10.1007/JHEP06(2018)022}}.
+
+\bibitem{Sirunyan:2018ldc}
+A.~M. Sirunyan, et~al., {Search for disappearing tracks as a signature of new
+  long-lived particles in proton-proton collisions at $\sqrt{s} =$ 13 TeV},
+  JHEP 08 (2018) 016.
+\newblock \href {http://arxiv.org/abs/1804.07321} {\path{arXiv:1804.07321}},
+  \href {https://doi.org/10.1007/JHEP08(2018)016}
+  {\path{doi:10.1007/JHEP08(2018)016}}.
+
+\bibitem{Capeans:1291633}
+M.~Capeans, G.~Darbo, K.~Einsweiller, M.~Elsing, T.~Flick, M.~Garcia-Sciveres,
+  C.~Gemme, H.~Pernegger, O.~Rohne, R.~Vuillermet,
+  \href{https://cds.cern.ch/record/1291633}{{ATLAS Insertable B-Layer Technical
+  Design Report}}, Tech. Rep. CERN-LHCC-2010-013. ATLAS-TDR-19 (Sep 2010).
+\newline\urlprefix\url{https://cds.cern.ch/record/1291633}
+
+\bibitem{CERN-LHCC-2012-009}
+\href{https://cds.cern.ch/record/1451888}{{ATLAS Insertable B-Layer Technical
+  Design Report Addendum}}, Tech. Rep. CERN-LHCC-2012-009. ATLAS-TDR-19-ADD-1,
+  addendum to CERN-LHCC-2010-013, ATLAS-TDR-019 (May 2012).
+\newline\urlprefix\url{https://cds.cern.ch/record/1451888}
+
+\bibitem{Abbott:2018ikt}
+B.~Abbott, et~al., {Production and Integration of the ATLAS Insertable
+  B-Layer}, JINST 13~(05) (2018) T05008.
+\newblock \href {http://arxiv.org/abs/1803.00844} {\path{arXiv:1803.00844}},
+  \href {https://doi.org/10.1088/1748-0221/13/05/T05008}
+  {\path{doi:10.1088/1748-0221/13/05/T05008}}.
+
 \bibitem{Baer:2014cua}
 H.~Baer, A.~Mustafayev, X.~Tata, {Monojets and mono-photons from light higgsino
   pair production at LHC14}, Phys. Rev. D89~(5) (2014) 055007.
