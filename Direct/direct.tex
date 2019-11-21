@@ -243,6 +243,7 @@ Such long-lived charged particles, which travel for a few $\mathrm{cm}$ and then
 They are very characteristic signals and can be used as the most efficient discriminator between the SM background and the WIMP signals.
 In this section, we will describe what we have summarized above in more detail.
 
+
 \subsubsection*{Mass splitting among an $SU(2)_L$ multiplet}
 
 First, we consider the mass splitting caused by the spontaneous breakdown of the electroweak symmetry.
@@ -377,22 +378,41 @@ See the results below for a concrete estimation of the fake track rate at the FC
   \includegraphics[width=0.5\hsize]{survival_probability.pdf}
   \caption{
     Distribution of the survival probability $P(r = 15\,\mathrm{cm})$ for $2.9\,\mathrm{TeV}$ Wino.
-    $\sqrt{s}=100,\mathrm{TeV}$ and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$ are assumed.}
+    The pair prodction process at $\sqrt{s}=100\,\mathrm{TeV}$ and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$ is assumed.}
   \label{fig:survival_probability}
 \end{figure}
 
 From now on, we estimate how many events are expected at the FCC-hh.
-Recalling that the detectors are installed in a cyrindrical geometry, the probability for a WIMP to reach the position apart from the beam line by $r$ plays an important roll.
-We can estimate the probability $P(r)$ as
+Recalling that the detectors are installed in a cyrindrical geometry, the probability for a WIMP to reach the position apart from the beam line by $d_T$ plays an important roll.
+We can estimate the probability $P(d_T)$ as
 \begin{align}
-  P(r) = \exp \left( -\frac{r}{\beta \gamma c \tau \sin\theta} \right),
+  P(d_T) = \exp \left( -\frac{d_T}{\beta \gamma c \tau \sin\theta} \right),
 \end{align}
 where $\beta$ is the WIMP velocity, $\gamma \equiv (1-\beta^2)^{-1/2}$, and $\theta$ is the angle between the WIMP momentum and the beam line.
-In Fig.~\ref{fig:survival_probability}, we show the distribution of $P(r = 15\,\mathrm{cm})$ (which is motivated by the FCC-hh detector setup assumed below), assuming the $2.9\,\mathrm{TeV}$ Wino, $\sqrt{s} = 100\,\mathrm{TeV}$, and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$.
-Note that $\tau \simeq 5.8\,\mathrm{cm}$ for this setup.
-We can see that the increase in the probability by $\gamma$ and the decrease by $\beta$ and $\sin\theta$ roughly cancels with each other, resulting in a peak of the distribution at $P \sim 10^{-1} \sim \exp (-15\,\mathrm{cm} / \tau)$.
+One of the implications of the above expression is that WIMPs with large transverse momentum have larger possibility to survive for a long time.
+This enlarges the importance of considering the NLO (and higher order) QCD processes with real emission for the pair production.
+Due to the hard emission of gluon, the produced pair of WIMPs is recoiled in an opposite direction, and WIMPs tend to have larger transverse momentum than the case without gluon emission.
+It can be directly checked that, for $\sqrt{s}=100\,\mathrm{TeV}$, even the two-gluon emission process possesses non-negligible contribution to the simulation of the disappearing track search for WIMPs.
 
-\rem{Histogram of beta distribution before / after 10cm cut}
+In Fig.~\ref{fig:survival_probability}, we show the distribution of $P(d_T = 15\,\mathrm{cm})$ (which is motivated by the FCC-hh detector setup assumed below) for the $2.9\,\mathrm{TeV}$ Wino, $\sqrt{s} = 100\,\mathrm{TeV}$, and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$.
+Here, we only consider the WIMP pair production process with upto one gluon emission as an example.
+Note that $\tau \simeq 5.8\,\mathrm{cm}$ for this setup.
+We can see that the increase in the probability by $\gamma$ and the decrease by $\beta$ and $\sin\theta$ roughly cancels with each other on average, resulting in a peak of the distribution at $P \sim 10^{-1} \sim \exp (-15\,\mathrm{cm} / \tau)$.
+
+\rem{Show probability sum = 635}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.5\hsize]{beta.pdf}
+  \caption{
+    Distribution of the Wino velocity $\beta$ for $2.9\,\mathrm{TeV}$ Wino.
+    The pair prodction process at $\sqrt{s}=100\,\mathrm{TeV}$ and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$ are assumed.
+  }
+  \label{fig:beta}
+\end{figure}
+
+In Fig.~\ref{fig:beta}, we show the distribution of the Wino velocity $\beta$ for the same process.
+Blue histogram shows the distribution of all events
 
 
 \subsubsection*{Current constraints and future prospects}
