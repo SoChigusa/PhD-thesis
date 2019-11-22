@@ -180,19 +180,21 @@ From the table, by paying attention to the factor two difference in degrees of f
 
 In Table \ref{tab:cross_section_Wino_mass}, we also show the mass dependence of the Wino pair production cross section.
 For heavier mass, wider range of $\sqrt{s'}$ is below the production threshold $2 m_{\chi}$ or accompanied with a small suppression factor $(1-4 m_\chi^2 / s')^{1/2}$ as shown in Eq.~\eqref{eq:parton_cross_section_fermion}, and the cross section becomes significantly smaller.
-However, values in the tables still denote that plenty of well-motivated WIMP DM candidates, such as $1\,\mathrm{TeV}$ Higgsino and $3\,\mathrm{TeV}$ Wino, are produced at, for example, the $3\,\mathrm{ab}^{-1}$ option of the FCC-hh.
+However, values in the tables still denote that plenty of well-motivated WIMP DM candidates, such as $1\,\mathrm{TeV}$ Higgsino and $2.9\,\mathrm{TeV}$ Wino, are produced at, for example, the $30\,\mathrm{ab}^{-1}$ option of the FCC-hh.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.5\hsize]{invariant_mass.pdf}
+  \includegraphics[width=0.48\hsize]{invariant_mass_Higgsino.pdf}
+  \includegraphics[width=0.48\hsize]{invariant_mass_Wino.pdf}
   \caption{
-    Histogram of the $\sqrt{s'}$ distribution, taking $1\,\mathrm{TeV}$ Higgsino as an example.
-    $\sqrt{s} = 100\,\mathrm{TeV}$ and $\mathcal{L} = 3\,\mathrm{ab}^{-1}$ are assumed.}
+    Histogram of the $\sqrt{s'}$ distribution for $\sqrt{s} = 100\,\mathrm{TeV}$.
+    \textit{Left:} Production of $1\,\mathrm{TeV}$ Higgsino at $\mathcal{L} = 3\,\mathrm{ab}^{-1}$.
+    \textit{Right:} Production of $2.9\,\mathrm{TeV}$ Wino at $\mathcal{L} = 30\,\mathrm{ab}^{-1}$.}
   \label{fig:invariant_mass}
 \end{figure}
 
-In Fig.~\ref{fig:invariant_mass}, we show the $\sqrt{s'}$ distribution for the pair production process of the $m_\chi = 1\,\mathrm{TeV}$ Higgsino.
-We assume the setup $\sqrt{s} = 100\,\mathrm{TeV}$ and the integrated luminosity $\mathcal{L} = 3\,\mathrm{ab}^{-1}$.
+In Fig.~\ref{fig:invariant_mass}, we show the $\sqrt{s'}$ distribution for the pair production process at a $\sqrt{s} = 100\,\mathrm{TeV}$ collider.
+Left and right figures correspond to the production of $m_\chi = 1\,\mathrm{TeV}$ Higgsino at the integrated luminosity $\mathcal{L} = 3\,\mathrm{ab}^{-1}$ and of $m_\chi = 3\,\mathrm{TeV}$ Wino at $\mathcal{L} = 30\,\mathrm{ab}^{-1}$, respectively.
 At around $\sqrt{s'} \sim 2 m_\chi$, we clearly see the production threshold and the suppression effect $\sigma \propto (1-4 m_\chi^2 / s')^{1/2}$.
 On the other hand, when $\sqrt{s'}$ becomes much larger than $2m_\chi$, we can see the correct behavior of the cross section, which decreses as $\sigma \propto (\sqrt{s'})^{-3}$ as Eq.~\eqref{eq:parton_cross_section_fermion} indicates.
 Note that these properties are universal among several processes, including the dominant contribution \rem{Correct?} to the gluino pair production through the $s$-channel gluon exchange disscused in the next subsection, and the lepton pair production through via an electroweak gauge boson that is the main topics in Sec.~\rem{???}.
@@ -377,16 +379,16 @@ See the results below for a concrete estimation of the fake track rate at the FC
   \centering
   \includegraphics[width=0.5\hsize]{survival_probability.pdf}
   \caption{
-    Distribution of the survival probability $P(r = 15\,\mathrm{cm})$ for $2.9\,\mathrm{TeV}$ Wino.
+    Distribution of the survival probability $P(d_T > 15\,\mathrm{cm})$ for $2.9\,\mathrm{TeV}$ Wino.
     The pair prodction process at $\sqrt{s}=100\,\mathrm{TeV}$ and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$ is assumed.}
   \label{fig:survival_probability}
 \end{figure}
 
 From now on, we estimate how many events are expected at the FCC-hh.
-Recalling that the detectors are installed in a cyrindrical geometry, the probability for a WIMP to reach the position apart from the beam line by $d_T$ plays an important roll.
-We can estimate the probability $P(d_T)$ as
+Recalling that the detectors are installed in a cyrindrical geometry, the transverse distance $d_T$ of the WIMP flight measured from the beam line plays an important roll.
+We can estimate the probability for $d_T$ to be larger than $d$ as
 \begin{align}
-  P(d_T) = \exp \left( -\frac{d_T}{\beta \gamma c \tau \sin\theta} \right),
+  P(d_T > d) = \exp \left( -\frac{d}{\beta \gamma c \tau \sin\theta} \right),
 \end{align}
 where $\beta$ is the WIMP velocity, $\gamma \equiv (1-\beta^2)^{-1/2}$, and $\theta$ is the angle between the WIMP momentum and the beam line.
 One of the implications of the above expression is that WIMPs with large transverse momentum have larger possibility to survive for a long time.
@@ -394,25 +396,34 @@ This enlarges the importance of considering the NLO (and higher order) QCD proce
 Due to the hard emission of gluon, the produced pair of WIMPs is recoiled in an opposite direction, and WIMPs tend to have larger transverse momentum than the case without gluon emission.
 It can be directly checked that, for $\sqrt{s}=100\,\mathrm{TeV}$, even the two-gluon emission process possesses non-negligible contribution to the simulation of the disappearing track search for WIMPs.
 
-In Fig.~\ref{fig:survival_probability}, we show the distribution of $P(d_T = 15\,\mathrm{cm})$ (which is motivated by the FCC-hh detector setup assumed below) for the $2.9\,\mathrm{TeV}$ Wino, $\sqrt{s} = 100\,\mathrm{TeV}$, and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$.
+In Fig.~\ref{fig:survival_probability}, we show the distribution of $P(d_T > 15\,\mathrm{cm})$ (which is motivated by the FCC-hh detector setup assumed below) for the $2.9\,\mathrm{TeV}$ Wino, $\sqrt{s} = 100\,\mathrm{TeV}$, and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$.
 Here, we only consider the WIMP pair production process with upto one gluon emission as an example.
 Note that $\tau \simeq 5.8\,\mathrm{cm}$ for this setup.
 We can see that the increase in the probability by $\gamma$ and the decrease by $\beta$ and $\sin\theta$ roughly cancels with each other on average, resulting in a peak of the distribution at $P \sim 10^{-1} \sim \exp (-15\,\mathrm{cm} / \tau)$.
-
-\rem{Show probability sum = 635}
+By summing the shown probabilities for all produced winos, we can obtain the expectation value $N_{15}$ for the number of winos with $d_T > 15\,\mathrm{cm}$.
+We find $N_{15} \sim 2400$,
+\footnote{
+  In the real analysis, it may also be important to put a cut on the missing transverse energy $\Slash{E}_T$ to further reduce the number of background.
+  If we require $\Slash{E}_T > 1\,\mathrm{TeV}$ as \cite{Asai:2019wst}, we expect smaller number of winos $N_{15} \sim 600$.
+}
+to which a lot of winos around and above the peak position $P \sim 10^{-1}$ significantly contribute.
+Thus, we infer that we can detect the wino signal if we can suppress the number of background events to $\lesssim \mathcal{O}(10^5)$.
+In the next subsection, we will see that this is the case for the FCC-hh and the parameter space for the wino DM candidate can fully be covered.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.5\hsize]{beta.pdf}
   \caption{
     Distribution of the Wino velocity $\beta$ for $2.9\,\mathrm{TeV}$ Wino.
-    The pair prodction process at $\sqrt{s}=100\,\mathrm{TeV}$ and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$ are assumed.
+    The pair prodction process at $\sqrt{s}=100\,\mathrm{TeV}$ and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$ is assumed.
   }
   \label{fig:beta}
 \end{figure}
 
-In Fig.~\ref{fig:beta}, we show the distribution of the Wino velocity $\beta$ for the same process.
-Blue histogram shows the distribution of all events
+In Fig.~\ref{fig:beta}, we show the distribution of the wino velocity $\beta$ for the same process.
+The blue histogram shows the distribution of all winos, while the orange one shows that of winos with $d_T > 15\,\mathrm{cm}$.
+As already seen in Fig.~\ref{fig:invariant_mass}, the center of mass energy of the two wino system distributes from a few to $\mathcal{O} (10) \,\mathrm{TeV}$, and many winos are highly boosted with $\beta \sim 1$.
+Since a wino tends to fly for longer distance when it is more accelerated, some of boosted winos $\beta \gtrsim 0.6$ satisfy the requirement $d_T > 15\,\mathrm{cm}$.
 
 
 \subsubsection*{Current constraints and future prospects}
