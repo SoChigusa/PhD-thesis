@@ -548,22 +548,6 @@ S.~D. Thomas, J.~D. Wells, {Phenomenology of Massive Vectorlike Doublet
   {https://doi.org/10.1103/PhysRevLett.81.34}
   {\path{doi:10.1103/PhysRevLett.81.34}}.
 
-\bibitem{Aaboud:2017mpt}
-M.~Aaboud, et~al., {Search for long-lived charginos based on a
-  disappearing-track signature in pp collisions at $ \sqrt{s}=13 $ TeV with the
-  ATLAS detector}, JHEP 06 (2018) 022.
-\newblock \href {http://arxiv.org/abs/1712.02118} {\path{arXiv:1712.02118}},
-  \href {https://doi.org/10.1007/JHEP06(2018)022}
-  {\path{doi:10.1007/JHEP06(2018)022}}.
-
-\bibitem{Sirunyan:2018ldc}
-A.~M. Sirunyan, et~al., {Search for disappearing tracks as a signature of new
-  long-lived particles in proton-proton collisions at $\sqrt{s} =$ 13 TeV},
-  JHEP 08 (2018) 016.
-\newblock \href {http://arxiv.org/abs/1804.07321} {\path{arXiv:1804.07321}},
-  \href {https://doi.org/10.1007/JHEP08(2018)016}
-  {\path{doi:10.1007/JHEP08(2018)016}}.
-
 \bibitem{Capeans:1291633}
 M.~Capeans, G.~Darbo, K.~Einsweiller, M.~Elsing, T.~Flick, M.~Garcia-Sciveres,
   C.~Gemme, H.~Pernegger, O.~Rohne, R.~Vuillermet,
@@ -583,6 +567,22 @@ B.~Abbott, et~al., {Production and Integration of the ATLAS Insertable
 \newblock \href {http://arxiv.org/abs/1803.00844} {\path{arXiv:1803.00844}},
   \href {https://doi.org/10.1088/1748-0221/13/05/T05008}
   {\path{doi:10.1088/1748-0221/13/05/T05008}}.
+
+\bibitem{Aaboud:2017mpt}
+M.~Aaboud, et~al., {Search for long-lived charginos based on a
+  disappearing-track signature in pp collisions at $ \sqrt{s}=13 $ TeV with the
+  ATLAS detector}, JHEP 06 (2018) 022.
+\newblock \href {http://arxiv.org/abs/1712.02118} {\path{arXiv:1712.02118}},
+  \href {https://doi.org/10.1007/JHEP06(2018)022}
+  {\path{doi:10.1007/JHEP06(2018)022}}.
+
+\bibitem{Sirunyan:2018ldc}
+A.~M. Sirunyan, et~al., {Search for disappearing tracks as a signature of new
+  long-lived particles in proton-proton collisions at $\sqrt{s} =$ 13 TeV},
+  JHEP 08 (2018) 016.
+\newblock \href {http://arxiv.org/abs/1804.07321} {\path{arXiv:1804.07321}},
+  \href {https://doi.org/10.1007/JHEP08(2018)016}
+  {\path{doi:10.1007/JHEP08(2018)016}}.
 
 \bibitem{Han:2018wus}
 T.~Han, S.~Mukhopadhyay, X.~Wang, {Electroweak Dark Matter at Future Hadron
