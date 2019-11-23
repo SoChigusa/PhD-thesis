@@ -606,12 +606,36 @@ H.~Baer, A.~Mustafayev, X.~Tata, {Monojets and mono-photons from light higgsino
   \href {https://doi.org/10.1103/PhysRevD.89.055007}
   {\path{doi:10.1103/PhysRevD.89.055007}}.
 
+\bibitem{Chigusa:2018vxz}
+S.~Chigusa, Y.~Ema, T.~Moroi, {Probing electroweakly interacting massive
+  particles with Drell-Yan process at 100 TeV hadron colliders}, Phys. Lett.
+  B789 (2019) 106--113.
+\newblock \href {http://arxiv.org/abs/1810.07349} {\path{arXiv:1810.07349}},
+  \href {https://doi.org/10.1016/j.physletb.2018.12.011}
+  {\path{doi:10.1016/j.physletb.2018.12.011}}.
+
+\bibitem{Abe:2019egv}
+T.~Abe, S.~Chigusa, Y.~Ema, T.~Moroi, {Indirect studies of electroweakly
+  interacting particles at 100 TeV hadron colliders}, Phys. Rev. D100~(5)
+  (2019) 055018.
+\newblock \href {http://arxiv.org/abs/1904.11162} {\path{arXiv:1904.11162}},
+  \href {https://doi.org/10.1103/PhysRevD.100.055018}
+  {\path{doi:10.1103/PhysRevD.100.055018}}.
+
 \bibitem{Alves:2014cda}
 D.~S.~M. Alves, J.~Galloway, J.~T. Ruderman, J.~R. Walsh, {Running Electroweak
   Couplings as a Probe of New Physics}, JHEP 02 (2015) 007.
 \newblock \href {http://arxiv.org/abs/1410.6810} {\path{arXiv:1410.6810}},
   \href {https://doi.org/10.1007/JHEP02(2015)007}
   {\path{doi:10.1007/JHEP02(2015)007}}.
+
+\bibitem{Harigaya:2015yaa}
+K.~Harigaya, K.~Ichikawa, A.~Kundu, S.~Matsumoto, S.~Shirai, {Indirect Probe of
+  Electroweak-Interacting Particles at Future Lepton Colliders}, JHEP 09 (2015)
+  105.
+\newblock \href {http://arxiv.org/abs/1504.03402} {\path{arXiv:1504.03402}},
+  \href {https://doi.org/10.1007/JHEP09(2015)105}
+  {\path{doi:10.1007/JHEP09(2015)105}}.
 
 \bibitem{Gross:2016ioi}
 C.~Gross, O.~Lebedev, J.~M. No, {Drell-Yan constraints on new electroweak
@@ -629,14 +653,6 @@ M.~Farina, G.~Panico, D.~Pappadopulo, J.~T. Ruderman, R.~Torre, A.~Wulzer,
   \href {https://doi.org/10.1016/j.physletb.2017.06.043}
   {\path{doi:10.1016/j.physletb.2017.06.043}}.
 
-\bibitem{Harigaya:2015yaa}
-K.~Harigaya, K.~Ichikawa, A.~Kundu, S.~Matsumoto, S.~Shirai, {Indirect Probe of
-  Electroweak-Interacting Particles at Future Lepton Colliders}, JHEP 09 (2015)
-  105.
-\newblock \href {http://arxiv.org/abs/1504.03402} {\path{arXiv:1504.03402}},
-  \href {https://doi.org/10.1007/JHEP09(2015)105}
-  {\path{doi:10.1007/JHEP09(2015)105}}.
-
 \bibitem{Matsumoto:2017vfu}
 S.~Matsumoto, S.~Shirai, M.~Takeuchi, {Indirect Probe of Electroweakly
   Interacting Particles at the High-Luminosity Large Hadron Collider}, JHEP 06
@@ -644,14 +660,6 @@ S.~Matsumoto, S.~Shirai, M.~Takeuchi, {Indirect Probe of Electroweakly
 \newblock \href {http://arxiv.org/abs/1711.05449} {\path{arXiv:1711.05449}},
   \href {https://doi.org/10.1007/JHEP06(2018)049}
   {\path{doi:10.1007/JHEP06(2018)049}}.
-
-\bibitem{Chigusa:2018vxz}
-S.~Chigusa, Y.~Ema, T.~Moroi, {Probing electroweakly interacting massive
-  particles with Drell-Yan process at 100 TeV hadron colliders}, Phys. Lett.
-  B789 (2019) 106--113.
-\newblock \href {http://arxiv.org/abs/1810.07349} {\path{arXiv:1810.07349}},
-  \href {https://doi.org/10.1016/j.physletb.2018.12.011}
-  {\path{doi:10.1016/j.physletb.2018.12.011}}.
 
 \bibitem{DiLuzio:2018jwd}
 L.~Di~Luzio, R.~Gr{\"o}ber, G.~Panico, {Probing new electroweak states via
@@ -687,13 +695,27 @@ T.~Golling, et~al., {Physics at a 100 TeV pp collider: beyond the Standard
   \href {https://doi.org/10.23731/CYRM-2017-003.441}
   {\path{doi:10.23731/CYRM-2017-003.441}}.
 
-\bibitem{Abe:2019egv}
-T.~Abe, S.~Chigusa, Y.~Ema, T.~Moroi, {Indirect studies of electroweakly
-  interacting particles at 100 TeV hadron colliders}, Phys. Rev. D100~(5)
-  (2019) 055018.
-\newblock \href {http://arxiv.org/abs/1904.11162} {\path{arXiv:1904.11162}},
-  \href {https://doi.org/10.1103/PhysRevD.100.055018}
-  {\path{doi:10.1103/PhysRevD.100.055018}}.
+\bibitem{Low:2014cba}
+M.~Low, L.-T. Wang, {Neutralino dark matter at 14 TeV and 100 TeV}, JHEP 08
+  (2014) 161.
+\newblock \href {http://arxiv.org/abs/1404.0682} {\path{arXiv:1404.0682}},
+  \href {https://doi.org/10.1007/JHEP08(2014)161}
+  {\path{doi:10.1007/JHEP08(2014)161}}.
+
+\bibitem{Cirelli:2014dsa}
+M.~Cirelli, F.~Sala, M.~Taoso, {Wino-like Minimal Dark Matter and future
+  colliders}, JHEP 10 (2014) 033, [Erratum: JHEP01,041(2015)].
+\newblock \href {http://arxiv.org/abs/1407.7058} {\path{arXiv:1407.7058}},
+  \href {https://doi.org/10.1007/JHEP10(2014)033, 10.1007/JHEP01(2015)041}
+  {\path{doi:10.1007/JHEP10(2014)033, 10.1007/JHEP01(2015)041}}.
+
+\bibitem{Mahbubani:2017gjh}
+R.~Mahbubani, P.~Schwaller, J.~Zurita, {Closing the window for compressed Dark
+  Sectors with disappearing charged tracks}, JHEP 06 (2017) 119, [Erratum:
+  JHEP10,061(2017)].
+\newblock \href {http://arxiv.org/abs/1703.05327} {\path{arXiv:1703.05327}},
+  \href {https://doi.org/10.1007/JHEP06(2017)119, 10.1007/JHEP10(2017)061}
+  {\path{doi:10.1007/JHEP06(2017)119, 10.1007/JHEP10(2017)061}}.
 
 \bibitem{Aaboud:2017efa}
 M.~Aaboud, et~al., {Search for a new heavy gauge boson resonance decaying into
@@ -742,5 +764,17 @@ J.~Wess, J.~A. Bagger, \href{https://cds.cern.ch/record/320631}{{Supersymmetry
   and supergravity; 2nd ed.}}, Princeton Series in Physics, Princeton Univ.
   Press, Princeton, NJ, 1992.
 \newline\urlprefix\url{https://cds.cern.ch/record/320631}
+
+\bibitem{James:1994vla}
+F.~James, {MINUIT Function Minimization and Error Analysis: Reference Manual
+  Version 94.1} (1994).
+
+\bibitem{wilks1938}
+S.~S. Wilks, \href{https://doi.org/10.1214/aoms/1177732360}{The large-sample
+  distribution of the likelihood ratio for testing composite hypotheses}, Ann.
+  Math. Statist. 9~(1) (1938) 60--62.
+\newblock \href {https://doi.org/10.1214/aoms/1177732360}
+  {\path{doi:10.1214/aoms/1177732360}}.
+\newline\urlprefix\url{https://doi.org/10.1214/aoms/1177732360}
 
 \end{thebibliography}

@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{James:1994vla}
+F.~James, {MINUIT Function Minimization and Error Analysis: Reference Manual
+  Version 94.1} (1994).
+
+\bibitem{Cowan:2010js}
+G.~Cowan, K.~Cranmer, E.~Gross, O.~Vitells, {Asymptotic formulae for
+  likelihood-based tests of new physics}, Eur. Phys. J. C71 (2011) 1554,
+  [Erratum: Eur. Phys. J.C73,2501(2013)].
+\newblock \href {http://arxiv.org/abs/1007.1727} {\path{arXiv:1007.1727}},
+  \href {https://doi.org/10.1140/epjc/s10052-011-1554-0,
+  10.1140/epjc/s10052-013-2501-z} {\path{doi:10.1140/epjc/s10052-011-1554-0,
+  10.1140/epjc/s10052-013-2501-z}}.
+
+\bibitem{wilks1938}
+S.~S. Wilks, \href{https://doi.org/10.1214/aoms/1177732360}{The large-sample
+  distribution of the likelihood ratio for testing composite hypotheses}, Ann.
+  Math. Statist. 9~(1) (1938) 60--62.
+\newblock \href {https://doi.org/10.1214/aoms/1177732360}
+  {\path{doi:10.1214/aoms/1177732360}}.
+\newline\urlprefix\url{https://doi.org/10.1214/aoms/1177732360}
+
+\end{thebibliography}
