@@ -48,7 +48,7 @@ Since all the WIMPs considered here possess non-zero $SU(2)_L$ and $U(1)_Y$ char
 In the figure, $q^\alpha$ and $q^\beta$ denote the partons (namely, one of quarks or gluon) of the incident protons relevant for the process, while $\chi$ denotes the WIMP and $q$ is the momentum transfer.
 Assuming the WIMP to be a $SU(2)_L$ $n$-plet with $U(1)_Y$ charge $Y$ and the mass $m_\chi$, this process is well described by the effective lagrangian
 \footnote{
-  In this subsection, we neglect the small mass difference among different components in the multiplet $\chi$ described in \ref{sec:disappearing_track}.
+  In this subsection, we neglect the small mass difference among different components in the multiplet $\chi$ described in Sec.~\ref{sec:disappearing_track}.
   This approximation is valid since the mass difference is by far smaller than $m_\chi$ and has only a tiny effect on the production process.
 }
 \begin{align}
@@ -88,9 +88,10 @@ The coefficient $C_{\alpha \beta}$ consists of contributions from $U(1)_Y$ and $
 \end{align}
 with $I(n)$ being the Dynkin index for the $n$-dimensional representation given by
 \begin{align}
-  I(n) \equiv \frac{n^3-n}{12}.
+  I(n) \equiv \frac{n^3-n}{12},
   \label{eq:dynkin}
 \end{align}
+which is normalized so that $I(2) = 1/2$.
 The explicit form of $c_{1 \alpha \beta}$ and $c_{2 \alpha \beta}$, which are sizes of the couplings between partons of our choice and gauge bosons, can be expressed using the $U(1)_Y$ charge for a parton $Y_\alpha$ and the $SU(2)_L$ reducible 13-dimensional representation matrices for partons $T^a_{\alpha \beta}$ as
 \begin{align}
   c_{1 \alpha \beta} &= Y_\alpha^2 \delta_{\alpha \beta},\\
@@ -98,12 +99,12 @@ The explicit form of $c_{1 \alpha \beta}$ and $c_{2 \alpha \beta}$, which are si
 \end{align}
 Recalling that $\alpha_1 < \alpha_2$ and that we often consider the WIMPs with large $n$ and moderate $Y$, the WIMP production cross section grows as $n^3$ for larger multiplets according to Eq.~\eqref{eq:dynkin}.
 
-As is well-known, the initial state of the hadron collider is not the individual partons but two protons.
+In the reality, the initial state of the hadron collider is not the individual partons but two protons.
 To obtain the cross section for the two protons initial state, we rely on the parton distribution function (PDF), which expresses the fraction of the partons with some given momentum in each accelerated proton.
 Let $f_a (x)$ ($0 < x < 1$) be the PDF for a given parton $a$ inside a proton with momentum $p^\mu$.
-$f_a (x)$ can be interpreted as a probability distribution to find the parton $a$ with momentum $x p^\mu$, so we have a relationship
+$f_a (x)$ can be interpreted as a probability distribution to find the parton $\alpha$ with momentum $x p^\mu$, so we have a relationship
 \begin{align}
-  \sum_a \int_0^1 dx \, x f_a (x) = 1,
+  \sum_\alpha \int_0^1 dx \, x f_\alpha (x) = 1,
 \end{align}
 associated with the total momentum conservation, and
 \begin{align}
@@ -114,11 +115,11 @@ from the composition of the proton.
 Using the PDF, the cross section for the process of interest at the hadron collider is evaluated as
 \begin{align}
   \frac{d \sigma}{d \sqrt{s'} d \Omega} =
-  \sum_{a,b} \int_0^1 dx_1 dx_2 \, f_a (x_1) f_b (x_2) \delta \left( s' - s x_1 x_2 \right)
-  \left. \frac{d \sigma_{a b}}{d \Omega} \right|_{\text{lab}},
+  \sum_{\alpha, \beta} \int_0^1 dx_1 dx_2 \, f_\alpha (x_1) f_\beta (x_2) \delta \left( s' - s x_1 x_2 \right)
+  \left. \frac{d \sigma_{\alpha \beta}}{d \Omega} \right|_{\text{lab}},
 \end{align}
 where $\sqrt{s}$ is the CM energy of the proton-proton collision.
-Note that the cross section in the integrand is a function of $x_1$ and $x_2$, which is obtained by performing the appropriate Lorentz transformation to $\left. d \sigma_{a b} / d \Omega\, \right|_{\text{CM}}$.
+Note that the cross section in the integrand is a function of $x_1$ and $x_2$, which is obtained by performing the appropriate Lorentz transformation to $\left. d \sigma_{\alpha \beta} / d \Omega\, \right|_{\text{CM}}$.
 \rem{Comment on factorization scale?}
 
 \begin{figure}[t]
@@ -389,6 +390,7 @@ Recalling that the detectors are installed in a cyrindrical geometry, the transv
 We can estimate the probability for $d_T$ to be larger than $d$ as
 \begin{align}
   P(d_T > d) = \exp \left( -\frac{d}{\beta \gamma c \tau \sin\theta} \right),
+  \label{eq:survival_probability}
 \end{align}
 where $\beta$ is the WIMP velocity, $\gamma \equiv (1-\beta^2)^{-1/2}$, and $\theta$ is the angle between the WIMP momentum and the beam line.
 One of the implications of the above expression is that WIMPs with large transverse momentum have larger possibility to survive for a long time.
@@ -421,7 +423,7 @@ In the next subsection, we will see that this is the case for the FCC-hh and the
 \end{figure}
 
 In Fig.~\ref{fig:beta}, we show the distribution of the wino velocity $\beta$ for the same process.
-The blue histogram shows the distribution of all winos, while the orange one shows that of winos with $d_T > 15\,\mathrm{cm}$.
+The blue histogram shows the distribution of all winos, while the orange one shows that of winos with $d_T > 15\,\mathrm{cm}$, picked up according to the survival probability Eq.~\eqref{eq:survival_probability}.
 As already seen in Fig.~\ref{fig:invariant_mass}, the center of mass energy of the two wino system distributes from a few to $\mathcal{O} (10) \,\mathrm{TeV}$, and many winos are highly boosted with $\beta \sim 1$.
 Since a wino tends to fly for longer distance when it is more accelerated, some of boosted winos $\beta \gtrsim 0.6$ satisfy the requirement $d_T > 15\,\mathrm{cm}$.
 

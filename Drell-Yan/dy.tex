@@ -10,13 +10,17 @@
   Indirect search of WIMPs\\
   using Drell-Yan process
 }
+\label{sec:dy}
 \setcounter{equation}{0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\rem{Histogram of lepton invariant mass?}
 
 \begin{figure}[b]
   \centering
   \includegraphics[width=0.5\hsize]{NC_CC_WIMP.pdf}
-  \caption{WIMP effect on the Drell-Yan processes considered in this section.}
+  \caption{WIMP effect on the Drell-Yan processes considered in this section.
+  \rem{Correct the figure to $q_\alpha q_\beta \to \cdots$.}}
   \label{fig:NC_CC_WIMP}
 \end{figure}
 
@@ -44,8 +48,8 @@ This section is based on our works \cite{Chigusa:2018vxz, Abe:2019egv}.
 \label{sec:WIMP}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-We investigate contributions of the WIMPs to the Drell-Yan process through the vacuum polarization of the electroweak gauge bosons at the loop level.
-Throughout the paper, we assume that all the other beyond the SM particles are heavy enough so that they do not affect the following discussion.
+We investigate contributions of the WIMPs to the Drell-Yan processes through the vacuum polarization of the electroweak gauge bosons at the loop level.
+Throughout this section, we assume that all the other beyond the SM particles are heavy enough so that they do not affect the following discussion.
 After integrating out the WIMPs, the effective lagrangian is expressed as
 \begin{align}
  \mathcal{L}_{\rm eff} = \mathcal{L}_{\rm SM} + C_2 g^2\, W_{\mu \nu}^a
@@ -60,6 +64,7 @@ The function $f(x)$ is defined as
 \footnote{
   If a WIMP interacts only through the electroweak interaction, its decay width is of $\mathrm{O}(1)\%$ or less of its mass even if it is unstable.
   We assume that this is the case, and neglect the small effect on the function $f(x)$ due to the small decay width.
+  Also, $f(x)$ corresponds to the finite part of the WIMP loop contribution after performing the renoramlization in the $\overline{\mathrm{MS}}$ scheme.
 }
 \begin{align}
  f(x) = \begin{cases}
@@ -78,16 +83,12 @@ The coefficients $C_1$ and $C_2$ for an $SU(2)_L$ $n$-plet WIMP with hypercharge
  C_2 &= \frac{\kappa}{8} I(n),\label{eq_C2}
 \end{align}
 where $\kappa = 1, 2, 8, 16$ for a real scalar, a complex scalar, a Weyl or Majorana fermion, and a Dirac fermion, respectively.
-The Dynkin index $I(n)$ for the $n$ dimensional representation of $SU(2)_L$ is given by
-\begin{align}
-  I(n) = \frac{1}{12} (n^3 - n),\label{eq_dynkin}
-\end{align}
-which is normalized so that $I(2) = 1/2$.
+$I(n)$ is the Dynkin index for the $n$ dimensional representation of $SU(2)_L$ defined in Eq.~\eqref{eq:Dynkin}.
 The coefficients are uniquely determined by the representation of the WIMPs.
 For example, $(C_1, C_2) = (1, 1)$ for Higgsino, and $(C_1, C_2) = (0, 2)$ for Wino.
-We emphasize that, contrary to the usual effective field theory, our prescription is equally applied when the typical scale of the gauge boson four-momentum, $q$, is larger than the WIMP mass scale $m$ since we do not perform a derivative expansion of $f$ in
+We emphasize that, contrary to the usual effective field theory, our prescription is equally applied when the typical scale of the gauge boson four-momentum $q$ is larger than the WIMP mass scale $m$ since we do not perform a derivative expansion of $f$ in
 Eq.~\eqref{eq_lag}.
-It is important because, as we see soon, the effect of the WIMPs are maximized when $\sqrt{q^2}\sim m$, where the derivative expansion is not applicable.
+It is important because, as we see soon, the effect of the WIMPs is maximized when $\sqrt{q^2}\sim m$, where the derivative expansion is not applicable.
 
 \begin{table}[t]
   \centering
@@ -133,25 +134,24 @@ Again $V, V' = \gamma, Z$ for the NC processes and $V, V' = W^\pm$ for the CC pr
 We use $d\Pi_{\mathrm{LIPS}}$ for a Lorentz invariant phase space factor for the two particles final state.
 Then, using Eqs.~\eqref{eq_m_sm} and~\eqref{eq_m_WIMP}, we define
 \begin{align}
- \frac{d \sigma_{\rm SM}}{d\sqrt{s'}} &= \sum_{a,b}
- \frac{dL_{ab}}{d\sqrt{s'}} \int d\Pi_{\mathrm{LIPS}}\, \left| \mathcal{M}_{\rm SM} \left( q_a
- \bar{q}_b \to \ell\ell / \ell\nu \right) \right|^2,\label{eq_sig_sm}\\
+ \frac{d \sigma_{\rm SM}}{d\sqrt{s'}} &= \sum_{\alpha, \beta}
+ \frac{dL_{\alpha \beta}}{d\sqrt{s'}} \int d\Pi_{\mathrm{LIPS}}\, \left| \mathcal{M}_{\rm SM} \left( q_\alpha q_\beta \to \ell\ell / \ell\nu \right) \right|^2,\label{eq_sig_sm}\\
  %%
- \frac{d \sigma_{\rm WIMP}}{d\sqrt{s'}} &= \sum_{a,b}
- \frac{dL_{ab}}{d\sqrt{s'}} \int d\Pi_{\mathrm{LIPS}}\, 2 \Re \left[ \mathcal{M}_{\rm SM}
- \mathcal{M}_{\rm WIMP}^{*} \left( q_a \bar{q}_b \to \ell\ell / \ell\nu
+ \frac{d \sigma_{\rm WIMP}}{d\sqrt{s'}} &= \sum_{\alpha, \beta}
+ \frac{dL_{\alpha \beta}}{d\sqrt{s'}} \int d\Pi_{\mathrm{LIPS}}\, 2 \Re \left[ \mathcal{M}_{\rm SM}
+ \mathcal{M}_{\rm WIMP}^{*} \left( q_\alpha q_\beta \to \ell\ell / \ell\nu
  \right) \right],\label{eq_sig_WIMP}
 \end{align}
 where we take the average and summation over spins.
-Here, $dL_{ab} / d\sqrt{s'}$ is the luminosity function for a fixed
+Here, $dL_{\alpha \beta} / d\sqrt{s'}$ is the so-called luminosity function for a fixed
 $\sqrt{s'}$:
 \begin{align}
- \frac{d L_{ab}}{d\sqrt{s'}} \equiv \frac{1}{s} \int_0^1 dx_1
- dx_2~f_a(x_1) f_b(x_2) \delta\left(\frac{s'}{s} - x_1 x_2\right),
+ \frac{d L_{\alpha \beta}}{d\sqrt{s'}} \equiv \frac{1}{s} \int_0^1 dx_1
+ dx_2~f_\alpha(x_1) f_\beta(x_2) \delta\left(\frac{s'}{s} - x_1 x_2\right),
 \end{align}
-where $a$ and $b$ denote species of initial partons, $\sqrt{s}$ is the center of mass energy of the proton collision ($\sqrt{s} = 100\,{\rm TeV}$ in our case), and $f_a(x)$ is a parton distribution function (PDF) of the given parton $a$.
+where $\alpha$ and $\beta$ denote species of initial partons, $\sqrt{s} = 100\,{\rm TeV}$, and $f_a(x)$ is the PDF used in Sec.~\ref{sec:wimp_production}.
 Eq.\,\eqref{eq_sig_sm} represents the SM cross section, while Eq.\,\eqref{eq_sig_WIMP} the WIMP contribution to the cross section.
-For the statistical treatment in the next section, we introduce a parameter $\mu$ that parametrizes the strength of the EWMP effect, and express the cross section with $\mu$ as
+For the statistical treatment in the next section, we introduce a parameter $\mu$ that parametrizes the strength of the WIMP effect, and express the cross section with $\mu$ as
 \begin{align}
  \frac{d\tilde{\sigma}}{d\sqrt{s'}} =
  \frac{d\sigma_{\rm SM}}{d\sqrt{s'}}
@@ -195,14 +195,13 @@ In particular, the WIMP mass can be extracted from the dip position, while the W
 \end{figure}
 
 For the NC processes, the momenta of two final state charged leptons are measurable and we can use the invariant mass distribution of the number of events for the study of the WIMPs.
-For the CC processes, on the contrary, we cannot measure the momentum of the neutrino in real experiments, and hence we instead use the missing transverse momentum $p_{T,\mathrm{miss}}$.
+For the CC processes, on the contrary, we cannot measure the momentum of the neutrino in real experiments, and hence we instead use the missing transverse momentum $\Slash{p}_T$.
 We use the transverse mass defined as
 \begin{align}
-  m_T^2 \equiv 2 p_{T, \ell}\,p_{T,\mathrm{miss}} \left( 1-\cos
-  (\phi_{T,\ell,\mathrm{miss}}) \right),
+  m_T^2 \equiv 2 p_{T, \ell}\,\Slash{p}_T \left( 1-\cos \phi \right),
 \end{align}
-where $p_{T, \ell}$ denotes the transverse momentum of the charged lepton and $\phi_{T,\ell,\mathrm{miss}} \equiv \phi_{\ell} - \phi_\mathrm{miss}$ is the difference between the azimuth angles of $p_{T,\ell}$ and $p_{T,\mathrm{miss}}$.
-The important property of $m_T$ is that the distribution of $m_T$ peaks at $m_T = m_{\ell\nu}$.
+where $p_{T, \ell}$ denotes the transverse momentum of the charged lepton and $\phi$ is the difference between the azimuth angles of $p_{T,\ell}$ and $\Slash{p}_T$.
+The important property of $m_T$ is that the distribution of $m_T$ peaks at $m_T = m_{\ell\nu}$ (see Appendix.~\rem{???} for more detailed description of the quantity $m_T$).
 Because of this property, the characteristic shape of $\delta_\sigma$ remains in the $m_T$ distribution in the CC events.
 To see this, we plot in Fig.~\ref{fig_mT_vs_dN} the WIMP effect on the number of events as a function of $m_T$.
 Here, the vertical axis is the ratio of the WIMP correction to the number of events $\Delta N$ to the number of events in the SM $N$ for each bin with the bin width of $100\, {\rm GeV}$.
@@ -362,7 +361,7 @@ We estimate $\bm{\sigma}_f$ associated with the other sources of the errors, den
 Finally, the total values of $\bm{\sigma}_f$ are obtained by combining all the sources together as
 \footnote{
   There may be some correlations between the distribution of nuisance parameters $\bm{\theta}_{f}$.
-  In this paper, we treat each of them as obeying to an independent Gaussian distribution for simplicity.
+  In this section, we treat each of them as obeying to an independent Gaussian distribution for simplicity.
 }
 \begin{align}
   \sigma_{f,\alpha} = \sqrt{(\sigma_{f,\alpha}^{\mathrm{lumi.}})^2
@@ -434,7 +433,7 @@ What is dangerous is the possible jerky modification that mimics the WIMP signal
 Such unwanted fake signals may be avoided by checking the consistency between the electron and muon channels.
 This is because there should be the same size signals at the same lepton invariant mass in both channels for the WIMP signal, while the detector response to electrons and muons is different and such a coincidence is not expected in general.
 It may also be helpful to look for similar fake signals in different processes associated with several leptons.
-In this paper, we just assume that these systematic errors from the detector effect are well controlled once the real experiment will start and focus on the theoretical uncertainties listed in tables.
+In this section, we just assume that these systematic errors from the detector effect are well controlled once the real experiment will start and focus on the theoretical uncertainties listed in tables.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -472,24 +471,17 @@ Furthermore, if we understand all the systematic uncertainties quite well and ef
 These lines should be compared with the combined results and also with those obtained from the conservative analysis with $\bm{\sigma}_f \to \infty$, assuming no knowledge about sources of systematic errors.
 The plot shows us that it is essential to reduce the systematic uncertainties for the detection of WIMPs through the NC and CC processes.
 
-So far, we have adopted the assumption that the distribution of the
-nuisance parameters is the Gaussian form and that the fitting function
-Eq.~\eqref{eq_f_theta} is sufficient for treating systematic errors.
-In order to discuss the dependence of the results on these
-assumptions, we have repeated the same analysis using another
-distribution or fitting function.  In the former case, we have adopted
-the top-hat distribution: the likelihood function for the nuisance
-parameters $L'$ is given by
+So far, we have adopted the assumption that the distribution of the nuisance parameters is the Gaussian form and that the fitting function Eq.~\eqref{eq_f_theta} is sufficient for treating systematic errors.
+In order to discuss the dependence of the results on these assumptions, we have repeated the same analysis using another distribution or fitting function.
+In the former case, we have adopted the top-hat distribution: the likelihood function for the nuisance parameters $L'$ is given by
 \begin{align}
- L' (\bm{\theta}_f ; \bm{\sigma}_f) \equiv \prod_\alpha
- \Theta \left( \sqrt{3}\ \sigma_{f,\alpha}
- - \left| \theta_{f,\alpha} \right| \right),
+  L' (\bm{\theta}_f ; \bm{\sigma}_f) \equiv \prod_\alpha
+  \Theta \left( \sqrt{3}\ \sigma_{f,\alpha}
+  - \left| \theta_{f,\alpha} \right| \right),
 \end{align}
-where $\Theta$ is the Heaviside step function.  This corresponds to
-the top-hat distribution of $\theta_{f,\alpha}$ with the variance
-$\sigma_{f,\alpha}^2$ for each $\alpha$.  As for an example of another
-fitting function, we have adopted a simple one parameter extension of
-Eq.~\eqref{eq_f_theta}
+where $\Theta$ is the Heaviside step function.
+This corresponds to the top-hat distribution of $\theta_{f,\alpha}$ with the variance $\sigma_{f,\alpha}^2$ for each $\alpha$.
+As for an example of another fitting function, we have adopted a simple one parameter extension of Eq.~\eqref{eq_f_theta}
 \begin{align}
  f_{\mathrm{sys}, i} (\bm{\theta}_f) =
  e^{\theta_{f,1}} (1 - p_i)^{\theta_{f,2}}
@@ -497,80 +489,46 @@ Eq.~\eqref{eq_f_theta}
  + \theta_{f,6} \ln^3 p_i)},\label{eq_6_param}
 \end{align}
 which consists of six parameters.
-The variances of the nuisance parameters are estimated
-in the same way as Sec.~\ref{sec_statistical}, but now with the six parameters.
+The variances of the nuisance parameters are estimated in the same way as Sec.~\ref{sec_statistical}, but now with the six parameters.
 
 \begin{figure}[t]
- \centering
- \includegraphics[width=0.7\linewidth]{mchi_vs_sqq0_comp.pdf}
- \caption{$\sqrt{q_0}$ as a function of the WIMP mass using both the
- NC and CC processes.  The convention for the line colors is the same
- as Fig.~\ref{fig_mchi_vs_sqq0}.  The line styles denote the result
- same as Fig.~\ref{fig_mchi_vs_sqq0} (solid), that with the top-hat
- distribution (dashed), and that with the six parameters fitting
- function (dotted).}  \label{fig_mchi_vs_sqq0_comp}
+  \centering
+  \includegraphics[width=0.7\linewidth]{mchi_vs_sqq0_comp.pdf}
+  \caption{
+    $\sqrt{q_0}$ as a function of the WIMP mass using both the NC and CC processes.
+    The convention for the line colors is the same as Fig.~\ref{fig_mchi_vs_sqq0}.  The line styles denote the result same as Fig.~\ref{fig_mchi_vs_sqq0} (solid), that with the top-hat distribution (dashed), and that with the six parameters fitting function (dotted).
+  }
+  \label{fig_mchi_vs_sqq0_comp}
 \end{figure}
 
-In Fig.~\ref{fig_mchi_vs_sqq0_comp}, we show the corresponding
-results.  The convention for the line colors is the same as
-Fig.~\ref{fig_mchi_vs_sqq0}, while the line styles denote different
-procedures: the dashed and dotted lines correspond to the result with
-the top-hat distribution and that with the six parameters fitting
-function, respectively, while solid lines are the same as
-Fig.~\ref{fig_mchi_vs_sqq0}.  From the figure, we can see that the
-choice of the distribution may slightly affect the result, while the
-addition of a nuisance parameter as Eq.~\eqref{eq_6_param} causes
-almost no effect.  The size of the effect of the choice of the
-distribution for the current estimation of errors $\bm{\sigma}_f$ is
-about $100\,\mathrm{GeV}$ ($200\,\mathrm{GeV}$) for the $5\sigma$
-($95\,\%$ C.L.) bounds.  We expect that such uncertainties due to the
-procedure to include the systematic errors will be reduced once the
-data from the real experiment (and hence better understanding of the
-systematic errors) will become available.
-%  This
-% is because there should be no such uncertainty when the statistical
-% errors dominate over systematic errors and the $\bm{\sigma}_f \to
-% \bm{0}$ limit is valid.
+In Fig.~\ref{fig_mchi_vs_sqq0_comp}, we show the corresponding results.
+The convention for the line colors is the same as Fig.~\ref{fig_mchi_vs_sqq0}, while the line styles denote different procedures: the dashed and dotted lines correspond to the result with the top-hat distribution and that with the six parameters fitting function, respectively, while solid lines are the same as Fig.~\ref{fig_mchi_vs_sqq0}.
+From the figure, we can see that the choice of the distribution may slightly affect the result, while the addition of a nuisance parameter as Eq.~\eqref{eq_6_param} causes almost no effect.
+The size of the effect of the choice of the distribution for the current estimation of errors $\bm{\sigma}_f$ is about $100\,\mathrm{GeV}$ ($200\,\mathrm{GeV}$) for the $5\sigma$ ($95\,\%$ C.L.) bounds.
+We expect that such uncertainties due to the procedure to include the systematic errors will be reduced once the data from the real experiment (and hence better understanding of the systematic errors) will become available.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Determination of WIMP properties}
 \label{sec_property}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In this subsection, we show that it is possible to determine the
-properties of the WIMPs from the NC and CC processes, thanks to the
-fact that we can study the $m_{\ell\ell}$ and $m_T$ distribution in
-great detail for these processes.  Some information about the mass,
-charge, and spin of the WIMPs can be extracted because the
-corrections to these distributions from the WIMPs are completely
-determined by these WIMP properties.  Firstly, we can extract the
-WIMP mass from the position of the dip-like structure in the
-correction since it corresponds to roughly twice the WIMP mass as we
-have shown in Sec.~\ref{sec:WIMP}.  Secondly, the overall size of the
-correction gives us information about the $SU(2)_L$ and $U(1)_Y$
-charges.  The CC processes depend only on the $SU(2)_L$ charge, while
-the NC processes depend both on the $SU(2)_L$ and $U(1)_Y$ charges.
-Consequently, we can obtain information about the gauge charges of the
-WIMPs from the NC and CC processes.
+In this subsection, we show that it is possible to determine the properties of the WIMPs from the NC and CC processes, thanks to the fact that we can study the $m_{\ell\ell}$ and $m_T$ distribution in great detail for these processes.
+Some information about the mass, charge, and spin of the WIMPs can be extracted because the corrections to these distributions from the WIMPs are completely determined by these WIMP properties.
+Firstly, we can extract the WIMP mass from the position of the dip-like structure in the correction since it corresponds to roughly twice the WIMP mass as we have shown in Sec.~\ref{sec:WIMP}.
+Secondly, the overall size of the correction gives us information about the $SU(2)_L$ and $U(1)_Y$ charges.
+The CC processes depend only on the $SU(2)_L$ charge, while the NC processes depend both on the $SU(2)_L$ and $U(1)_Y$ charges.
+Consequently, we can obtain information about the gauge charges of the WIMPs from the NC and CC processes.
 
-We now demonstrate the mass and charge determination of fermionic
-WIMPs. This is equivalent to the determination of the parameter set
-$(m, C_1, C_2)$.  We generate the data assuming the SM $+$ WIMP model
-($\mu=1$) with some specific values of $m, n, Y$, and $\kappa$, with
-which we obtain $(m, C_1, C_2)$.  We fix $\mu = 1$ for our theoretical
-model as well, and hence the theoretical predictions of the number of
-events also depend on these three parameters, $\bm{x}_f = \bm{x}_f
-(m, C_1, C_2)$.  We define the likelihood function $L(\check{\bm{x}}_f
-; \bm{\theta}_f, m, C_1, C_2)$ in the same form as
-Eqs.~\eqref{eq_xtilde} and~\eqref{eq_L} with the theoretical
-prediction $\bm{x}_f$ now understood as a function of $(m, C_1, C_2)$,
-not of $\mu$.\footnote
-%%
-{As shown in Eqs.\ \eqref{eq_C1} and \eqref{eq_C2}, $C_1$ and $C_2$
-  are positive quantities (and $C_2$ is discrete).  In the figures,
-  however, we extend the $C_1$ and $C_2$ axes down to negative
-  regions just for presentation purposes.}
-%%
+We now demonstrate the mass and charge determination of fermionic WIMPs.
+This is equivalent to the determination of the parameter set $(m, C_1, C_2)$.
+We generate the data assuming the SM $+$ WIMP model ($\mu=1$) with some specific values of $m, n, Y$, and $\kappa$, with which we obtain $(m, C_1, C_2)$.
+We fix $\mu = 1$ for our theoretical model as well, and hence the theoretical predictions of the number of events also depend on these three parameters, $\bm{x}_f = \bm{x}_f (m, C_1, C_2)$.
+We define the likelihood function $L(\check{\bm{x}}_f ; \bm{\theta}_f, m, C_1, C_2)$ in the same form as Eqs.~\eqref{eq_xtilde} and~\eqref{eq_L} with the theoretical prediction $\bm{x}_f$ now understood as a function of $(m, C_1, C_2)$, not of $\mu$.
+\footnote{
+  As shown in Eqs.\ \eqref{eq_C1} and \eqref{eq_C2}, $C_1$ and $C_2$ are positive quantities (and $C_2$ is discrete).
+  In the figures, however, we extend the $C_1$ and $C_2$ axes down to negative regions just for presentation purposes.
+}
 The test statistic is defined as
 %%
 \begin{align}
@@ -581,180 +539,113 @@ The test statistic is defined as
   \label{eq_q0f}
 \end{align}
 %%
-where the parameters $(\{\hat{\bm{\theta}}_f\}, \hat{m}, \hat{C}_1,
-\hat{C}_2)$ maximize $\prod_f L(\check{\bm{x}}_f ;
-\bm{\theta}_f, m, C_1, C_2)$, while
-$\doublehat{\bm{\theta}}_f$ maximize $L(\check{\bm{x}}_f ;
-\bm{\theta}_f, {m}, {C}_1, C_2)$ for fixed values of $(m,
-C_1, C_2)$.  It follows the chi-squared distribution with three
-degrees of freedom in the limit of a large number of
-events~\cite{Tanabashi:2018oca}.  The test statistic defined in this
-way examines the compatibility of a given WIMP model (i.e. a
-parameter set $(m, C_1, C_2)$) with the observed signal.
+where the parameters $(\{\hat{\bm{\theta}}_f\}, \hat{m}, \hat{C}_1, \hat{C}_2)$ maximize $\prod_f L(\check{\bm{x}}_f ; \bm{\theta}_f, m, C_1, C_2)$, while $\doublehat{\bm{\theta}}_f$ maximize
+$L(\check{\bm{x}}_f ; \bm{\theta}_f, m, C_1, C_2)$ for fixed values of $(m, C_1, C_2)$.
+It follows the chi-squared distribution with three degrees of freedom in the limit of a large number of events~\cite{Tanabashi:2018oca}.
+The test statistic defined in this way examines the compatibility of a given WIMP model (i.e. a parameter set $(m, C_1, C_2)$) with the observed signal.
+
 
 \begin{figure}[t]
- \centering
- \includegraphics[width=0.5\linewidth]{C1_vs_C2_Higgsino.pdf}
- \caption{Contour of $\sqrt{q}$ in the $C_1~\mathrm{vs.}~C_2$ plane
- with $m = 1.1\,\mathrm{TeV}$,
- where we assume $1.1\,\mathrm{TeV}$ Higgsino signal.
- The dotted and solid
- lines denote $1\sigma$ and $2\sigma$ contours, respectively, and the
- gray region corresponds to the parameter space that is in tension
- with the observation at more than $2\sigma$ level.  The blue, green,
- and red lines correspond to the result from the NC processes, the CC
- processes, and the combined analysis, respectively.  Each star marker
- annotated as ``$n_Y$'' represents a point corresponding to a
- $SU(2)_L$ $n$-plet Dirac fermion with hypercharge $Y$, while that
- with ``$n_\mathrm{Maj}$'' corresponds to an $SU(2)_L$ $n$-plet
- Majorana fermion.}
-\label{fig_c1_c2}
+  \centering
+  \includegraphics[width=0.5\linewidth]{C1_vs_C2_Higgsino.pdf}
+  \caption{
+    Contour of $\sqrt{q}$ in the $C_1~\mathrm{vs.}~C_2$ plane with $m = 1.1\,\mathrm{TeV}$, where we assume $1.1\,\mathrm{TeV}$ Higgsino signal.
+    The dotted and solid lines denote $1\sigma$ and $2\sigma$ contours, respectively, and the gray region corresponds to the parameter space that is in tension with the observation at more than $2\sigma$ level.
+    The blue, green, and red lines correspond to the result from the NC processes, the CC processes, and the combined analysis, respectively.
+    Each star marker annotated as ``$n_Y$'' represents a point corresponding to a $SU(2)_L$ $n$-plet Dirac fermion with hypercharge $Y$, while that with ``$n_\mathrm{Maj}$'' corresponds to an $SU(2)_L$ $n$-plet Majorana fermion.
+  }
+  \label{fig_c1_c2}
 \end{figure}
 
-Once a deviation from the SM prediction is observed in a real experiment,
-we may determine $(m, C_1, C_2)$ using the above test statistic $q$.
-In the following, we
-show the expected accuracy of the determination of $(m, C_1, C_2)$ for
-the case where there exists $1.1\,\mathrm{TeV}$ Higgsino.\footnote
-%%
-{
-The expected significance is $3.5\sigma$ for $1.1\,\mathrm{TeV}$ Higgsino in our estimation.
-Even though it is slightly below the $5\sigma$ discovery, we take $1.1\,\mathrm{TeV}$
-Higgsino as an example because it is a candidate of the thermal relic DM.}
-%%
+Once a deviation from the SM prediction is observed in a real experiment, we may determine $(m, C_1, C_2)$ using the above test statistic $q$.
+In the following, we show the expected accuracy of the determination of $(m, C_1, C_2)$ for the case where there exists $1.1\,\mathrm{TeV}$ Higgsino.
+\footnote{
+  The expected significance is $3.5\sigma$ for $1.1\,\mathrm{TeV}$ Higgsino in our estimation.
+  Even though it is slightly below the $5\sigma$ discovery, we take $1.1\,\mathrm{TeV}$ Higgsino as an example because it is a candidate of the thermal relic DM.
+}
 
-In Fig.~\ref{fig_c1_c2}, we show the contours of $1\sigma$ (dotted)
-and $2\sigma$ (solid) constraints, which correspond to the values
-$\sqrt{q}=1.9$ and $\sqrt{q}=2.8$, respectively, in the
-$C_1~\mathrm{vs.}~C_2$ plane for $m=1.1\,\mathrm{TeV}$.  The blue,
-green, and red lines denote the result obtained from the NC processes,
-the CC processes, and the combined analysis, respectively.  The models
-in the gray region are in more than $2\sigma$ tension with the
-observation.  We also show several star markers that correspond to the
-single $SU(2)_L$ multiplet contributions: the markers with ``$n_Y$''
-represent an $SU(2)_L$ $n$-plet Dirac fermion with hypercharge $Y$,
-while those with ``$n_\mathrm{Maj}$'' an $SU(2)_L$ $n$-plet Majorana
-fermion.
-Both the NC and CC constraints are represented
-as straight bands in the $C_1~\mathrm{vs.}~C_2$ plane
-since each process depends on a specific linear combination of $C_1$ and $C_2$.
+In Fig.~\ref{fig_c1_c2}, we show the contours of $1\sigma$ (dotted) and $2\sigma$ (solid) constraints, which correspond to the values $\sqrt{q}=1.9$ and $\sqrt{q}=2.8$, respectively, in the $C_1~\mathrm{vs.}~C_2$ plane for $m=1.1\,\mathrm{TeV}$.
+The blue, green, and red lines denote the result obtained from the NC processes, the CC processes, and the combined analysis, respectively.
+The models in the gray region are in more than $2\sigma$ tension with the observation.
+We also show several star markers that correspond to the single $SU(2)_L$ multiplet contributions: the markers with ``$n_Y$'' represent an $SU(2)_L$ $n$-plet Dirac fermion with hypercharge $Y$, while those with ``$n_\mathrm{Maj}$'' an $SU(2)_L$ $n$-plet Majorana fermion.
+Both the NC and CC constraints are represented as straight bands in the $C_1~\mathrm{vs.}~C_2$ plane since each process depends on a specific linear combination of $C_1$ and $C_2$.
 In particular, the CC constraint is independent of $C_1$, or $Y$.
-In this sense, the NC and CC processes are complementary to each other,
-and thus we can separately constrain $C_1$ and $C_2$ only after
-combining these two results.
-For instance, we can exclude a single fermionic $SU(2)_L$ multiplet with $n \neq 2$ at more than
-$2\sigma$ level, although
-each process by itself cannot exclude the
-possibility of $3_{\text{Maj}}$.
+In this sense, the NC and CC processes are complementary to each other, and thus we can separately constrain $C_1$ and $C_2$ only after combining these two results.
+For instance, we can exclude a single fermionic $SU(2)_L$ multiplet with $n \neq 2$ at more than $2\sigma$ level, although each process by itself cannot exclude the possibility of $3_{\text{Maj}}$.
 We can also constrain the hypercharge, yet it is not uniquely determined.
-In addition to the Higgsino,
-the WIMP as an $SU(2)_L$ doublet Dirac fermion with
-$|Y|^2\lesssim 2$ or an $SU(2)_L$ doublet Majorana fermion with
-$|Y|^2\lesssim 5$ is still allowed.
+In addition to the Higgsino, the WIMP as an $SU(2)_L$ doublet Dirac fermion with $|Y|^2\lesssim 2$ or an $SU(2)_L$ doublet Majorana fermion with $|Y|^2\lesssim 5$ is still allowed.
 
 \begin{figure}[t]
- \centering
- \includegraphics[width=0.48\linewidth]{C1_vs_mass_Higgsino.pdf}
- \includegraphics[width=0.48\linewidth]{C2_vs_mass_Higgsino.pdf}
- \caption{\textbf{Left:} Contour of $\sqrt{q}$ in the
- $C_1~\mathrm{vs.}~m$ plane with $C_2 = 1$,
- where we assume the $1.1\,\mathrm{TeV}$ Higgsino signal.
- The colors and
- styles of lines and the meaning of the gray region are the same as
- Fig.~\ref{fig_c1_c2}.  The star maker corresponds to the true Higgsino
- property $(C_1, m) = (1, 1.1\,\mathrm{TeV})$. \textbf{Right:} Contour
- of $\sqrt{q}$ in the $C_2~\mathrm{vs.}~m$ plane for $C_1 = 1$,
- where we assume the $1.1\,\mathrm{TeV}$ Higgsino signal.
-The star maker corresponds to the true Higgsino property $(C_2, m) = (1,
-1.1\,\mathrm{TeV})$.
+  \centering
+  \includegraphics[width=0.48\linewidth]{C1_vs_mass_Higgsino.pdf}
+  \includegraphics[width=0.48\linewidth]{C2_vs_mass_Higgsino.pdf}
+  \caption{
+    \textbf{Left:} Contour of $\sqrt{q}$ in the $C_1~\mathrm{vs.}~m$ plane with $C_2 = 1$, where we assume the $1.1\,\mathrm{TeV}$ Higgsino signal.
+    The colors and styles of lines and the meaning of the gray region are the same as Fig.~\ref{fig_c1_c2}.
+    The star maker corresponds to the true Higgsino property $(C_1, m) = (1, 1.1\,\mathrm{TeV})$.
+    \textbf{Right:} Contour of $\sqrt{q}$ in the $C_2~\mathrm{vs.}~m$ plane for $C_1 = 1$, where we assume the $1.1\,\mathrm{TeV}$ Higgsino signal.
+    The star maker corresponds to the true Higgsino property $(C_2, m) = (1, 1.1\,\mathrm{TeV})$.
  }
  \label{fig_c1_m}
 \end{figure}
 
-In Fig.~\ref{fig_c1_m}, we show the contour
-plots of $\sqrt{q}$ in the $C_1~\mathrm{vs.}~m$ plane with $C_2=1$ (left)
-and those in the $C_2~\mathrm{vs.}~m$ plane with $C_1=1$ (right).
-The star marker in each panel shows the true values of
-parameters $(C_1, m) = (1, 1.1\,\mathrm{TeV})$ (left) and $(C_2, m) =
-(1, 1.1\,\mathrm{TeV})$ (right).  Again, by combining the NC and CC
-results, we can significantly improve the determination of WIMP
-properties, making $1\sigma$ and $2\sigma$ contours closed circles in
-the planes of our concern.  In particular, as red lines show, the
-combined analysis allows us to determine the observed WIMP mass at the
-level of $\mathcal{O}(10)\%$.
+In Fig.~\ref{fig_c1_m}, we show the contour plots of $\sqrt{q}$ in the $C_1~\mathrm{vs.}~m$ plane with $C_2=1$ (left) and those in the $C_2~\mathrm{vs.}~m$ plane with $C_1=1$ (right).
+The star marker in each panel shows the true values of parameters $(C_1, m) = (1, 1.1\,\mathrm{TeV})$ (left) and $(C_2, m) = (1, 1.1\,\mathrm{TeV})$ (right).
+Again, by combining the NC and CC results, we can significantly improve the determination of WIMP properties, making $1\sigma$ and $2\sigma$ contours closed circles in the planes of our concern.
+In particular, as red lines show, the combined analysis allows us to determine the observed WIMP mass at the level of $\mathcal{O}(10)\%$.
 
 \begin{figure}[t]
- \centering
- \includegraphics[width=0.5\linewidth]{C1_vs_C2_Higgsino_scalar.pdf}
- \caption{Contour of $\sqrt{q}$ in the $C_1~\mathrm{vs.}~C_2$ plane for
- the $1.1\,\mathrm{TeV}$ Higgsino signal, tested with the scalar WIMP
- assumption.  The plane is defined as the scalar mass of $920\,\mathrm{GeV}$.
- The colors and styles of lines and the meaning of the gray region are
- the same as Fig.~\ref{fig_c1_c2}.}  \label{fig_c1_c2_scalar}
+  \centering
+  \includegraphics[width=0.5\linewidth]{C1_vs_C2_Higgsino_scalar.pdf}
+  \caption{
+    Contour of $\sqrt{q}$ in the $C_1~\mathrm{vs.}~C_2$ plane for the $1.1\,\mathrm{TeV}$ Higgsino signal, tested with the scalar WIMP assumption.
+    The plane is defined as the scalar mass of $920\,\mathrm{GeV}$.
+    The colors and styles of lines and the meaning of the gray region are the same as Fig.~\ref{fig_c1_c2}.
+  }
+  \label{fig_c1_c2_scalar}
 \end{figure}
 
 \begin{figure}[t]
- \centering
- \includegraphics[width=0.48\linewidth]{C1_vs_mass_Higgsino_scalar.pdf}
- \includegraphics[width=0.48\linewidth]{C2_vs_mass_Higgsino_scalar.pdf}
- \caption{\textbf{Left:} Contour of $\sqrt{q}$ in the
- $C_1~\mathrm{vs.}~m$ plane with $C_2 = 1.25$ for the $1.1\,\mathrm{TeV}$ Higgsino signal,
- tested with the scalar WIMP assumption.
- The colors and styles of lines and the meaning of the gray
- region are the same as Fig.~\ref{fig_c1_c2}.  \textbf{Right:} Contour
- of $\sqrt{q}$ in the $C_2~\mathrm{vs.}~m$ plane with $C_1 = 0$ for the
- $1.1\,\mathrm{TeV}$ Higgsino signal, tested with the scalar WIMP
- assumption.} \label{fig_c1_m_scalar}
+  \centering
+  \includegraphics[width=0.48\linewidth]{C1_vs_mass_Higgsino_scalar.pdf}
+  \includegraphics[width=0.48\linewidth]{C2_vs_mass_Higgsino_scalar.pdf}
+  \caption{
+    \textbf{Left:} Contour of $\sqrt{q}$ in the $C_1~\mathrm{vs.}~m$ plane with $C_2 = 1.25$ for the $1.1\,\mathrm{TeV}$ Higgsino signal, tested with the scalar WIMP assumption.
+    The colors and styles of lines and the meaning of the gray region are the same as Fig.~\ref{fig_c1_c2}.
+    \textbf{Right:} Contour  of $\sqrt{q}$ in the $C_2~\mathrm{vs.}~m$ plane with $C_1 = 0$ for the $1.1\,\mathrm{TeV}$ Higgsino signal, tested with the scalar WIMP assumption.
+  }
+  \label{fig_c1_m_scalar}
 \end{figure}
 
-Finally, we comment on the possibility of discriminating between
-fermionic and scalar WIMPs, whose difference comes from the loop
-function $f(x)$ (see Eq.~\eqref{eq_f}).  Here we repeat the same
-analysis explained above, assuming the $1.1\,\mathrm{TeV}$ Higgsino
-signal for example, but use the scalar loop function to evaluate the
-theoretical predictions $\bm{x}_f (m, C_1, C_2)$.  In
-Figs.~\ref{fig_c1_c2_scalar} and \ref{fig_c1_m_scalar}, we show the
-results in the $C_1$ vs. $C_2$ plane and the $C_1$ (or $C_2$) vs. $m$
-plane, respectively, where one of the three parameters is fixed to its
-best fit value.  It is seen that, in the case of the
-$1.1\,\mathrm{TeV}$ Higgsino signal, it is hard to distinguish between
-the bosonic and fermionic WIMPs only with our method.  However, if a
-part of the WIMP properties (in particular its mass) is determined
-from another approach, our method may allow us to determine its spin
-correctly.
+Finally, we comment on the possibility of discriminating between fermionic and scalar WIMPs, whose difference comes from the loop function $f(x)$ (see Eq.~\eqref{eq_f}).
+Here we repeat the same analysis explained above, assuming the $1.1\,\mathrm{TeV}$ Higgsino signal for example, but use the scalar loop function to evaluate the theoretical predictions $\bm{x}_f (m, C_1, C_2)$.
+In Figs.~\ref{fig_c1_c2_scalar} and \ref{fig_c1_m_scalar}, we show the results in the $C_1$ vs. $C_2$ plane and the $C_1$ (or $C_2$) vs. $m$ plane, respectively, where one of the three parameters is fixed to its best fit value.
+It is seen that, in the case of the $1.1\,\mathrm{TeV}$ Higgsino signal, it is hard to distinguish between the bosonic and fermionic WIMPs only with our method.
+However, if a part of the WIMP properties (in particular its mass) is determined from another approach, our method may allow us to determine its spin correctly.
 
-We also stress here that, with some favorable assumption about the
-observed signal, we may obtain some hint about its spin.  For example,
-if we assume that the observed signal composes a fraction of the dark
-matter in our Universe, the choice of the WIMP charges is
-significantly constrained.  Note from Fig.~\ref{fig_c1_c2_scalar} that
-the only choices of WIMP charges that allow the WIMP multiplet to
-contain an electrically neutral component are
-$(n,|Y|)=(3,0),(3,1),(4,1/2),(4,3/2)$, and $(5,0)_\text{real}$.  The
-last column of the table~\ref{tab:minimalDM-for-950scalar-section} shows proper choices of WIMP masses in order
-for their thermal relic abundances become comparable with the dark
-matter abundance in the current Universe.  All of those values are
-somewhat larger than the central value of the mass of the observed
-signal, which means that the scalar interpretation of the signal
-cannot explain the whole of the dark matter relic abundance without
-introducing some non-thermal production mechanism.
+We also stress here that, with some favorable assumption about the observed signal, we may obtain some hint about its spin.
+For example, if we assume that the observed signal composes a fraction of the dark matter in our Universe, the choice of the WIMP charges is significantly constrained.
+Note from Fig.~\ref{fig_c1_c2_scalar} that the only choices of WIMP charges that allow the WIMP multiplet to contain an electrically neutral component are $(n,|Y|)=(3,0),(3,1),(4,1/2),(4,3/2)$, and $(5,0)_\text{real}$.
+The last column of the table~\ref{tab:minimalDM-for-950scalar-section} shows proper choices of WIMP masses in order for their thermal relic abundances become comparable with the dark matter abundance in the current Universe.
+All of those values are somewhat larger than the central value of the mass of the observed signal, which means that the scalar interpretation of the signal cannot explain the whole of the dark matter relic abundance without introducing some non-thermal production mechanism.
 
 \begin{table}[t]
-\centering
-\begin{tabular}{|c|ccc|}
-\hline
-$(n, Y)$           & $C_1$ & $C_2$ & $m_\text{DM}$[TeV] \\ \hline\hline
-$(3,0)_\text{real}$  &    0  &  0.25  & 2.5 \cite{Farina:2013mla}             \\
-$(3,          0)$  &    0  & 0.5   & 1.55 \cite{DelNobile:2015bqo}              \\
-$(3,          1)$  & 0.75  & 0.5   & 1.6 \cite{Farina:2013mla}               \\
-$(4,\frac{1}{2})$  & 0.25  & 1.25  & 2.4 \cite{Farina:2013mla}             \\
-$(4,\frac{3}{2})$  & 2.25  & 1.25  & 2.9 \cite{Farina:2013mla}             \\
-$(5,0)_\text{real}$  &    0  &  1.25  & 9.4 \cite{Farina:2013mla}          \\
-\hline
-\end{tabular}
-\caption{The scalar WIMPs that are compatible with the result in Fig.~\ref{fig_c1_c2_scalar}. The observed DM energy density is explained by the
-thermal relic of the WIMP with $m_{\text{DM}}$ shown in the fourth column.}
-\label{tab:minimalDM-for-950scalar-section}
+  \centering
+  \begin{tabular}{|c|ccc|}
+    \hline
+    $(n, Y)$           & $C_1$ & $C_2$ & $m_\text{DM}$[TeV] \\ \hline\hline
+    $(3,0)_\text{real}$  &    0  &  0.25  & 2.5 \cite{Farina:2013mla}             \\
+    $(3,          0)$  &    0  & 0.5   & 1.55 \cite{DelNobile:2015bqo}              \\
+    $(3,          1)$  & 0.75  & 0.5   & 1.6 \cite{Farina:2013mla}               \\
+    $(4,\frac{1}{2})$  & 0.25  & 1.25  & 2.4 \cite{Farina:2013mla}             \\
+    $(4,\frac{3}{2})$  & 2.25  & 1.25  & 2.9 \cite{Farina:2013mla}             \\
+    $(5,0)_\text{real}$  &    0  &  1.25  & 9.4 \cite{Farina:2013mla}          \\
+    \hline
+  \end{tabular}
+  \caption{
+    The scalar WIMPs that are compatible with the result in Fig.~\ref{fig_c1_c2_scalar}. The observed DM energy density is explained by the thermal relic of the WIMP with $m_{\text{DM}}$ shown in the fourth column.
+  }
+  \label{tab:minimalDM-for-950scalar-section}
 \end{table}
 
 
@@ -763,55 +654,25 @@ thermal relic of the WIMP with $m_{\text{DM}}$ shown in the fourth column.}
 \label{seq:conclusion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In this paper, we have discussed the indirect search of WIMPs at future
-$100\,\mathrm{TeV}$ hadron colliders based on the precision measurement
-of the production processes of a charged lepton pair and that of a
-charged lepton and a neutrino.  In particular, we have demonstrated that
-not only we can discover the WIMPs, but also we can determine their
-properties such as their masses, $SU(2)_L$ and $U(1)_Y$ charges, and
-spins via the processes of our concern.  It is based on two facts: the
-high energy lepton production channel enables us to study its momentum
-distribution in great detail, and the WIMP correction shows
-characteristic features, including a dip-like structure as the final
-state invariant mass being twice the WIMP mass.  The latter feature
-also helps us to distinguish the WIMP signals from backgrounds and
-systematic errors, as they are not expected to show a dip-like
-structure.  In order to fully exploit the differences between the
-distributions the WIMP signals and systematic errors, we have adopted
-the fitting based analysis as our statistical treatment.
+In this section, we have discussed the indirect search of WIMPs at future $100\,\mathrm{TeV}$ hadron colliders based on the precision measurement of the production processes of a charged lepton pair and that of a charged lepton and a neutrino.
+In particular, we have demonstrated that not only we can discover the WIMPs, but also we can determine their properties such as their masses, $SU(2)_L$ and $U(1)_Y$ charges, and  spins via the processes of our concern.
+It is based on two facts: the high energy lepton production channel enables us to study its momentum distribution in great detail, and the WIMP correction shows characteristic features, including a dip-like structure as the final state invariant mass being twice the WIMP mass.
+The latter feature also helps us to distinguish the WIMP signals from backgrounds and systematic errors, as they are not expected to show a dip-like structure.
+In order to fully exploit the differences between the distributions the WIMP signals and systematic errors, we have adopted the fitting based analysis as our statistical treatment.
 
 
-First, we have shown in Fig.~\ref{fig_mchi_vs_sqq0} the detection
-reach of Higgsino and Wino from the neutral current (NC) processes
-(mediated by photon or $Z$-boson), the charged current (CC) processes
-(mediated by $W$-boson), and the combination of these two results.  We
-have seen that the addition of the CC processes improves the detection
-reach from the previous analysis \cite{Chigusa:2018vxz}.  From the
-combined analysis, the bounds at the $5\sigma$ ($95\%$ C.L.) level for
-Higgsino and Wino are $850\,\mathrm{GeV}$ ($1.7\,\mathrm{TeV}$) and
-$1.3\,\mathrm{TeV}$ ($2.3\,\mathrm{TeV}$), respectively.  This result,
-in particular that for short lifetime Higgsino, indicates the
-importance of our method for the WIMP search.
+First, we have shown in Fig.~\ref{fig_mchi_vs_sqq0} the detection reach of Higgsino and Wino from the neutral current (NC) processes (mediated by photon or $Z$-boson), the charged current (CC) processes (mediated by $W$-boson), and the combination of these two results.
+We have seen that the addition of the CC processes improves the detection reach from the previous analysis \cite{Chigusa:2018vxz}.
+From the combined analysis, the bounds at the $5\sigma$ ($95\%$ C.L.) level for Higgsino and Wino are $850\,\mathrm{GeV}$ ($1.7\,\mathrm{TeV}$) and $1.3\,\mathrm{TeV}$ ($2.3\,\mathrm{TeV}$), respectively.
+This result, in particular that for short lifetime Higgsino, indicates the importance of our method for the WIMP search.
 
-Next, we have considered the determination of the mass and $SU(2)_L$
-and $U(1)_Y$ charges of the observed WIMP.  By combining the NC and
-the CC events, the position and the height of the dip in the WIMP
-effect on the cross section gives us enough information for
-determining all the three parameters.  In Figs.~\ref{fig_c1_c2} and
-\ref{fig_c1_m}, we have shown the plots of the test statistics that
-test the validity of several choices of parameters.  As a result, the
-$SU(2)_L$ charge of the observed signal is correctly identified under
-the assumption of a single WIMP multiplet, and the $U(1)_Y$ charge
-and mass are also determined precisely.  In order for the
-determination of the WIMP spin, we have plotted the contours of the
-test statistics that test the validity of the scalar WIMP models with
-some fixed values of masses and charges.  The results are shown in
-Figs.~\ref{fig_c1_c2_scalar} and \ref{fig_c1_m_scalar}, which reveals
-that the spin is not completely determined by solely using our
-method.  Use of another approach to determine the WIMP properties, or
-of some assumption like that the observed signal corresponds to the
-dark matter in our Universe, may help us to obtain further information
-regarding the WIMP spin.
+Next, we have considered the determination of the mass and $SU(2)_L$ and $U(1)_Y$ charges of the observed WIMP.
+By combining the NC and the CC events, the position and the height of the dip in the WIMP effect on the cross section gives us enough information for determining all the three parameters.
+In Figs.~\ref{fig_c1_c2} and \ref{fig_c1_m}, we have shown the plots of the test statistics that test the validity of several choices of parameters.
+As a result, the $SU(2)_L$ charge of the observed signal is correctly identified under the assumption of a single WIMP multiplet, and the $U(1)_Y$ charge and mass are also determined precisely.
+In order for the determination of the WIMP spin, we have plotted the contours of the test statistics that test the validity of the scalar WIMP models with some fixed values of masses and charges.
+The results are shown in Figs.~\ref{fig_c1_c2_scalar} and \ref{fig_c1_m_scalar}, which reveals that the spin is not completely determined by solely using our method.
+Use of another approach to determine the WIMP properties, or of some assumption like that the observed signal corresponds to the dark matter in our Universe, may help us to obtain further information regarding the WIMP spin.
 
 
 \bibliographystyle{elsarticle-num}
