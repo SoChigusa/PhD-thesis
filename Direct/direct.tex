@@ -8,6 +8,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Direct collider search of WIMPs}
 \setcounter{equation}{0}
+\label{sec:direct}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \vskip 0.1in
@@ -245,76 +246,6 @@ However, the mass splitting is so small in many cases that the typical flight le
 Such long-lived charged particles, which travel for a few $\mathrm{cm}$ and then decay into an invisible counterpart, can be detected as charged tracks disappearing at the middle.
 They are very characteristic signals and can be used as the most efficient discriminator between the SM background and the WIMP signals.
 In this section, we will describe what we have summarized above in more detail.
-
-
-\subsubsection*{Mass splitting among an $SU(2)_L$ multiplet}
-
-First, we consider the mass splitting caused by the spontaneous breakdown of the electroweak symmetry.
-In particular, we start with the tree-level propagation of heavy particles, such as the SUSY particles other than the LSP, or another unknown particles.
-After integrating out all the heavy particles other than the SM particles and the light WIMP, we may obtain operators of the form of $\mathcal{O} = M_{i j} \chi_i \chi_j$, where $\chi$ denotes the WIMP and $i$ is the $SU(2)_L$ index.
-This operator causes the mass splitting only when $M_{i j}$ transforms non-trivially under the $SU(2)_L$ symmetry.
-Then, we can explicitlly construct the lowest dimensional operator among those relevant for the mass splitting.
-For Higgsino,
-\begin{align}
-  \mathcal{O} = \frac{1}{\Lambda} (\bar{\chi} H^{*}) (H \chi),
-  \label{eq:Higgsino_mass_splitting}
-\end{align}
-where $\chi = (\tilde{H}_u, -i \sigma_2 \tilde{H}_d^{*})^t$, $\Phi$ is the SM Higgs doublet with $Y = 1/2$, $\Lambda$ is the cut-off scale of the effective theory, \textit{i.e.}, the typical mass scale of the relevant heavy particles, and the parenthesis denotes the $SU(2)_L$ invariant product of fundamental representations.
-Similarly, for Wino, \cite{Gherghetta:1999sw}
-\begin{align}
-  \mathcal{O} = \frac{1}{\Lambda^3} (H^\dagger \sigma^a H) (H^\dagger \sigma^b H) \tilde{W}^a \tilde{W}^b,
-  \label{eq:Wino_mass_splitting}
-\end{align}
-A simple implication of this observation is that, for multiplets with large $n$, there are suppression factors that keep the tree-level mass splitting small.
-For Wino, the suppression is of $\mathcal{O} (M_W^4 / \Lambda^3)$, which yields a splitting smaller than $10\,\mathrm{MeV}$ for heavy paritlces with a few $\mathrm{TeV}$ masses.
-For fermionic MDMs with $n \gtrsim 5$, a similarly small mass splitting at the tree-level is expected.
-\footnote{
-  For scalar MDMs, there is another renormalizable operator that generates a mass splitting
-  \begin{align*}
-    \mathcal{O} = - \lambda_H \left( \chi^{*} \sigma^a \chi \right) \left( H^\dagger \sigma^a H \right).
-  \end{align*}
-  Unless $\lambda_H$ is sufficiently small, the disappearing track search cannot be applied because of the too large mass splitting.
-}
-This is the main reason why the loop correction plays more important role for the mass splitting of Wino and MDMs.
-
-The situation is different for Higgsino because of the much less drastic suppression factor of $\mathcal{O} (M_W^2 / \Lambda)$, which generates $\mathcal{O} (100)\,\mathrm{MeV}$ mass splitting for $\Lambda \lesssim \mathrm{10}\,\mathrm{TeV}$.
-\footnote{
-  For the order estimation of the mass splitting, we have taken account of the size of the coupling constants omitted in Eq.~\eqref{eq:Higgsino_mass_splitting}, using the rough estimation $g_1^2 \sim g_2^2 \sim 1/10$.
-}
-In fact, in models like the split SUSY, the mixing between Higgsino and heavier gauginos can generate the large mass splitting among the Higgsino components.
-As a result, neutral components that originally forms a Dirac fermion splits into two Majorana fermions with mass difference $\Delta m_0$, and the charged components also become heavier than the lighter neutral component by $\Delta m_{+}^{\mathrm{(tree)}}$.
-According to \cite{Fukuda:2017jmk}, their approximate expressions are given by
-\begin{align}
-  \Delta m_0 &\simeq \frac{M_W^2}{g_2^2} \left( \frac{g_1^2}{M_1} + \frac{g_2^2}{M_2} \right),\\
-  \Delta m_{+}^{\mathrm{(tree)}} &\simeq \frac{M_W^2}{2 g_2^2} \left[
-  \left( \frac{g_1^2}{M_1} + \frac{g_2^2}{M_2} \right)
-  + \mathrm{sgn} (\mu) \sin 2\beta \left( \frac{g_1^2}{M_1} - \frac{g_2^2}{M_2} \right) \right],
-  \label{eq:Higgsino_delm_tree}
-\end{align}
-assuming the CP invariance for simplicity.
-Note that the results agrees with the previous order estimation with $\Lambda \sim M_1$, $M_2$.
-
-Next we consider the loop correction to the WIMP masses.
-When the loop is composed of heavy particles, the effective operator that causes the mass splitting again becomes the same as above, which is now associated with a small loop factor.
-Thus, the largest contribution comes from the gauge boson - WIMP loop.
-For the charged componets of Higgsino, the one-loop result is known: \cite{Fukuda:2017jmk}
-\begin{align}
-  \Delta m_{+}^{\mathrm{(rad)}} \simeq \frac{1}{2} \alpha_2 M_Z \sin^2 \theta_W
-  \left( 1 - \frac{3 M_Z}{2\pi m_\chi} \right)
-  \sim 355\,\mathrm{MeV} \left( 1 - \frac{3 M_Z}{2\pi m_\chi} \right),
-  \label{eq:Higgsino_delm_rad}
-\end{align}
-with $\theta_W$ being the Weinberg angle, which gives $\Delta m_{+}^{\mathrm{(rad)}} \simeq 341\,\mathrm{MeV}$ for $m_\chi = 1.1\,\mathrm{TeV}$ and may be comparable to $\Delta m_{+}^{\mathrm{(tree)}}$.
-On the other hand, for Wino, we have the two-loop result \cite{Ibe:2012sx}
-\newcommand{\logmchi}{\left( \log \frac{m_\chi}{\mathrm{GeV}} \right)}
-\begin{align}
-  \frac{\Delta m}{\mathrm{MeV}} =
-  &-413.315 + 305.383 \logmchi - 60.8831 \logmchi^2\\
-  &+ 5.41948 \logmchi^3 - 0.181509 \logmchi^4,
-\end{align}
-which exhibits $\Delta m \simeq 165\,\mathrm{MeV}$ for $m_\chi = 2.9\,\mathrm{TeV}$.
-For the MDM, there are neutral, singly charged, doubly charged, and so on, components.
-Among them, the neutral and singly charged components have the smallest mass difference of $\Delta m \simeq 166\, \mathrm{MeV}$ \cite{Cirelli:2005uq}, which is the most important value for the collider search.
 
 
 \subsubsection*{Lifetime of charged components}
