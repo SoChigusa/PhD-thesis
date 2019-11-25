@@ -166,6 +166,11 @@ Hereafter, we use
  d\sqrt{s'}},\label{eq_dsigma}
 \end{align}
 to denote the correction from the WIMP.
+Note that this ratio remains unchanged even if we take into account the next-to-leading order (NLO) QCD effect because the EWIMPs affect the cross sections only through the vacuum polarization.
+\footnote{
+  When the NLO QCD effect is included, one of the initial partons can be gluon with the real emission of one jet in the final state.
+  However, we can easily see that $\delta_\sigma^{ug}$ = $\delta_\sigma^{uu}$ and so on.
+}
 
 \begin{figure}[t]
   \centering
@@ -230,6 +235,14 @@ In our analysis, we first generate the SM event sets for the NC processes $pp\to
 We use \texttt{MadGraph5\_aMC@NLO} (\texttt{v2.6.3.2})~\cite{Alwall:2011uj, Alwall:2014hca} for the event generation with the successive use of \texttt{Pythia8}~\cite{Sjostrand:2014zea} for the parton shower and the hadronization and \texttt{Delphes} (\texttt{v3.4.1})~\cite{deFavereau:2013fsa} with the card {\tt FCChh.tcl} for the detector simulation.
 We use \texttt{NNPDF2.3QED} with $\alpha_s (M_Z) = 0.118$~\cite{Ball:2013hta} as a canonical set of PDFs.
 For the renormalization and factorization scales, we use the default values of \texttt{MadGraph5\_aMC@NLO}, i.e., the central $m_T^2$ scale after $k_T$-clustering of the event (which we denote by $Q$).
+We take into account the NLO QCD effect by the \verb|[QCD]| option of \verb|MadGraph5_aMC@NLO| since it enhances the cross section roughly by a factor of $2$ compared to the LO calculation.
+\footnote{
+%%
+  This large enhancement implies that the next-to-next-to-leading order QCD effect may also have a non-negligible effect on the cross section, and its calculation remains as a future task.
+  However, due to its smooth dependence on $\sqrt{s'}$, it may not much affect the detection reach of the EWIMPs.
+  See Sec.~\ref{sec_statistical} for the details.
+%%
+}
 The events are binned by the characteristic mass $m_{\mathrm{char}}$ for each process: we use the lepton invariant mass $m_{\mathrm{char}} = m_{\ell\ell}$ for the NC processes, and the transverse mass $m_{\mathrm{char}} = m_T$ for the CC processes, respectively.
 In both cases, we generated events with the characteristic mass within the range of $500\,\mathrm{GeV} < m_\mathrm{char} < 7.5\,\mathrm{TeV}$ and divide them into $70$ bins with the equal width of $100\,\mathrm{GeV}$.
 
@@ -268,6 +281,7 @@ Note that the true value of $\sqrt{s'}$ should be used for each event for the co
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 We now explain the statistical method we will adopt in our analysis.
+Throughout this section, we rely on the so-called profile likelihood method, which is described in detail in Appendix \ref{sec:profile}.
 We collectively denote our theoretical model as $\bm{x}_f(\mu) = \{ x_{f,i} (\mu) \}$, where $x_{f,i}(\mu)$ is given by Eq.~\eqref{eq_n_tot}.
 We denote the experimental data set as $\check{\bm{x}}_f$ that in principle is completely unrelated to our theoretical model $\bm{x}_f(\mu)$.
 Since we do not have an actual experimental data set for $100~\,\mathrm{TeV}$ colliders for now, however, we take $\check{\bm{x}}_f = \bm{x}_f(\mu = 1)$ (for some fixed values of the WIMP mass and charges) throughout our analysis, assuming that the WIMP does exist.  In particular, this choice tests the SM-only hypothesis if we take our theoretical model as $\bm{x}_f(\mu=0)$.
@@ -292,7 +306,7 @@ In our analysis, we adopt the five parameters fitting function given by~\cite{Aa
 where $p_i = 2m_{i} / \sqrt{s}$ with $m_i$ being the central value of the lepton invariant mass (transverse mass) of the $i$-th bin for the NC (CC) processes.
 As we will see, the major effects of systematic errors can be absorbed into $\bm{\theta}_f$ with this fitting function.
 
-In order to test the SM-only hypothesis, we define the following test statistic~\cite{Cowan:2010js}:
+To test the SM-only hypothesis, we define the following test statistic~\cite{Cowan:2010js}:
 \begin{align}
   q_0 \equiv -2 \sum_{f=\ell \ell, \ell \nu} \ln \frac
   {L(\check{\bm{x}}_f ; \doublehat{\bm{\theta}}_f, \mu=0)}
@@ -328,7 +342,7 @@ systematic errors.
   Here we assume the Gaussian form for the nuisance parameter distribution.  The dependence of the results on the choice of the distribution will be discussed later in Sec.~\ref{sec_detection}.
 }
 If the systematic errors are negligible compared with the statistical error, we can take $\bm{\sigma}_f \to \bm{0}$, while the analysis with $\bm{\sigma}_f \to \infty$ assumes no knowledge of systematic errors and gives a conservative result.
-We identify $( q_0 )^{1/2} = 5$ $(1.96)$ as the detection reach at the $5\sigma$ ($95\,\%$ C.L.) level, since $q_0$ asymptotically obeys a chi-square distribution with the degree of freedom one.
+We identify $\sqrt{q_0} = 5$ $(1.96)$ as the detection reach at the $5\sigma$ ($95\,\%$ C.L.) level, since $q_0$ asymptotically obeys a chi-square distribution with the degree of freedom one.
 
 In order to determine $\bm{\sigma}_f$, we consider the following sources of the systematic errors:
 \begin{itemize}
@@ -426,10 +440,19 @@ In Table~\ref{tab_sys}, we summarize the result of the combination for all the f
 The values of $\bm{\sigma}_f$ are independent of the final state lepton flavors since the energy scale of our concern is much higher than the lepton masses.
 However, we use different sets of fit parameters $\bm{\theta}_{ee}$ and $\bm{\theta}_{\mu\mu}$ for the NC processes and $\bm{\theta}_{e\nu_e}$ and $\bm{\theta}_{\mu\nu_\mu}$ for the CC processes because of the different detector response to electrons and muons.
 
-In the tables, we have neglected the systematic errors from the detector effect.
-The main errors are expected to come from the lepton identification, in which some of the leptons in any process are overlooked or identified incorrectly, resulting in the misreconstruction of the event topology.
-Since we perform the fitting procedure as Eq.~\eqref{eq_q0}, it is expected that the small and smooth modification of the number of events as a function of the lepton invariant mass may be absorbed into the choice of nuisance parameters, if the corresponding values of $\bm{\sigma}_f$ are properly taken into account in addition to the values in Table
-\ref{tab_sys_ee}.
+Several comments on other possible sources of systematic errors are in order.
+As for the beam energy error, we could not generate events at NLO due to the lack of sufficient computational power.
+Instead, we checked at LO that the corresponding values of $\bm{\sigma}$ (assuming that the uncertainty of the beam energy is $1\,\%$) are small enough, and hence we simply ignored it.
+Two of the remaining sources are the pile-up effect and the underlying event, but they may be thought of as negligible since we are focusing on the very clean signal of two energetic leptons.
+Another one is the effect of higher order corrections to the cross section and that of background processes which are not considered in our analysis.
+It is in principle possible to estimate their effects through the simulation and improve the analysis but here we just leave it as a future task.
+Related to this, we note here that a smooth change of the number of events in general, possibly including the uncertainty listed above, could be absorbed by a minimization procedure using some fitting function like in Eq.~\eqref{eq_f_theta}.
+On the other hand, as we will discuss below, the WIMP signal can not be fully absorbed by the fit because of the sharp bend we mentioned before.
+
+We have also neglected the systematic errors from the detector effect.
+The main errors are expected to come from the lepton identification, in which some of the leptons in any process are overlooked or identified incorrectly, resulting in the mis-reconstruction of the event topology.
+Again, it is expected that the small and smooth modification of the number of events may be absorbed into the choice of nuisance parameters, if the corresponding values of $\bm{\sigma}_f$ are properly taken into account in addition to the values in Tables
+\ref{tab_sys_ee} and \ref{tab_sys_ev}.
 What is dangerous is the possible jerky modification that mimics the WIMP signal, which may be induced by the detector setup, the complicated detector response to leptons, and so on.
 Such unwanted fake signals may be avoided by checking the consistency between the electron and muon channels.
 This is because there should be the same size signals at the same lepton invariant mass in both channels for the WIMP signal, while the detector response to electrons and muons is different and such a coincidence is not expected in general.
@@ -449,6 +472,7 @@ In this section, we just assume that these systematic errors from the detector e
     $\sqrt{q_0}$ as a function of the WIMP mass.
     Red and blue lines correspond to the Higgsino and Wino, respectively, while line styles represent the result from the NC processes, the CC processes, the combined analysis, and the combined analysis with the optimistic $\bm{\sigma}_f \to \bm{0}$ limit.
     The purple and cyan lines correspond to the results from the conservative analysis with $\bm{\sigma}_f \to \infty$ for the Higgsino and Wino, respectively.
+    \rem{Also show a figure for MDM!}
   }
   \label{fig_mchi_vs_sqq0}
 \end{figure}
@@ -471,6 +495,32 @@ We find that the combination of the NC and CC processes improves the sensitivity
 Furthermore, if we understand all the systematic uncertainties quite well and effectively take the $\bm{\sigma}_f \to \bm{0}$ limit in the combined result, the detection reach will be pushed up significantly as shown by the dashed lines: $1.1\,\mathrm{TeV}$ Higgsino signal at well above $5\sigma$ level and a $4\sigma$ hint of the $2.9\,\mathrm{TeV}$ Wino.
 These lines should be compared with the combined results and also with those obtained from the conservative analysis with $\bm{\sigma}_f \to \infty$, assuming no knowledge about sources of systematic errors.
 The plot shows us that it is essential to reduce the systematic uncertainties for the detection of WIMPs through the NC and CC processes.
+
+We also show the detection reach of the MDM scenario in Fig.~\ref{subfig:57}.
+The $5\sigma$ reaches are $???\,{\rm TeV}$ and $???\,{\rm TeV}$ for 5-plet fermion and 7-plet scalar, while the $95\,\%$ reaches are $???\,{\rm TeV}$ and $???\,{\rm TeV}$.
+They are lowered to $???\,{\rm TeV}$ and $???\,{\rm TeV}$ ($5\sigma$) and $???\,{\rm TeV}$ and $???\,{\rm TeV}$ ($95\,\%$ C.L.) when the systematic errors are included.
+If we assume the vanilla thermal freeze-out scenario, the mass should be $10\,{\rm TeV}$ for 5-plet fermion and $25\,{\rm TeV}$ for 7-plet scalar~\cite{Cirelli:2007xd}.
+Thus, our method probes only a part of the allowed mass range for these multiplets.
+\rem{Fill the values, and 5-plet scalar, maybe?}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.495\hsize]{nlo2.pdf}
+  \caption{
+    Plot of the contribution of each bin to the value of $q_0$ for the NC processes.
+    The red (blue) lines correspond to the $1\,\mathrm{TeV}$ Higgsino ($1.5\,\mathrm{TeV}$ Wino).
+    The solid and dotted lines correspond to the results with the fitting procedure and those without it (\textit{i.e.,} the $\bm{\sigma}_f \to 0$ limit), respectively.
+  }
+  \label{fig:nlo2}
+\end{figure}
+
+Next, we plot in Fig.~\ref{fig:nlo2} the contribution of each bin to the value of $q_0$ to take a closer look at the significance of the dip structure, focusing on the NC processes as an example.
+The red (blue) lines correspond to the $1\,\mathrm{TeV}$ Higgsino ($1.5\,\mathrm{TeV}$ Wino), while the solid and dotted lines correspond to the results with the fitting procedure and those without it (\textit{i.e.,} the $\bm{\sigma}_f \to 0$ limit), respectively.
+We can see that the most contributions come from the bins around the peak at $m_{\ell\ell} = 2m$.
+This feature is clearer for the fitting based approach, where all the smooth parts of the correction are absorbed into the fit parameters, thus there is almost no contribution to $q_0$ from the bins other than $m_{\ell\ell} \sim 2m$.
+Note also that, for the $\bm{\sigma}_f \to 0$ analysis, there are more contributions from the bins with lower $m_{\ell\ell}$ than those with higher $m_{\ell\ell}$, though sometimes the WIMP effect on the cross section is much larger in the latter bins.
+This is just because of the difference of number of events in each bin, that is $\mathcal{O}(10^7)$ for $500\,{\rm GeV} < m_{\ell\ell} < 600\,{\rm GeV}$, while $\mathcal{O}(10^3)$ for $4900\,{\rm GeV} < m_{\ell\ell} < 5000\,{\rm GeV}$ in our set up, for instance.
+The similar behavior can be expected also for the CC processes.
 
 So far, we have adopted the assumption that the distribution of the nuisance parameters is the Gaussian form and that the fitting function Eq.~\eqref{eq_f_theta} is sufficient for treating systematic errors.
 In order to discuss the dependence of the results on these assumptions, we have repeated the same analysis using another distribution or fitting function.
@@ -502,11 +552,13 @@ The variances of the nuisance parameters are estimated in the same way as Sec.~\
   \label{fig_mchi_vs_sqq0_comp}
 \end{figure}
 
-In Fig.~\ref{fig_mchi_vs_sqq0_comp}, we show the corresponding results.
+In Fig.~\ref{fig_mchi_vs_sqq0_comp}, we show the corresponding results for Higgsino and Wino as an example.
 The convention for the line colors is the same as Fig.~\ref{fig_mchi_vs_sqq0}, while the line styles denote different procedures: the dashed and dotted lines correspond to the result with the top-hat distribution and that with the six parameters fitting function, respectively, while solid lines are the same as Fig.~\ref{fig_mchi_vs_sqq0}.
 From the figure, we can see that the choice of the distribution may slightly affect the result, while the addition of a nuisance parameter as Eq.~\eqref{eq_6_param} causes almost no effect.
 The size of the effect of the choice of the distribution for the current estimation of errors $\bm{\sigma}_f$ is about $100\,\mathrm{GeV}$ ($200\,\mathrm{GeV}$) for the $5\sigma$ ($95\,\%$ C.L.) bounds.
 We expect that such uncertainties due to the procedure to include the systematic errors will be reduced once the data from the real experiment (and hence better understanding of the systematic errors) will become available.
+
+\rem{Comment on bound state effect somewhere}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -659,12 +711,13 @@ In this section, we have discussed the indirect search of WIMPs at future $100\,
 In particular, we have demonstrated that not only we can discover the WIMPs, but also we can determine their properties such as their masses, $SU(2)_L$ and $U(1)_Y$ charges, and  spins via the processes of our concern.
 It is based on two facts: the high energy lepton production channel enables us to study its momentum distribution in great detail, and the WIMP correction shows characteristic features, including a dip-like structure as the final state invariant mass being twice the WIMP mass.
 The latter feature also helps us to distinguish the WIMP signals from backgrounds and systematic errors, as they are not expected to show a dip-like structure.
-In order to fully exploit the differences between the distributions the WIMP signals and systematic errors, we have adopted the fitting based analysis as our statistical treatment.
+In order to fully exploit the differences between the distributions the WIMP signals and systematic errors, we have adopted the profile likelihood method as our statistical treatment.
 
-
-First, we have shown in Fig.~\ref{fig_mchi_vs_sqq0} the detection reach of Higgsino and Wino from the neutral current (NC) processes (mediated by photon or $Z$-boson), the charged current (CC) processes (mediated by $W$-boson), and the combination of these two results.
+First, we have shown in Fig.~\ref{fig_mchi_vs_sqq0} the detection reach of WIMPs from the NC processes (mediated by photon or $Z$-boson), the CC processes (mediated by $W$-boson), and the combination of these two results.
 We have seen that the addition of the CC processes improves the detection reach from the previous analysis \cite{Chigusa:2018vxz}.
 From the combined analysis, the bounds at the $5\sigma$ ($95\%$ C.L.) level for Higgsino and Wino are $850\,\mathrm{GeV}$ ($1.7\,\mathrm{TeV}$) and $1.3\,\mathrm{TeV}$ ($2.3\,\mathrm{TeV}$), respectively.
+We have also shown the $95\,\%$ C.L. reach for 5-plet fermion and 7-plet scalar: $???\,{\rm TeV}$ and $???\,{\rm TeV}$ for the optimistic analysis and $???\,{\rm TeV}$ and $???\,{\rm TeV}$ for the analysis with a fitting procedure.
+\rem{Fill the values}
 This result, in particular that for short lifetime Higgsino, indicates the importance of our method for the WIMP search.
 
 Next, we have considered the determination of the mass and $SU(2)_L$ and $U(1)_Y$ charges of the observed WIMP.
