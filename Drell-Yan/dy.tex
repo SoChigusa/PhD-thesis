@@ -14,6 +14,8 @@
 \setcounter{equation}{0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\vskip 0.1in
+
 \rem{Histogram of lepton invariant mass?}
 
 \begin{figure}[b]
@@ -56,12 +58,13 @@ After integrating out the WIMPs, the effective lagrangian is expressed as
  f\left(-\frac{D^2}{m^2}\right) W^{a\mu\nu} + C_1 g'^2\, B_{\mu\nu}
  f\left(-\frac{\partial^2}{m^2}\right) B^{\mu\nu},\label{eq_lag}
 \end{align}
-where $\mathcal{L}_{\rm SM}$ is the SM Lagrangian, $D$ is a covariant derivative, $m$ is the WIMP mass,\footnote{
+where $\mathcal{L}_{\rm SM}$ is the SM Lagrangian, $D$ is a covariant derivative, $m$ is the WIMP mass,\footnote
+{
   Here we neglect a small mass splitting among the $SU(2)_L$ multiplet.
 }
 $g$ and $g'$ are the $SU(2)_L$ and $U(1)_Y$ gauge coupling constants, and $W_{\mu\nu}^a$ and $B_{\mu\nu}$ are the field strength associated with the $SU(2)_L$ and $U(1)_Y$ gauge group, respectively.
-The function $f(x)$ is defined as
-\footnote{
+The function $f(x)$ is defined as\footnote
+{
   If a WIMP interacts only through the electroweak interaction, its decay width is of $\mathrm{O}(1)\%$ or less of its mass even if it is unstable.
   We assume that this is the case, and neglect the small effect on the function $f(x)$ due to the small decay width.
   Also, $f(x)$ corresponds to the finite part of the WIMP loop contribution after performing the renoramlization in the $\overline{\mathrm{MS}}$ scheme.
@@ -166,8 +169,8 @@ Hereafter, we use
  d\sqrt{s'}},\label{eq_dsigma}
 \end{align}
 to denote the correction from the WIMP.
-Note that this ratio remains unchanged even if we take into account the next-to-leading order (NLO) QCD effect because the EWIMPs affect the cross sections only through the vacuum polarization.
-\footnote{
+Note that this ratio remains unchanged even if we take into account the next-to-leading order (NLO) QCD effect because the EWIMPs affect the cross sections only through the vacuum polarization.\footnote
+{
   When the NLO QCD effect is included, one of the initial partons can be gluon with the real emission of one jet in the final state.
   However, we can easily see that $\delta_\sigma^{ug}$ = $\delta_\sigma^{uu}$ and so on.
 }
@@ -209,8 +212,8 @@ where $p_{T, \ell}$ denotes the transverse momentum of the charged lepton and $\
 The important property of $m_T$ is that the distribution of $m_T$ peaks at $m_T = m_{\ell\nu}$ (see Appendix.~\ref{sec:mT} for more detailed description of the quantity $m_T$).
 Because of this property, the characteristic shape of $\delta_\sigma$ remains in the $m_T$ distribution in the CC events.
 To see this, we plot in Fig.~\ref{fig_mT_vs_dN} the WIMP effect on the number of events as a function of $m_T$.
-Here, the vertical axis is the ratio of the WIMP correction to the number of events $\Delta N$ to the number of events in the SM $N$ for each bin with the bin width of $100\, {\rm GeV}$.
-\footnote{
+Here, the vertical axis is the ratio of the WIMP correction to the number of events $\Delta N$ to the number of events in the SM $N$ for each bin with the bin width of $100\, {\rm GeV}$.\footnote
+{
   Just for an illustrative purpose, we generate events corresponding to the integrated luminosity $\mathcal{L} = 1\,\mathrm{ab}^{-1}$ for this figure, which is not the same luminosity as we use in the next section (see Sec.~\ref{sec_event} for details of the event generation).
 }
 We find that the dip structure remains in the $m_T$ distribution, though the depth of the dip is smaller compared to the $m_{\ell\nu}$ distribution.
@@ -235,13 +238,11 @@ In our analysis, we first generate the SM event sets for the NC processes $pp\to
 We use \texttt{MadGraph5\_aMC@NLO} (\texttt{v2.6.3.2})~\cite{Alwall:2011uj, Alwall:2014hca} for the event generation with the successive use of \texttt{Pythia8}~\cite{Sjostrand:2014zea} for the parton shower and the hadronization and \texttt{Delphes} (\texttt{v3.4.1})~\cite{deFavereau:2013fsa} with the card {\tt FCChh.tcl} for the detector simulation.
 We use \texttt{NNPDF2.3QED} with $\alpha_s (M_Z) = 0.118$~\cite{Ball:2013hta} as a canonical set of PDFs.
 For the renormalization and factorization scales, we use the default values of \texttt{MadGraph5\_aMC@NLO}, i.e., the central $m_T^2$ scale after $k_T$-clustering of the event (which we denote by $Q$).
-We take into account the NLO QCD effect by the \verb|[QCD]| option of \verb|MadGraph5_aMC@NLO| since it enhances the cross section roughly by a factor of $2$ compared to the LO calculation.
-\footnote{
-%%
+We take into account the NLO QCD effect by the \verb|[QCD]| option of \verb|MadGraph5_aMC@NLO| since it enhances the cross section roughly by a factor of $2$ compared to the LO calculation.\footnote
+{
   This large enhancement implies that the next-to-next-to-leading order QCD effect may also have a non-negligible effect on the cross section, and its calculation remains as a future task.
   However, due to its smooth dependence on $\sqrt{s'}$, it may not much affect the detection reach of the EWIMPs.
   See Sec.~\ref{sec_statistical} for the details.
-%%
 }
 The events are binned by the characteristic mass $m_{\mathrm{char}}$ for each process: we use the lepton invariant mass $m_{\mathrm{char}} = m_{\ell\ell}$ for the NC processes, and the transverse mass $m_{\mathrm{char}} = m_T$ for the CC processes, respectively.
 In both cases, we generated events with the characteristic mass within the range of $500\,\mathrm{GeV} < m_\mathrm{char} < 7.5\,\mathrm{TeV}$ and divide them into $70$ bins with the equal width of $100\,\mathrm{GeV}$.
@@ -269,8 +270,8 @@ With the parameter $\mu$ defined in Eq.~\eqref{eq_diffcrosssection}, the number 
   \label{eq_n_tot}
 \end{align}
 where the sum runs over all the events of the final state $f$ whose characteristic mass $m_{\mathrm{char}}$ (after taking into account the detector effects) falls into the bin.
-Note that the true value of $\sqrt{s'}$ should be used for each event for the computation of $\delta_\sigma$: we extract it from the hard process information.
-\footnote{
+Note that the true value of $\sqrt{s'}$ should be used for each event for the computation of $\delta_\sigma$: we extract it from the hard process information.\footnote
+{
 	The $p_T$ cut for the CC process does not affect this estimation since the WIMP does not modify the angular distribution of the final lepton and neutrino for the CC process.
 }
 
@@ -337,8 +338,8 @@ where
 \end{align}
 The product in Eq.\,\eqref{eq_Ltheta} runs over all the bins, while the product in Eq.\,\eqref{eq_Lprime} runs over all the free parameters we introduced.
 For each $\theta_{f, \alpha}$, we define the ``standard deviation'' $\sigma_{f, \alpha}$, which parametrizes the possible size of $\theta_{f, \alpha}$ within the SM with the
-systematic errors.
-\footnote{
+systematic errors.\footnote
+{
   Here we assume the Gaussian form for the nuisance parameter distribution.  The dependence of the results on the choice of the distribution will be discussed later in Sec.~\ref{sec_detection}.
 }
 If the systematic errors are negligible compared with the statistical error, we can take $\bm{\sigma}_f \to \bm{0}$, while the analysis with $\bm{\sigma}_f \to \infty$ assumes no knowledge of systematic errors and gives a conservative result.
@@ -373,8 +374,8 @@ We estimate $\bm{\sigma}_f$ associated with these errors, denoted here as $\bm{\
 \end{align}
 where $N$ denotes the number of fitting procedures we have performed: $N=2$ for this case.
 We estimate $\bm{\sigma}_f$ associated with the other sources of the errors, denoted as $\bm{\sigma}_f^{\mathrm{ren.}}$, $\bm{\sigma}_f^{\mathrm{fac.}}$, and $\bm{\sigma}_f^{\mathrm{PDF}}$, in a similar manner.
-Finally, the total values of $\bm{\sigma}_f$ are obtained by combining all the sources together as
-\footnote{
+Finally, the total values of $\bm{\sigma}_f$ are obtained by combining all the sources together as\footnote
+{
   There may be some correlations between the distribution of nuisance parameters $\bm{\theta}_{f}$.
   In this section, we treat each of them as obeying to an independent Gaussian distribution for simplicity.
 }
@@ -483,8 +484,8 @@ As representative scenarios, we show the cases for Higgsino (the red lines) and 
 The dotted and dash-dotted lines are the result obtained only from the NC processes and the CC processes, respectively.
 We find that the CC processes are more sensitive to the effect of the WIMPs than the NC processes because of the larger cross section.
 This result is consistent with Refs.~\cite{DiLuzio:2018jwd,Matsumoto:2018ioi}.
-The sensitivity of the CC processes is weakened for $m \lesssim 700\, \mathrm{GeV}$ because of the lepton $p_T$ cut we have applied.
-\footnote{
+The sensitivity of the CC processes is weakened for $m \lesssim 700\, \mathrm{GeV}$ because of the lepton $p_T$ cut we have applied.\footnote
+{
   We note here that the sensitivity of the CC processes depends on the lepton $p_T$ cut.
   For example, adopting the tighter cut, lepton-$p_T > 1\,\mathrm{TeV}$, the CC processes have almost no sensitivity to WIMPs with $m < 1\,\mathrm{TeV}$.
   Thus, in particular for the purpose of the Higgsino search, it is important to realize the lepton $p_T$ cut as low as $\sim 500\, \mathrm{GeV}$.
@@ -577,8 +578,8 @@ We now demonstrate the mass and charge determination of fermionic WIMPs.
 This is equivalent to the determination of the parameter set $(m, C_1, C_2)$.
 We generate the data assuming the SM $+$ WIMP model ($\mu=1$) with some specific values of $m, n, Y$, and $\kappa$, with which we obtain $(m, C_1, C_2)$.
 We fix $\mu = 1$ for our theoretical model as well, and hence the theoretical predictions of the number of events also depend on these three parameters, $\bm{x}_f = \bm{x}_f (m, C_1, C_2)$.
-We define the likelihood function $L(\check{\bm{x}}_f ; \bm{\theta}_f, m, C_1, C_2)$ in the same form as Eqs.~\eqref{eq_xtilde} and~\eqref{eq_L} with the theoretical prediction $\bm{x}_f$ now understood as a function of $(m, C_1, C_2)$, not of $\mu$.
-\footnote{
+We define the likelihood function $L(\check{\bm{x}}_f ; \bm{\theta}_f, m, C_1, C_2)$ in the same form as Eqs.~\eqref{eq_xtilde} and~\eqref{eq_L} with the theoretical prediction $\bm{x}_f$ now understood as a function of $(m, C_1, C_2)$, not of $\mu$.\footnote
+{
   As shown in Eqs.\ \eqref{eq_C1} and \eqref{eq_C2}, $C_1$ and $C_2$ are positive quantities (and $C_2$ is discrete).
   In the figures, however, we extend the $C_1$ and $C_2$ axes down to negative regions just for presentation purposes.
 }
@@ -611,8 +612,8 @@ The test statistic defined in this way examines the compatibility of a given WIM
 \end{figure}
 
 Once a deviation from the SM prediction is observed in a real experiment, we may determine $(m, C_1, C_2)$ using the above test statistic $q$.
-In the following, we show the expected accuracy of the determination of $(m, C_1, C_2)$ for the case where there exists $1.1\,\mathrm{TeV}$ Higgsino.
-\footnote{
+In the following, we show the expected accuracy of the determination of $(m, C_1, C_2)$ for the case where there exists $1.1\,\mathrm{TeV}$ Higgsino.\footnote
+{
   The expected significance is $3.5\sigma$ for $1.1\,\mathrm{TeV}$ Higgsino in our estimation.
   Even though it is slightly below the $5\sigma$ discovery, we take $1.1\,\mathrm{TeV}$ Higgsino as an example because it is a candidate of the thermal relic DM.
 }
