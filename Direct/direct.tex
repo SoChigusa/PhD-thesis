@@ -64,7 +64,7 @@ with $\mathcal{L}_{\mathrm{SM}}$ being the SM lagrangian, while the covariant de
   D_\mu \equiv \partial_\mu - i g_2 \Slash{W}^a T_n^a - i g_1 Y \Slash{B},
 \end{align}
 where $T_n^a$ ($a=1,2,3$) are $n$-dimensional representation matrices of $SU(2)_L$.
-Note that when $\chi$ is a real scalar (Majorana fermion) with $Y=0$, the terms with $\chi$ in Eq.~\eqref{eq:lag_scalar} (Eq.~\eqref{eq:lag_fermion}) should be devided by two.
+Note that when $\chi$ is a real scalar (Majorana fermion) with $Y=0$, the terms with $\chi$ in Eq.~\eqref{eq:lag_scalar} (Eq.~\eqref{eq:lag_fermion}) should be divided by two.
 
 For the calculation, we neglect the effect of the electroweak symmetry breaking, which is valid because we are interested in the high-energy collision with the parton-level center-of-mass (CM) energy $\sqrt{s'} \equiv \sqrt{q^2} \gtrsim \mathrm{TeV}$.
 Then, we consider the process in the CM frame and estimate the parton-level differential cross section as
@@ -101,8 +101,8 @@ The explicit form of $c_{1 \alpha \beta}$ and $c_{2 \alpha \beta}$, which are si
 \end{align}
 Recalling that $\alpha_1 < \alpha_2$ and that we often consider the WIMPs with large $n$ and moderate $Y$, the WIMP production cross section grows as $n^3$ for larger multiplets according to the group theoretical factor \eqref{eq:dynkin}.
 
-In the reality, the initial state of the hadron collider is not the individual partons but two protons.
-To obtain the cross section for the two protons initial state, we rely on the parton distribution function (PDF), which expresses the fraction of the partons with some given momentum in each accelerated proton.
+In reality, the initial state of the hadron collider is not the individual partons but two protons.
+To obtain the cross section for the two-proton initial state, we rely on the parton distribution function (PDF), which expresses the fraction of the partons with some given momentum in each accelerated proton.
 Let $f_\alpha (x)$ ($0 < x < 1$) be the PDF for a given parton $q^\alpha$ inside a proton with momentum $p^\mu$.
 $f_\alpha (x)$ can be interpreted as a probability distribution to find the parton $q^\alpha$ with momentum $x p^\mu$, so we have a relationship
 \begin{align}
@@ -138,15 +138,14 @@ Firstly, the next-to-leading order (NLO) QCD contribution to each process is not
 For the WIMP pair production, the real and virtual emission of a gluon shown in the left and right panels of Fig.~\ref{fig:WIMP_production_NLO}, respectively, give the NLO QCD contributions, which will also be taken into account from now on.
 In particular, when the large transverse momentum is important for the phenomenology of our concern, such as the case in Sec.~\ref{sec:disappearing_track}, the real emission of a gluon with sizable transverse momentum significantly modifies the calculation.
 Also, an additional real emission may be required to trigger the event, in particular when the other products are invisible for detectors like in Sec.~\ref{sec:mono-jet}.
-Secondly, all the colored particles in the initial, intermediate, and final states should be accompanied with numbers of soft emissions of gluons, which is the phenomena so-called the parton shower.
-In practice, there is a difficulty caused by the partial overlap of the gluon phase space between the one-gluon emission cross section considered as an NLO QCD effect and the same considered as the parton shower.
+Secondly, all the colored particles in the initial, intermediate, and final states should be accompanied by numbers of soft emissions of gluons, which is the phenomena so-called the parton shower.
+In practice, there is a difficulty caused by the partial overlap of the gluon phase space between the one-gluon emission cross section calculated as an NLO QCD effect and the same calculated as the parton shower.
 To avoid the overlap, we often perform the matching procedure, in which we set some merging energy scale by hand and include the contribution to the cross section with gluon energy above (below) the scale only from the NLO QCD (parton shower) calculation.
 Finally, the colored particles in the final states should eventually be confined, which is called the hadronization, and observed as some energetic and collimated sprays of hadrons, which as a whole is called a jet.
 
 In the following, we perform the numerical calculation, taking account of all the above complexities.
 For this purpose, we make use of the Monte Carlo generator \texttt{MadGraph5 aMC@NLO (v2.6.3.2)} \cite{Alwall:2011uj,Alwall:2014hca} with the successive use of \texttt{Pythia8} \cite{Sjostrand:2014zea} for the parton shower, hadronization, and matching and \texttt{Delphes (v3.4.1)} \cite{deFavereau:2013fsa} for the detector simulation, including the definition of jets as observed objects.
 We use the so-called MLM-style matching \cite{Mangano:2006rw} with the merging scale of $67.5\,\mathrm{GeV}$ and \texttt{NNPDF2.3QED} with $\alpha_3 (M_Z) = 0.118$ \cite{Ball:2013hta} as a canonical set of PDFs.
-\rem{Description of jet definition}
 % For the renormalization and factorization scales, we adopt the default values of MadGraph5 aMC@NLO, \textit{i.e.}, the central $m^2_T$ scale after $k_T$-clustering of the event.
 
 \begin{table}[t]
@@ -165,7 +164,7 @@ We use the so-called MLM-style matching \cite{Mangano:2006rw} with the merging s
 \end{table}
 
 In Table~\ref{tab:cross_section_WIMPs}, we list the production cross sections of various WIMPs via a weak gauge boson exchange at a $\sqrt{s} = 100\,\mathrm{TeV}$ hadron collider.
-As for the WIMP mass, we use the common value $m = 1\,\mathrm{TeV}$ to compare the cross sections among different choice of quantum numbers.
+As for the WIMP mass, we use the common value $m = 1\,\mathrm{TeV}$ to compare the cross sections among a different choice of quantum numbers.
 $\sigma_{\mathrm{LO}}$ and $\sigma_{\mathrm{NLO}}$ denote the production cross sections without and with the NLO QCD correction, respectively, while the last line is the so-called $K$-factor defined as $K = \sigma_{\mathrm{NLO}} / \sigma_{\mathrm{LO}}$.
 From the table, by paying attention to the factor two difference in degrees of freedom between the Dirac (Higgsino) and Majorana (Wino and $5$-plet) fermions, we can roughly see the dependence of the cross section on the $SU(2)_L$ charge $\sigma \propto n^3$.
 
@@ -204,8 +203,8 @@ However, values in the tables still denote that plenty of well-motivated WIMP DM
 In Fig.~\ref{fig:invariant_mass}, we show the $\sqrt{s'}$ distribution for the pair production process at a $\sqrt{s} = 100\,\mathrm{TeV}$ collider.
 Left and right figures correspond to the production of $m_\chi = 1\,\mathrm{TeV}$ Higgsino at the integrated luminosity $\mathcal{L} = 3\,\mathrm{ab}^{-1}$ and of $m_\chi = 3\,\mathrm{TeV}$ Wino at $\mathcal{L} = 30\,\mathrm{ab}^{-1}$, respectively.
 At around $\sqrt{s'} \sim 2 m_\chi$, we clearly see the production threshold and the suppression effect $\sigma \propto (1-4 m_\chi^2 / s')^{1/2}$.
-On the other hand, when $\sqrt{s'}$ becomes much larger than $2m_\chi$, we can see the correct behavior of the cross section, which decreses as $\sigma \propto (\sqrt{s'})^{-3}$ as Eq.~\eqref{eq:parton_cross_section_fermion} indicates.
-Note that these properties are universal among several processes, including the dominant contribution \rem{Correct?} to the gluino pair production through the $s$-channel gluon exchange disscused in the next subsection, and the lepton pair production via an electroweak gauge boson that is the main topics of Sec.~\ref{sec:dy}.
+On the other hand, when $\sqrt{s'}$ becomes much larger than $2m_\chi$, we can see the correct behavior of the cross section, which decreases as $\sigma \propto (\sqrt{s'})^{-3}$ as Eq.~\eqref{eq:parton_cross_section_fermion} indicates.
+Note that these properties are universal among several processes, including one of the contributions to the gluino pair production process through the $s$-channel gluon exchange discussed in the next subsection, and the lepton pair production via an electroweak gauge boson that is the main topics of Sec.~\ref{sec:dy}.
 
 \rem{Histogram of angular dependence}
 
@@ -229,11 +228,10 @@ Since all the SUSY particles finally decay into the LSP as described in Sec.~\re
   \label{tab:gluino_pair}
 \end{table}
 
-Keeping the R-parity conservation in our mind, the dominant process accompanied with gluinos in these models is the gluino pair production.
+Keeping the R-parity conservation in our mind, the dominant process accompanied by gluinos in these models is the gluino pair production.
 In Table \ref{tab:gluino_pair}, we summarize the gluino pair production cross section for various gluino masses at $\sqrt{s} = 100\,\mathrm{TeV}$, taken from \cite{Asai:2019wst}.
-The values in the table show that the gluino pair production process, dependeing on masses of gluino and WIMP, may give much larger cross section for the WIMP production than the purely electroweak processes described above.
-
-\rem{Comment on AMSB $m_{3/2}$ and $L$ for the table?}
+The values in the table show that the gluino pair production process, depending on masses of gluino and WIMP, may give a much larger cross section for the WIMP production than the purely electroweak processes described above.
+We will mainly focus on, however, the electroweak pair production process below, in case gluino is out of the reach at $100\,\mathrm{TeV}$ colliders.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -243,20 +241,20 @@ The values in the table show that the gluino pair production process, dependeing
 
 In the last section, we have checked the possibility that a large number of WIMPs are produced at hadron colliders.
 On the other hand, the detection of produced WIMPs is not a straight-forward task, because there are huge background events with many charged and/or colored particles.
-To reduce the background events and obtain the best possible reach for WIMPs, we consider several methods using typical properties for the WIMP signals, one of which is the disappering track signal described here.
+To reduce the background events and obtain the best possible reach for WIMPs, we consider several methods using typical properties for the WIMP signals, one of which is the disappearing track signal described here.
 
-As mentioned in Sec.~\ref{sec:mass_splitting}, the spontaneous breaking of the electroweak symmetry leads to the mass splitting among an $SU(2)_L$ multiplet, leaving the charge neutral component as the lightest one.
+As mentioned in Sec.~\ref{sec:mass_splitting}, the spontaneous breaking of the electroweak symmetry leads to the mass splitting among an $SU(2)_L$ multiplet, leaving the neutral component as the lightest one.
 As a result, the charged components of a multiplet, if produced, eventually decay into the neutral component.
 However, the mass splitting is so small in many cases that the typical flight length of the charged components is comparable to the detector size.
-Such long-lived charged particles, which travel for a few $\mathrm{cm}$ and then decay into an invisible counterpart, can be detected as charged tracks disappearing at the middle.
+Such long-lived charged particles, which travel for a few $\mathrm{cm}$ and then decay into an invisible counterpart, can be detected as charged tracks disappearing in the middle.
 They are very characteristic signals and can be used as the most efficient discriminator between the SM background and the WIMP signals.
 In this section, we will study what we have summarized above in more detail.
 
 
 \subsubsection*{Lifetime of charged components}
 
-The small mass splitting among a WIMP multiplet allows the heavier charged component to decay into the neutral component and SM particles via a off-shell $W$ boson.
-Depending on the size of the relevant mass difference $\Delta m$, there are several channels that contributes to the decay \cite{Chen:1995yu}.
+The small mass splitting among a WIMP multiplet allows the heavier charged component to decay into the neutral component and SM particles via an off-shell $W$ boson.
+Depending on the size of the relevant mass difference $\Delta m$, several channels contribute to the decay \cite{Chen:1995yu}.
 For tiny $\Delta m < m_\pi$ with $m_\pi$ being the charged pion mass, $\chi^{\pm} \to \ell^{\pm} \nu_\ell \chi^0$ ($\ell = e, \mu$) are the unique decay modes.
 Once $\Delta m$ exceeds $m_\pi$, the mode $\chi^{\pm} \to \pi^{\pm} \chi^0$ opens up and becomes the dominant one.
 After $\Delta m \gtrsim 1\, \mathrm{GeV}$, final states with two and three pions start to give a sizable contribution, and the total decay rate asymptotes to that for $\chi^{\pm} \to q' \bar{q} \chi^0$.
@@ -267,7 +265,7 @@ Let $\tau$ be the lifetime of the (singly) charged component of a WIMP, defined 
 Taking into account that a WIMP, if produced at colliders with sufficiently high energy, has a velocity comparable to the speed of light $c$, $c \tau$ expresses a rough estimation of its flight length inside detectors.
 For Higgsino with $m_\pi < \Delta m \lesssim 1\,\mathrm{GeV}$,\footnote
 {
-  We are not interested in Higgsino with $\Delta m \gtrsim 1\, \mathrm{GeV}$ here, since the corresponding flight length will be much shorter than $\mathcal{O} (1)\, \mathrm{cm}$, which is the scale of the detectors.
+  We are not interested in Higgsino with $\Delta m \gtrsim 1\, \mathrm{GeV}$ here since the corresponding flight length will be much shorter than $\mathcal{O} (1)\, \mathrm{cm}$, which is the scale of the detectors.
 }
 we can estimate \cite{Chen:1995yu,Thomas:1998wy}
 \begin{align}
@@ -291,20 +289,20 @@ The same calculation applies to the fermionic MDMs with $n \geq 5$ and $\Delta m
 \subsubsection*{Disappering track signal}
 
 Once a long-lived charged component of WIMP is produced, it is detected by the trackers installed in the innermost part of the detectors for the case of ATLAS and CMS collaborations at the LHC.
-For example, in the ATLAS setup, several tracking detectors are equipped cyrindrically around the beam line from the radius $r = 3\,\mathrm{cm}$ to $108\,\mathrm{cm}$.
+For example, in the ATLAS setup, several tracking detectors are equipped cylindrically around the beamline from the radius $r = 3\,\mathrm{cm}$ to $108\,\mathrm{cm}$.
 The pixel detector spans the radius from $3\,\mathrm{cm}$ to $12\,\mathrm{cm}$, the strip semiconductor tracker (SCT) from $30\,\mathrm{cm}$ to $52\,\mathrm{cm}$, and the transition radiation tracker from $56\,\mathrm{cm}$ to $108\,\mathrm{cm}$.
-In particular, the pixel detector is the most important for our discussion, which are composed of four layers, with the innermost one being the rescently equipped so-called the insertable B-layer \cite{Capeans:1291633, CERN-LHCC-2012-009, Abbott:2018ikt}.
+In particular, the pixel detector is the most important for our discussion, which is composed of four layers, with the innermost one being the recently equipped so-called the insertable B-layer \cite{Capeans:1291633, CERN-LHCC-2012-009, Abbott:2018ikt}.
 To detect the charged track signal of a long-lived WIMP with the typical flight length of $\mathcal{O} (1)\, \mathrm{cm}$, they require the hit at every layer of the pixel detector and apply the SCT veto to search for the track signal disappearing in between $12\,\mathrm{cm} < r < 30\,\mathrm{cm}$.
 As for the fake events within the SM, the SCT veto denies the possibility for a stable SM particle to mimic the signal.
 However, there are two important sources of the fake track generated by hadrons/electrons and the so-called pile-up.
 
 The first possibility with hadrons/electrons is a physical background caused by the interaction of hadrons with detector material or by the hard photon emission of electrons.
-After these interactions, the orbit of a hadron/electron is bended and, if this secondary interaction occurs in between $12\,\mathrm{cm} < r < 30\,\mathrm{cm}$, two tracks in the pixel detector and the SCT are not identified with each other.
+After these interactions, the orbit of a hadron/electron is bent and, if this secondary interaction occurs in between $12\,\mathrm{cm} < r < 30\,\mathrm{cm}$, two tracks in the pixel detector and the SCT are not identified with each other.
 As a result, the first track in the pixel detector seems to disappear in the middle, which mimics the true WIMP signals.
 In the LHC, this type of background dominates and generates $\mathcal{O}(10$--$100)$ fake events for $\sqrt{s}=13\,\mathrm{TeV}$, $\mathcal{L} = 36.1\,\mathrm{fb}^{-1}$ (see Fig.~7 of \cite{Aaboud:2017mpt}).
 
 On the other hand, for future hadron colliders, the second possibility of the fake track from the pile-up may be more important.
-In hadron colliders, a bunch of protons are accelerated at the same time and two bunches ``collide'' with each other with some given frequency.
+In hadron colliders, a bunch of protons is accelerated at the same time and two bunches ``collide'' with each other with some given frequency.
 Since there are many protons inside a bunch, typically more than one collisions of two protons occur for each bunch crossing.
 The average number of collisions per bunch crossing is often denoted as $\Braket{\mu}$ and the values of $\Braket{\mu} \sim 20$, $80$, and $200$ are expected for LHC Run-2, Run-3, and HL-LHC.
 With this large number of collisions, there are a lot of collision products detected almost at the same time, which makes the signal significantly messy.
@@ -314,16 +312,16 @@ In the real experiment, the rate for fake track reduces as we require more hits 
 See the results reviewed below for a concrete estimation of the fake track rate at the FCC-hh.
 
 From now on, we estimate how many events are expected at the FCC-hh.
-Recalling that the detectors are installed in a cyrindrical geometry, the transverse distance $d_T$ of the charged WIMP flight measured from the beam line plays an important roll.
+Recalling that the detectors are installed in a cylindrical geometry, the transverse distance $d_T$ of the charged WIMP flight measured from the beamline plays an important role.
 We can estimate the probability for $d_T$ to be larger than $d$ as
 \begin{align}
   P(d_T > d) = \exp \left( -\frac{d}{\beta \gamma c \tau \sin\theta} \right),
   \label{eq:survival_probability}
 \end{align}
-where $\beta$ is the WIMP velocity, $\gamma \equiv (1-\beta^2)^{-1/2}$, and $\theta$ is the angle between the WIMP momentum and the beam line.
-One of the implications of the above expression is that WIMPs with large transverse momentum have larger possibility to reach outer layers of the pixel detector.
-This enlarges the importance of considering the NLO (and higher order) QCD processes with real emissions for the pair production.
-Due to the hard emission of gluon, the produced pair of WIMPs is recoiled in an opposite direction, and WIMPs tend to have larger transverse momentum than the case without gluon emission.
+where $\beta$ is the WIMP velocity, $\gamma \equiv (1-\beta^2)^{-1/2}$, and $\theta$ is the angle between the WIMP momentum and the beamline.
+One of the implications of the above expression is that WIMPs with large transverse momentum have a larger possibility to reach outer layers of the pixel detector.
+This enlarges the importance of considering the NLO (and higher-order) QCD processes with real emissions for the pair production.
+Due to the hard emission of the gluon, the produced pair of WIMPs recoil in the opposite direction, and WIMPs tend to have larger transverse momentum than the case without gluon emission.
 It can be directly checked that, for $\sqrt{s}=100\,\mathrm{TeV}$, even the two-gluon emission process possesses non-negligible contribution to the simulation of the disappearing track search for WIMPs.
 
 \begin{figure}[t]
@@ -336,7 +334,7 @@ It can be directly checked that, for $\sqrt{s}=100\,\mathrm{TeV}$, even the two-
 \end{figure}
 
 In Fig.~\ref{fig:survival_probability}, we show the distribution of $P(d_T > 15\,\mathrm{cm})$, which is motivated by the FCC-hh detector setup assumed below, for the $2.9\,\mathrm{TeV}$ Wino, $\sqrt{s} = 100\,\mathrm{TeV}$, and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$.
-Here, we only consider the WIMP pair production process with upto one gluon emission as an example.
+Here, we only consider the WIMP pair production process with up to one gluon emission as an example.
 Note that $\tau \simeq 5.8\,\mathrm{cm}$ and $\exp (-15\,\mathrm{cm} / \tau) \sim 7.5\times 10^{-2}$ for this setup.
 We can see that the effect of the large Lorentz boost $\beta \gamma \gg 1$ pushes the probability to $P \gtrsim \mathcal{O} (10^{-1})$ for some Winos, while the angular distribution of Winos makes a wide tail of the distribution at $P \lesssim \mathcal{O} (10^{-2})$ when $\sin\theta \sim 0$.
 By summing the shown probabilities for all produced Winos, we can obtain the expectation value $N_{15}$ for the number of Winos with $d_T > 15\,\mathrm{cm}$.
@@ -362,18 +360,21 @@ In the next subsection, we will see that this may be the case for the FCC-hh and
 In Fig.~\ref{fig:beta}, we show the distribution of the Wino velocity $\beta$ for the same process.
 The blue histogram shows the distribution of all Winos, while the orange one shows that of Winos with $d_T > 15\,\mathrm{cm}$, picked up randomly according to the survival probability Eq.~\eqref{eq:survival_probability}.
 As already seen in Fig.~\ref{fig:invariant_mass}, the center of mass energy of the two-Wino system distributes from a few to $\mathcal{O} (10) \,\mathrm{TeV}$, and many Winos are highly boosted with $\beta \sim 1$.
-Since a charged Wino tends to survive for a longer distance when it is more accelerated, some of boosted Winos $\beta \gtrsim 0.6$ satisfy the requirement $d_T > 15\,\mathrm{cm}$.
+Since a charged Wino tends to survive for a longer distance when it is more accelerated, some of the boosted Winos $\beta \gtrsim 0.6$ satisfy the requirement $d_T > 15\,\mathrm{cm}$.
 
 
 \subsubsection*{Current constraints and future prospects}
 
-So far, the disappearing track search is performed by both ATLAS \cite{Aaboud:2017mpt} and CMS \cite{Sirunyan:2018ldc} collborations.
+So far, the disappearing track search is performed by both ATLAS \cite{Aaboud:2017mpt} and CMS \cite{Sirunyan:2018ldc} collaborations.
 Below, we will focus particularly on the ATLAS collaboration and discuss current constraints.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.5\hsize]{ATLAS_disappearing_track.pdf}
-  \caption{Current status of the disappearing track search taken from \cite{Aaboud:2017mpt}.}
+  \caption{
+    Current status of the disappearing track search using the pair production process via an electroweak gauge boson.
+    The figure is taken from \cite{Aaboud:2017mpt}.
+  }
   \label{fig:ATLAS_disappearing_track}
 \end{figure}
 
@@ -390,22 +391,21 @@ Below, we will focus particularly on the ATLAS collaboration and discuss current
 \end{table}
 
 In Fig.~\ref{fig:ATLAS_disappearing_track}, we show the result of the disappearing track search taken from \cite{Aaboud:2017mpt}.
+As for the production process, only the pair production via an electroweak gauge boson is considered.
 The yellow band shows the current constraint on the WIMP mass and lifetime plane and the left part of the band is already excluded.
 The sensitivity becomes weak when we consider $\tau \gtrsim 1\, \mathrm{ns}$ or $c \tau \gtrsim 30\, \mathrm{cm}$ due to the requirement of the SCT veto.
 In the figure, the lifetime of Wino as a function of its mass is also shown by the black dot-dashed line.
-It can be seen that the current contraint on Wino mass is $m_\chi \lesssim 460\,\mathrm{GeV}$.
-
-\rem{Production process may be Drell-Yan.}
+It can be seen that the current constraint on Wino mass is $m_\chi \lesssim 460\,\mathrm{GeV}$.
 
 Using the lifetime evaluated in the previous subsection, we summarize the current status for several WIMPs in Table \ref{tab:disp_track_current}, which exhibits upper limits of $\mathcal{O} (100)\,\mathrm{GeV}$.
 However, note that the bound for the Higgsino listed in the table neglects the mixing between Higgsino and gauginos.
 Actually, $\Delta m_{+}$ and thus $\tau$ are sensitive to the mixing, and an order estimation shows that the mixing lowers the lifetime to be $\tau \lesssim 0.01\,\mathrm{ns}$ and spoils the bound for Higgsino when $M_1$, $M_2 \lesssim 100\,\mathrm{TeV}$ without any non-trivial cancellation in Eq.~\eqref{eq:Higgsino_delm_tree}.
 
-The analysis of disappearing track search at future hadron colliders is performed in \cite{Han:2018wus, Saito:2019rtg}.
+The analysis of the disappearing track search at future hadron colliders is performed in \cite{Han:2018wus, Saito:2019rtg}.
 Since the detector setup for future colliders such as the FCC-hh is undetermined yet, in \cite{Saito:2019rtg}, the authors assume several setups and compare the result.
 In each setup, five layers of the pixel detector are installed and the fifth layer position (which we call $r_5$) ranges from $15\, \mathrm{cm}$ to $27\, \mathrm{cm}$.\footnote
 {
-  For simplicity of the discussion, we just assume that the detectors outside the pixel detector are far apart from the beam line so that all the WIMPs decay before reaching them.
+  For simplicity of the discussion, we just assume that the detectors outside the pixel detector are far apart from the beamline so that all the WIMPs decay before reaching them.
   Then, we can estimate the discovery reach by counting the number of WIMP signals that reach the fifth layer of the pixel detector.
 }
 For the background reduction, hits to all of the five layers are required.
@@ -418,17 +418,22 @@ By varying the average number of $pp$ interactions per bunch crossing from $\Bra
     $r_5 = 15\,\mathrm{cm}$ & $0.9$--$1.2\,\mathrm{TeV}$ & $> 4.0\,\mathrm{TeV}$ \\
     $r_5 = 27\,\mathrm{cm}$ & $<0.7\,\mathrm{TeV}$ & $2.9$--$4.0\,\mathrm{TeV}$
   \end{tabular}
-  \caption{Prospects of $5\sigma$ discovery reach at FCC-hh with $\mathcal{L} = 30\,\mathrm{ab}^{-1}$ taken from \cite{Saito:2019rtg}.}
+  \caption{
+    Prospects of $5\sigma$ discovery reach at FCC-hh with $\mathcal{L} = 30\,\mathrm{ab}^{-1}$  using the pair production process via an electroweak gauge boson.
+    The results are based on \cite{Saito:2019rtg}.
+  }
   \label{tab:disp_track_future}
 \end{table}
 
-In Table~\ref{tab:disp_track_future}, we summarize the obtained $5\sigma$ discovery reach for pure Higgsino and Wino for two detector setups with the integrated luminosity $\mathcal{L} = 30\,\mathrm{ab}^{-1}$.
-The uncertainty of the reach corresponds the variation of $\Braket{\mu}=200$--$500$ and the uncertainty in soft QCD processes.
+In Table~\ref{tab:disp_track_future}, we summarize the obtained $5\sigma$ discovery reach for pure Higgsino and Wino for two detector setups with the integrated luminosity $\mathcal{L} = 30\,\mathrm{ab}^{-1}$, again using the pair production process via an electroweak gauge boson.
+The uncertainty of the reach corresponds to the variation of $\Braket{\mu}=200$--$500$ and the uncertainty in soft QCD processes.
 Recalling the discussion in Sec.~\rem{???}, Table~\ref{tab:disp_track_future} shows that the FCC-hh can cover the whole region of the parameter space consistent with Wino DM $m_\chi \lesssim 2.9\,\mathrm{TeV}$.
-On the other hand, there is a sensitivity upto the mass of the thermal Higgsino DM $m_\chi \sim 1.1\,\mathrm{TeV}$ only when we adopt the most optimistic assumption, \textit{i.e.}, the pure Higgsino with small $\Delta m_{+}$ searched for with $r_5 = 15\,\mathrm{cm}$.
-Thus, it is an important task to consider another way of search for Higgisno, in particular a way that is unaffected by the mass difference $\Delta m_{+}$
-
-\rem{Some comment on MDM?}
+On the other hand, there is a sensitivity up to the mass of the thermal Higgsino DM $m_\chi \sim 1.1\,\mathrm{TeV}$ only when we adopt the most optimistic assumption, \textit{i.e.}, the pure Higgsino with small $\Delta m_{+}$ searched for with $r_5 = 15\,\mathrm{cm}$.
+Thus, it is an important task to consider another way of search for Higgisno, in particular, a way that is unaffected by the mass splitting $\Delta m_{+}$.
+The authors do not give any comment on the MDM search, but we can give some very rough estimates of the reach from Table~\ref{tab:disp_track_future}.
+For example, considering the $5$-plet fermion with $c\tau \sim 1.8\,\mathrm{cm}$, the size of the significance of the signal should be in between that for Higgsino and Wino assuming the same production cross section, while the cross section scales as $n^3$ as a function of the $SU(2)_L$ charge as we have seen so far.
+Thus, the reach for the $5$-plet fermion should be a few $\mathrm{TeV}$, which covers a non-negligible fraction of the parameter space viable as a DM candidate.
+\rem{Or, any reference}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
