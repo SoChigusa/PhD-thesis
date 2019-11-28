@@ -1,0 +1,63 @@
+\documentclass[12pt,twoside,book]{article}
+
+\input{../settings}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conventions and notations}
+\label{sec:convention}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vskip 0.1in
+
+In this appendix, we summarize the conventions and notations used throughout the thesis.
+
+Firstly, we use the natural units with
+\begin{align}
+  c = \hbar = k_B = 1,
+\end{align}
+where $c$, $\hbar$, and $k_B$ are the speed of light, the reduced Planck constant, and the Boltzmann constant, respectively.
+
+Our convention of the four-dimensional Lorenzian metric is $g^{\mu \nu} = \mathrm{diag} (1, -1, -1, -1)$.
+We sometimes use the Pauli matrices defined as
+\begin{align}
+  \sigma_1 =
+  \begin{pmatrix}
+    0 & 1\\
+    1 & 0
+  \end{pmatrix},
+  ~~
+  \sigma_2 =
+  \begin{pmatrix}
+    0 & -i\\
+    i & 0
+  \end{pmatrix},
+  ~~
+  \sigma_3 =
+  \begin{pmatrix}
+    1 & 0\\
+    0 & -1
+  \end{pmatrix},
+\end{align}
+with $i$ being the imaginary unit.
+The slash on any character denotes the so-called Feynmann slash, defined as $\Slash{p} \equiv p^\mu \gamma_\mu$ with four-by-four gamma matrices given by
+\begin{align}
+  \gamma^0 =
+  \begin{pmatrix}
+    \bm{0} & \bm{1}\\
+    \bm{1} & \bm{0}
+  \end{pmatrix},
+  ~~
+  \gamma^i =
+  \begin{pmatrix}
+    \bm{0} & \sigma_i\\
+    -\sigma_i & \bm{0}
+  \end{pmatrix},
+\end{align}
+The unique exception of this rule is $\Slash{E}_T$, which is used to denote the missing transverse momentum in hadron collider experiments.
+
+We use the notation $g_1$, $g_2$, and $g_3$ for the gauge coupling constant of the SM $U(1)_Y$, $SU(2)_L$, and $SU(3)_c$ gauge group.
+We use the so-called grand unified theory normalization of $g_1$; the corresponding charge assignment is different from the conventional assignment of $U(1)_Y$ (with, \textit{e.g.}, charge $-1/2$ for the left-handed leptons) by a factor of $\sqrt{3/5}$.
+
+\end{document}

@@ -62,7 +62,8 @@ So Chigusa
 \vspace*{1.50in}
 
 \begin{abstract}
- \rem{To be written}
+  \rem{To be written}
+  The main part of this thesis is based on our works \cite{Chigusa:2018vxz,Abe:2019egv}.
 \end{abstract}
 
 \clearpage
@@ -77,7 +78,8 @@ Acknowledgments
 
 \vskip .50in
 
-I would like to thank my supervisor, Takeo Moroi, who provided stimulating discussions, helpful comments, fruitful suggestions and collaboration.
+I would like to thank my supervisor, Takeo Moroi, who provided stimulating discussions, helpful comments, fruitful suggestions and collaboration
+and proofread the earlier version of this thesis.
 % I am also grateful to Koichi Hamaguchi, Kazunori
 % Nakayama, Natsumi Nagata and all the members of the particle physics
 % group at the University of Tokyo for their hospitality.  My work is
@@ -105,68 +107,75 @@ I would like to thank my supervisor, Takeo Moroi, who provided stimulating discu
 
 \vskip 0.1in
 
-There are many models that extend the standard model (SM) by introducing weakly interacting massive particles (WIMPs).\footnote
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Overview}
+\setcounter{equation}{0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+There are many models that extend the standard model (SM) of the particle physics by introducing weakly interacting massive particles (WIMPs), which have interactions with SM particles whose size is comparable to the electroweak gauge coupling.
+We have many theoretical and phenomenological motivations to introduce WIMPs, some of which are listed below.
+\begin{itemize}
+  \item
+    One of the motivations is the existence of the dark matter (DM) in our universe.
+    When we assume a stable WIMP, its thermal relic abundance agrees with the observation if its mass is of $\mathcal{O}(\mathrm{TeV})$ or so.
+  \item
+    Such $\mathcal{O}(\mathrm{TeV})$ new particle is likely to be discovered by many kinds of experiments such as the dark matter searches and the particle colliders.
+  \item
+    Such $\mathcal{O}(\mathrm{TeV})$ WIMPs often appear in well-motivated ultraviolet (UV) completions of the SM.
+    For example, the following two models contain such WIMPs: the minimally supersymmetric standard model (MSSM) introduced to solve the hierarchy problem and the minimal dark matter (MDM) model that can explain the existence and stability of the DM in a minimal extension of the SM.
+\end{itemize}
+Considering the third point, many of the WIMPs in the UV completions mentioned above have non-zero electroweak charges, which explain its weak interaction with SM particles.
+In this thesis, we would like to focus on such kind of WIMPs and seek ways to search for them.\footnote
 {
-  Some authors use the word ``WIMPs'' in a broad sense to mention some particles that have interactions with others whose size is comparable to the electroweak gauge coupling.
-  To distinguish this usage with ours, which only denotes some particles with non-zero electroweak charge, it may be better to call them as ``Electroweakly Interacting Massive Particles (EWIMPs)''.
-  However, within this thesis, we will just use ``WIMPs'' in a narrow sence obeying the widely spread custom.
+  The word ``WIMPs'' is usually used in a broader sense that includes particles with some unknown weak interactions with SM particles.
+  To distinguish this usage with ours, which only denotes some particles with non-zero electroweak charge, it may be better to call them as ``WIMPs'', abbreviation of electroweakly interacting massive particles.
+  However, within this thesis, we will just use ``WIMPs'' in a narrow sense obeying the widely spread custom.
 }
-One motivation to introduce them is the existence of the dark matter (DM) in our universe.
-For example, an electroweakino in the minimal supersymmetric (SUSY) extension of the SM can be the lightest supersymmetric particles (LSP) and are natural DM candidate.
-In particular, there are well motivated scenarios where the LSP is Higgsino or wino, which transform as doublet and triplet under the weak $SU(2)_L$ gauge symmetry, respectively; light Higgsino is preferred to reduce the amount of the fine-tuning of the electroweak scale as in the ``natural SUSY'' set up~\cite{Kitano:2005wc, Brust:2011tb, Papucci:2011wy, Baer:2012uy}, while the so-called ``mini split'' spectrum \cite{Wells:2003tf, Wells:2004di, ArkaniHamed:2004fb, Giudice:2004tc, ArkaniHamed:2004yi, ArkaniHamed:2005yv} with anomaly mediation \cite{Randall:1998uk, Giudice:1998xp} makes wino LSP.
-Another example is the ``minimal dark matter'' (MDM) scenario~\cite{Cirelli:2005uq, Cirelli:2007xd, Cirelli:2009uv}, in which an additional EWIMP is introduced, whose stability is ensured due to the large $SU(2)_L$ charge assignment.
-In particular, 5-plet fermion with hypercharge zero is a good DM candidate that escape from the DM search experiments so far.
 
-In order to search for EWIMPs, several different approaches are adopted.  One approach is the direct production at the large hadron collider (LHC).
-The main strategy is to use the disappearing charged track, which indicates a long-lived charged particle, the charged components of the EWIMP in the current case.
-Both ATLAS and CMS collaborations announced a result of this method with the data of $\sqrt{s} = 13\,{\rm TeV}$ LHC \cite{Aaboud:2017mpt, ATL-PHYS-PUB-2017-019, Sirunyan:2018ldc}.
-The current lower bound on the mass of the pure Higgsino-like (wino-like) state is $152~(460)\,{\rm GeV}$ at $95\,\%$ C.L.
-We can obtain a similar bound for the MDM using the same method~\cite{Ostdiek:2015aga}.
-In this method, however, the bound strongly depends on the lifetime of the charged component, which is sensitive to the mass difference between the charged and the neutral components.
-In particular, it is often the case in the SUSY model that the Higgsino-like LSP and its charged counterpart possess a non-negligible fraction of wino, which significantly enhances the mass difference compared to the pure Higgsino case.
-In such a case, the lifetime of the charged component is extremely short, making the disappearing track method challenging.
-There is another option called mono-X search to search for a new physics signal in general.
-However, the corresponding bound is usually very weak due to the large SM background and no bound is imposed on Higgsino at $\sqrt{s} = 14\,{\rm TeV}$ LHC~\cite{Baer:2014cua}.
+In the MSSM, it is known that the supersymmetric (SUSY) partner of the electroweak gauge bosons or the Higgs boson can be the lightest supersymmetric particles (LSP) and are natural DM candidate.
+In particular, there are well motivated scenarios where the so-called Higgsino or Wino play the role of the LSP, which transform as doublet and triplet under the weak $SU(2)_L$ gauge symmetry, respectively; light Higgsino is preferred to reduce the amount of the fine-tuning of the electroweak scale as in the ``natural SUSY'' set up~\cite{Kitano:2005wc, Brust:2011tb, Papucci:2011wy, Baer:2012uy}, while the so-called ``mini-split'' spectrum \cite{Wells:2003tf, Wells:2004di, ArkaniHamed:2004fb, Giudice:2004tc, ArkaniHamed:2004yi, ArkaniHamed:2005yv} with anomaly mediation \cite{Randall:1998uk, Giudice:1998xp} makes Wino LSP.
+Another example, the MDM scenario, introduces a larger $SU(2)_L$ multiplet, whose stability is automatically ensured by the charge assignment.
+In particular, a 5-plet Majorana fermion with hypercharge zero is a good DM candidate that escape from the DM search experiments so far.
 
-Another way of probing EWIMPs is DM search experiments, assuming that the EWIMPs are the dominant component of the DM.
+To search for WIMPs, several different approaches are adopted.
+One way is to rely on DM search experiments, assuming that the WIMPs are the dominant component of the DM.
 Firstly, there exist several direct detection experiments that utilize a scattering between the DM and the nucleon~\cite{Akerib:2016vxi, Cui:2017nnn, Aprile:2018dbl}.
 Wino is the most promising target of these experiments, whose spin independent scattering cross section with nucleon is almost mass independently given as $\sigma_{\rm SI} \simeq 2.3 \times 10^{-47}\,{\rm cm}^2$~\cite{Hisano:2010fy, Hisano:2012wm, Hisano:2015rsa, Hill:2011be, Hill:2013hoa}, which is still an order of magnitude below the current experimental limit.
 It is unlikely to detect Higgsino DM in this way since its small $SU(2)_L$ charge makes scattering cross section comparable to or below the neutrino floor~\cite{Hisano:2012wm}.
 The detection of MDM may also be difficult~\cite{Hisano:2011cs} since its possibly larger mass of $\mathcal{O} (10)\,{\rm TeV}$ weakens the sensitivity of direct detection experiments.
 
 Secondly, a lot of effort is devoted to detecting cosmic rays resulting from DM annihilation, namely the DM indirect detection~\cite{Fermi-LAT:2016uux, Ahnen:2016qkx, Abdallah:2016ygi, Gomez-Vargas:2013bea}.
-Although the results suffer from some astrophysical uncertainties, they have already excluded, for example, wino with mass less than $400\,{\rm GeV}$ and also around $2\,{\rm TeV}$~\cite{Bhattacherjee:2014dya}.
+Although the results suffer from some astrophysical uncertainties, they have already excluded, for example, Wino with mass less than $400\,{\rm GeV}$ and also around $2\,{\rm TeV}$~\cite{Bhattacherjee:2014dya}.
 On the other hand, the corresponding Higgsino bound is weaker and it has been probed only up to $350\,{\rm GeV}$~\cite{Krall:2017xij} again due to the smallness of its $SU(2)_L$ charge.
 For the MDM, 5-plet fermion is analyzed as an example in \cite{Abdalla:2018mve} and the mass less than $2\,~{\rm TeV}$ and several narrow regions are excluded.
-Note again that the EWIMPs must be the dominant component of the DM for these approaches to be sensitive.
+Note again that the WIMPs must be the dominant component of the DM for these approaches to be sensitive.
 
-In order to acquire somewhat stronger bounds on the EWIMPs, independent of the decay product or the lifetime and whether they are the dominant component of the DM or not, it has been discussed that indirect search of EWIMPs at collider experiments is useful~\cite{Alves:2014cda, Gross:2016ioi, Farina:2016rws, Harigaya:2015yaa, Matsumoto:2017vfu}.
-It utilizes the EWIMP loop effect on various observables.  We pursue this possibility and study the effects of EWIMPs on the oblique correction to the electroweak gauge bosons.  In particular, in this paper, we study the prospect of the indirect search method at future $100\,{\rm TeV}$ hadron colliders such as FCC-hh at CERN~\cite{Mangano:2016jyj, Contino:2016spe, Golling:2016gvc} or SppC in China~\cite{CEPC-SPPCStudyGroup:2015csa, CEPC-SPPCStudyGroup:2015esa}.
+Another way of probing WIMPs is the direct production at the large hadron collider (LHC).
+The main strategy is to use the disappearing charged track, which indicates a long-lived charged particle, the charged components of the WIMP in the current case.
+Both ATLAS and CMS collaborations announced a result of this method with the data of $\sqrt{s} = 13\,{\rm TeV}$ LHC \cite{Aaboud:2017mpt, ATL-PHYS-PUB-2017-019, Sirunyan:2018ldc}.
+The current lower bound on the mass of the pure Higgsino-like (Wino-like) state is $152~(460)\,{\rm GeV}$ at $95\,\%$ C.L.
+We can obtain a similar bound for the MDM using the same method~\cite{Ostdiek:2015aga}.
+In this method, however, the bound strongly depends on the lifetime of the charged component, which is sensitive to the mass difference between the charged and the neutral components.
+In particular, it is often the case in the SUSY model that the Higgsino-like LSP and its charged counterpart possess a non-negligible fraction of Wino, which significantly enhances the mass difference compared to the pure Higgsino case.
+In such a case, the lifetime of the charged component is extremely short, making the disappearing track method challenging.
+There is another option called mono-X search to search for a new physics signal in general.
+However, the corresponding bound is usually very weak due to the large SM background and no bound is imposed on Higgsino at $\sqrt{s} = 14\,{\rm TeV}$ LHC~\cite{Baer:2014cua}.
+
+To acquire somewhat stronger bounds on the WIMPs, independent of the decay product or the lifetime and whether they are the dominant component of the DM or not, it has been discussed that indirect search of WIMPs at collider experiments is useful~\cite{Alves:2014cda, Gross:2016ioi, Farina:2016rws, Harigaya:2015yaa, Matsumoto:2017vfu}.
+It utilizes the WIMP loop effect on various observables.  We pursue this possibility and study the effects of WIMPs on the oblique correction to the electroweak gauge bosons.  In particular, in this paper, we study the prospect of the indirect search method at future $100\,{\rm TeV}$ hadron colliders such as FCC-hh at CERN~\cite{Mangano:2016jyj, Contino:2016spe, Golling:2016gvc} or SppC in China~\cite{CEPC-SPPCStudyGroup:2015csa, CEPC-SPPCStudyGroup:2015esa}.
 We concentrate on the Drell-Yan process that has two leptons in the final state since it provides a very clean signal without any hadronic jets at least from the final state particles.
-We will show that it provides a comparable or better experimental reach for Higgsino compared to the direct production search of EWIMPs at future colliders~\cite{Low:2014cba, Cirelli:2014dsa, Han:2018wus, Mahbubani:2017gjh}.
-This method also provides independent and additional information about wino and the MDM.
-
-\rem{Unit: $\hbar=c=k_B=1$ and definition of $g_1$ and etc?}
-
-\rem{Definition of Feynmann Slash (Exception: missing transverse momentum)}
-
-\rem{Definition of $\sigma$ matrices}
-
-\rem{Convention: dot as time derivative}
-
-\rem{Definition of ``SM''}
-
-\rem{Definition of ``WIMP''}
-
-\rem{Definition of ``DM''}
-
-\rem{Normalization of $g_1$?}
+We will show that it provides a comparable or better experimental reach for Higgsino compared to the direct production search of WIMPs at future colliders~\cite{Low:2014cba, Cirelli:2014dsa, Han:2018wus, Mahbubani:2017gjh}.
+This method also provides independent and additional information about Wino and the MDM.
+Besides, we will reveal that this method is useful to investigate WIMP properties, such as charges, masses, and spins.
 
 \clearpage
 
-\begin{center}
-  \Large \textit{Organization of This Thesis}
-\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Organization of this thesis}
+\setcounter{equation}{0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 This thesis is organized as follows.
 
@@ -189,7 +198,8 @@ In Sec.~\ref{sec:dy}, we discuss our own ideas \cite{Chigusa:2018vxz,Abe:2019egv
 Here, we will describe our statistical analysis, show the obtained reach for WIMPs, and see the possibility to determine the WIMP properties after its discovery.
 Conclusions of the thesis are presented in Sec.~\ref{sec:conclusion}.
 
-In Appendices, we briefly review the $\mathcal{N}=1$ supersymmetry in Appendix \ref{sec:susy}, the properties of the so-called transverse mass used in our analysis in Appendix \ref{sec:mT}, and the statistical analysis method called the profile likelihood method in Sec.~\ref{sec:profile}.
+In Appendices, we first summarize the conventions and notations used in the thesis in \ref{sec:convention}.
+Then, we briefly review the $\mathcal{N}=1$ supersymmetry in Appendix \ref{sec:susy}, the properties of the so-called transverse mass used in our analysis in Appendix \ref{sec:mT}, and the statistical analysis method called the profile likelihood method in Sec.~\ref{sec:profile}.
 
 \clearpage
 
@@ -228,6 +238,10 @@ In Appendices, we briefly review the $\mathcal{N}=1$ supersymmetry in Appendix \
 
 
 \begin{appendices}
+
+\input{DY-Appendix/convention.tex}
+
+\clearpage
 
 % Erase biblio in input file before turning on
 \input{SUSY/susy.tex}
