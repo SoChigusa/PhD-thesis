@@ -144,7 +144,90 @@ What is fascinating in Eq.~\eqref{eq_relic_abundance} is that an object can be a
 This is the so-called \textit{WIMP miracle}, which suppport the hypothesis of the WIMP as a cadidate of the DM.
 Such $\mathrm{TeV}$-scale WIMPs are theoretically well-motivated in connection with problems of the SM such as the naturalness problem as reviewed in Sec.~\ref{sec:model}.
 
-\rem{Virial velocity, mass density of DM, velocity of sun etc}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{WIMP DM search : direct detection}
+\label{sec:direct_detection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+There are also many experiments aimed for the direct detection of the DM\footnote
+{
+  For the recent review of the direct detection experiments, see for example \cite{Undagoitia:2015gya}.
+}
+proposed in \cite{Goodman:1984dc}.
+Here, we again assume some interaction between the DM and SM particles and look for a recoil of a target SM particle due to the collision with the DM in the laboratory.
+In the case of WIMPs of our concern, any particle with non-zero electroweak charge can be a target particle, which interacts with WIMPs through the $t$-channel electroweak gauge boson exchange.
+In the traditional setup such as the XENON1T experiment \cite{Aprile:2018dbl}, a nucleus (of xenon in this case) and an electron are the frequently used target particles.
+\rem{Cite electron scattering}.
+From now on, we focus on the nucleus target since, as will be turned out later, it gives much better sensitivity than the electron target for DMs with mass of $\mathcal{O} (\mathrm{TeV})$.
+In this case, there are several ways to read out the information of the nucleus recoil depending on the deposited energy, such as the use of heat (or photons), an excitation of the nucleus associated with the emission of scintillation light, and the ionization of the nucleus.
+
+To evaluate the event rate for this kind of experiment, it is important to know the DM density $\rho_0$ and velocity distribution around us.
+For this purpose, we model the DM profile in our galaxy using the so-called standard halo model (SHM) and adjust the parameters to the observations.
+In the SHM, we assume the DM velocity distribution in the galactic rest frame
+\begin{align}
+  f(\bm{v}) = \frac{1}{\sqrt{2\pi \sigma}} \exp \left[ -\frac{\bm{v}^2}{2 \sigma^2} \right],
+\end{align}
+with $\sigma \equiv \sqrt{3/2} v_c$, where $v_c$ denotes the local circular speed of DMs around the galactic center.
+From the combination of different analyses, we obtain the values $\rho_0 = 0.3,\mathrm{GeV / cm^3}$ and $v_c = 220\,\mathrm{km/s}$ \cite{Kerr:1986hz,Green:2011bv}.
+Also, the DM velocity within the halo cannot be arbitrary large, since such energetic DM will not be gravitationally bound and will escape from our galaxy.
+We often introduce a cutoff velocity $v_{\mathrm{esc}} = 544\,\mathrm{km / s}$ \cite{Smith:2006ym} and simply assume $f(\bm{v}) = 0$ for $|\bm{v}| > v_{\mathrm{esc}}$.
+
+Using the distribution defined above, the differential event rate per unit recoil energy $E$ and unit target mass $m_A$ is given by
+\begin{align}
+  \frac{d R}{d E} (E,t) = \frac{\rho_0}{m_\chi m_T} \int d^3 v\, v f(\bm{v}, t)
+  \frac{d \sigma}{d E} (E, v),
+\end{align}
+where $d\sigma / dE$ is the differential cross section of the DM-nucleus scattering.
+The DM velocity distribution $f(\bm{v}, t)$ is now time-dependent, since it represents the distribution observed at the laboratory, which is affected by the motion of the Earth's around the Sun and the motion of the Sun around the galactic center.
+Thus, $f(\bm{v}, t)$ is derived by performing the Galilean transformation to $f(\bm{v})$ according to the time-dependent velocity of the Earth against the galactic center.
+This time-dependence gives the signal a characteristic daily and yearly modulation, which helps us to distinguish it from the background events.
+Also, the Galilean transformation makes $f(\bm{v}, t)$ highly anisotropic since the velocity of the Earth is comparable to $v_c$.
+Thus, if it is possible to use the directional information, it also helps us to reduce the background.
+
+The differential cross section $d\sigma / dE$, which summarizes the particle physics part of the calculation, is divided into two parts: the spin independent (SI) part and the spin dependent (SD) part.
+Denoting the SI and SD scattering cross section for zero momentum transfer as $\sigma_0^{\mathrm{SI}}$ and $\sigma_0^{\mathrm{SD}}$, respectively, we obtain
+\begin{align}
+  \frac{d\sigma}{d E} (E, v) = \frac{m_T}{2 \mu_T^2 v^2}
+  \left( \sigma_0^{\mathrm{SI}} F_{\mathrm{SI}}^2 (E)
+  + \sigma_0^{\mathrm{SD}} F_{\mathrm{SD}}^2 (E) \right),
+\end{align}
+with $\mu_T$ being the reduced mass of the WIMP-nucleus system.
+The form factors $F_{\mathrm{SI}}$ and $F_{\mathrm{SD}}$ summarize the nuclear physics part of the matrix element, both of which have properties $F(0)=1$ and $dF / dE < 0$ for large $E$.
+Among SI and SD contributions, the SI part is of great interest thanks to the possible coherent enhancement of the cross section.
+When the de Broglie wavelength corresponding to the momentum transfer $q$ is longer than the size of the nucleus (corresponding to $q \lesssim 200\,\mathrm{MeV}$ for the xenon), not the individual neutrons and protons but the whole nucleus contribute to the cross section.\footnote{
+  When the DM is lighter and the de Broglie wavelength is even longer, the collective excitation modes of nuclei or electrons such as the phonon becomes important.
+  \rem{Reference}
+  This corresponds to $q \lesssim \mathcal{O}(1)\,\mathrm{keV}$ or $m_\chi \lesssim \mathcal{O}(1)\,\mathrm{MeV}$ and thus we neglect this possibility here.
+}
+This results in the coherent contribution from all nucleons for the SI case, while only the unpaired nucleons contribute for the SD case.
+In fact, for the WIMP DM, the SI cross section $\sigma_0^{\mathrm{SI}}$ is enhanced thanks to the coherence by a large factor $A$ that is the mass number of the target nucleus as
+\begin{align}
+  \sigma_0^{\mathrm{SI}} = A^2 \sigma_p^{\mathrm{SI}} \frac{\mu_T^2}{\mu_p^2}
+\end{align}
+where $\sigma_p^{\mathrm{SI}}$ is the SI scattering cross section for a DM and a single nucleon and $\mu_p$ is the reduced mass of the WIMP-nucleon system.
+The above expression dominates over the SD cross contribution for the WIMP DM.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.5\hsize]{x1t_prelim_limits.pdf}
+  \caption{
+    Current constraint on the DM SI cross section taken from \cite{Aprile:2018dbl}.
+    The $y$-axis corresponds to $\sigma_p^{\mathrm{SI}}$ in our notation.
+  }
+  \label{fig:XENON1T}
+\end{figure}
+
+In Fig.~\ref{fig:XENON1T}, we show the most recent bound on the DM SI scattering cross section $\sigma_p^{\mathrm{SI}}$ as a function of its mass taken from \cite{Aprile:2018dbl} by the XENON1T collaboration.
+The previous results of the LUX \cite{Akerib:2016vxi} and the PandaX-II \cite{Cui:2017nnn} experiments are also shown.
+In the figure, the green and yellow bands represent the upper bound on the cross section with $1\sigma$ and $2\sigma$ experimental uncertainties, respectively.
+Black dotted line corresponds to the prospect for the future experiment called XENONnT, while the orange dotted line represents the cross section of the background events sourced by neutrinos \cite{Billard:2013qya}.
+This background often called as the neutrino floor, which is mainly determined by the solar neutrino for the region $m_\chi \lesssim 10\,\mathrm{GeV}$ and by the atmospheric and supernova neutrinos for $m_\chi \gtrsim 10\,\mathrm{GeV}$, roughly represents the maximum possible sensitivity of the direct detection method.\footnote{
+  It may be possible, in particular for the solar neutrino background, to significantly reduce the number of background events and go beyond the neutrino floor by using the directional information of the signals.
+}
+
+Although no signal of DM is observed yet, this null result is still consistent with WIMP models of our concern.
+For example, the calculation for Wino up to the next-to-leading order in $\alpha_s$ reveals that the cross section almost mass-independently takes a small value of $\sigma_p^{\mathrm{SI}} \simeq 2.3 \times 10^{-47}\,\mathrm{cm}^2$~\cite{Hisano:2015rsa}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -153,23 +236,6 @@ Such $\mathrm{TeV}$-scale WIMPs are theoretically well-motivated in connection w
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \rem{Briefly review later}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{WIMP DM search : direct detection}
-\label{sec:direct_detection}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-There are also many experiments aimed for the direct detection of the DM.\footnote
-{
-  For the recent review of the direct detection experiments, see for example \cite{Undagoitia:2015gya}.
-}
-Here, we again assume some interaction between the DM and SM particles and look for a recoil of a target SM particle due to the collision with the DM in the laboratory.
-In the case of WIMPs of our concern, any particle with non-zero electroweak charge can be a target particle, which interacts with WIMPs through the $t$-channel electroweak gauge boson exchange.
-In the traditional setup such as the XENON1T experiment \cite{Aprile:2018dbl}, a nucleus (of xenon in this case) and an electron are the frequently used target particles.
-\rem{Cite electron scattering}.
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
