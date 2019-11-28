@@ -13,9 +13,9 @@
 
 \vskip 0.1in
 
-In this section, we review the properties of WIMPs as DM.
-It is revealed, when we take a close look at the relic abundance of WIMP DM in Sec.~\ref{sec:relic}, that a WIMP with the $\mathrm{TeV}$ scale mass is a good DM candidate, which is sometimes called \textit{WIMP miracle} and is a strong motivation to consider WIMPs.
-In Sec.~\ref{sec:indirect_detection} and \ref{sec:direct_detection}, we will consider two different ways to search for the WIMP DM, called the indirect and direct detection.
+In this section, we review the properties of WIMPs as DM candidates.
+It is revealed that, when we take a close look at the relic abundance of WIMP DM in Sec.~\ref{sec:relic}, a WIMP with the $\mathrm{TeV}$ scale mass is a good DM candidate, which is sometimes called \textit{WIMP miracle} and is a strong motivation to consider WIMPs.
+In Sec.~\ref{sec:direct_detection} and \ref{sec:indirect_detection}, we will consider two different ways to search for WIMP DM, called the direct and indirect detection.
 Finally, Sec.~\ref{sec:summary_DM} is devoted to the summary and concluding remarks of this section.
 
 
@@ -24,13 +24,12 @@ Finally, Sec.~\ref{sec:summary_DM} is devoted to the summary and concluding rema
 \label{sec:relic}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-One of the most important evidences of the beyond SM is the existence of DM \cite{Zwicky:1933}.
-DM is an unknown object that occupies a non-negligible ratio of the total energy of our universe, but has not yet been directly observed because of its weak interaction with the SM particles.\footnote{
+One of the most important evidences of the beyond SM phenomena is the existence of DM \cite{Zwicky:1933}.
+DM is an unknown object that occupies a large fraction of the total energy of our universe, but has not yet been directly observed because of its weak interaction with the SM particles.\footnote{
   At worst DM interacts with the SM particles through the gravity, which is considerably weaker than all the other known interactions.
-  \rem{Mention to Ema paper??}
 }
 In spite of its invisibility, the existence of DM is confirmed by several astrophysical observations such as the mass measurement using the gravitational lensing effect caused by galaxies and clusters \cite{Zwicky:1937, Trimble:1987ee}, the flatness of galactic rotation curves further the optical radius \cite{1939LicOB..19...41B, Begeman:1991iy}, the measurement of the power spectrum of the cosmic microwave background (CMB), and so on.
-In particular, the observation of CMB allows us the precise determination of various cosmological parameters \cite{Jungman:1995av, Jungman:1995bz} including the density of the non-relativistic matter and baryon, which is currently determined as \cite{Aghanim:2018eyx}
+In particular, the observation of CMB allows us the precise determination of various cosmological parameters \cite{Jungman:1995av, Jungman:1995bz} including the normalized density of the non-relativistic matter $\Omega_m$ and that of baryon $\Omega_b$, which is currently determined as \cite{Aghanim:2018eyx}
 \begin{align}
   \Omega_m h^2 &= 0.1430 \pm 0.0011,\\
   \Omega_b h^2 &= 0.02237 \pm 0.00015,
@@ -38,14 +37,14 @@ In particular, the observation of CMB allows us the precise determination of var
 where $h \sim \mathcal{O}(1)$ is the Hubble constant in units of $100\, \mathrm{km}\, \mathrm{s}^{-1}\, \mathrm{Mpc}^{-1}$.
 The difference between $\Omega_m h^2$ and $\Omega_b h^2$ implies the existence of DM and its abundance $\Omega_\chi h^2 \simeq 0.12$.
 
-In cosmology, DM production mechanisms that try to explain the DM abundance are divided into two main categories: thermal and non-thermal production.
+In cosmology, DM production mechanisms that explain the DM abundance are divided into two large categories: thermal and non-thermal production.
 The former assumes the equilibrium between the DM and the thermal bath in the early universe.
 As the universe expands, the interaction rate that maintains the thermal equilibrium becomes smaller and the DM decouples from the thermal bath at some time, which is the so-called \textit{freezeout}.
 As we will see below, the resulting abundance of the DM in this scenario is mainly controlled by the temperature of the thermal bath $T_f$ when the freezeout occurs.
 On the other hand, non-thermal production assumes the DM production by some processes irrespective of the thermal bath such as decay of a heavy particle.
-Since the thermal production scenario can be realized in relatively simple setup and WIMPs are well motivated in connection with this kind of scenario, we focus on it.
+From now on, we mainly focus on the case only with the thermal production, which gives the smallest possible relic abundance for WIMPs that have an interaction with the thermal bath through the electroweak interaction.
 
-We assume the stable DM particle $\chi$ with mass $m_\chi$ can pair annihilate into SM particles with some cross section $\sigma$.
+We assume the stable DM particle $\chi$ with mass $m_\chi$ that pair annihilates into SM particles with some cross section $\sigma$.
 When DM is in thermal equilibrium with the thermal bath of temperature $T$, DM velocity obeys the collesponding Boltzmann distribution.
 Let $v$ be the relative velocity of annihilating DM particles and $\Braket{\sigma v}$ be the thermal average of the product of $\sigma$ and $v$.
 By using this quantity, we can write down the Boltzmann equation for the DM number density $n_\chi$ as
@@ -59,14 +58,27 @@ where $t$ and $a$ are the time coordinate and the scale factor, respectively, of
 \end{align}
 while $n_{\mathrm{eq}}$ denotes the number density of DM in equilibrium.
 When DMs are non-relativistic, its temperature dependence is given by $n_{\mathrm{eq}} \propto T^{3/2} \exp \left( -m_\chi / T \right)$.
-The first term of the right handed-side of Eq.~\eqref{eq_boltzmann} represents the annihilation rate of DM pairs that should be proportional to $n_\chi^2$, while the second term describes the DM creation through the inverse process.
+The first term of the right-handed side of Eq.~\eqref{eq_boltzmann} represents the annihilation rate of DM pairs that should be proportional to $n_\chi^2$, while the second term describes the DM creation through the inverse process.
 As desired, the number density does not change in time if $n_\chi = n_{\mathrm{eq}}$.  Recalling the total entropy conservation in a comoving volume $s a^3 = (\mathrm{const})$, it turns out to be convenient to define the ratio $Y \equiv n_\chi / s$.
-In fact, this modification cancels the effect of the expansion of the universe $\dot{a} \equiv da / dt > 0$ from Eq.~\eqref{eq_boltzmann}, leading to a simpler equation
+In fact, this modification cancels the effect of the expansion of the universe $da / dt > 0$ from Eq.~\eqref{eq_boltzmann}, leading to a simpler equation
 \begin{align}
   \frac{d Y}{d t} =
   -s \Braket{\sigma v} (Y^2 - Y_{\mathrm{eq}}^2),\label{eq_boltzmann_Yt}
 \end{align}
 with $Y_{\mathrm{eq}} \equiv n_{\mathrm{eq}} / s$.
+
+Here, we assume that the freezeout occurs when the relativistic radiation dominates the total energy of the universe, which will be verified to be correct later.
+In this case, we can derive $a \propto T^{-1}$ from the entropy conservation with $s \propto T^3$.
+For the numerical calculation, we define a dimensionless parameter $x \equiv m_\chi / T$.
+Then Eq.~\eqref{eq_boltzmann_Yt} can be rewritten as
+\begin{align}
+  \frac{x}{Y_{\mathrm{eq}}} \frac{d Y}{d x} =
+  -\frac{\Gamma}{H} \left( \frac{Y^2}{Y_{\mathrm{eq}}^2} - 1 \right),\label{eq_boltzmann_Yx}
+\end{align}
+where $\Gamma$ denotes the DM interaction rate defined as
+\begin{align}
+  \Gamma &\equiv n_{\mathrm{eq}} \Braket{\sigma v}.\label{eq_lambda}
+\end{align}
 
 \begin{figure}[t]
   \centering
@@ -81,25 +93,13 @@ with $Y_{\mathrm{eq}} \equiv n_{\mathrm{eq}} / s$.
   \label{fig_DM_relic}
 \end{figure}
 
-Here we assume that the freezeout occurs when the relativistic radiation dominates the total energy of the universe, which will be verified to be correct later.
-In this case, we can derive $a \propto T^{-1}$ from the entropy conservation with $s \propto T^3$.
-For the numerical calculation, we define a dimensionless parameter $x \equiv m_\chi / T$.
-Then we can rewrite Eq.~\eqref{eq_boltzmann_Yt} as
-\begin{align}
-  \frac{x}{Y_{\mathrm{eq}}} \frac{d Y}{d x} =
-  -\frac{\Gamma}{H} \left( \frac{Y^2}{Y_{\mathrm{eq}}^2} - 1 \right),\label{eq_boltzmann_Yx}
-\end{align}
-where $\Gamma$ denotes the DM interaction rate defined as
-\begin{align}
-  \Gamma &\equiv n_{\mathrm{eq}} \Braket{\sigma v}.\label{eq_lambda}
-\end{align}
 Finally, $\Braket{\sigma v}$ is known to be expanded as~\cite{Gondolo:1990dk}
 \begin{align}
   \Braket{\sigma v} = \Braket{\sigma v}_s +
   \Braket{\sigma v}_p x^{-1} + \cdots,
 \end{align}
 collesponding to the $s$-wave, $p$-wave, and so on, contributions to the cross section.
-When $x \gg 1$, the term with the highest power of $x$ dominates the cross section.  When the $x^{-p}$ term dominates ($p \geq 0$), temperature dependence of the interaction rate is $\Gamma \propto x^{-3/2-p} e^{-x}$, while the Hubble parameter only reduces as $H \propto \rho^{1/2} \propto x^{-2}$.
+When $x \gg 1$, which is the same as the non-relativistic limit, the term with the highest power of $x$ dominates the cross section.  When the $x^{-p}$ term dominates ($p \geq 0$), temperature dependence of the interaction rate is $\Gamma \propto x^{-3/2-p} e^{-x}$, while the Hubble parameter only reduces as $H \propto \rho^{1/2} \propto x^{-2}$.
 As a result, at some point $\Gamma$ becomes smaller than $H$ and $Y$ freezes out as Eq.~\eqref{eq_boltzmann_Yx} indicates.
 Hereafter, we focus on the case of the $s$-wave domination with $\Braket{\sigma v}_s \neq 0$ for simplicity.
 \rem{What is the difference for $p$-wave and so on?}
@@ -177,6 +177,7 @@ Using the distribution defined above, the differential event rate per unit recoi
 \begin{align}
   \frac{d R}{d E} (E,t) = \frac{\rho_0}{m_\chi m_T} \int d^3 v\, v f(\bm{v}, t)
   \frac{d \sigma}{d E} (E, v),
+  \label{eq:rate}
 \end{align}
 where $d\sigma / dE$ is the differential cross section of the DM-nucleus scattering.
 The DM velocity distribution $f(\bm{v}, t)$ is now time-dependent, since it represents the distribution observed at the laboratory, which is affected by the motion of the Earth's around the Sun and the motion of the Sun around the galactic center.
@@ -226,8 +227,27 @@ This background often called as the neutrino floor, which is mainly determined b
   It may be possible, in particular for the solar neutrino background, to significantly reduce the number of background events and go beyond the neutrino floor by using the directional information of the signals.
 }
 
+The qualitative description of the form of the sensitivity curve in Fig.~\ref{fig:XENON1T} can be given using the above discussion.
+The sensitivity for a very light WIMP is weak because of the finite threshold $E_{\mathrm{thr}}$ of the recoil energy required for the detection of the signal.
+The threshold effect can be take into account by choosing the lower boundary of the $\bm{v}$-integral in Eq.~\eqref{eq:rate} to be $v_{\mathrm{min}}$ defined as
+\begin{align}
+  v_{\mathrm{min}} = \sqrt{\frac{m_T E_{\mathrm{thr}}}{2 \mu_T^2}}.
+\end{align}
+Since $v_{\mathrm{min}} \propto m_\chi^{-1}$ for $m_\chi \ll m_T$, the event rate rapidly becomes smaller for smaller $m_\chi$.
+On the other hand, heavier WIMPs have less number density with the energy density $\rho_0$ fixed.
+Because of this, the sensitivity for a heavy WIMP becomes moderately worse when $m_\chi$ increases.
+These two behaviors determines the best suitable $m_\chi$ for each choice of $m_T$ and $E_{\mathrm{thr}}$, which is the reason why the xenon nucleus target is more suitable for the $\mathrm{TeV}$-scale WIMP search than the electron target.
+The latter choice is suitable when we search for lighter DMs.
+
 Although no signal of DM is observed yet, this null result is still consistent with WIMP models of our concern.
-For example, the calculation for Wino up to the next-to-leading order in $\alpha_s$ reveals that the cross section almost mass-independently takes a small value of $\sigma_p^{\mathrm{SI}} \simeq 2.3 \times 10^{-47}\,\mathrm{cm}^2$~\cite{Hisano:2015rsa}.
+For example, the calculation for Wino up to the next-to-leading order in $\alpha_s$ reveals that the cross section almost mass-independently takes a small value of $\sigma_p^{\mathrm{SI}} \simeq 2.3 \times 10^{-47}\,\mathrm{cm}^2$~\cite{Hisano:2015rsa}, which is below the current bound but is a region of future interest.
+As for the MDM, the $5$-plet fermion is analyzed in \cite{Hisano:2011cs} and the scattering cross section $\sigma_p^{\mathrm{SI}} \simeq 10^{-46}\,\mathrm{cm}^2$ is obtained.
+However, the mass requirement $m_\chi \sim 10\,\mathrm{TeV}$ (see Table~\ref{tab:WIMP_property}) makes the detection difficult and the sensitivity will not cover the whole region of the viable parameter space.
+For Higgsino-like LSP, the constraint is highly model-dependent since the mixing between the Higgsino and gauginos such as Bino or Wino significantly modifies the scattering cross section.
+According to \cite{Hisano:2012wm, Roszkowski:2014wqa}, the pure Higgsino has $\sigma_p^{\mathrm{SI}}$ below the neutrino floor, while some of the parameter space with a sizable mixing has much larger $\sigma_p^{\mathrm{SI}}$ that is already excluded.
+Thus, we conclude that, the almost pure Higgsino-like state is difficult to search for using this method.
+
+\rem{Comment on non-zero $U(1)_Y$ hypercharge}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -246,7 +266,7 @@ For example, the calculation for Wino up to the next-to-leading order in $\alpha
 \rem{To search for WIMPs that do not compose a sizable fraction of the DM, we have to rely on the collider search.}
 
 
-% \bibliographystyle{elsarticle-num}
-% \bibliography{../phd}
+\bibliographystyle{elsarticle-num}
+\bibliography{../phd}
 
 \end{document}
