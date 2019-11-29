@@ -73,6 +73,24 @@ G.~B{\'{e}}langer, F.~Boudjema, A.~Goudelis, A.~Pukhov, B.~Zaldivar,
   \href {http://dx.doi.org/10.1016/j.cpc.2018.04.027}
   {\path{doi:10.1016/j.cpc.2018.04.027}}.
 
+\bibitem{Hisano:2004ds}
+J.~Hisano, S.~Matsumoto, M.~M. Nojiri, O.~Saito, {Non-perturbative effect on
+  dark matter annihilation and gamma ray signature from galactic center}, Phys.
+  Rev. D71 (2005) 063528.
+\newblock \href {http://arxiv.org/abs/hep-ph/0412403}
+  {\path{arXiv:hep-ph/0412403}}, \href
+  {http://dx.doi.org/10.1103/PhysRevD.71.063528}
+  {\path{doi:10.1103/PhysRevD.71.063528}}.
+
+\bibitem{Hisano:2006nn}
+J.~Hisano, S.~Matsumoto, M.~Nagai, O.~Saito, M.~Senami, {Non-perturbative
+  effect on thermal relic abundance of dark matter}, Phys. Lett. B646 (2007)
+  34--38.
+\newblock \href {http://arxiv.org/abs/hep-ph/0610249}
+  {\path{arXiv:hep-ph/0610249}}, \href
+  {http://dx.doi.org/10.1016/j.physletb.2007.01.012}
+  {\path{doi:10.1016/j.physletb.2007.01.012}}.
+
 \bibitem{Undagoitia:2015gya}
 T.~Marrodán~Undagoitia, L.~Rauch, {Dark matter direct-detection experiments},
   J. Phys. G43~(1) (2016) 013001.
@@ -86,12 +104,12 @@ M.~W. Goodman, E.~Witten, {Detectability of Certain Dark Matter Candidates},
 \newblock \href {http://dx.doi.org/10.1103/PhysRevD.31.3059}
   {\path{doi:10.1103/PhysRevD.31.3059}}.
 
-\bibitem{Aprile:2018dbl}
-E.~Aprile, et~al., {Dark Matter Search Results from a One Tonne$\times$Year
-  Exposure of XENON1T}, Phys. Rev. Lett. 121~(11) (2018) 111302.
-\newblock \href {http://arxiv.org/abs/1805.12562} {\path{arXiv:1805.12562}},
-  \href {http://dx.doi.org/10.1103/PhysRevLett.121.111302}
-  {\path{doi:10.1103/PhysRevLett.121.111302}}.
+\bibitem{Aprile:2012zx}
+E.~Aprile, {The XENON1T Dark Matter Search Experiment}, Springer Proc. Phys.
+  148 (2013) 93--96.
+\newblock \href {http://arxiv.org/abs/1206.6288} {\path{arXiv:1206.6288}},
+  \href {http://dx.doi.org/10.1007/978-94-007-7241-0_14}
+  {\path{doi:10.1007/978-94-007-7241-0_14}}.
 
 \bibitem{Kerr:1986hz}
 F.~J. Kerr, D.~Lynden-Bell, {Review of galactic constants}, Mon. Not. Roy.
@@ -111,6 +129,20 @@ M.~C. Smith, et~al., {The RAVE Survey: Constraining the Local Galactic Escape
   {\path{arXiv:astro-ph/0611671}}, \href
   {http://dx.doi.org/10.1111/j.1365-2966.2007.11964.x}
   {\path{doi:10.1111/j.1365-2966.2007.11964.x}}.
+
+\bibitem{Lewin:1995rx}
+J.~D. Lewin, P.~F. Smith, {Review of mathematics, numerical factors, and
+  corrections for dark matter experiments based on elastic nuclear recoil},
+  Astropart. Phys. 6 (1996) 87--112.
+\newblock \href {http://dx.doi.org/10.1016/S0927-6505(96)00047-3}
+  {\path{doi:10.1016/S0927-6505(96)00047-3}}.
+
+\bibitem{Aprile:2018dbl}
+E.~Aprile, et~al., {Dark Matter Search Results from a One Tonne$\times$Year
+  Exposure of XENON1T}, Phys. Rev. Lett. 121~(11) (2018) 111302.
+\newblock \href {http://arxiv.org/abs/1805.12562} {\path{arXiv:1805.12562}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.121.111302}
+  {\path{doi:10.1103/PhysRevLett.121.111302}}.
 
 \bibitem{Akerib:2016vxi}
 D.~S. Akerib, et~al., {Results from a search for dark matter in the complete
