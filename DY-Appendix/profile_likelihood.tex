@@ -11,25 +11,25 @@
 
 \vskip 0.1in
 
-In this appendix, we briefly review the the profile likelihood method used in Sec.~\ref{sec_statistical}.
+In this appendix, we briefly review the profile likelihood method used in Sec.~\ref{sec_statistical}.
 In particular, we describe the motivation and justification to consider this method.
 
-First of all, the experimental outcome of our concern can be expressed as a set of random variables $\bm{x} \equiv \{ x_1, \cdots, x_n \}$, with $n$ being the number of observables.
+First of all, the experimental outcome can be expressed as a set of random variables $\bm{x} \equiv \{ x_1, \cdots, x_n \}$, with $n$ being the number of observables.
 The distribution of these variables is due to both the intrinsic physical randomness (\textit{i.e.}, the statistical fluctuation) and the uncertainty in detector responses such as the efficiency, momentum reconstruction, and so on.
 We assume $\bm{x}$ obey some probability distribution function and express it as $f(\bm{x} ; \bm{\theta})$, where $\bm{\theta} = \{ \theta_1, \cdots, \theta_m \}$ parametrize (in many cases unknown) uncertainties listed above.
-When we repeat $N$ experiments and obtained $N$ sets of observables expressed as $\bm{x}^a$ ($a = 1,\cdots,N$), we define the likelihood function $L$ as
+When we repeat $N$ experiments and obtain $N$ sets of observables expressed as $\bm{x}^a$ ($a = 1,\cdots,N$), we define the likelihood function $L$ as
 \begin{align}
   L = \prod_{a=1}^N f(\bm{x}^a ; \bm{\theta}).
 \end{align}
 Since $L$ should take a relatively larger value if the assumed distribution $f$ approximates the reality very well, we may perform the maximization of $L$ against the choice of $\bm{\theta}$ to obtain the correct probability distribution.
-Such maximization procedure can be performed analytically only for several simple distribution functions.
+Such a maximization procedure can be performed analytically only for several simple distribution functions.
 Thus, in many cases, we need a numerical calculation of the maximization procedure, which can be performed with the \texttt{MINUIT} package \cite{James:1994vla}.
 
 In our analysis in Sec.~\ref{sec:dy}, the data is given in the form of the histogram.
 In this case, $x_i$ $(i=1, \cdots, n)$ denotes the observed number of events in each bin labeled by $i$, with $n$ being the number of bins.
-The product of the probability distribution function for each bin gives $f$, which is equivalent to $L$ in this case, expressed as
+Then the likelihood $L$, which is the product of the probability distribution function for each bin, is expressed as
 \begin{align}
-  L(\bm{x} ; \bm{\theta}) \equiv f(\bm{x} ; \bm{\theta}) = \exp \left[
+  L(\bm{x} ; \bm{\theta}) \equiv \prod_i f_i(\bm{x} ; \bm{\theta}) = \prod_i \exp \left[
     - \frac{\left(x_i - \mu_i (\bm{\theta}) \right)^2}{2 x_i}
   \right],
 \end{align}
@@ -41,27 +41,27 @@ Then, it is clear that the maximization of $L$ is equivalent to the minimization
   \frac{\left(x_i - \mu_i (\bm{\theta}) \right)^2}{x_i},
 \end{align}
 which is the so-called Neyman's $\chi^2$ variable.
-$\chi^2$ obeys the chi-square distribution when the distribution of $x_i$ is well approximated by the Gaussian, and can be easily used to find the optimized choice of parameters $\bm{\theta}$ and their errors.
+$\chi^2$ obeys the chi-squared distribution when the distribution of $x_i$ is well approximated by the Gaussian and can be easily used to estimate the errors of $\bm{\theta}$ around the optimized values.
 
-Similarly, one can apply the likelihood maximization to the test of the model.
-Let $\bm{\theta}_{\mathrm{true}}$ and $\bm{\theta}_{\mathrm{test}}$ be the model in the reality and that we want to test, respectively.
-For example, in the new physics search, the former corresponds to the new physics model, while the latter to the SM.
+Similarly, one can apply the likelihood maximization to the model test.
+Let $\bm{\theta}_{\mathrm{true}}$ and $\bm{\theta}_{\mathrm{test}}$ be the model in reality and that we want to test, respectively.
+For example, in the new physics search, the former corresponds to a new physics model of our concern, while the latter to the SM.
 Then we can define the test-statistic
 \begin{align}
   q (\bm{\theta}_{\mathrm{test}}) =
   -2 \ln \frac{L(\bm{x} ; \bm{\theta}_{\mathrm{test}})}
   {L(\bm{x} ; \bm{\theta}_{\mathrm{true}})},
 \end{align}
-which plays a role of the so-called $\Delta \chi^2$ variable according to the discussion above.
-Again $q$ may obey a chi-square distribution with some degrees of freedom, and can be used to obtain sensitivities to the new physics, \textit{i.e.,} the $95\,\%$ C.L. exclusion and the $5\sigma$ discovery.
-Note that the denominator of the test static can also be expressed as $L(\bm{x} ; \hat{\bm{\theta}})$, where the hat denotes the values of $\bm{\theta}$ that maximize the function $L$.
+which plays the role of the so-called $\Delta \chi^2$ variable according to the discussion above.
+Again $q$ may obey a chi-squared distribution with some degrees of freedom, and can be used to obtain sensitivities to the new physics, \textit{e.g.,} the $95\,\%$ C.L. exclusion and the $5\sigma$ discovery.
+Note that the denominator of the test statistic can also be expressed as $L(\bm{x} ; \hat{\bm{\theta}})$, where the hat denotes the values of $\bm{\theta}$ that maximize the function $L$.
 
 However, the situation may be more complicated since some of the parameters $\bm{\theta}$ are not directly related to the model parameters, but express the background yield, detector effects, systematic errors, and so on, which should be determined from experimental data.
 Such additional parameters are often called nuisance parameters.
 To treat nuisance parameters, it is convenient to rely on the profile likelihood method \cite{Cowan:2010js}.
 
 For this purpose, we divide the parameters into two categories: the model parameter of our interest $\bm{\mu}$ and nuisance parameters $\bm{\theta}$.
-Similarly to the discussion without the nuisance parameters, let $\bm{\mu}$ be the model in we want to test.
+Similarly to the discussion without the nuisance parameters, let $\bm{\mu}$ be the model that we want to test.
 The test static is defined as
 \begin{align}
   q (\bm{\mu}) =
@@ -69,9 +69,11 @@ The test static is defined as
   {L(\bm{x} ; \hat{\bm{\mu}}, \hat{\bm{\theta}})},
 \end{align}
 where the meaning of the hat is the same as above, while $\doublehat{\bm{\theta}} (\bm{\mu})$ denotes the values that maximize $L$ with fixed values of $\bm{\mu}$.
-The motivation for this choice is given by the Wilk's theorem \cite{wilks1938}, which proves that $q (\bm{\mu})$ asymptotically obeys the chi-square distribution whose degrees of freedom equal to the number of model parameters $\bm{\mu}$.
-Note that this the statement is highly non-trivial, since the individual term $-2\ln L$ \textit{does not} obey chi-square distributions in this case.
+The motivation for this definition is provided by the Wilk's theorem \cite{wilks1938}, which proves that $q (\bm{\mu})$ asymptotically obeys the chi-squared distribution whose degrees of freedom equal to the number of model parameters $\bm{\mu}$.
+Note that this statement is highly non-trivial since the individual term $-2\ln L$ \textit{does not} obey a chi-squared distribution in this case.
 Thanks to the theorem, we can perform the same analysis under the existence of nuisance parameters and, in particular, absorb the effects of systematic errors into the choice of parameters $\bm{\theta}$.
+
+\rem{Clarify d.o.f}
 
 \rem{Comment on distribution of nuisance parameters?}
 
