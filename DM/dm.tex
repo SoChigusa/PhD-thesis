@@ -162,7 +162,7 @@ Note also that $m_\chi$ in the table is only an upper bound on the WIMP DM mass 
 
 There are many experiments aimed at the direct detection of the DM\footnote
 {
-  For the recent review of the direct detection experiments, see for example \cite{Undagoitia:2015gya}.
+  For a recent review of the direct detection experiments, see for example \cite{Undagoitia:2015gya}.
 }
 proposed in \cite{Goodman:1984dc}.
 Here, we assume some interaction between the DM and SM particles and look for the recoil of a target SM particle due to the collision with the DM in the laboratory.
@@ -265,7 +265,115 @@ Thus, we conclude that the almost pure Higgsino-like state is difficult to searc
 \label{sec:indirect_detection}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\rem{Briefly review later}
+The indirect detection of DM\footnote{
+  For a recent review of the indirect detection experiments, see for example \cite{Gaskins:2016cha}.
+}
+uses the DM annihilation process into SM particles to detect the DM signal.
+When DM is composed of WIMPs, their annihilation can be again explained by the electroweak interaction.
+Since DMs are non-relativistic in the current universe, the $s$-wave contribution to the annihilation cross section is strongly favored, which results in the dominant annihilation process coming from the $t$- and $u$-channel exchange of virtual WIMP.
+\rem{Same for scalar?}
+Then, some of the final state particles may fly to the earth and be observed by telescopes in the form of gamma-rays, neutrinos, cosmic-rays, and so on.
+
+The DM annihilation rate at some point $\bm{x}$ of the universe has a quadratic dependence on the DM energy density $\rho_\chi (\bm{x})$.\footnote{
+  More precisely, the annihilation rate has a quadratic dependence on the DM number density $n_\chi (\bm{x})$.
+  This means that, for some fixed value of $\rho_\chi (\bm{x})$, the lighter DM has more chance to annihilate since $n_\chi = \rho_\chi / m_\chi$.
+}
+Thus, the main targets of indirect detection experiments are center of galaxies or galaxy clusters, where abundant DM is expected to be accumulated thanks to the strong gravitational potential.
+The DM energy density distribution around each galaxy (cluster) can be determined by the observation of the rotation curve of luminous objects.
+One of the model functions introduced to fit such observations is the so-called the Navarro-Frenk-White (NFW) profile \cite{Navarro:1995iw, Navarro:1996gj} of the DM density distribution,
+\begin{align}
+  \rho_{\mathrm{NFW}} (r) = \frac{\rho_s}
+  { \left( \frac{r}{r_s} \right) \left[ 1 + \left( \frac{r}{r_s} \right) \right]^2},
+\end{align}
+where $r$ is the distance from the center of the galaxy of our concern.
+Free parameters $\rho_s$ and $r_s$ should be chosen to fit data for each galaxy, which gives for our galaxy $\rho_s \sim 1\times 10^7 M_\odot\, \mathrm{kpc}^{-3}$ and $r_s \sim 20\,\mathrm{kpc}$ \cite{Fornasa:2013iaa} with $M_\odot$ being the solar mass.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\hsize]{profile.pdf}
+  \caption{
+    Dark matter energy density $\rho_\chi$ within our galaxy as a function of the distance from the galactic center $r$.
+  }
+  \label{fig:profile}
+\end{figure}
+
+The inner slope of the NFW profile follows $\rho_{\mathrm{NFW}} \propto r^{-1}$.
+On the other hand, many observations of the rotation curve and models of dwarf galaxies suggest the scaling behavior $\rho \propto r^0$, which is the so-called core-cusp problem (see \cite{Genina_2017} and references therein).
+To take account of this behavior, other profiles are also widely used: the Einasto profile \cite{1965TrAlm...5...87E, Graham:2005xx}
+\begin{align}
+  \rho_{\mathrm{Einasto}} (r) = \rho_s \exp \left[
+  -\frac{2}{\alpha} \left\{ \left( \frac{r}{r_s} \right)^\alpha - 1 \right\} \right],
+\end{align}
+with $\rho_s \sim 5 \times 10^6 M_\odot\, \mathrm{kpc}^{-3}$, $\alpha \sim 0.2$, and $r_s \sim 10\,\mathrm{kpc}$ for our galaxy, and the Burkert profile \cite{Burkert:1995yz}
+\begin{align}
+  \rho_{\mathrm{Burkert}} (r) = \frac{\rho_s}
+  {\left( 1 + \frac{r}{r_s} \right) \left( 1 + \frac{r^2}{r_s^2} \right)},
+\end{align}
+with $\rho_s \sim 9 \times 10^7 M_\odot\, \mathrm{kpc}^{-3}$ and $r_s \sim 6\, \mathrm{kpc}$ for our galaxy.
+In Fig.~\ref{fig:profile}, we show the DM energy density distribution in our galaxy.\footnote{
+  In principle, all the profiles should reconstruct the DM density at the Sun $\rho (r \sim 8\, \mathrm{kpc}) \sim 0.3\, \mathrm{GeV} / \mathrm{cm}^3$, which is apparently not the case.
+  This deviation can be explained to be the effect of the fitting error, which results in an order of magnitude uncertainty in $\rho_\chi$ at the $68\,\%$ level.
+}
+As for the choice of parameters, we use the mean values of fits of several observations listed in \cite{Fornasa:2013iaa} and shown above.
+We can see the difference of shapes among three profiles at the small $r$ region.
+
+The event rate at the laboratory can be divided into the particle physics part and the astrophyical part, the second of which, referred to as the $J$-factor, is related to the DM density distribution.
+The $J$-factor for the DM annihilation for a sky patch with solid angle $\Delta\Omega$ around a sky direction $\hat{\bm{n}}$ is given by
+\begin{align}
+  J(\hat{\bm{n}}, \Delta\Omega) = \int_{\Omega \sim \hat{\bm{n}}} d\Omega
+  \int_{\mathrm{LOS}} \rho_\chi^2 (\Omega, \ell) d\ell,
+  \label{eq:J-factor}
+\end{align}
+where $\ell$ is a distance along the line-of-sight (LOS) defined by the direction $\Omega$.
+The first integration performed over a region $\Delta\Omega$ around the direction $\hat{\bm{n}}$, while the second one sums up all the contributions from DMs on the LOS.
+Using this, the flux $\Phi_x(E, \hat{\bm{n}}, \Delta\Omega)$ of a SM particle $x$ with energy $E$ at the sky patch is expressed as\footnote{
+  We identify the DM particle and anti-particle in the calculation of Eq.~\eqref{eq:flux}.
+  If it is not the case, the right-handed side should be multiplied by an extra factor of $1/2$.
+}
+\begin{align}
+  \Phi_x (E, \hat{\bm{n}}, \Delta\Omega) = \frac{\Braket{\sigma v}}{8\pi m_\chi^2}
+  \frac{d N_x}{d E} J(\hat{\bm{n}}, \Delta\Omega),
+  \label{eq:flux}
+\end{align}
+where $\Braket{\sigma v}$ and $d N_x / d E$ are the thermally averaged DM annihilation cross section and the differential spectrum of $x$ per annihilation, respectively.
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{c|c}
+    Target & $\log_{10} (J(\hat{\bm{n}}, \Delta\Omega) / \mathrm{GeV}^2 \mathrm{cm}^{-5})$ \\ \hline
+    Galactic Center & 21.5\\
+    Dwarf Galaxies & 16--19\\
+    Galaxy clusters & \sim 20
+  \end{tabular}
+  \caption{Comparison of $J$-factors for several targets of DM indirect detection.}
+  \label{tab:J-factors}
+\end{table}
+
+In Table \ref{tab:J-factors}, we summarize $J$-factors for several astrophysical targets suitable for the indirect detection of DM.
+Values are taken from \cite{Fornasa:2013iaa, Geringer-Sameth:2014yza, S_nchez_Conde_2011}.
+We show the result with $\hat{\bm{n}}$ and $\Delta\Omega$ being the direction of the target and the size of the target observed from the earth, respectively.\footnote{
+  In \cite{S_nchez_Conde_2011}, the authors use a different definition of the $J$-factor
+  \begin{align}
+    J_T \equiv \frac{1}{4\pi D^2} \int dV \rho_\chi^2,
+  \end{align}
+  where $D$ is the distance from the earth to the target, while the integral is performed over the whole volume of the target.
+  This definition possesses an advantage especially for the assumption of the NFW profile, which becomes ill-defined around the origin in the integration process in Eq.~\eqref{eq:J-factor}.
+  Due to this, it is difficult to convert the $J$-factor of their definition calculated with the NFW profile into that of our definition, and the result of the rough estimation is shown in the table.
+}
+In the table, the results for the center of our galaxy, $20$ dwarf galaxies in our galaxy, and $7$ galaxy clusters are shown.
+Among the targets listed in the table, the Galactic Center seems to be the best source for the indirect detection, which is however suffered from huge background events at the same time.
+Dwarf galaxies may be more promising target since it provides much cleaner signals and the combined analysis of several targets can be performed to enlarge the statistics.
+Galaxy clusters may also be an interesting target since its power for the DM detection strongly depends on the DM profile of each galaxy cluster and a large enhancement may be expected for clusters that have relatively cusped DM profiles for some reason.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.6\hsize]{IDplot.pdf}
+  \caption{
+    Constraints on the DM annihilation cross section from current and future planned indirect detection experiments.
+    The figure is taken from \cite{Roszkowski:2017nbc}.
+  }
+  \label{fig:indirect_detection}
+\end{figure}
 
 \rem{Sommerfeld enhancement}
 
@@ -278,7 +386,7 @@ Thus, we conclude that the almost pure Higgsino-like state is difficult to searc
 \rem{To search for WIMPs that do not compose a sizable fraction of the DM, we have to rely on the collider search.}
 
 
-% \bibliographystyle{elsarticle-num}
-% \bibliography{../phd}
+\bibliographystyle{elsarticle-num}
+\bibliography{../phd}
 
 \end{document}
