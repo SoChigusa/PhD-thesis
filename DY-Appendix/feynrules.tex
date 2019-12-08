@@ -1,0 +1,29 @@
+\documentclass[12pt,twoside,book]{article}
+
+\input{../settings}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Collider simulation of the MDM model}
+\label{sec:feynrules}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vskip 0.1in
+
+In this appendix, we explain the procedure we have adopted to implement the MDM model into the numerical calculation performed in \ref{sec:direct}.
+
+In the Listing \ref{list:mdm}, we show a part of our \texttt{FeynRules} model file \texttt{mdm.fr}.
+This corresponds to the necessary additional description to the SM model file \texttt{sm.fr} to take account of the $5$-plet fermion.
+
+\begin{lstlisting}[caption=\texttt{mdm.fr}, label=list:mdm, float=b]
+#include<stdio.h>
+int main(){
+   printf("Hello world!");
+}
+\end{lstlisting}
+
+% \bibliographystyle{elsarticle-num}
+% \bibliography{../phd}
+
+\end{document}

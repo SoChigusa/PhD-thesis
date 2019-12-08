@@ -33,6 +33,7 @@ setpagesize=false,
 \usepackage{colortbl}
 \usepackage{comment}
 \usepackage{bm}
+\usepackage{listings}
 
 \setlength{\textwidth}{16.5cm}
 \setlength{\textheight}{21.5cm}
@@ -109,6 +110,24 @@ setpagesize=false,
   \titlespacing{\section}
   {3pc}{*3}{*2}[3pc]
 
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
 
 %%%%% New commands %%%%%
 \newlength{\dhatheight} % define doublehat
