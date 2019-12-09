@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Alloul:2013bka}
+A.~Alloul, N.~D. Christensen, C.~Degrande, C.~Duhr, B.~Fuks, {FeynRules 2.0 - A
+  complete toolbox for tree-level phenomenology}, Comput. Phys. Commun. 185
+  (2014) 2250--2300.
+\newblock \href {http://arxiv.org/abs/1310.1921} {\path{arXiv:1310.1921}},
+  \href {https://doi.org/10.1016/j.cpc.2014.04.012}
+  {\path{doi:10.1016/j.cpc.2014.04.012}}.
+
+\bibitem{Alloul:wiki}
+A.~Alloul, N.~D. Christensen, C.~Degrande, C.~Duhr, B.~Fuks,
+  \href{https://feynrules.irmp.ucl.ac.be/wiki/ModelDatabaseMainPage}{{FeynRules
+  model database}}.
+\newline\urlprefix\url{https://feynrules.irmp.ucl.ac.be/wiki/ModelDatabaseMainPage}
+
+\bibitem{Degrande:2011ua}
+C.~Degrande, C.~Duhr, B.~Fuks, D.~Grellscheid, O.~Mattelaer, T.~Reiter, {UFO -
+  The Universal FeynRules Output}, Comput. Phys. Commun. 183 (2012) 1201--1214.
+\newblock \href {http://arxiv.org/abs/1108.2040} {\path{arXiv:1108.2040}},
+  \href {https://doi.org/10.1016/j.cpc.2012.01.022}
+  {\path{doi:10.1016/j.cpc.2012.01.022}}.
+
+\bibitem{Iwamoto:FeynLecture}
+S.~Iwamoto,
+  \href{https://www.misho-web.com/phys/feynlecture.html}{{FeynLecture: Tools
+  for BSM Physics}}.
+\newline\urlprefix\url{https://www.misho-web.com/phys/feynlecture.html}
+
+\end{thebibliography}
