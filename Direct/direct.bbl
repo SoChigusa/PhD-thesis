@@ -39,6 +39,38 @@ J.~Vermaseren,
   {\path{doi:https://doi.org/10.1016/0010-4655(94)90034-5}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0010465594900345}
 
+\bibitem{Gao:2017yyd}
+J.~Gao, L.~Harland-Lang, J.~Rojo, {The Structure of the Proton in the LHC
+  Precision Era}, Phys. Rept. 742 (2018) 1--121.
+\newblock \href {http://arxiv.org/abs/1709.04922} {\path{arXiv:1709.04922}},
+  \href {https://doi.org/10.1016/j.physrep.2018.03.002}
+  {\path{doi:10.1016/j.physrep.2018.03.002}}.
+
+\bibitem{Kovarik:2019xvh}
+K.~Kovařík, P.~M. Nadolsky, D.~E. Soper, {Hadron structure in high-energy
+  collisions} (2019).
+\newblock \href {http://arxiv.org/abs/1905.06957} {\path{arXiv:1905.06957}}.
+
+\bibitem{Gribov:1972ri}
+V.~N. Gribov, L.~N. Lipatov, {Deep inelastic e p scattering in perturbation
+  theory}, Sov. J. Nucl. Phys. 15 (1972) 438--450, [Yad. Fiz.15,781(1972)].
+
+\bibitem{Lipatov:1974qm}
+L.~N. Lipatov, {The parton model and perturbation theory}, Sov. J. Nucl. Phys.
+  20 (1975) 94--102, [Yad. Fiz.20,181(1974)].
+
+\bibitem{Altarelli:1977zs}
+G.~Altarelli, G.~Parisi, {Asymptotic Freedom in Parton Language}, Nucl. Phys.
+  B126 (1977) 298--318.
+\newblock \href {https://doi.org/10.1016/0550-3213(77)90384-4}
+  {\path{doi:10.1016/0550-3213(77)90384-4}}.
+
+\bibitem{Dokshitzer:1977sg}
+Y.~L. Dokshitzer, {Calculation of the Structure Functions for Deep Inelastic
+  Scattering and e+ e- Annihilation by Perturbation Theory in Quantum
+  Chromodynamics.}, Sov. Phys. JETP 46 (1977) 641--653, [Zh. Eksp. Teor.
+  Fiz.73,1216(1977)].
+
 \bibitem{Alwall:2011uj}
 J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer, T.~Stelzer, {MadGraph 5 :
   Going Beyond}, JHEP 06 (2011) 128.
@@ -156,6 +188,20 @@ A.~M. Sirunyan, et~al., {Search for disappearing tracks as a signature of new
 \newblock \href {http://arxiv.org/abs/1804.07321} {\path{arXiv:1804.07321}},
   \href {https://doi.org/10.1007/JHEP08(2018)016}
   {\path{doi:10.1007/JHEP08(2018)016}}.
+
+\bibitem{ATL-PHYS-PUB-2017-019}
+\href{http://cds.cern.ch/record/2297480}{{Search for direct pair production of
+  higgsinos by the reinterpretation of the disappearing track analysis with
+  36.1 fb$^{-1}$ of $\sqrt{s}=13$ TeV data collected with the ATLAS
+  experiment}}, Tech. Rep. ATL-PHYS-PUB-2017-019, CERN, Geneva (Dec 2017).
+\newline\urlprefix\url{http://cds.cern.ch/record/2297480}
+
+\bibitem{Ostdiek:2015aga}
+B.~Ostdiek, {Constraining the minimal dark matter fiveplet with LHC searches},
+  Phys. Rev. D92 (2015) 055008.
+\newblock \href {http://arxiv.org/abs/1506.03445} {\path{arXiv:1506.03445}},
+  \href {https://doi.org/10.1103/PhysRevD.92.055008}
+  {\path{doi:10.1103/PhysRevD.92.055008}}.
 
 \bibitem{Han:2018wus}
 T.~Han, S.~Mukhopadhyay, X.~Wang, {Electroweak Dark Matter at Future Hadron

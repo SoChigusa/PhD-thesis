@@ -101,7 +101,7 @@ The explicit form of $c_{1 \alpha \beta}$ and $c_{2 \alpha \beta}$, which are si
 Recalling that $\alpha_1 < \alpha_2$ and that we often consider the WIMPs with large $n$ and moderate $Y$, the WIMP production cross section grows as $n^3$ for larger multiplets according to the group theoretical factor \eqref{eq:dynkin}.
 
 In reality, the initial state of the hadron collider is not the individual partons but two protons.
-To obtain the cross section for the two-proton initial state, we rely on the parton distribution function (PDF), which expresses the fraction of the partons with some given momentum in each accelerated proton.
+To obtain the cross section for the two-proton initial state, we rely on the parton distribution function (PDF), which expresses the fraction of the partons with some given momentum in each accelerated proton (see for example \cite{Gao:2017yyd,Kovarik:2019xvh}).
 Let $f_\alpha (x)$ ($0 < x < 1$) be the PDF for a given parton $q^\alpha$ inside a proton with momentum $p^\mu$.
 $f_\alpha (x)$ can be interpreted as a probability distribution to find the parton $q^\alpha$ with momentum $x p^\mu$, so we have a relationship
 \begin{align}
@@ -113,7 +113,6 @@ associated with the total momentum conservation, and
   \int_0^1 dx \, \left[ f_u (x) - f_{\bar{u}} (x) \right] &= 2,
 \end{align}
 from the composition of the proton.
-\rem{Reference}
 Using the PDF, the cross section of the process of interest at the hadron collider is evaluated as
 \begin{align}
   \frac{d \sigma}{d \sqrt{s'} d \Omega} =
@@ -122,8 +121,8 @@ Using the PDF, the cross section of the process of interest at the hadron collid
 \end{align}
 where $\sqrt{s}$ is the CM energy of the proton-proton collision.
 Note that $\left. d \sigma_{\alpha \beta} / d \Omega\, \right|_{\text{lab}}$ in the integrand is a function of $x_1$ and $x_2$, which is obtained by applying the appropriate Lorentz transformation to $\left. d \sigma_{\alpha \beta} / d \Omega\, \right|_{\text{CM}}$.
-
-\rem{Comment on factorization scale?}
+Precisely speaking, the PDF has an energy scale dependence which is determined by the Dokshitzer-Gribov-Lipatov-Altarelli-Parisi (DGLAP) equation \cite{Gribov:1972ri, Lipatov:1974qm, Altarelli:1977zs, Dokshitzer:1977sg}.
+Thus, the PDF is a function of the form $f(x, \mu_F)$, where $\mu_F$ is the analog of the renormalization scale for the PDF often called the factorization scale.
 
 \begin{figure}[t]
   \centering
@@ -144,16 +143,20 @@ Finally, the colored particles in the final states should eventually be confined
 
 In the following, we perform the numerical calculation, taking account of all the above complexities.
 For this purpose, we make use of the Monte Carlo generator \texttt{MadGraph5 aMC@NLO (v2.6.3.2)} \cite{Alwall:2011uj,Alwall:2014hca} with the successive use of \texttt{Pythia8} \cite{Sjostrand:2014zea} for the parton shower, hadronization, and matching and \texttt{Delphes (v3.4.1)} \cite{deFavereau:2013fsa} for the detector simulation, including the definition of jets as observed objects.
-We use the so-called MLM-style matching \cite{Mangano:2006rw} with the merging scale of $67.5\,\mathrm{GeV}$ and \texttt{NNPDF2.3QED} with $\alpha_3 (M_Z) = 0.118$ \cite{Ball:2013hta} as a canonical set of PDFs.
-% For the renormalization and factorization scales, we adopt the default values of MadGraph5 aMC@NLO, \textit{i.e.}, the central $m^2_T$ scale after $k_T$-clustering of the event.
+We use the MLM-style matching \cite{Mangano:2006rw} with the merging scale of $67.5\,\mathrm{GeV}$ and \texttt{NNPDF2.3QED} with $\alpha_3 (M_Z) = 0.118$ \cite{Ball:2013hta} as a canonical set of PDFs.
+For the renormalization and factorization scales, we adopt the default values of MadGraph5 aMC@NLO, \textit{i.e.}, the central $m^2_T$ scale after $k_T$-clustering of the event.
+The one-loop level contributions such as the right panel of Fig.~\ref{fig:WIMP_production_NLO} can be taken into account by using a properly prepared model file and the $\texttt{[QCD]}$ option of \texttt{MadGraph5}.
+However, just for simplicity of the analysis, we generate the tree-level pair production process with up to one jet.\footnote{
+  In spite of the lack of the one-loop contributions, this procedure is free from the infrared divergence since the matrix element with an additional jet is considered only when the jet energy scale is larger than the merging scale.
+}
 
 \begin{table}[t]
   \centering
   \begin{tabular}{c|cccc}
     WIMP name & Higgsino & Wino & $5$-plet Majorana fermion & $5$-plet real scalar \\ \hline
-    $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 15 & 52 & \rem{???} & \rem{???} \\
-    $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 17 & 60 & \rem{???} & \rem{???} \\ \hline
-    $K$-factor & 1.15 & 1.15 & &
+    $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 15 & 85 & 423 & \rem{???} \\
+    $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 17 & 93 & 461 & \rem{???} \\ \hline
+    $K$-factor & 1.15 & 1.09 & 1.09 &
   \end{tabular}
   \caption{
     Table of pair production cross sections of several types of WIMPs.
@@ -165,17 +168,18 @@ We use the so-called MLM-style matching \cite{Mangano:2006rw} with the merging s
 In Table~\ref{tab:cross_section_WIMPs}, we list the production cross sections of various WIMPs via a weak gauge boson exchange at a $\sqrt{s} = 100\,\mathrm{TeV}$ hadron collider.
 As for the WIMP mass, we use the common value $m = 1\,\mathrm{TeV}$ to compare the cross sections among a different choice of quantum numbers.
 $\sigma_{\mathrm{LO}}$ and $\sigma_{\mathrm{NLO}}$ denote the production cross sections without and with the NLO QCD correction, respectively, while the last line is the so-called $K$-factor defined as $K = \sigma_{\mathrm{NLO}} / \sigma_{\mathrm{LO}}$.
-From the table, by paying attention to the factor two difference in degrees of freedom between the Dirac (Higgsino) and Majorana (Wino and $5$-plet) fermions, we can roughly see the dependence of the cross section on the $SU(2)_L$ charge $\sigma \propto n^3$.
-
-\rem{Cross section to neutral Higgsino seems missing}
+From the table, by comparing the results for the triplet (\textit{i.e.} Wino) and $5$-plet Majorana fermions, we can roughly see the correct dependence of the cross section on the $SU(2)_L$ charge $\sigma \propto n^3$.
 
 \begin{table}[t]
   \centering
   \begin{tabular}{c|cccc}
     Wino mass $\mathrm{[TeV]}$ & 1.0 & 1.5 & 2.0 & 2.9 \\ \hline
-    $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 52 & 12 & 4.0 & 0.86\\
-    $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 60 & 15 & 4.7 & 1.0 \\ \hline
-    $K$-factor & 1.15 & 1.20 & 1.19 & 1.21
+    $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 85 & 19 & 6.1 & 1.3\\
+    $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 93 & 21 & 6.8 & 1.5 \\ \hline
+    $K$-factor & 1.09 & 1.11 & 1.11 & 1.15
+    % $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 52 & 12 & 4.0 & 0.86\\
+    % $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 60 & 15 & 4.7 & 1.0 \\ \hline
+    % $K$-factor & 1.15 & 1.20 & 1.19 & 1.21
   \end{tabular}
   \caption{
     Table of pair production cross sections of Wino with several choice of masses.
@@ -185,7 +189,7 @@ From the table, by paying attention to the factor two difference in degrees of f
 \end{table}
 
 In Table \ref{tab:cross_section_Wino_mass}, we also show the mass dependence of the Wino pair production cross section.
-For heavier mass, a wider range of $\sqrt{s'}$ is below the production threshold $2 m_{\chi}$ or accompanied with a small suppression factor $(1-4 m_\chi^2 / s')^{1/2}$ as shown in Eq.~\eqref{eq:parton_cross_section_fermion}, and the cross section becomes significantly smaller.
+For heavier mass, a wider range of $\sqrt{s'}$ is below the production threshold $2 m_{\chi}$ or accompanied with a small suppression factor $\left( 1-4 m_\chi^2 / s' \right)^{1/2}$ as shown in Eq.~\eqref{eq:parton_cross_section_fermion}, and the cross section becomes significantly smaller.
 However, values in the tables still denote that plenty of well-motivated WIMP DM candidates, such as $1\,\mathrm{TeV}$ Higgsino and $2.9\,\mathrm{TeV}$ Wino, are produced at, for example, the $30\,\mathrm{ab}^{-1}$ option of the FCC-hh.
 
 \begin{figure}[t]
@@ -206,8 +210,6 @@ On the other hand, when $\sqrt{s'}$ becomes much larger than $2m_\chi$, we can s
 Note that these properties are universal among several processes, including one of the contributions to the gluino pair production process through the $s$-channel gluon exchange discussed in the next subsection, and the lepton pair production via an electroweak gauge boson that is the main topics of Sec.~\ref{sec:dy}.
 
 \rem{Histogram of angular dependence}
-
-\rem{Comment on the lack of one-loop process in the simulation and IR divergence}
 
 
 \subsubsection*{Decay of colored particles}
@@ -381,11 +383,13 @@ Below, we will focus particularly on the ATLAS collaboration and discuss current
   \centering
   \begin{tabular}{c|ccc}
     WIMP & pure Higgsino & Wino & $5$-plet fermion \\ \hline
-    Upper bound on $m_\chi$ & $120\, \mathrm{GeV}$ & $460\, \mathrm{GeV}$
-    & $260\, \mathrm{GeV}$
+    Upper bound on $m_\chi$ & $152\, \mathrm{GeV}$ & $460\, \mathrm{GeV}$
+    & $267\, \mathrm{GeV}$
   \end{tabular}
   \caption{
-    Current upper bound for WIMP masses obtained from the disappearing track search shown in Fig.~\ref{fig:ATLAS_disappearing_track}.}
+    Current upper bounds for WIMP masses obtained from the disappearing track search.
+    Results are taken from \cite{ATL-PHYS-PUB-2017-019, Aaboud:2017mpt, Sirunyan:2018ldc, Ostdiek:2015aga}.
+  }
   \label{tab:disp_track_current}
 \end{table}
 
@@ -399,6 +403,7 @@ It can be seen that the current constraint on Wino mass is $m_\chi \lesssim 460\
 Using the lifetime evaluated in the previous subsection, we summarize the current status for several WIMPs in Table \ref{tab:disp_track_current}, which exhibits upper limits of $\mathcal{O} (100)\,\mathrm{GeV}$.
 However, note that the bound for the Higgsino listed in the table neglects the mixing between Higgsino and gauginos.
 Actually, $\Delta m_{+}$ and thus $\tau$ are sensitive to the mixing, and an order estimation shows that the mixing lowers the lifetime to be $\tau \lesssim 0.01\,\mathrm{ns}$ and spoils the bound for Higgsino when $M_1$, $M_2 \lesssim 100\,\mathrm{TeV}$ without any non-trivial cancellation in Eq.~\eqref{eq:Higgsino_delm_tree}.
+Note also that the bound for $5$-plet fermion is weaker than that for Wino in spite of the much larger production cross section because of the smaller lifetime.
 
 The analysis of the disappearing track search at future hadron colliders is performed in \cite{Han:2018wus, Saito:2019rtg}.
 Since the detector setup for future colliders such as the FCC-hh is undetermined yet, in \cite{Saito:2019rtg}, the authors assume several setups and compare the result.
@@ -451,7 +456,7 @@ Thus, the reach for the $5$-plet fermion should be a few $\mathrm{TeV}$, which c
 \rem{For Higgsino search, cite} \cite{Baer:2014cua}.
 
 
-% \bibliographystyle{elsarticle-num}
-% \bibliography{../phd}
+\bibliographystyle{elsarticle-num}
+\bibliography{../phd}
 
 \end{document}
