@@ -159,7 +159,7 @@ However, just for simplicity of the analysis, we generate the tree-level pair pr
     WIMP name & Higgsino & Wino & $5$-plet Majorana fermion & $5$-plet real scalar \\ \hline
     $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 15 & 85 & 423 & \rem{???} \\
     $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 17 & 93 & 461 & \rem{???} \\ \hline
-    $K$-factor & 1.15 & 1.09 & 1.09 &
+    K-factor & 1.15 & 1.09 & 1.09 &
   \end{tabular}
   \caption{
     Table of pair production cross sections of several types of WIMPs.
@@ -170,7 +170,7 @@ However, just for simplicity of the analysis, we generate the tree-level pair pr
 
 In Table~\ref{tab:cross_section_WIMPs}, we list the production cross sections of various WIMPs via a weak gauge boson exchange at a $\sqrt{s} = 100\,\mathrm{TeV}$ hadron collider.
 As for the WIMP mass, we use the common value $m = 1\,\mathrm{TeV}$ to compare the cross sections among a different choice of quantum numbers.
-$\sigma_{\mathrm{LO}}$ and $\sigma_{\mathrm{NLO}}$ denote the production cross sections without and with the NLO QCD correction, respectively, while the last line is the so-called $K$-factor defined as $K = \sigma_{\mathrm{NLO}} / \sigma_{\mathrm{LO}}$.
+$\sigma_{\mathrm{LO}}$ and $\sigma_{\mathrm{NLO}}$ denote the production cross sections without and with the NLO QCD correction, respectively, while the last line is the so-called K-factor defined as $\sigma_{\mathrm{NLO}} / \sigma_{\mathrm{LO}}$.
 From the table, by comparing the results for the triplet (\textit{i.e.} Wino) and $5$-plet Majorana fermions, we can roughly see the correct dependence of the cross section on the $SU(2)_L$ charge $\sigma \propto n^3$.
 
 \begin{table}[t]
@@ -179,7 +179,7 @@ From the table, by comparing the results for the triplet (\textit{i.e.} Wino) an
     Wino mass $\mathrm{[TeV]}$ & 1.0 & 1.5 & 2.0 & 2.9 \\ \hline
     $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 85 & 19 & 6.1 & 1.3\\
     $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 93 & 21 & 6.8 & 1.5 \\ \hline
-    $K$-factor & 1.09 & 1.11 & 1.11 & 1.15
+    K-factor & 1.09 & 1.11 & 1.11 & 1.15
     % $\sigma_{\mathrm{LO}}$ $[\mathrm{fb}]$ & 52 & 12 & 4.0 & 0.86\\
     % $\sigma_{\mathrm{NLO}}$ $[\mathrm{fb}]$ & 60 & 15 & 4.7 & 1.0 \\ \hline
     % $K$-factor & 1.15 & 1.20 & 1.19 & 1.21
@@ -360,7 +360,7 @@ In the next subsection, we will see that this may be the case for the FCC-hh and
 In Fig.~\ref{fig:beta}, we show the distribution of the Wino velocity $\beta$ for the same process.
 The blue and orange histograms show the distributions without and with the $\Slash{E}_T$ cut, respectively, while the green one shows that with $\Slash{E}_T > 1\,\mathrm{TeV}$ and $d_T > 15\,\mathrm{cm}$, picked up randomly according to the survival probability Eq.~\eqref{eq:survival_probability}.
 As already seen in Fig.~\ref{fig:invariant_mass}, the center of mass energy of the two-Wino system distributes from a few to $\mathcal{O} (10) \,\mathrm{TeV}$, and many Winos are highly boosted with $\beta \sim 1$.
-Since a charged Wino tends to survive for a longer distance when it is more accelerated, some of the boosted Winos $\beta \gtrsim 0.6$ satisfy the requirement $d_T > 15\,\mathrm{cm}$.
+Since a charged Wino tends to survive for a longer distance when it is more accelerated, a non-negligible fraction of the boosted Winos with $\beta \gtrsim 0.6$ satisfy the requirement $d_T > 15\,\mathrm{cm}$.
 
 
 \subsubsection*{Current constraints and future prospects}
@@ -450,6 +450,15 @@ Thus, the reach for the $5$-plet fermion should be a few $\mathrm{TeV}$, which c
 \subsection{Mono-jet search}
 \label{sec:mono-jet}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Another way of identifying the WIMP events is to look for the mono-jet events.
+The relevant process is shown in the left panel of Fig.~\ref{fig:WIMP_production_NLO}; if the WIMP pair production occurs with an initial state radiation (ISR) jet but both of the WIMPs are unobserved by detectors, the unique object that is observed is the ISR jet.
+In the mono-jet search, we require this jet to be sufficiently hard and use it to trigger and tag the event as an event related to the new physics.
+
+Since the event topology is astonishingly simple, there are a huge number of background events within the SM.
+The dominant background comes from the $Z +$jet production with $Z$ decaying into two neutrinos.
+Besides, the $W+$jet production followed by the leptonic decay of the $W$-boson has a comparable contribution because the charged lepton in the final state may fall outside the detector coverage.
+Finally, a sub-dominant but non-negligible contribution to the background comes from the top pair production process and so on.
 
 \rem{For Higgsino search, cite} \cite{Baer:2014cua}.
 
