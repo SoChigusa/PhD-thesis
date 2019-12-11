@@ -71,10 +71,10 @@ Note that when $\chi$ is a real scalar (Majorana fermion) with $Y=0$, the terms 
 For the calculation, we neglect the effect of the electroweak symmetry breaking, which is valid because we are interested in the high-energy collision with the parton-level center-of-mass (CM) energy $\sqrt{s'} \equiv \sqrt{q^2} \gtrsim \mathrm{TeV}$.
 Then, we consider the process in the CM frame and estimate the parton-level differential cross section as
 \begin{align}
-  \left. \frac{d \sigma_{\alpha \beta}}{d \sqrt{s'} d \Omega} \right|_{\text{CM}}
+  \left. \frac{d \sigma_{\alpha \beta}}{d \Omega} \right|_{\sqrt{s'}, \text{CM}}
   &= \frac{C_{\alpha \beta}}{8 s'} \left( 1 - \frac{4 m_\chi^2}{s'} \right)^{3/2} \sin^2 \theta_{\mathrm{CM}}
   & &(\text{complex scalar}) \label{eq:parton_cross_section_scalar} \\
-  \left. \frac{d \sigma_{\alpha \beta}}{d \sqrt{s'} d \Omega} \right|_{\text{CM}}
+  \left. \frac{d \sigma_{\alpha \beta}}{d \Omega} \right|_{\sqrt{s'}, \text{CM}}
   &= \frac{C_{\alpha \beta}}{4 s'} \sqrt{1 - \frac{4 m_\chi^2}{s'}}
   \left[ 1 + \frac{4 m_\chi^2}{s'} + \left( 1 - \frac{4 m_\chi^2}{s'} \right) \cos^2 \theta_{\mathrm{CM}} \right]
   & &(\text{Dirac fermion}), \label{eq:parton_cross_section_fermion}
@@ -120,10 +120,10 @@ Using the PDF, the cross section of the process of interest at the hadron collid
 \begin{align}
   \frac{d \sigma}{d \sqrt{s'} d \Omega} =
   \sum_{\alpha, \beta} \int_0^1 dx_1 dx_2 \, f_\alpha (x_1) f_\beta (x_2) \delta \left( s' - s x_1 x_2 \right)
-  \left. \frac{d \sigma_{\alpha \beta}}{d \Omega} \right|_{\text{lab}},
+  \left. \frac{d \sigma_{\alpha \beta}}{d \Omega} \right|_{\sqrt{s'}, \text{lab}},
 \end{align}
 where $\sqrt{s}$ is the CM energy of the proton-proton collision.
-Note that $\left. d \sigma_{\alpha \beta} / d \Omega\, \right|_{\text{lab}}$ in the integrand is a function of $x_1$ and $x_2$, which is obtained by applying the appropriate Lorentz transformation to $\left. d \sigma_{\alpha \beta} / d \Omega\, \right|_{\text{CM}}$.
+Note that $\left. d \sigma_{\alpha \beta} / d \Omega\, \right|_{\sqrt{s'}, \text{lab}}$ in the integrand is a function of $x_1$ and $x_2$, which is obtained by applying the appropriate Lorentz transformation to $\left. d \sigma_{\alpha \beta} / d \Omega\, \right|_{\sqrt{s'}, \text{CM}}$.
 Precisely speaking, the PDF has an energy scale dependence which is determined by the Dokshitzer-Gribov-Lipatov-Altarelli-Parisi (DGLAP) equation \cite{Gribov:1972ri, Lipatov:1974qm, Altarelli:1977zs, Dokshitzer:1977sg}.
 Thus, the PDF is a function of the form $f(x, \mu_F)$, where $\mu_F$ is the analog of the renormalization scale for the PDF often called the factorization scale.
 
@@ -137,10 +137,10 @@ Thus, the PDF is a function of the form $f(x, \mu_F)$, where $\mu_F$ is the anal
 Hadron colliders have several more features related to the strong interaction of quantum chromodynamics (QCD).
 Firstly, the next-to-leading order (NLO) QCD contribution to each process is not necessarily negligible.
 For the WIMP pair production, the real and virtual emission of a gluon shown in the left and right panels of Fig.~\ref{fig:WIMP_production_NLO}, respectively, give the NLO QCD contributions, which will also be taken into account from now on.
-In particular, when the large transverse momentum is important for the phenomenology of our concern, such as the case in Sec.~\ref{sec:disappearing_track}, the real emission of a gluon with sizable transverse momentum significantly modifies the calculation.
+In particular, when the large transverse momentum is important for the phenomenology of our concern, such as the case in Sec.~\ref{sec:disappearing_track}, the real emission of a gluon with sizable transverse momentum significantly modifies the cross section relevant for the analysis.
 Also, an additional real emission may be required to trigger the event, in particular when the other products are invisible for detectors like in Sec.~\ref{sec:mono-jet}.
-Secondly, all the colored particles in the initial, intermediate, and final states should be accompanied by numbers of soft emissions of gluons, which is the phenomena so-called the parton shower.
-In practice, there is a difficulty caused by the partial overlap of the gluon phase space between the one-gluon emission cross section calculated as an NLO QCD effect and the same calculated as the parton shower.
+Secondly, all the colored particles in the initial, intermediate, and final states should be accompanied by numbers of soft emissions of gluons, which can be treated by the semi-classical approximation called the parton shower.
+In practice, there is a difficulty caused by the partial overlap of the gluon phase space between the one-gluon emission cross section calculated as an NLO QCD effect and the same calculated by the parton shower.
 To avoid the overlap, we often perform the matching procedure, in which we set some merging energy scale by hand and include the contribution to the cross section with gluon energy above (below) the scale only from the NLO QCD (parton shower) calculation.
 Finally, the colored particles in the final states should eventually be confined, which is called the hadronization, and observed as some energetic and collimated sprays of hadrons, which as a whole is called a jet.
 
@@ -209,7 +209,7 @@ However, values in the tables still denote that plenty of well-motivated WIMP DM
 In Fig.~\ref{fig:invariant_mass}, we show the $\sqrt{s'}$ distribution for the pair production process at a $\sqrt{s} = 100\,\mathrm{TeV}$ collider.
 Left and right figures correspond to the production of $m_\chi = 1\,\mathrm{TeV}$ Higgsino at the integrated luminosity $\mathcal{L} = 3\,\mathrm{ab}^{-1}$ and of $m_\chi = 3\,\mathrm{TeV}$ Wino at $\mathcal{L} = 30\,\mathrm{ab}^{-1}$, respectively.
 At around $\sqrt{s'} \sim 2 m_\chi$, we clearly see the production threshold and the suppression effect $\sigma \propto (1-4 m_\chi^2 / s')^{1/2}$.
-On the other hand, when $\sqrt{s'}$ becomes much larger than $2m_\chi$, we can see the correct behavior of the cross section, which decreases as $\sigma \propto (\sqrt{s'})^{-3}$ as Eq.~\eqref{eq:parton_cross_section_fermion} indicates.
+On the other hand, when $\sqrt{s'}$ becomes much larger than $2m_\chi$, the cross section rapidly decreases because of both the scaling of the parton-level cross section $\sigma \propto (\sqrt{s'})^{-3}$ as in Eq.~\eqref{eq:parton_cross_section_fermion} and the smaller values of the PDF.
 Note that these properties are universal among several processes, including one of the contributions to the gluino pair production process through the $s$-channel gluon exchange discussed in the next subsection, and the lepton pair production via an electroweak gauge boson that is the main topics of Sec.~\ref{sec:dy}.
 
 \rem{Histogram of angular dependence}
@@ -217,7 +217,7 @@ Note that these properties are universal among several processes, including one 
 
 \subsubsection*{Decay of colored particles}
 
-In hadron colliders, particles with color charges have far more chance to be produced than non-colored particles.
+In hadron colliders, a particle with the color charge have far more chance to be produced than a non-colored particle with the same mass.
 When we consider the split SUSY or the anomaly mediation model reviewed in Sec.~\ref{sec:MSSM}, gluino tends to be relatively light, whose decay produces WIMPs.
 Without fine-tuning of Higgsino and gaugino masses, gluino lifetime is sufficiently short and only its decay products are observed by the detectors.
 Since all the SUSY particles finally decay into the LSP as described in Sec.~\ref{sec:MSSM}, the gluino production cross section can effectively be counted as the production cross section of WIMPs in these models.
@@ -338,16 +338,12 @@ It can be directly checked that, for $\sqrt{s}=100\,\mathrm{TeV}$, even the two-
 \end{figure}
 
 In Fig.~\ref{fig:survival_probability}, we show the distribution of $P(d_T > 15\,\mathrm{cm})$, which is motivated by the FCC-hh detector setup assumed below, for the $2.9\,\mathrm{TeV}$ Wino, $\sqrt{s} = 100\,\mathrm{TeV}$, and $\mathcal{L} = 30\,\mathrm{ab}^{-1}$.
+The blue and orange histograms show the distributions without and with the cut on the missing transverse momentum $\Slash{E}_T > 1\,\mathrm{TeV}$, respectively, which has been revealed to be efficient to reduce the number of backgrounds~\cite{Asai:2019wst}.
 Here, we only consider the WIMP pair production process with up to one gluon emission as an example.
 Note that $\tau \simeq 5.8\,\mathrm{cm}$ and $\exp (-15\,\mathrm{cm} / \tau) \sim 7.5\times 10^{-2}$ for this setup.
 We can see that the effect of the large Lorentz boost $\beta \gamma \gg 1$ pushes the probability to $P \gtrsim \mathcal{O} (10^{-1})$ for some Winos, while the angular distribution of Winos makes a wide tail of the distribution at $P \lesssim \mathcal{O} (10^{-2})$ when $\sin\theta \sim 0$.
 By summing the shown probabilities for all produced Winos, we can obtain the expectation value $N_{15}$ for the number of Winos with $d_T > 15\,\mathrm{cm}$.
-We find $N_{15} \sim 2400$,\footnote
-{
-  In the real analysis, it may also be important to put a cut on the missing transverse energy $\Slash{E}_T$ to further reduce the number of background.
-  If we require $\Slash{E}_T > 1\,\mathrm{TeV}$ as \cite{Asai:2019wst}, we expect smaller number of Winos $N_{15} \sim 600$.
-}
-to which a lot of Winos with $P \gtrsim \mathcal{O} (10^{-1})$ significantly contribute.
+We find $N_{15} \sim 2700$ $(700)$ with (without) the $\Slash{E}_T$ cut, to which a lot of Winos with $P \gtrsim \mathcal{O} (10^{-1})$ significantly contribute.
 Thus, we infer that we can detect the Wino signal if we can suppress the number of background events to $\lesssim \mathcal{O}(10^5)$.
 In the next subsection, we will see that this may be the case for the FCC-hh and the parameter space for the Wino DM candidate can fully be covered.
 
@@ -362,7 +358,7 @@ In the next subsection, we will see that this may be the case for the FCC-hh and
 \end{figure}
 
 In Fig.~\ref{fig:beta}, we show the distribution of the Wino velocity $\beta$ for the same process.
-The blue histogram shows the distribution of all Winos, while the orange one shows that of Winos with $d_T > 15\,\mathrm{cm}$, picked up randomly according to the survival probability Eq.~\eqref{eq:survival_probability}.
+The blue and orange histograms show the distributions without and with the $\Slash{E}_T$ cut, respectively, while the green one shows that with $\Slash{E}_T > 1\,\mathrm{TeV}$ and $d_T > 15\,\mathrm{cm}$, picked up randomly according to the survival probability Eq.~\eqref{eq:survival_probability}.
 As already seen in Fig.~\ref{fig:invariant_mass}, the center of mass energy of the two-Wino system distributes from a few to $\mathcal{O} (10) \,\mathrm{TeV}$, and many Winos are highly boosted with $\beta \sim 1$.
 Since a charged Wino tends to survive for a longer distance when it is more accelerated, some of the boosted Winos $\beta \gtrsim 0.6$ satisfy the requirement $d_T > 15\,\mathrm{cm}$.
 
@@ -440,7 +436,6 @@ Thus, it is an important task to consider another way of search for Higgisno, in
 The authors do not give any comment on the MDM search, but we can give some very rough estimates of the reach from Table~\ref{tab:disp_track_future}.
 For example, considering the $5$-plet fermion with $c\tau \sim 1.8\,\mathrm{cm}$, the size of the significance of the signal should be in between that for Higgsino and Wino assuming the same production cross section, while the cross section scales as $n^3$ as a function of the $SU(2)_L$ charge as we have seen so far.
 Thus, the reach for the $5$-plet fermion should be a few $\mathrm{TeV}$, which covers a non-negligible fraction of the parameter space viable as a DM candidate.
-\rem{Or, any reference}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
