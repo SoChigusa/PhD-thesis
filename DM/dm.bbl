@@ -280,4 +280,49 @@ L.~Roszkowski, E.~M. Sessolo, S.~Trojanowski, {WIMP dark matter candidates and
   \href {https://doi.org/10.1088/1361-6633/aab913}
   {\path{doi:10.1088/1361-6633/aab913}}.
 
+\bibitem{Abdallah:2016ygi}
+H.~Abdallah, et~al., {Search for dark matter annihilations towards the inner
+  Galactic halo from 10 years of observations with H.E.S.S}, Phys. Rev. Lett.
+  117~(11) (2016) 111301.
+\newblock \href {http://arxiv.org/abs/1607.08142} {\path{arXiv:1607.08142}},
+  \href {https://doi.org/10.1103/PhysRevLett.117.111301}
+  {\path{doi:10.1103/PhysRevLett.117.111301}}.
+
+\bibitem{Fermi-LAT:2016uux}
+A.~Albert, et~al., {Searching for Dark Matter Annihilation in Recently
+  Discovered Milky Way Satellites with Fermi-LAT}, Astrophys. J. 834~(2) (2017)
+  110.
+\newblock \href {http://arxiv.org/abs/1611.03184} {\path{arXiv:1611.03184}},
+  \href {https://doi.org/10.3847/1538-4357/834/2/110}
+  {\path{doi:10.3847/1538-4357/834/2/110}}.
+
+\bibitem{Ahnen:2016qkx}
+M.~L. Ahnen, et~al., {Limits to Dark Matter Annihilation Cross-Section from a
+  Combined Analysis of MAGIC and Fermi-LAT Observations of Dwarf Satellite
+  Galaxies}, JCAP 1602~(02) (2016) 039.
+\newblock \href {http://arxiv.org/abs/1601.06590} {\path{arXiv:1601.06590}},
+  \href {https://doi.org/10.1088/1475-7516/2016/02/039}
+  {\path{doi:10.1088/1475-7516/2016/02/039}}.
+
+\bibitem{Carr:2015hta}
+J.~Carr, et~al., {Prospects for Indirect Dark Matter Searches with the
+  Cherenkov Telescope Array (CTA)}, PoS ICRC2015 (2016) 1203, [34,1203(2015)].
+\newblock \href {http://arxiv.org/abs/1508.06128} {\path{arXiv:1508.06128}},
+  \href {https://doi.org/10.22323/1.236.1203} {\path{doi:10.22323/1.236.1203}}.
+
+\bibitem{Charles:2016pgz}
+E.~Charles, et~al., {Sensitivity Projections for Dark Matter Searches with the
+  Fermi Large Area Telescope}, Phys. Rept. 636 (2016) 1--46.
+\newblock \href {http://arxiv.org/abs/1605.02016} {\path{arXiv:1605.02016}},
+  \href {https://doi.org/10.1016/j.physrep.2016.05.001}
+  {\path{doi:10.1016/j.physrep.2016.05.001}}.
+
+\bibitem{Steigman:2012nb}
+G.~Steigman, B.~Dasgupta, J.~F. Beacom, {Precise Relic WIMP Abundance and its
+  Impact on Searches for Dark Matter Annihilation}, Phys. Rev. D86 (2012)
+  023506.
+\newblock \href {http://arxiv.org/abs/1204.3622} {\path{arXiv:1204.3622}},
+  \href {https://doi.org/10.1103/PhysRevD.86.023506}
+  {\path{doi:10.1103/PhysRevD.86.023506}}.
+
 \end{thebibliography}
