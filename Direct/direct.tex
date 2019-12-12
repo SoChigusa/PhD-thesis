@@ -422,7 +422,7 @@ By varying the average number of $pp$ interactions per bunch crossing from $\Bra
     $r_5 = 27\,\mathrm{cm}$ & $<0.7\,\mathrm{TeV}$ & $2.9$--$4.0\,\mathrm{TeV}$
   \end{tabular}
   \caption{
-    Prospects of $5\sigma$ discovery reach at FCC-hh with $\mathcal{L} = 30\,\mathrm{ab}^{-1}$  using the pair production process via an electroweak gauge boson.
+    Prospects of $5\sigma$ discovery reach of the disappearing track search at the FCC-hh with $\mathcal{L} = 30\,\mathrm{ab}^{-1}$ using the pair production process via an electroweak gauge boson.
     The results are based on \cite{Saito:2019rtg}.
   }
   \label{tab:disp_track_future}
@@ -459,11 +459,48 @@ Since the event topology is astonishingly simple, there are a huge number of bac
 The dominant background comes from the $Z +$jet production with $Z$ decaying into two neutrinos.
 Besides, the $W+$jet production followed by the leptonic decay of the $W$-boson has a comparable contribution because the charged lepton in the final state may fall outside the detector coverage.
 Finally, a sub-dominant but non-negligible contribution to the background comes from the top pair production process and so on.
+These background events lead to the small signal-to-background ratio ($S/B$) of the $1\, \%$ level both within the current setup and the future prospect, which makes this method highly challenging.
 
-\rem{For Higgsino search, cite} \cite{Baer:2014cua}.
+Considering the small ratio $S/B$, the systematic errors may also shrink the discovery reach of WIMPs in this method.
+At worst, these errors should be as small as the $1\, \%$ level to obtain some meaningful result.
+However, this may be overcome by future endeavors both in the theory and experimental sides.
+For example, the theoretical and experimental values of the relevant cross sections are already controlled with high precision.
+In the theory side, the errors in the calculation is reduced to a few percent level by including the next-to-next-to-leading order QCD and the NLO electroweak effects, and performing the next-to-leading logarithmic resummation of the electroweak Sudakov factors \cite{Lindert:2017olm}.
+In the experimental side, the uncertainties on the estimation of the cross section of background events from the date are also at a few percent level \cite{Aaboud:2017phn}.
+These errors are expected to be reduced with the calculation of the higher order loop effects and the accumulation of more data.
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{c|cc}
+    systematic error $\sigma_B$ & Higgsino & Wino\\ \hline
+    $1\, \%$ & $0.5\, \mathrm{TeV}$ & $1\,\mathrm{TeV}$ \\
+    $2\, \%$ & $0.2\, \mathrm{TeV}$ & $0.5\,\mathrm{TeV}$ \\
+  \end{tabular}
+  \caption{
+    Prospects of $5\sigma$ discovery reach of the mono-jet search at the FCC-hh with $\mathcal{L} = 30\,\mathrm{ab}^{-1}$ using the pair production process via an electroweak gauge boson.
+    The results are based on \cite{Han:2018wus}.
+  }
+  \label{tab:mono-jet}
+\end{table}
+
+The main focus of this method is on the short lifetime Higgsino since the other long-lived WIMPs will be more efficiently searched for by the disappearing track search.
+Unfortunately, due to the small ratio $S/B$, there is no constraint on the Higgsino from the mono-jet search \cite{Baer:2014cua}.
+As for the future prospects, we show the prospects of $5\sigma$ discovery reach for Higgsino and Wino taken from \cite{Han:2018wus} in Table~\ref{tab:mono-jet}.
+To obtain the result, the authors introduce the parameter $\sigma_B$ ($\sigma_S$) that expresses the unknown systematic uncertainty on the background (signal) and define the $p$-value as
+\begin{align}
+  p \equiv \frac{S}{\sqrt{B + (\sigma_B B)^2 + (\sigma_S S)^2}},
+\end{align}
+where $B$ and $S$ are the number of background and signal events, respectively.
+The denominator combines the errors from the statistical fluctuation (the corresponding standard deviation equals $\sqrt{B}$), the systematic errors on the background ($\sigma_B B$), and those on the signal ($\sigma_S S$), assuming that all of the above are uncorrelated with each other.
+They fix $\sigma_S = 10\,\%$ and use two different choices $\sigma_B = 1\,\%$ and $2\,\%$ as the table shows.
+The values on the table correspond to the WIMP masses that give $p = 5$.
+
+From the table, we can see that the result highly depends on the choice of $\sigma_B$.
+In particular, it is important to suppress $\sigma_B \lesssim 1\, \%$ to obtain a strong discovery reach on Higgsino.
+Besides, it can be checked that the coverage of the Wino parameter space is much smaller than that of the disappearing track search, mainly due to the small ratio $S/B$.
 
 
-\bibliographystyle{elsarticle-num}
-\bibliography{../phd}
+% \bibliographystyle{elsarticle-num}
+% \bibliography{../phd}
 
 \end{document}
