@@ -10,7 +10,7 @@ S.~Chigusa, Y.~Ema, T.~Moroi, {Probing electroweakly interacting massive
   particles with Drell-Yan process at 100 TeV hadron colliders}, Phys. Lett.
   B789 (2019) 106--113.
 \newblock \href {http://arxiv.org/abs/1810.07349} {\path{arXiv:1810.07349}},
-  \href {https://doi.org/10.1016/j.physletb.2018.12.011}
+  \href {http://dx.doi.org/10.1016/j.physletb.2018.12.011}
   {\path{doi:10.1016/j.physletb.2018.12.011}}.
 
 \bibitem{Abe:2019egv}
@@ -18,7 +18,7 @@ T.~Abe, S.~Chigusa, Y.~Ema, T.~Moroi, {Indirect studies of electroweakly
   interacting particles at 100 TeV hadron colliders}, Phys. Rev. D100~(5)
   (2019) 055018.
 \newblock \href {http://arxiv.org/abs/1904.11162} {\path{arXiv:1904.11162}},
-  \href {https://doi.org/10.1103/PhysRevD.100.055018}
+  \href {http://dx.doi.org/10.1103/PhysRevD.100.055018}
   {\path{doi:10.1103/PhysRevD.100.055018}}.
 
 \bibitem{Kitano:2005wc}
@@ -26,28 +26,28 @@ R.~Kitano, Y.~Nomura, {A Solution to the supersymmetric fine-tuning problem
   within the MSSM}, Phys. Lett. B631 (2005) 58--67.
 \newblock \href {http://arxiv.org/abs/hep-ph/0509039}
   {\path{arXiv:hep-ph/0509039}}, \href
-  {https://doi.org/10.1016/j.physletb.2005.10.003}
+  {http://dx.doi.org/10.1016/j.physletb.2005.10.003}
   {\path{doi:10.1016/j.physletb.2005.10.003}}.
 
 \bibitem{Brust:2011tb}
 C.~Brust, A.~Katz, S.~Lawrence, R.~Sundrum, {SUSY, the Third Generation and the
   LHC}, JHEP 03 (2012) 103.
 \newblock \href {http://arxiv.org/abs/1110.6670} {\path{arXiv:1110.6670}},
-  \href {https://doi.org/10.1007/JHEP03(2012)103}
+  \href {http://dx.doi.org/10.1007/JHEP03(2012)103}
   {\path{doi:10.1007/JHEP03(2012)103}}.
 
 \bibitem{Papucci:2011wy}
 M.~Papucci, J.~T. Ruderman, A.~Weiler, {Natural SUSY Endures}, JHEP 09 (2012)
   035.
 \newblock \href {http://arxiv.org/abs/1110.6926} {\path{arXiv:1110.6926}},
-  \href {https://doi.org/10.1007/JHEP09(2012)035}
+  \href {http://dx.doi.org/10.1007/JHEP09(2012)035}
   {\path{doi:10.1007/JHEP09(2012)035}}.
 
 \bibitem{Baer:2012uy}
 H.~Baer, V.~Barger, P.~Huang, X.~Tata, {Natural Supersymmetry: LHC, dark matter
   and ILC searches}, JHEP 05 (2012) 109.
 \newblock \href {http://arxiv.org/abs/1203.5539} {\path{arXiv:1203.5539}},
-  \href {https://doi.org/10.1007/JHEP05(2012)109}
+  \href {http://dx.doi.org/10.1007/JHEP05(2012)109}
   {\path{doi:10.1007/JHEP05(2012)109}}.
 
 \bibitem{Wells:2003tf}
@@ -62,7 +62,7 @@ J.~D. Wells, {Implications of supersymmetry breaking with a little hierarchy
 J.~D. Wells, {PeV-scale supersymmetry}, Phys. Rev. D71 (2005) 015013.
 \newblock \href {http://arxiv.org/abs/hep-ph/0411041}
   {\path{arXiv:hep-ph/0411041}}, \href
-  {https://doi.org/10.1103/PhysRevD.71.015013}
+  {http://dx.doi.org/10.1103/PhysRevD.71.015013}
   {\path{doi:10.1103/PhysRevD.71.015013}}.
 
 \bibitem{ArkaniHamed:2004fb}
@@ -70,7 +70,7 @@ N.~Arkani-Hamed, S.~Dimopoulos, {Supersymmetric unification without low energy
   supersymmetry and signatures for fine-tuning at the LHC}, JHEP 06 (2005) 073.
 \newblock \href {http://arxiv.org/abs/hep-th/0405159}
   {\path{arXiv:hep-th/0405159}}, \href
-  {https://doi.org/10.1088/1126-6708/2005/06/073}
+  {http://dx.doi.org/10.1088/1126-6708/2005/06/073}
   {\path{doi:10.1088/1126-6708/2005/06/073}}.
 
 \bibitem{Giudice:2004tc}
@@ -78,7 +78,7 @@ G.~F. Giudice, A.~Romanino, {Split supersymmetry}, Nucl. Phys. B699 (2004)
   65--89, [Erratum: Nucl. Phys.B706,487(2005)].
 \newblock \href {http://arxiv.org/abs/hep-ph/0406088}
   {\path{arXiv:hep-ph/0406088}}, \href
-  {https://doi.org/10.1016/j.nuclphysb.2004.11.048,
+  {http://dx.doi.org/10.1016/j.nuclphysb.2004.11.048,
   10.1016/j.nuclphysb.2004.08.001} {\path{doi:10.1016/j.nuclphysb.2004.11.048,
   10.1016/j.nuclphysb.2004.08.001}}.
 
@@ -87,13 +87,12 @@ N.~Arkani-Hamed, S.~Dimopoulos, G.~F. Giudice, A.~Romanino, {Aspects of split
   supersymmetry}, Nucl. Phys. B709 (2005) 3--46.
 \newblock \href {http://arxiv.org/abs/hep-ph/0409232}
   {\path{arXiv:hep-ph/0409232}}, \href
-  {https://doi.org/10.1016/j.nuclphysb.2004.12.026}
+  {http://dx.doi.org/10.1016/j.nuclphysb.2004.12.026}
   {\path{doi:10.1016/j.nuclphysb.2004.12.026}}.
 
 \bibitem{ArkaniHamed:2005yv}
 N.~Arkani-Hamed, S.~Dimopoulos, S.~Kachru, {Predictive landscapes and new
-  physics at a TeV} (2005).
-\newblock \href {http://arxiv.org/abs/hep-th/0501082}
+  physics at a TeV}\href {http://arxiv.org/abs/hep-th/0501082}
   {\path{arXiv:hep-th/0501082}}.
 
 \bibitem{Randall:1998uk}
@@ -101,7 +100,7 @@ L.~Randall, R.~Sundrum, {Out of this world supersymmetry breaking}, Nucl. Phys.
   B557 (1999) 79--118.
 \newblock \href {http://arxiv.org/abs/hep-th/9810155}
   {\path{arXiv:hep-th/9810155}}, \href
-  {https://doi.org/10.1016/S0550-3213(99)00359-4}
+  {http://dx.doi.org/10.1016/S0550-3213(99)00359-4}
   {\path{doi:10.1016/S0550-3213(99)00359-4}}.
 
 \bibitem{Giudice:1998xp}
@@ -109,7 +108,7 @@ G.~F. Giudice, M.~A. Luty, H.~Murayama, R.~Rattazzi, {Gaugino mass without
   singlets}, JHEP 12 (1998) 027.
 \newblock \href {http://arxiv.org/abs/hep-ph/9810442}
   {\path{arXiv:hep-ph/9810442}}, \href
-  {https://doi.org/10.1088/1126-6708/1998/12/027}
+  {http://dx.doi.org/10.1088/1126-6708/1998/12/027}
   {\path{doi:10.1088/1126-6708/1998/12/027}}.
 
 \bibitem{Cirelli:2005uq}
@@ -117,63 +116,63 @@ M.~Cirelli, N.~Fornengo, A.~Strumia, {Minimal dark matter}, Nucl. Phys. B753
   (2006) 178--194.
 \newblock \href {http://arxiv.org/abs/hep-ph/0512090}
   {\path{arXiv:hep-ph/0512090}}, \href
-  {https://doi.org/10.1016/j.nuclphysb.2006.07.012}
+  {http://dx.doi.org/10.1016/j.nuclphysb.2006.07.012}
   {\path{doi:10.1016/j.nuclphysb.2006.07.012}}.
 
 \bibitem{Cirelli:2007xd}
 M.~Cirelli, A.~Strumia, M.~Tamburini, {Cosmology and Astrophysics of Minimal
   Dark Matter}, Nucl. Phys. B787 (2007) 152--175.
 \newblock \href {http://arxiv.org/abs/0706.4071} {\path{arXiv:0706.4071}},
-  \href {https://doi.org/10.1016/j.nuclphysb.2007.07.023}
+  \href {http://dx.doi.org/10.1016/j.nuclphysb.2007.07.023}
   {\path{doi:10.1016/j.nuclphysb.2007.07.023}}.
 
 \bibitem{Cirelli:2009uv}
 M.~Cirelli, A.~Strumia, {Minimal Dark Matter: Model and results}, New J. Phys.
   11 (2009) 105005.
 \newblock \href {http://arxiv.org/abs/0903.3381} {\path{arXiv:0903.3381}},
-  \href {https://doi.org/10.1088/1367-2630/11/10/105005}
+  \href {http://dx.doi.org/10.1088/1367-2630/11/10/105005}
   {\path{doi:10.1088/1367-2630/11/10/105005}}.
 
 \bibitem{Akerib:2016vxi}
 D.~S. Akerib, et~al., {Results from a search for dark matter in the complete
   LUX exposure}, Phys. Rev. Lett. 118~(2) (2017) 021303.
 \newblock \href {http://arxiv.org/abs/1608.07648} {\path{arXiv:1608.07648}},
-  \href {https://doi.org/10.1103/PhysRevLett.118.021303}
+  \href {http://dx.doi.org/10.1103/PhysRevLett.118.021303}
   {\path{doi:10.1103/PhysRevLett.118.021303}}.
 
 \bibitem{Cui:2017nnn}
 X.~Cui, et~al., {Dark Matter Results From 54-Ton-Day Exposure of PandaX-II
   Experiment}, Phys. Rev. Lett. 119~(18) (2017) 181302.
 \newblock \href {http://arxiv.org/abs/1708.06917} {\path{arXiv:1708.06917}},
-  \href {https://doi.org/10.1103/PhysRevLett.119.181302}
+  \href {http://dx.doi.org/10.1103/PhysRevLett.119.181302}
   {\path{doi:10.1103/PhysRevLett.119.181302}}.
 
 \bibitem{Aprile:2018dbl}
 E.~Aprile, et~al., {Dark Matter Search Results from a One Tonne$\times$Year
   Exposure of XENON1T}, Phys. Rev. Lett. 121~(11) (2018) 111302.
 \newblock \href {http://arxiv.org/abs/1805.12562} {\path{arXiv:1805.12562}},
-  \href {https://doi.org/10.1103/PhysRevLett.121.111302}
+  \href {http://dx.doi.org/10.1103/PhysRevLett.121.111302}
   {\path{doi:10.1103/PhysRevLett.121.111302}}.
 
 \bibitem{Hisano:2010fy}
 J.~Hisano, K.~Ishiwata, N.~Nagata, {A complete calculation for direct detection
   of Wino dark matter}, Phys. Lett. B690 (2010) 311--315.
 \newblock \href {http://arxiv.org/abs/1004.4090} {\path{arXiv:1004.4090}},
-  \href {https://doi.org/10.1016/j.physletb.2010.05.047}
+  \href {http://dx.doi.org/10.1016/j.physletb.2010.05.047}
   {\path{doi:10.1016/j.physletb.2010.05.047}}.
 
 \bibitem{Hisano:2012wm}
 J.~Hisano, K.~Ishiwata, N.~Nagata, {Direct Search of Dark Matter in High-Scale
   Supersymmetry}, Phys. Rev. D87 (2013) 035020.
 \newblock \href {http://arxiv.org/abs/1210.5985} {\path{arXiv:1210.5985}},
-  \href {https://doi.org/10.1103/PhysRevD.87.035020}
+  \href {http://dx.doi.org/10.1103/PhysRevD.87.035020}
   {\path{doi:10.1103/PhysRevD.87.035020}}.
 
 \bibitem{Hisano:2015rsa}
 J.~Hisano, K.~Ishiwata, N.~Nagata, {QCD Effects on Direct Detection of Wino
   Dark Matter}, JHEP 06 (2015) 097.
 \newblock \href {http://arxiv.org/abs/1504.00915} {\path{arXiv:1504.00915}},
-  \href {https://doi.org/10.1007/JHEP06(2015)097}
+  \href {http://dx.doi.org/10.1007/JHEP06(2015)097}
   {\path{doi:10.1007/JHEP06(2015)097}}.
 
 \bibitem{Hill:2011be}
@@ -181,21 +180,21 @@ R.~J. Hill, M.~P. Solon, {Universal behavior in the scattering of heavy, weakly
   interacting dark matter on nuclear targets}, Phys. Lett. B707 (2012)
   539--545.
 \newblock \href {http://arxiv.org/abs/1111.0016} {\path{arXiv:1111.0016}},
-  \href {https://doi.org/10.1016/j.physletb.2012.01.013}
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.01.013}
   {\path{doi:10.1016/j.physletb.2012.01.013}}.
 
 \bibitem{Hill:2013hoa}
 R.~J. Hill, M.~P. Solon, {WIMP-nucleon scattering with heavy WIMP effective
   theory}, Phys. Rev. Lett. 112 (2014) 211602.
 \newblock \href {http://arxiv.org/abs/1309.4092} {\path{arXiv:1309.4092}},
-  \href {https://doi.org/10.1103/PhysRevLett.112.211602}
+  \href {http://dx.doi.org/10.1103/PhysRevLett.112.211602}
   {\path{doi:10.1103/PhysRevLett.112.211602}}.
 
 \bibitem{Hisano:2011cs}
 J.~Hisano, K.~Ishiwata, N.~Nagata, T.~Takesako, {Direct Detection of
   Electroweak-Interacting Dark Matter}, JHEP 07 (2011) 005.
 \newblock \href {http://arxiv.org/abs/1104.0228} {\path{arXiv:1104.0228}},
-  \href {https://doi.org/10.1007/JHEP07(2011)005}
+  \href {http://dx.doi.org/10.1007/JHEP07(2011)005}
   {\path{doi:10.1007/JHEP07(2011)005}}.
 
 \bibitem{Fermi-LAT:2016uux}
@@ -203,7 +202,7 @@ A.~Albert, et~al., {Searching for Dark Matter Annihilation in Recently
   Discovered Milky Way Satellites with Fermi-LAT}, Astrophys. J. 834~(2) (2017)
   110.
 \newblock \href {http://arxiv.org/abs/1611.03184} {\path{arXiv:1611.03184}},
-  \href {https://doi.org/10.3847/1538-4357/834/2/110}
+  \href {http://dx.doi.org/10.3847/1538-4357/834/2/110}
   {\path{doi:10.3847/1538-4357/834/2/110}}.
 
 \bibitem{Ahnen:2016qkx}
@@ -211,7 +210,7 @@ M.~L. Ahnen, et~al., {Limits to Dark Matter Annihilation Cross-Section from a
   Combined Analysis of MAGIC and Fermi-LAT Observations of Dwarf Satellite
   Galaxies}, JCAP 1602~(02) (2016) 039.
 \newblock \href {http://arxiv.org/abs/1601.06590} {\path{arXiv:1601.06590}},
-  \href {https://doi.org/10.1088/1475-7516/2016/02/039}
+  \href {http://dx.doi.org/10.1088/1475-7516/2016/02/039}
   {\path{doi:10.1088/1475-7516/2016/02/039}}.
 
 \bibitem{Abdallah:2016ygi}
@@ -219,7 +218,7 @@ H.~Abdallah, et~al., {Search for dark matter annihilations towards the inner
   Galactic halo from 10 years of observations with H.E.S.S}, Phys. Rev. Lett.
   117~(11) (2016) 111301.
 \newblock \href {http://arxiv.org/abs/1607.08142} {\path{arXiv:1607.08142}},
-  \href {https://doi.org/10.1103/PhysRevLett.117.111301}
+  \href {http://dx.doi.org/10.1103/PhysRevLett.117.111301}
   {\path{doi:10.1103/PhysRevLett.117.111301}}.
 
 \bibitem{Gomez-Vargas:2013bea}
@@ -228,14 +227,14 @@ G.~A. G\'omez-Vargas, M.~A. S\'anchez-Conde, J.-H. Huh, M.~Peir\'o, F.~Prada,
   {Constraints on WIMP annihilation for contracted dark matterin the inner
   Galaxy with the Fermi-LAT}, JCAP 1310 (2013) 029.
 \newblock \href {http://arxiv.org/abs/1308.3515} {\path{arXiv:1308.3515}},
-  \href {https://doi.org/10.1088/1475-7516/2013/10/029}
+  \href {http://dx.doi.org/10.1088/1475-7516/2013/10/029}
   {\path{doi:10.1088/1475-7516/2013/10/029}}.
 
 \bibitem{Bhattacherjee:2014dya}
 B.~Bhattacherjee, M.~Ibe, K.~Ichikawa, S.~Matsumoto, K.~Nishiyama, {Wino Dark
   Matter and Future dSph Observations}, JHEP 07 (2014) 080.
 \newblock \href {http://arxiv.org/abs/1405.4914} {\path{arXiv:1405.4914}},
-  \href {https://doi.org/10.1007/JHEP07(2014)080}
+  \href {http://dx.doi.org/10.1007/JHEP07(2014)080}
   {\path{doi:10.1007/JHEP07(2014)080}}.
 
 \bibitem{Krall:2017xij}
@@ -243,7 +242,7 @@ R.~Krall, M.~Reece, {Last Electroweak WIMP Standing: Pseudo-Dirac Higgsino
   Status and Compact Stars as Future Probes}, Chin. Phys. C42~(4) (2018)
   043105.
 \newblock \href {http://arxiv.org/abs/1705.04843} {\path{arXiv:1705.04843}},
-  \href {https://doi.org/10.1088/1674-1137/42/4/043105}
+  \href {http://dx.doi.org/10.1088/1674-1137/42/4/043105}
   {\path{doi:10.1088/1674-1137/42/4/043105}}.
 
 \bibitem{Abdalla:2018mve}
@@ -251,7 +250,7 @@ H.~Abdalla, et~al., {Searches for gamma-ray lines and 'pure WIMP' spectra from
   Dark Matter annihilations in dwarf galaxies with H.E.S.S}, JCAP 1811~(11)
   (2018) 037.
 \newblock \href {http://arxiv.org/abs/1810.00995} {\path{arXiv:1810.00995}},
-  \href {https://doi.org/10.1088/1475-7516/2018/11/037}
+  \href {http://dx.doi.org/10.1088/1475-7516/2018/11/037}
   {\path{doi:10.1088/1475-7516/2018/11/037}}.
 
 \bibitem{Aaboud:2017mpt}
@@ -259,7 +258,7 @@ M.~Aaboud, et~al., {Search for long-lived charginos based on a
   disappearing-track signature in pp collisions at $ \sqrt{s}=13 $ TeV with the
   ATLAS detector}, JHEP 06 (2018) 022.
 \newblock \href {http://arxiv.org/abs/1712.02118} {\path{arXiv:1712.02118}},
-  \href {https://doi.org/10.1007/JHEP06(2018)022}
+  \href {http://dx.doi.org/10.1007/JHEP06(2018)022}
   {\path{doi:10.1007/JHEP06(2018)022}}.
 
 \bibitem{ATL-PHYS-PUB-2017-019}
@@ -274,28 +273,28 @@ A.~M. Sirunyan, et~al., {Search for disappearing tracks as a signature of new
   long-lived particles in proton-proton collisions at $\sqrt{s} =$ 13 TeV},
   JHEP 08 (2018) 016.
 \newblock \href {http://arxiv.org/abs/1804.07321} {\path{arXiv:1804.07321}},
-  \href {https://doi.org/10.1007/JHEP08(2018)016}
+  \href {http://dx.doi.org/10.1007/JHEP08(2018)016}
   {\path{doi:10.1007/JHEP08(2018)016}}.
 
 \bibitem{Ostdiek:2015aga}
 B.~Ostdiek, {Constraining the minimal dark matter fiveplet with LHC searches},
   Phys. Rev. D92 (2015) 055008.
 \newblock \href {http://arxiv.org/abs/1506.03445} {\path{arXiv:1506.03445}},
-  \href {https://doi.org/10.1103/PhysRevD.92.055008}
+  \href {http://dx.doi.org/10.1103/PhysRevD.92.055008}
   {\path{doi:10.1103/PhysRevD.92.055008}}.
 
 \bibitem{Baer:2014cua}
 H.~Baer, A.~Mustafayev, X.~Tata, {Monojets and mono-photons from light higgsino
   pair production at LHC14}, Phys. Rev. D89~(5) (2014) 055007.
 \newblock \href {http://arxiv.org/abs/1401.1162} {\path{arXiv:1401.1162}},
-  \href {https://doi.org/10.1103/PhysRevD.89.055007}
+  \href {http://dx.doi.org/10.1103/PhysRevD.89.055007}
   {\path{doi:10.1103/PhysRevD.89.055007}}.
 
 \bibitem{Alves:2014cda}
 D.~S.~M. Alves, J.~Galloway, J.~T. Ruderman, J.~R. Walsh, {Running Electroweak
   Couplings as a Probe of New Physics}, JHEP 02 (2015) 007.
 \newblock \href {http://arxiv.org/abs/1410.6810} {\path{arXiv:1410.6810}},
-  \href {https://doi.org/10.1007/JHEP02(2015)007}
+  \href {http://dx.doi.org/10.1007/JHEP02(2015)007}
   {\path{doi:10.1007/JHEP02(2015)007}}.
 
 \bibitem{Gross:2016ioi}
@@ -303,7 +302,7 @@ C.~Gross, O.~Lebedev, J.~M. No, {Drell-Yan constraints on new electroweak
   states: LHC as a $p p \to l^+ l^-$ precision machine}, Mod. Phys. Lett.
   A32~(16) (2017) 1750094.
 \newblock \href {http://arxiv.org/abs/1602.03877} {\path{arXiv:1602.03877}},
-  \href {https://doi.org/10.1142/S0217732317500948}
+  \href {http://dx.doi.org/10.1142/S0217732317500948}
   {\path{doi:10.1142/S0217732317500948}}.
 
 \bibitem{Farina:2016rws}
@@ -311,7 +310,7 @@ M.~Farina, G.~Panico, D.~Pappadopulo, J.~T. Ruderman, R.~Torre, A.~Wulzer,
   {Energy helps accuracy: electroweak precision tests at hadron colliders},
   Phys. Lett. B772 (2017) 210--215.
 \newblock \href {http://arxiv.org/abs/1609.08157} {\path{arXiv:1609.08157}},
-  \href {https://doi.org/10.1016/j.physletb.2017.06.043}
+  \href {http://dx.doi.org/10.1016/j.physletb.2017.06.043}
   {\path{doi:10.1016/j.physletb.2017.06.043}}.
 
 \bibitem{Harigaya:2015yaa}
@@ -319,7 +318,7 @@ K.~Harigaya, K.~Ichikawa, A.~Kundu, S.~Matsumoto, S.~Shirai, {Indirect Probe of
   Electroweak-Interacting Particles at Future Lepton Colliders}, JHEP 09 (2015)
   105.
 \newblock \href {http://arxiv.org/abs/1504.03402} {\path{arXiv:1504.03402}},
-  \href {https://doi.org/10.1007/JHEP09(2015)105}
+  \href {http://dx.doi.org/10.1007/JHEP09(2015)105}
   {\path{doi:10.1007/JHEP09(2015)105}}.
 
 \bibitem{Matsumoto:2017vfu}
@@ -327,57 +326,69 @@ S.~Matsumoto, S.~Shirai, M.~Takeuchi, {Indirect Probe of Electroweakly
   Interacting Particles at the High-Luminosity Large Hadron Collider}, JHEP 06
   (2018) 049.
 \newblock \href {http://arxiv.org/abs/1711.05449} {\path{arXiv:1711.05449}},
-  \href {https://doi.org/10.1007/JHEP06(2018)049}
+  \href {http://dx.doi.org/10.1007/JHEP06(2018)049}
   {\path{doi:10.1007/JHEP06(2018)049}}.
+
+\bibitem{DiLuzio:2018jwd}
+L.~Di~Luzio, R.~Gr{\"o}ber, G.~Panico, {Probing new electroweak states via
+  precision measurements at the LHC and future colliders}, JHEP 01 (2019) 011.
+\newblock \href {http://arxiv.org/abs/1810.10993} {\path{arXiv:1810.10993}},
+  \href {http://dx.doi.org/10.1007/JHEP01(2019)011}
+  {\path{doi:10.1007/JHEP01(2019)011}}.
+
+\bibitem{Matsumoto:2018ioi}
+S.~Matsumoto, S.~Shirai, M.~Takeuchi, {Indirect Probe of
+  Electroweak-Interacting Particles with Mono-Lepton Signatures at Hadron
+  Colliders}\href {http://arxiv.org/abs/1810.12234} {\path{arXiv:1810.12234}}.
 
 \bibitem{Mangano:2016jyj}
 M.~L. Mangano, et~al., {Physics at a 100 TeV pp Collider: Standard Model
   Processes}, CERN Yellow Report~(3) (2017) 1--254.
 \newblock \href {http://arxiv.org/abs/1607.01831} {\path{arXiv:1607.01831}},
-  \href {https://doi.org/10.23731/CYRM-2017-003.1}
+  \href {http://dx.doi.org/10.23731/CYRM-2017-003.1}
   {\path{doi:10.23731/CYRM-2017-003.1}}.
 
 \bibitem{Contino:2016spe}
 R.~Contino, et~al., {Physics at a 100 TeV pp collider: Higgs and EW symmetry
   breaking studies}, CERN Yellow Report~(3) (2017) 255--440.
 \newblock \href {http://arxiv.org/abs/1606.09408} {\path{arXiv:1606.09408}},
-  \href {https://doi.org/10.23731/CYRM-2017-003.255}
+  \href {http://dx.doi.org/10.23731/CYRM-2017-003.255}
   {\path{doi:10.23731/CYRM-2017-003.255}}.
 
 \bibitem{Golling:2016gvc}
 T.~Golling, et~al., {Physics at a 100 TeV pp collider: beyond the Standard
   Model phenomena}, CERN Yellow Report~(3) (2017) 441--634.
 \newblock \href {http://arxiv.org/abs/1606.00947} {\path{arXiv:1606.00947}},
-  \href {https://doi.org/10.23731/CYRM-2017-003.441}
+  \href {http://dx.doi.org/10.23731/CYRM-2017-003.441}
   {\path{doi:10.23731/CYRM-2017-003.441}}.
 
 \bibitem{CEPC-SPPCStudyGroup:2015csa}
 M.~Ahmad, et~al., {CEPC-SPPC Preliminary Conceptual Design Report. 1. Physics
-  and Detector} (2015).
+  and Detector}.
 
 \bibitem{CEPC-SPPCStudyGroup:2015esa}
 C.-S.~S. Group, {CEPC-SPPC Preliminary Conceptual Design Report. 2.
-  Accelerator} (2015).
+  Accelerator}.
 
 \bibitem{Low:2014cba}
 M.~Low, L.-T. Wang, {Neutralino dark matter at 14 TeV and 100 TeV}, JHEP 08
   (2014) 161.
 \newblock \href {http://arxiv.org/abs/1404.0682} {\path{arXiv:1404.0682}},
-  \href {https://doi.org/10.1007/JHEP08(2014)161}
+  \href {http://dx.doi.org/10.1007/JHEP08(2014)161}
   {\path{doi:10.1007/JHEP08(2014)161}}.
 
 \bibitem{Cirelli:2014dsa}
 M.~Cirelli, F.~Sala, M.~Taoso, {Wino-like Minimal Dark Matter and future
   colliders}, JHEP 10 (2014) 033, [Erratum: JHEP01,041(2015)].
 \newblock \href {http://arxiv.org/abs/1407.7058} {\path{arXiv:1407.7058}},
-  \href {https://doi.org/10.1007/JHEP10(2014)033, 10.1007/JHEP01(2015)041}
+  \href {http://dx.doi.org/10.1007/JHEP10(2014)033, 10.1007/JHEP01(2015)041}
   {\path{doi:10.1007/JHEP10(2014)033, 10.1007/JHEP01(2015)041}}.
 
 \bibitem{Han:2018wus}
 T.~Han, S.~Mukhopadhyay, X.~Wang, {Electroweak Dark Matter at Future Hadron
   Colliders}, Phys. Rev. D98~(3) (2018) 035026.
 \newblock \href {http://arxiv.org/abs/1805.00015} {\path{arXiv:1805.00015}},
-  \href {https://doi.org/10.1103/PhysRevD.98.035026}
+  \href {http://dx.doi.org/10.1103/PhysRevD.98.035026}
   {\path{doi:10.1103/PhysRevD.98.035026}}.
 
 \bibitem{Mahbubani:2017gjh}
@@ -385,7 +396,7 @@ R.~Mahbubani, P.~Schwaller, J.~Zurita, {Closing the window for compressed Dark
   Sectors with disappearing charged tracks}, JHEP 06 (2017) 119, [Erratum:
   JHEP10,061(2017)].
 \newblock \href {http://arxiv.org/abs/1703.05327} {\path{arXiv:1703.05327}},
-  \href {https://doi.org/10.1007/JHEP06(2017)119, 10.1007/JHEP10(2017)061}
+  \href {http://dx.doi.org/10.1007/JHEP06(2017)119, 10.1007/JHEP10(2017)061}
   {\path{doi:10.1007/JHEP06(2017)119, 10.1007/JHEP10(2017)061}}.
 
 \end{thebibliography}
