@@ -16,13 +16,13 @@ F.~Zwicky, {On the Masses of Nebulae and of Clusters of Nebulae}, Astrophysical
 \bibitem{Trimble:1987ee}
 V.~Trimble, {Existence and Nature of Dark Matter in the Universe}, Ann. Rev.
   Astron. Astrophys. 25 (1987) 425--472.
-\newblock \href {https://doi.org/10.1146/annurev.aa.25.090187.002233}
+\newblock \href {http://dx.doi.org/10.1146/annurev.aa.25.090187.002233}
   {\path{doi:10.1146/annurev.aa.25.090187.002233}}.
 
 \bibitem{1939LicOB..19...41B}
 H.~W. {Babcock}, {The rotation of the Andromeda Nebula}, Lick Observatory
   Bulletin 19 (1939) 41--51.
-\newblock \href {https://doi.org/10.5479/ADS/bib/1939LicOB.19.41B}
+\newblock \href {http://dx.doi.org/10.5479/ADS/bib/1939LicOB.19.41B}
   {\path{doi:10.5479/ADS/bib/1939LicOB.19.41B}}.
 
 \bibitem{Begeman:1991iy}
@@ -35,7 +35,7 @@ G.~Jungman, M.~Kamionkowski, A.~Kosowsky, D.~N. Spergel, {Weighing the universe
   with the cosmic microwave background}, Phys. Rev. Lett. 76 (1996) 1007--1010.
 \newblock \href {http://arxiv.org/abs/astro-ph/9507080}
   {\path{arXiv:astro-ph/9507080}}, \href
-  {https://doi.org/10.1103/PhysRevLett.76.1007}
+  {http://dx.doi.org/10.1103/PhysRevLett.76.1007}
   {\path{doi:10.1103/PhysRevLett.76.1007}}.
 
 \bibitem{Jungman:1995bz}
@@ -44,17 +44,17 @@ G.~Jungman, M.~Kamionkowski, A.~Kosowsky, D.~N. Spergel, {Cosmological
   (1996) 1332--1344.
 \newblock \href {http://arxiv.org/abs/astro-ph/9512139}
   {\path{arXiv:astro-ph/9512139}}, \href
-  {https://doi.org/10.1103/PhysRevD.54.1332}
+  {http://dx.doi.org/10.1103/PhysRevD.54.1332}
   {\path{doi:10.1103/PhysRevD.54.1332}}.
 
 \bibitem{Aghanim:2018eyx}
-N.~Aghanim, et~al., {Planck 2018 results. VI. Cosmological parameters} (2018).
-\newblock \href {http://arxiv.org/abs/1807.06209} {\path{arXiv:1807.06209}}.
+N.~Aghanim, et~al., {Planck 2018 results. VI. Cosmological parameters}\href
+  {http://arxiv.org/abs/1807.06209} {\path{arXiv:1807.06209}}.
 
 \bibitem{Gondolo:1990dk}
 P.~Gondolo, G.~Gelmini, {Cosmic abundances of stable particles: Improved
   analysis}, Nucl. Phys. B360 (1991) 145--179.
-\newblock \href {https://doi.org/10.1016/0550-3213(91)90438-4}
+\newblock \href {http://dx.doi.org/10.1016/0550-3213(91)90438-4}
   {\path{doi:10.1016/0550-3213(91)90438-4}}.
 
 \bibitem{Belanger:2001fz}
@@ -63,14 +63,14 @@ G.~B{\'{e}}langer, F.~Boudjema, A.~Pukhov, A.~Semenov, {MicrOMEGAs: A Program
   (2002) 103--120.
 \newblock \href {http://arxiv.org/abs/hep-ph/0112278}
   {\path{arXiv:hep-ph/0112278}}, \href
-  {https://doi.org/10.1016/S0010-4655(02)00596-9}
+  {http://dx.doi.org/10.1016/S0010-4655(02)00596-9}
   {\path{doi:10.1016/S0010-4655(02)00596-9}}.
 
 \bibitem{Belanger:2018mqt}
 G.~B{\'{e}}langer, F.~Boudjema, A.~Goudelis, A.~Pukhov, B.~Zaldivar,
   {micrOMEGAs5.0 : Freeze-in}, Comput. Phys. Commun. 231 (2018) 173--186.
 \newblock \href {http://arxiv.org/abs/1801.03509} {\path{arXiv:1801.03509}},
-  \href {https://doi.org/10.1016/j.cpc.2018.04.027}
+  \href {http://dx.doi.org/10.1016/j.cpc.2018.04.027}
   {\path{doi:10.1016/j.cpc.2018.04.027}}.
 
 \bibitem{Hisano:2004ds}
@@ -79,7 +79,7 @@ J.~Hisano, S.~Matsumoto, M.~M. Nojiri, O.~Saito, {Non-perturbative effect on
   Rev. D71 (2005) 063528.
 \newblock \href {http://arxiv.org/abs/hep-ph/0412403}
   {\path{arXiv:hep-ph/0412403}}, \href
-  {https://doi.org/10.1103/PhysRevD.71.063528}
+  {http://dx.doi.org/10.1103/PhysRevD.71.063528}
   {\path{doi:10.1103/PhysRevD.71.063528}}.
 
 \bibitem{Hisano:2006nn}
@@ -88,27 +88,27 @@ J.~Hisano, S.~Matsumoto, M.~Nagai, O.~Saito, M.~Senami, {Non-perturbative
   34--38.
 \newblock \href {http://arxiv.org/abs/hep-ph/0610249}
   {\path{arXiv:hep-ph/0610249}}, \href
-  {https://doi.org/10.1016/j.physletb.2007.01.012}
+  {http://dx.doi.org/10.1016/j.physletb.2007.01.012}
   {\path{doi:10.1016/j.physletb.2007.01.012}}.
 
 \bibitem{Undagoitia:2015gya}
 T.~Marrodán~Undagoitia, L.~Rauch, {Dark matter direct-detection experiments},
   J. Phys. G43~(1) (2016) 013001.
 \newblock \href {http://arxiv.org/abs/1509.08767} {\path{arXiv:1509.08767}},
-  \href {https://doi.org/10.1088/0954-3899/43/1/013001}
+  \href {http://dx.doi.org/10.1088/0954-3899/43/1/013001}
   {\path{doi:10.1088/0954-3899/43/1/013001}}.
 
 \bibitem{Goodman:1984dc}
 M.~W. Goodman, E.~Witten, {Detectability of Certain Dark Matter Candidates},
   Phys. Rev. D31 (1985) 3059, [,325(1984)].
-\newblock \href {https://doi.org/10.1103/PhysRevD.31.3059}
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.31.3059}
   {\path{doi:10.1103/PhysRevD.31.3059}}.
 
 \bibitem{Aprile:2012zx}
 E.~Aprile, {The XENON1T Dark Matter Search Experiment}, Springer Proc. Phys.
   148 (2013) 93--96.
 \newblock \href {http://arxiv.org/abs/1206.6288} {\path{arXiv:1206.6288}},
-  \href {https://doi.org/10.1007/978-94-007-7241-0_14}
+  \href {http://dx.doi.org/10.1007/978-94-007-7241-0_14}
   {\path{doi:10.1007/978-94-007-7241-0_14}}.
 
 \bibitem{Kerr:1986hz}
@@ -119,7 +119,7 @@ F.~J. Kerr, D.~Lynden-Bell, {Review of galactic constants}, Mon. Not. Roy.
 A.~M. Green, {Astrophysical uncertainties on direct detection experiments},
   Mod. Phys. Lett. A27 (2012) 1230004.
 \newblock \href {http://arxiv.org/abs/1112.0524} {\path{arXiv:1112.0524}},
-  \href {https://doi.org/10.1142/S0217732312300042}
+  \href {http://dx.doi.org/10.1142/S0217732312300042}
   {\path{doi:10.1142/S0217732312300042}}.
 
 \bibitem{Smith:2006ym}
@@ -127,35 +127,42 @@ M.~C. Smith, et~al., {The RAVE Survey: Constraining the Local Galactic Escape
   Speed}, Mon. Not. Roy. Astron. Soc. 379 (2007) 755--772.
 \newblock \href {http://arxiv.org/abs/astro-ph/0611671}
   {\path{arXiv:astro-ph/0611671}}, \href
-  {https://doi.org/10.1111/j.1365-2966.2007.11964.x}
+  {http://dx.doi.org/10.1111/j.1365-2966.2007.11964.x}
   {\path{doi:10.1111/j.1365-2966.2007.11964.x}}.
 
 \bibitem{Lewin:1995rx}
 J.~D. Lewin, P.~F. Smith, {Review of mathematics, numerical factors, and
   corrections for dark matter experiments based on elastic nuclear recoil},
   Astropart. Phys. 6 (1996) 87--112.
-\newblock \href {https://doi.org/10.1016/S0927-6505(96)00047-3}
+\newblock \href {http://dx.doi.org/10.1016/S0927-6505(96)00047-3}
   {\path{doi:10.1016/S0927-6505(96)00047-3}}.
+
+\bibitem{Knapen:2017xzo}
+S.~Knapen, T.~Lin, K.~M. Zurek, {Light Dark Matter: Models and Constraints},
+  Phys. Rev. D96~(11) (2017) 115021.
+\newblock \href {http://arxiv.org/abs/1709.07882} {\path{arXiv:1709.07882}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.96.115021}
+  {\path{doi:10.1103/PhysRevD.96.115021}}.
 
 \bibitem{Aprile:2018dbl}
 E.~Aprile, et~al., {Dark Matter Search Results from a One Tonne$\times$Year
   Exposure of XENON1T}, Phys. Rev. Lett. 121~(11) (2018) 111302.
 \newblock \href {http://arxiv.org/abs/1805.12562} {\path{arXiv:1805.12562}},
-  \href {https://doi.org/10.1103/PhysRevLett.121.111302}
+  \href {http://dx.doi.org/10.1103/PhysRevLett.121.111302}
   {\path{doi:10.1103/PhysRevLett.121.111302}}.
 
 \bibitem{Akerib:2016vxi}
 D.~S. Akerib, et~al., {Results from a search for dark matter in the complete
   LUX exposure}, Phys. Rev. Lett. 118~(2) (2017) 021303.
 \newblock \href {http://arxiv.org/abs/1608.07648} {\path{arXiv:1608.07648}},
-  \href {https://doi.org/10.1103/PhysRevLett.118.021303}
+  \href {http://dx.doi.org/10.1103/PhysRevLett.118.021303}
   {\path{doi:10.1103/PhysRevLett.118.021303}}.
 
 \bibitem{Cui:2017nnn}
 X.~Cui, et~al., {Dark Matter Results From 54-Ton-Day Exposure of PandaX-II
   Experiment}, Phys. Rev. Lett. 119~(18) (2017) 181302.
 \newblock \href {http://arxiv.org/abs/1708.06917} {\path{arXiv:1708.06917}},
-  \href {https://doi.org/10.1103/PhysRevLett.119.181302}
+  \href {http://dx.doi.org/10.1103/PhysRevLett.119.181302}
   {\path{doi:10.1103/PhysRevLett.119.181302}}.
 
 \bibitem{Billard:2013qya}
@@ -163,28 +170,35 @@ J.~Billard, L.~Strigari, E.~Figueroa-Feliciano, {Implication of neutrino
   backgrounds on the reach of next generation dark matter direct detection
   experiments}, Phys. Rev. D89~(2) (2014) 023524.
 \newblock \href {http://arxiv.org/abs/1307.5458} {\path{arXiv:1307.5458}},
-  \href {https://doi.org/10.1103/PhysRevD.89.023524}
+  \href {http://dx.doi.org/10.1103/PhysRevD.89.023524}
   {\path{doi:10.1103/PhysRevD.89.023524}}.
 
 \bibitem{Hisano:2015rsa}
 J.~Hisano, K.~Ishiwata, N.~Nagata, {QCD Effects on Direct Detection of Wino
   Dark Matter}, JHEP 06 (2015) 097.
 \newblock \href {http://arxiv.org/abs/1504.00915} {\path{arXiv:1504.00915}},
-  \href {https://doi.org/10.1007/JHEP06(2015)097}
+  \href {http://dx.doi.org/10.1007/JHEP06(2015)097}
   {\path{doi:10.1007/JHEP06(2015)097}}.
 
 \bibitem{Hisano:2011cs}
 J.~Hisano, K.~Ishiwata, N.~Nagata, T.~Takesako, {Direct Detection of
   Electroweak-Interacting Dark Matter}, JHEP 07 (2011) 005.
 \newblock \href {http://arxiv.org/abs/1104.0228} {\path{arXiv:1104.0228}},
-  \href {https://doi.org/10.1007/JHEP07(2011)005}
+  \href {http://dx.doi.org/10.1007/JHEP07(2011)005}
   {\path{doi:10.1007/JHEP07(2011)005}}.
+
+\bibitem{Farina:2013mla}
+M.~Farina, D.~Pappadopulo, A.~Strumia, {A modified naturalness principle and
+  its experimental tests}, JHEP 08 (2013) 022.
+\newblock \href {http://arxiv.org/abs/1303.7244} {\path{arXiv:1303.7244}},
+  \href {http://dx.doi.org/10.1007/JHEP08(2013)022}
+  {\path{doi:10.1007/JHEP08(2013)022}}.
 
 \bibitem{Hisano:2012wm}
 J.~Hisano, K.~Ishiwata, N.~Nagata, {Direct Search of Dark Matter in High-Scale
   Supersymmetry}, Phys. Rev. D87 (2013) 035020.
 \newblock \href {http://arxiv.org/abs/1210.5985} {\path{arXiv:1210.5985}},
-  \href {https://doi.org/10.1103/PhysRevD.87.035020}
+  \href {http://dx.doi.org/10.1103/PhysRevD.87.035020}
   {\path{doi:10.1103/PhysRevD.87.035020}}.
 
 \bibitem{Roszkowski:2014wqa}
@@ -192,28 +206,28 @@ L.~Roszkowski, E.~M. Sessolo, A.~J. Williams, {What next for the CMSSM and the
   NUHM: Improved prospects for superpartner and dark matter detection}, JHEP 08
   (2014) 067.
 \newblock \href {http://arxiv.org/abs/1405.4289} {\path{arXiv:1405.4289}},
-  \href {https://doi.org/10.1007/JHEP08(2014)067}
+  \href {http://dx.doi.org/10.1007/JHEP08(2014)067}
   {\path{doi:10.1007/JHEP08(2014)067}}.
 
 \bibitem{Gaskins:2016cha}
 J.~M. Gaskins, {A review of indirect searches for particle dark matter},
   Contemp. Phys. 57~(4) (2016) 496--525.
 \newblock \href {http://arxiv.org/abs/1604.00014} {\path{arXiv:1604.00014}},
-  \href {https://doi.org/10.1080/00107514.2016.1175160}
+  \href {http://dx.doi.org/10.1080/00107514.2016.1175160}
   {\path{doi:10.1080/00107514.2016.1175160}}.
 
 \bibitem{Navarro:1995iw}
 J.~F. Navarro, C.~S. Frenk, S.~D.~M. White, {The Structure of cold dark matter
   halos}, Astrophys. J. 462 (1996) 563--575.
 \newblock \href {http://arxiv.org/abs/astro-ph/9508025}
-  {\path{arXiv:astro-ph/9508025}}, \href {https://doi.org/10.1086/177173}
+  {\path{arXiv:astro-ph/9508025}}, \href {http://dx.doi.org/10.1086/177173}
   {\path{doi:10.1086/177173}}.
 
 \bibitem{Navarro:1996gj}
 J.~F. Navarro, C.~S. Frenk, S.~D.~M. White, {A Universal density profile from
   hierarchical clustering}, Astrophys. J. 490 (1997) 493--508.
 \newblock \href {http://arxiv.org/abs/astro-ph/9611107}
-  {\path{arXiv:astro-ph/9611107}}, \href {https://doi.org/10.1086/304888}
+  {\path{arXiv:astro-ph/9611107}}, \href {http://dx.doi.org/10.1086/304888}
   {\path{doi:10.1086/304888}}.
 
 \bibitem{Fornasa:2013iaa}
@@ -221,7 +235,7 @@ M.~Fornasa, A.~M. Green, {Self-consistent phase-space distribution function for
   the anisotropic dark matter halo of the Milky Way}, Phys. Rev. D89~(6) (2014)
   063531.
 \newblock \href {http://arxiv.org/abs/1311.5477} {\path{arXiv:1311.5477}},
-  \href {https://doi.org/10.1103/PhysRevD.89.063531}
+  \href {http://dx.doi.org/10.1103/PhysRevD.89.063531}
   {\path{doi:10.1103/PhysRevD.89.063531}}.
 
 \bibitem{Genina_2017}
@@ -230,7 +244,7 @@ A.~Genina, A.~Benítez-Llambay, C.~S. Frenk, S.~Cole, A.~Fattahi, J.~F.
   \href{http://dx.doi.org/10.1093/mnras/stx2855}{The core–cusp problem: a
   matter of perspective}, Monthly Notices of the Royal Astronomical Society
   474~(1) (2017) 1398–1411.
-\newblock \href {https://doi.org/10.1093/mnras/stx2855}
+\newblock \href {http://dx.doi.org/10.1093/mnras/stx2855}
   {\path{doi:10.1093/mnras/stx2855}}.
 \newline\urlprefix\url{http://dx.doi.org/10.1093/mnras/stx2855}
 
@@ -244,14 +258,14 @@ A.~W. Graham, D.~Merritt, B.~Moore, J.~Diemand, B.~Terzic, {Empirical models
   for Dark Matter Halos. I. Nonparametric Construction of Density Profiles and
   Comparison with Parametric Models}, Astron. J. 132 (2006) 2685--2700.
 \newblock \href {http://arxiv.org/abs/astro-ph/0509417}
-  {\path{arXiv:astro-ph/0509417}}, \href {https://doi.org/10.1086/508988}
+  {\path{arXiv:astro-ph/0509417}}, \href {http://dx.doi.org/10.1086/508988}
   {\path{doi:10.1086/508988}}.
 
 \bibitem{Burkert:1995yz}
 A.~Burkert, {The Structure of dark matter halos in dwarf galaxies}, IAU Symp.
   171 (1996) 175, [Astrophys. J.447,L25(1995)].
 \newblock \href {http://arxiv.org/abs/astro-ph/9504041}
-  {\path{arXiv:astro-ph/9504041}}, \href {https://doi.org/10.1086/309560}
+  {\path{arXiv:astro-ph/9504041}}, \href {http://dx.doi.org/10.1086/309560}
   {\path{doi:10.1086/309560}}.
 
 \bibitem{Geringer-Sameth:2014yza}
@@ -259,7 +273,7 @@ A.~Geringer-Sameth, S.~M. Koushiappas, M.~Walker, {Dwarf galaxy annihilation
   and decay emission profiles for dark matter experiments}, Astrophys. J.
   801~(2) (2015) 74.
 \newblock \href {http://arxiv.org/abs/1408.0002} {\path{arXiv:1408.0002}},
-  \href {https://doi.org/10.1088/0004-637X/801/2/74}
+  \href {http://dx.doi.org/10.1088/0004-637X/801/2/74}
   {\path{doi:10.1088/0004-637X/801/2/74}}.
 
 \bibitem{S_nchez_Conde_2011}
@@ -268,7 +282,7 @@ M.~A. S{¥'{a}}nchez-Conde, M.~Cannoni, F.~Zandanel, M.~E. G{¥'{o}}mez,
   matter searches with cherenkov telescopes: nearby dwarf galaxies or local
   galaxy clusters?}, Journal of Cosmology and Astroparticle Physics 2011~(12)
   (2011) 011--011.
-\newblock \href {https://doi.org/10.1088/1475-7516/2011/12/011}
+\newblock \href {http://dx.doi.org/10.1088/1475-7516/2011/12/011}
   {\path{doi:10.1088/1475-7516/2011/12/011}}.
 \newline\urlprefix\url{https://doi.org/10.1088%2F1475-7516%2F2011%2F12%2F011}
 
@@ -277,52 +291,7 @@ L.~Roszkowski, E.~M. Sessolo, S.~Trojanowski, {WIMP dark matter candidates and
   searches—current status and future prospects}, Rept. Prog. Phys. 81~(6)
   (2018) 066201.
 \newblock \href {http://arxiv.org/abs/1707.06277} {\path{arXiv:1707.06277}},
-  \href {https://doi.org/10.1088/1361-6633/aab913}
+  \href {http://dx.doi.org/10.1088/1361-6633/aab913}
   {\path{doi:10.1088/1361-6633/aab913}}.
-
-\bibitem{Abdallah:2016ygi}
-H.~Abdallah, et~al., {Search for dark matter annihilations towards the inner
-  Galactic halo from 10 years of observations with H.E.S.S}, Phys. Rev. Lett.
-  117~(11) (2016) 111301.
-\newblock \href {http://arxiv.org/abs/1607.08142} {\path{arXiv:1607.08142}},
-  \href {https://doi.org/10.1103/PhysRevLett.117.111301}
-  {\path{doi:10.1103/PhysRevLett.117.111301}}.
-
-\bibitem{Fermi-LAT:2016uux}
-A.~Albert, et~al., {Searching for Dark Matter Annihilation in Recently
-  Discovered Milky Way Satellites with Fermi-LAT}, Astrophys. J. 834~(2) (2017)
-  110.
-\newblock \href {http://arxiv.org/abs/1611.03184} {\path{arXiv:1611.03184}},
-  \href {https://doi.org/10.3847/1538-4357/834/2/110}
-  {\path{doi:10.3847/1538-4357/834/2/110}}.
-
-\bibitem{Ahnen:2016qkx}
-M.~L. Ahnen, et~al., {Limits to Dark Matter Annihilation Cross-Section from a
-  Combined Analysis of MAGIC and Fermi-LAT Observations of Dwarf Satellite
-  Galaxies}, JCAP 1602~(02) (2016) 039.
-\newblock \href {http://arxiv.org/abs/1601.06590} {\path{arXiv:1601.06590}},
-  \href {https://doi.org/10.1088/1475-7516/2016/02/039}
-  {\path{doi:10.1088/1475-7516/2016/02/039}}.
-
-\bibitem{Carr:2015hta}
-J.~Carr, et~al., {Prospects for Indirect Dark Matter Searches with the
-  Cherenkov Telescope Array (CTA)}, PoS ICRC2015 (2016) 1203, [34,1203(2015)].
-\newblock \href {http://arxiv.org/abs/1508.06128} {\path{arXiv:1508.06128}},
-  \href {https://doi.org/10.22323/1.236.1203} {\path{doi:10.22323/1.236.1203}}.
-
-\bibitem{Charles:2016pgz}
-E.~Charles, et~al., {Sensitivity Projections for Dark Matter Searches with the
-  Fermi Large Area Telescope}, Phys. Rept. 636 (2016) 1--46.
-\newblock \href {http://arxiv.org/abs/1605.02016} {\path{arXiv:1605.02016}},
-  \href {https://doi.org/10.1016/j.physrep.2016.05.001}
-  {\path{doi:10.1016/j.physrep.2016.05.001}}.
-
-\bibitem{Steigman:2012nb}
-G.~Steigman, B.~Dasgupta, J.~F. Beacom, {Precise Relic WIMP Abundance and its
-  Impact on Searches for Dark Matter Annihilation}, Phys. Rev. D86 (2012)
-  023506.
-\newblock \href {http://arxiv.org/abs/1204.3622} {\path{arXiv:1204.3622}},
-  \href {https://doi.org/10.1103/PhysRevD.86.023506}
-  {\path{doi:10.1103/PhysRevD.86.023506}}.
 
 \end{thebibliography}
