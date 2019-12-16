@@ -1,0 +1,70 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Wess:320631}
+J.~Wess, J.~A. Bagger, \href{https://cds.cern.ch/record/320631}{{Supersymmetry
+  and supergravity; 2nd ed.}}, Princeton Series in Physics, Princeton Univ.
+  Press, Princeton, NJ, 1992.
+\newline\urlprefix\url{https://cds.cern.ch/record/320631}
+
+\bibitem{Martin:1997ns}
+S.~P. Martin, {A Supersymmetry primer} (1997) 1--98[Adv. Ser. Direct. High
+  Energy Phys.18,1(1998)].
+\newblock \href {http://arxiv.org/abs/hep-ph/9709356}
+  {\path{arXiv:hep-ph/9709356}}, \href
+  {http://dx.doi.org/10.1142/9789812839657_0001, 10.1142/9789814307505_0001}
+  {\path{doi:10.1142/9789812839657_0001, 10.1142/9789814307505_0001}}.
+
+\bibitem{Haag:1974qh}
+R.~Haag, J.~T. Lopuszanski, M.~Sohnius, {All Possible Generators of
+  Supersymmetries of the s Matrix}, Nucl. Phys. B88 (1975) 257, [,257(1974)].
+\newblock \href {http://dx.doi.org/10.1016/0550-3213(75)90279-5}
+  {\path{doi:10.1016/0550-3213(75)90279-5}}.
+
+\bibitem{Coleman:1967ad}
+S.~R. Coleman, J.~Mandula, {All Possible Symmetries of the S Matrix}, Phys.
+  Rev. 159 (1967) 1251--1256.
+\newblock \href {http://dx.doi.org/10.1103/PhysRev.159.1251}
+  {\path{doi:10.1103/PhysRev.159.1251}}.
+
+\bibitem{Giudice:1998xp}
+G.~F. Giudice, M.~A. Luty, H.~Murayama, R.~Rattazzi, {Gaugino mass without
+  singlets}, JHEP 12 (1998) 027.
+\newblock \href {http://arxiv.org/abs/hep-ph/9810442}
+  {\path{arXiv:hep-ph/9810442}}, \href
+  {http://dx.doi.org/10.1088/1126-6708/1998/12/027}
+  {\path{doi:10.1088/1126-6708/1998/12/027}}.
+
+\bibitem{Randall:1998uk}
+L.~Randall, R.~Sundrum, {Out of this world supersymmetry breaking}, Nucl. Phys.
+  B557 (1999) 79--118.
+\newblock \href {http://arxiv.org/abs/hep-th/9810155}
+  {\path{arXiv:hep-th/9810155}}, \href
+  {http://dx.doi.org/10.1016/S0550-3213(99)00359-4}
+  {\path{doi:10.1016/S0550-3213(99)00359-4}}.
+
+\bibitem{Ibe:2006de}
+M.~Ibe, T.~Moroi, T.~T. Yanagida, {Possible Signals of Wino LSP at the Large
+  Hadron Collider}, Phys. Lett. B644 (2007) 355--360.
+\newblock \href {http://arxiv.org/abs/hep-ph/0610277}
+  {\path{arXiv:hep-ph/0610277}}, \href
+  {http://dx.doi.org/10.1016/j.physletb.2006.11.061}
+  {\path{doi:10.1016/j.physletb.2006.11.061}}.
+
+\bibitem{Ibe:2011aa}
+M.~Ibe, T.~T. Yanagida, {The Lightest Higgs Boson Mass in Pure Gravity
+  Mediation Model}, Phys. Lett. B709 (2012) 374--380.
+\newblock \href {http://arxiv.org/abs/1112.2462} {\path{arXiv:1112.2462}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.02.034}
+  {\path{doi:10.1016/j.physletb.2012.02.034}}.
+
+\bibitem{ArkaniHamed:2012gw}
+N.~Arkani-Hamed, A.~Gupta, D.~E. Kaplan, N.~Weiner, T.~Zorawski, {Simply
+  Unnatural Supersymmetry}\href {http://arxiv.org/abs/1212.6971}
+  {\path{arXiv:1212.6971}}.
+
+\end{thebibliography}

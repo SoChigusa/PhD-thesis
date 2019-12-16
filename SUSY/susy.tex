@@ -13,13 +13,6 @@
 
 \rem{More later}
 
-In this appendix, we briefly review the $\mathcal{N}=1$ supersymmetry,
-which is an essential element of the MSSM explained in
-Sec.~\ref{sec:mssm}.  Our argument is based on~\cite{Wess:320631,
-Martin:1997ns}.
-
-The $\mathcal{N}=1$ supersymmetry is
-
 First example is the MSSM, extension of the SM with the so-called
 $\mathcal{N}=1$ supersymmetry (SUSY)~\cite{Wess:320631, Martin:1997ns}
 that relates a bosonic particle and a fermionic particle.  The
@@ -50,8 +43,440 @@ when fields are on-shell.\footnote{
 
 \rem{chiral and vector superfield}
 
-\rem{$m_f = m_S$ for each multiplet}
-
 \rem{F-term and D-term potential}
+
+
+In this appendix, we briefly review the $\mathcal{N}=1$ supersymmetry, which is an essential element of the MSSM explained in Sec.~\ref{sec:mssm}.
+Our argument is based on~\cite{Wess:320631, Martin:1997ns}.
+
+First, we show the $\mathcal{N} = 1$ supersymmetry algebra: \cite{Haag:1974qh}
+\begin{align}
+  \{ Q_\alpha, \bar{Q}_{\dot{\beta}} \} &= 2 \sigma_{\alpha
+  \dot{\beta}}^\mu P_\mu,\label{QQbar} \\
+  \{ Q_\alpha, Q_\beta \} &= \{ \bar{Q}_{\dot{\alpha}}
+  \bar{Q}_{\dot{\beta}} \}  = 0,\label{QQQbarQbar} \\
+  [ P_\mu, Q_\alpha ] &= [ P_\mu, \bar{Q}_{\dot{\alpha}} ] =
+  0,\label{PQPQbar}\\
+  [ P_\mu, P_\nu ] &= 0,\label{PP}
+\end{align}
+where $\sigma^\mu$ is defined with a unit matrix and Pauli matrices as $\sigma^\mu = (-\textbf{1},\vec{\sigma})$ and $Q_\alpha$, $\bar{Q}_{\dot{\alpha}}$, and $P_\mu$ are generators of two types of supersymmetry and translation, respectively.
+Indices $(\alpha,\beta,\dot{\alpha},\dot{\beta})$ run from one to two and denote two-component Weyl spinors.
+Indices $(\mu,\nu)$ run from zero to three and denotes the Lorentz four-vector.
+Generators in the above algebra generates the maximally possible symmetries of the $S$-matrix including fermionic operators $Q_\alpha$ and $\bar{Q}_{\dot{\alpha}}$ by loosening the assumption on the symmetry in the derivation of the Coleman-Mandula theorem \cite{Coleman:1967ad}.
+
+There are two important features in the representation of the supersymmetry algebra.
+(I) All particles in each representation have the same mass.
+(II) Bosonic and fermionic degrees of freedom in each representation are the same.
+The property (I) is the direct result of the commutation relation Eq.\ (\ref{PQPQbar}).
+To prove (II), we define a fermion number operator $N_F$ which has an eigenvalue $0$ for bosonic states and $+1$ for fermionic states.
+From this definition, it is a straightforward work to derive the anti-commutation relation $\{(-1)^{N_F},Q\}=0$ and its conjugate.
+Then the following calculation for some finite-dimensional representation of generators
+\begin{align}
+ {\rm Tr} \left[ (-1)^{N_F} \{Q_\alpha, \bar{Q}_{\dot{\beta}}\} \right]
+ = {\rm Tr} \left[ \bar{Q}_{\dot{\beta}} \{ (-1)^{N_F}, Q_\alpha \} \right] = 0,
+\end{align}
+shows, using Eq.\ (\ref{QQbar}), that
+\begin{align}
+ 2{\rm Tr} \left[ (-1)^{N_F} P_{\alpha \dot{\beta}} \right]
+ = 2P_{\alpha \dot{\beta}} {\rm Tr} \left[(-1)^{N_F} \right] = 0,
+\end{align}
+with $P_{\alpha \dot{\beta}} \equiv \sigma^\mu_{\alpha \dot{\beta}} P_\mu$.
+The first equality follows from the fact that the four momentum is universal for elements of an irreducible representation.
+The last equality is just another expression of the property (II) for some non-zero four-momentum $P_{\alpha \dot{\beta}}$.
+
+To formulate the supersymmetric field theory, it is convenient to consider the superfield, which lives on the extension of the Minkowski space with four fermionic coordinates $\theta^\alpha$ and $\bar{\theta}_{\dot{\alpha}}$, the so-called super-Minkowski space.
+In a representation that acts on the super-Minkowski space, a group element corresponding to operators shown above is expressed as
+\begin{align}
+ G(x,\theta,\bar{\theta}) = \exp \left[ i \left( -x^\mu P_\mu + \theta Q + \bar{\theta} \bar{Q} \right) \right],
+\end{align}
+where the indices of fermionic objects are contracted.  Then, by
+calculating the product of two group elements using Hausdorff's formula,
+supersymmetry transformation is found to be a 'translation' in the
+super-Minkowski space \cite{Salam:1981xd, Ferrara:1974ac}, denoted as
+\begin{align}
+ Q_\alpha &= \frac{\partial}{\partial \theta^\alpha} - i\sigma_{\alpha
+ \dot{\alpha}}^\mu \bar{\theta}^{\dot{\alpha}} \partial_\mu,\label{Qrep} \\
+ \bar{Q}^{\dot{\alpha}} &= \frac{\partial}{\partial
+ \bar{\theta}_{\dot{\alpha}}} + i\theta^\alpha
+ \sigma_{\alpha\dot{\beta}}^\mu \epsilon^{\dot{\beta} \dot{\alpha}}
+ \partial_\mu.
+\end{align}
+It is a straightforward calculation to check the anti-commutation
+relation of these operators, resulting in
+\begin{align}
+ \{ Q_\alpha, \bar{Q}_{\dot{\beta}} \} &= 2i\sigma_{\alpha
+ \dot{\beta}}^\mu \partial_\mu,\label{QQbarrep} \\
+ \{ Q_\alpha, Q_\beta \} &= \{ \bar{Q}_{\dot{\alpha}},
+ \bar{Q}_{\dot{\beta}} \} = 0,
+\end{align}
+which agree with Eqs.\ (\ref{QQbar}) and (\ref{QQQbarQbar}) under the
+usual definition of $P_\mu \equiv -i\partial_\mu$.\footnote{There is
+actually a disagreement of the sign between Eq.\ (\ref{QQbar}) and Eq.\
+(\ref{QQbarrep}).  This difference is not essential since it is due to
+the fact that a group element $G(X) G(Y)$ ($X,Y \in \RRR^{1,3|4}$)
+corresponds to the reversed order translation first induced by $X$ and
+second by $Y$.}  In the super-Minkowski space, we can decompose the most
+general function called superfield into
+\begin{align}
+ F(x,\theta,\bar{\theta}) &= \phi(x) + \theta \psi(x) + \bar{\theta}
+ \bar{\psi}(x) \notag \\
+ &\quad + \theta\theta F(x) + \bar{\theta}\bar{\theta} \bar{F}(x) +
+ \theta \sigma^m \bar{\theta} v_m(x) \notag \\
+ &\quad + \theta\theta\bar{\theta} \lambda(x) +
+ \bar{\theta}\bar{\theta}\theta \bar{\lambda}(x) +
+ \theta\theta\bar{\theta}\bar{\theta} D(x),
+\end{align}
+where all the coefficients are general fields with proper spins under
+the Lorentz symmetry that live on the Minkowski space.  Operators
+involved in the supersymmetry algebra, $Q,\bar{Q}$ and $P$, naturally
+act on the superfield $F(x,\theta,\bar{\theta})$ with above
+representations.
+
+Next we impose some constraint on the most general superfield to get
+special superfields which possess required properties in order to
+consider the supersymmetric extension of the SM.  First, we define
+chiral covariant derivatives as
+\begin{align}
+ D_\alpha &= \frac{\partial}{\partial \theta^\alpha} -
+ 2i\sigma^\mu_{\alpha \dot{\alpha}} \bar{\theta}^{\dot{\alpha}}
+ \frac{\partial}{\partial y^\mu}, \\
+ \bar{D}_{\dot{\alpha}} &= - \frac{\partial}{\partial
+ \bar{\theta}^{\dot{\alpha}}},
+\end{align}
+where $y^\mu$ is a redefined bosonic coordinate related to $x^\mu$ as
+\begin{align}
+ y^\mu \equiv x^\mu + i\bar{\theta} \sigma^\mu \theta.
+\end{align}
+These derivatives are covariant in the meaning that they satisfy the
+relation
+\begin{align}
+ \{ Q_\alpha, D_\beta \} = \{ \bar{Q}_{\dot{\alpha}}, D_\beta \} = \{
+ Q_\alpha, \bar{D}_{\dot{\beta}} \} = \{ \bar{Q}_{\dot{\alpha}},
+ \bar{D}_{\dot{\beta}} \} = 0,
+\end{align}
+and hence following equations are satisfied:
+\begin{align}
+ (\xi Q + \bar{\xi} \bar{Q}) (D_\beta F(y,\theta,\bar{\theta})) &=
+ D_\beta ((\xi Q + \bar{\xi} \bar{Q}) F(y,\theta,\bar{\theta})), \\
+ (\xi Q + \bar{\xi} \bar{Q}) (\bar{D}_{\dot{\beta}}
+ F(y,\theta,\bar{\theta})) &= \bar{D}_{\dot{\beta}} ((\xi Q +
+ \bar{\xi} \bar{Q}) F(y,\theta,\bar{\theta})),
+\end{align}
+where $\xi$ and $\bar{\xi}$ are fermionic transformation parameters of
+supersymmetry.  Using these derivatives, we can define a chiral
+superfield $\Phi$ with a constraint
+\begin{align}
+ \bar{D}_{\dot{\alpha}} \Phi = 0,
+\end{align}
+or expressed explicitly in terms of component fields,
+\begin{align}
+ \Phi(y,\theta) &= \phi(y) + \sqrt{2} \theta \psi(y) +
+ \theta\theta F(y) \notag \\
+ &=  \phi(x) + i\theta \sigma^\mu \bar{\theta} \partial_\mu \phi(x) +
+ \frac{1}{4} \theta\theta\bar{\theta}\bar{\theta} \Box \phi(x) \notag \\
+ &\quad + \sqrt{2} \theta \psi(x) - \frac{i}{\sqrt{2}} \theta\theta
+ \partial_\mu \psi(x) \sigma^\mu \bar{\theta} + \theta\theta F(x),\label{chiralsuperf}
+\end{align}
+which naturally contains a chiral fermion $\psi$ that is an important
+ingredient of the SM.  Since Higgs fields also can be implemented in
+this type of multiplet as a lowest component $\phi$, the remaining
+piece is the spin one gauge fields $A_\mu$.  They are implemented in
+vector superfields defined by a constraint
+\begin{align}
+ V = \bar{V},
+\end{align}
+or in terms of component fields,
+\begin{align}
+ V(x,\theta,\bar{\theta}) &= C(x) + i\theta\chi(x) -
+ i\bar{\theta}\bar{\chi}(x) + \frac{i}{2}\theta\theta [M(x) + iN(x)] -
+ \frac{i}{2} \bar{\theta}\bar{\theta} [M(x) - iN(x)] \notag \\
+ &\quad - \theta \sigma^\mu \bar{\theta} A_\mu(x) +
+ i\theta\theta\bar{\theta} \left[ \bar{\lambda}(x) +
+ \frac{i}{2}\bar{\sigma}^\mu \partial_\mu \chi(x) \right] -
+ i\bar{\theta}\bar{\theta}\theta \left[ \lambda(x) + \frac{i}{2}
+ \sigma^\mu \partial_\mu \bar{\chi}(x) \right] \notag \\
+ &\quad + \frac{1}{2} \theta\theta\bar{\theta}\bar{\theta}\left[ D(x) +
+ \frac{1}{2}\Box C(x)\right],\label{vectorsuperf}
+\end{align}
+where $\bar{\sigma}^\mu = (-\textbf{1},-\vec{\sigma})$ and component
+fields are real scalar fields, Majorana fermion fields, or gauge
+fields, depending on the spin under the Lorentz symmetry.  For general
+gauge theories with a gauge coupling $g$ and generators $T^{aj}_i$, we
+prepare several vector superfields labeled by $a$ and use a
+combination $V_i^j = 2gT^{aj}_i V^a$.
+
+Now we have to construct the supersymmetry invariant lagrangian in
+terms of chiral and vector superfields.  The required property of the
+lagrangian is that its variation under supersymmetry transformations
+should be total derivative by the bosonic coordinate.  For example,
+from Eqs.\ (\ref{Qrep}) and (\ref{chiralsuperf}), we can calculate for
+a chiral superfield $\Phi$ that
+\begin{align}
+ \left[ (\xi Q + \bar{\xi} \bar{Q}) \Phi \right]_F
+ = i\sqrt{2} \bar{\xi} \bar{\sigma}^\mu \partial_\mu \psi,
+\end{align}
+where $[\tilde{\Phi}]_F$ denotes the $\theta\theta$ component (or
+F-term) of a chiral superfield $\tilde{\Phi}$.  Since the above
+expression is a total derivative if $\bar{\xi}$ is a global parameter,
+we can add a F-term of some chiral superfield to the lagrangian.
+Similarly for the vector superfield, we can check from Eq.\
+(\ref{vectorsuperf}) that the variation of the
+$\theta\theta\bar{\theta}\bar{\theta}$ component (or D-term) is a
+total derivative:
+\begin{align}
+ \left[ (\xi Q + \bar{\xi} \bar{Q}) V \right]_D = \frac{1}{2} \xi
+ \sigma^\mu \partial_\mu \left[ \bar{\lambda} + \frac{i}{2}
+ \bar{\sigma}^\nu \partial_\nu \chi \right] + \frac{1}{2} \bar{\xi}
+ \bar{\sigma}^\mu \partial_\mu \left[ \lambda + \frac{i}{2} \sigma^\nu
+ \partial_\nu \bar{\chi}\right].
+\end{align}
+From this, we conclude that we can also add a D-term of some vector
+superfield to the lagrangian.
+
+Using what we have learned above, we can finally construct the
+lagrangian for a supersymmetric gauge theory.  The first important
+observation is that the D-term of a vector superfield $\bar{\Phi}
+\Phi$ contains kinetic terms of the component scalar field $\phi$ and
+the chiral fermion field $\psi$.  In fact, it can be easily seen from
+Eq.\ (\ref{chiralsuperf}) that
+\begin{align}
+ \left[ \bar{\Phi} \Phi \right]_D \sim -\partial_\mu \phi^{*}
+ \partial^\mu \phi -i \bar{\psi} \bar{\sigma}^\mu \partial_\mu \psi +
+ \bar{F}F,
+\end{align}
+up to surface terms.  The situation is a bit complicated for vector
+superfields due to the degree of freedom of the gauge transformation.
+As an analogy to the non-supersymmetric gauge theory, we can define a
+gauge transformation parameter $\Lambda_i^j \equiv T^{aj}_i \Lambda_a$
+using a set of chiral superfields $\Lambda_a$.  Then the
+transformation rule for each superfield is written as
+\begin{align}
+ \Phi' &= e^{-i\Lambda} \Phi,\label{chiralsfgaugetransf} \\
+ \bar{\Phi}' &= \bar{\Phi} e^{i\bar{\Lambda}},  \\
+ e^{V'} &= e^{-i\bar{\Lambda}} e^V e^{i\Lambda},
+ \label{vectorsfgaugetransf}
+\end{align}
+where we use the matrix form of $V$ and $\Lambda$ defined above.
+Thanks to this gauge degree of freedom, we can choose a particular
+gauge in which Eq.\ (\ref{vectorsuperf}) is significantly simplified,
+\begin{align}
+ V_{\rm WZ} (x,\theta,\bar{\theta}) = -\theta \sigma^\mu \bar{\theta}
+ A_\mu(x) + i\theta\theta \bar{\theta} \bar{\lambda}(x) -
+ i\bar{\theta} \bar{\theta} \theta \lambda(x) + \frac{1}{2}
+ \theta\theta \bar{\theta} \bar{\theta} D(x),
+\end{align}
+where the subscript 'WZ' represents the name of this gauge, the
+Wess-Zumino gauge.  Although choosing this gauge breaks supersymmetry,
+we can fix one reference frame of $\RRR^{1,3|4}$ at first, and
+continue our discussion under the WZ gauge in this frame.  Next we
+need an analog of the field strength of the non-supersymmetric gauge
+theory which transforms covariantly under the gauge transformation.
+The required quantity is a chiral superfield defined as
+\begin{align}
+ \mathcal{W}_\alpha \equiv -\frac{1}{4} \bar{D} \bar{D} (e^{-V}
+ D_\alpha e^V),
+\end{align}
+where its transformation rule under the gauge symmetry are
+\begin{align}
+ \mathcal{W}'_\alpha = e^{-i\Lambda} \mathcal{W}_\alpha e^{i\Lambda}.
+\end{align}
+Then, as is expected, the F-term of the invariant combination ${\rm
+Tr}[\mathcal{W}\mathcal{W}]$ contains terms proportional to the
+kinetic terms of $A_\mu$ and $\lambda$,
+\begin{align}
+ \left[ {\rm Tr}[\mathcal{W}\mathcal{W}] \right]_F = 4kg^2 \left[
+ -2i\lambda^a \sigma^\mu \nabla_\mu \bar{\lambda}^a - \frac{1}{2}
+ F^{a\mu\nu} F^a_{\mu\nu} + D^a D^a + \frac{i}{4} F^a_{\mu\nu}
+ F^a_{\rho \sigma} \epsilon^{\mu\nu\rho\sigma} \right],\label{trwawa}
+\end{align}
+where $k\delta^{ab} \equiv {\rm Tr}[T^a T^b]$ and $\nabla_\mu$ and
+$F^a_{\mu\nu}$ are the gauge covariant derivative and the (bosonic)
+field strength, respectively.  Note that the standard interaction among
+a gauge boson and two fermions is naturally introduced through the
+covariant derivative.  For later convenience, we again decompose
+$\mathcal{W}_\alpha$ as
+\begin{align}
+ \mathcal{W}_\alpha = 2g T^a \mathcal{W}^a_\alpha.
+\end{align}
+Using this decomposition, ${\rm Tr}[\mathcal{W}\mathcal{W}]$ in Eq.\
+(\ref{trwawa}) can be deformed as
+\begin{align}
+ \frac{1}{4kg} {\rm Tr}[\mathcal{W}\mathcal{W}] = \mathcal{W}^a
+ \mathcal{W}^a.
+\end{align}
+Finally we have to comment that the kinetic
+term of a chiral superfield should also be gauge invariant.  As is
+easily read off from Eqs.\
+(\ref{chiralsfgaugetransf})-(\ref{vectorsfgaugetransf}), the
+combination $\bar{\Phi} e^V \Phi$ satisfies the invariance.  This
+modification naturally introduces gauge interactions of $\phi$ and
+$\psi$ as
+\begin{align}
+ \left[ \bar{\Phi} e^V \Phi \right]_D &\sim -\nabla_\mu \phi^{*}
+ \nabla^\mu \phi -i \bar{\psi} \bar{\sigma}^\mu \nabla_\mu \psi +
+ F\bar{F} \notag \\
+ &\quad -\sqrt{2} g(\phi^{*} T^a \psi) \lambda^a - \sqrt{2} g
+ \bar{\lambda}^a (\bar{\psi} T^a \phi) + g(\phi^{*} T^a \phi) D^a,\label{chiralkinetic}
+\end{align}
+up to surface terms.
+
+\begin{table}[t]
+ \begin{center}
+  \begin{tabular}{|c|c|c|c||c|c|}
+   \hline
+   & $\phi$ & $\psi$ & $F$ & bosonic & fermionic \\ \hline
+   on-shell & 2 & 2 & 0 & 2 & 2 \\ \hline
+   off-shell & 2 & 4 & 2 & 4 & 4 \\ \hline
+  \end{tabular} \\ \vspace{5mm}
+  \begin{tabular}{|c|c|c|c||c|c|}
+   \hline
+   & $A_\mu$ & $\lambda$ & $D$ & bosonic & fermionic \\ \hline
+   on-shell & 2 & 2 & 0 & 2 & 2 \\ \hline
+   off-shell & 3 & 4 & 1 & 4 & 4 \\ \hline
+  \end{tabular}
+ \end{center}
+ \caption{The counting of bosonic and fermionic degrees of freedom in
+ the chiral superfield (up) and the vector superfield (down).
+ Off-shell, auxiliary fields posses non-zero degree of freedom and
+ keep bosonic and fermionic degrees of freedom equal in each
+ representation.}
+ \label{counting}
+\end{table}
+
+In summary, we get the supersymmetric gauge invariant lagrangian of
+the form
+\begin{align}
+ \mathcal{L}_{\rm free} = \frac{1}{4} \left[ \int d^2 \theta\ {\rm Tr}
+ [\mathcal{W}^a \mathcal{W}^a] + {\rm c.c.} \right] + \int d^2 \theta
+ d^2 \bar{\theta}\ \sum_{i} \bar{\Phi}_i e^V
+ \Phi_i,\label{freelagrangian}
+\end{align}
+where the index $i$ discriminates different chiral superfields and
+$\int d^2 \theta$ and $\int d^2 \theta d^2 \bar{\theta}$ are the same
+meaning as $[\cdots ]_F$ and $[\cdots ]_D$, respectively, because of
+the Grassmann nature of coordinates $\theta$ and $\bar{\theta}$.  In
+the lagrangian, component fields $F_i$ and $D^a$ involved in the
+chiral and the vector superfield, respectively, are called auxiliary
+fields and are needed to make the supersymmetry algebra closed
+off-shell (without using equations of motion).  This can be seen from
+the counting of bosonic and fermionic degrees of freedom shown in
+Tab.\ \ref{counting}.  However, when considering on-shell, we can use equations of
+motion for these fields and completely eliminate them.  Then, the
+physical degrees of freedom left are chiral fermions $\psi_i$ and
+their superpartners $\phi_i$, and gauge bosons $A_\mu^a$ and their
+superpartners $\lambda^a$ called gauginos.  Eq.\
+(\ref{freelagrangian}) uniquely specifies the form of invariant
+kinetic terms and interactions among them.  In addition to this, we
+can also add interactions among chiral superfields following
+procedures above.  The most general renormalizable interaction is
+\begin{align}
+ \mathcal{L}_{\rm int} &= \int d^2 \theta\ W[\Phi_i] + {\rm c.c.}, \\
+ W[\Phi_i] &= L^i \Phi_i + M^{ij} \Phi_i \Phi_j + y^{ijk} \Phi_i \Phi_j
+ \Phi_k,
+\end{align}
+where $W[\Phi_i]$ is called superpotential.  Of course each term in
+the superpotential should be gauge invariant combination of chiral
+superfields.  See App.\ \ref{sec:notation} for the superpotential of
+the minimal supersymmetric standard model (MSSM) and the notation
+used throughout this thesis.
+
+Finally we comment on the breaking of supersymmetry.  Since we have not
+found particles with same masses as the SM particles but with spins
+different by $1/2$, we have to spontaneously break supersymmetry at some
+energy scale.  Although it is not difficult to construct a model in
+which global supersymmetry is spontaneously broken by the Higgs
+mechanism, there are two problem to be considered.  First problem is
+about gaugino masses, which can not appear only with renormalizable
+interactions since the most general lagrangian we have constructed above
+does not include any interaction among scalar-gaugino-gaugino.  Second
+is related to the mass relation
+\begin{align}
+ {\rm STr}(m^2) \equiv \sum_{j} (-1)^{2j} (2j+1) {\rm Tr} (m_j^2),
+\end{align}
+where $i=0,1/2,1,\cdots$ labels the spin of particles and ${\rm Tr}
+(m_i^2)$ is a sum of mass squared over all particles with spin $i$.
+Actually, from the most general renormalizable lagrangian and possibly
+non-zero vacuum expectation value (VEV) of scalar particles, we can
+calculate the above supertrace in globally supersymmetric models as
+\begin{align}
+ {\rm STr}(m^2) = -2g{\rm Tr}(T^a) D^a = 0,\label{strmsq}
+\end{align}
+where the last equality holds because $SU(3)_C$ and $SU(2)_L$ generators
+are all traceless, while for $U(1)_Y$ it is equivalent to the
+cancellation condition of the mixed $U(1)$-gravitational anomaly.  If we
+assume the MSSM sfermions (superpartners of the SM fermions) do not mix
+with other scalars and also neglect the mixing between different
+flavors, this sum rule should be satisfied for each individual lepton
+and quark chiral superfield, resulting for example in
+\begin{align}
+ m_{\tilde{t}_1}^2 + m_{\tilde{t}_2}^2 = 2 m_t^2,
+\end{align}
+for top quarks and their superpartners called stops.  This relation
+obviously contradicts with the mass lower bounds imposed by stop search
+experiments \cite{ATLAS:2016kts, CMS:2016mwj}.  One of the possible
+solutions for these problems is to consider a local supersymmetry (or
+supergravity).  In this type of model, it is important to consider the
+supersymmetry breaking effect expressed by VEVs of auxiliary fields.
+Then, gaugino masses are generated by some non-renormalizable
+interactions involving a chiral superfield with non-zero F-term VEV at
+the tree-level or the loop-level, depending on whether there is any
+gauge singlet or not.  Also, in this scenario, the right-handed side of
+Eq.\ (\ref{strmsq}) becomes some non-zero constant of $O(m_{3/2}^2)$,
+where $m_{3/2}$ denotes the gravitino mass.  Then we do not have to
+worry about the second problem related to the mass squared sum rule.
+
+Let us take a closer look at this kind of framework.  The model in which
+supersymmetry breaking is mediated by some interaction as weak as the
+gravity is often called the Planck scale (gravity) mediation
+\cite{Chamseddine:1982jx, Barbieri:1982eh, Ibanez:1982ee, Hall:1983iz,
+Ohta:1982wn, Ellis:1982wr, AlvarezGaume:1983gj} and described in the
+supergravity (SUGRA) framework.  In this scenario, sfermion and Higgsino
+masses are generated from the K${\rm \ddot{a}}$hler potential
+\begin{align}
+ \mathcal{K} \supset \bar{\Phi} \Phi + c \frac{\bar{X} X}{M_{*}^2}
+ \bar{\Phi} \Phi + (c' H_u H_d + {\rm h.c.})\ ,
+\end{align}
+where $X$ denotes a chiral field with non-zero F-term VEV and $M_{*}$ is
+the Planck scale.  The resulting masses are\footnote{Here we use the
+vanishing cosmological constant condition.}
+\begin{align}
+ m_{\rm sfermion}^2 &\sim m_{3/2}^2 + c m_{3/2}^2, \\
+ \mu &\sim c' m_{3/2}.
+\end{align}
+Also, if $X$ is a singlet of the gauge symmetry, gaugino masses are
+generated by the superpotential
+\begin{align}
+ W \supset - c'' \frac{X}{M_{*}} \mathcal{W}^a \mathcal{W}^a,
+\end{align}
+with
+\begin{align}
+ m_{\rm gaugino} \sim c'' m_{3/2},
+\end{align}
+and hence all SUSY breaking masses are of $O(m_{3/2})$.  In particular,
+if we further assume common scalar masses, gaugino masses, and scalar
+trilinear terms at some high energy scale such as the GUT scale, all
+soft SUSY breaking terms are determined by four parameters $(m_0,
+m_{1/2}, A_0, b^{1/2})$, which is called the mSUGRA boundary condition
+\cite{Nilles:1983ge, Kane:1993td}.  This condition is often used as a
+benchmark and we will use it as an example of Quasi-natural or
+High-scale SUSY models in Sec.\ \ref{sec:phenomenology}.
+
+On the other hand, if we do not have any gauge singlet in the model, we
+acquire gaugino masses and scalar trilinear terms suppressed by
+$m_{3/2}/M_{*}$ at the tree-level.  In this case, the leading
+contribution to these terms is due to the loop effect called anomaly
+mediation \cite{Giudice:1998xp,Randall:1998uk}, about which we will
+explain in Sec.\ \ref{sec:AMSB}.  This situation is also called as pure
+gravity mediation \cite{Ibe:2006de, Ibe:2011aa, ArkaniHamed:2012gw}.
+There is a large hierarchy between sfermion masses and gaugino masses in
+this case and the resulting model is what we have denoted as the
+Mini-Split model.  Again assuming universal scalar masses at some high
+energy scale, soft SUSY breaking terms in this model are determined by
+three parameters $(m_0, m_{3/2}, b^{1/2})$.  This is a benchmark of the
+Mini-Split model and we will also use it in Sec.\
+\ref{sec:phenomenology}.
+
+\bibliographystyle{elsarticle-num}
+\bibliography{../phd}
 
 \end{document}
