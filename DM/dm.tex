@@ -102,7 +102,6 @@ corresponding to the $s$-wave, $p$-wave, and so on, contributions to the cross s
 When $x \gg 1$, which is the same as the non-relativistic limit, the term with the highest power of $x$ dominates the cross section.  When the $x^{-p}$ term dominates ($p \geq 0$), the temperature dependence of the interaction rate is $\Gamma \propto x^{-3/2-p} e^{-x}$, while the Hubble parameter only reduces as $H \propto \rho^{1/2} \propto x^{-2}$.
 As a result, at some point $\Gamma$ becomes smaller than $H$ and $Y$ freezes out as Eq.~\eqref{eq_boltzmann_Yx} indicates.
 Hereafter, we focus on the case of the $s$-wave domination with $\Braket{\sigma v}_s \neq 0$ for simplicity.
-\rem{Also comment on $p$-wave}
 In Fig.~\ref{fig_DM_relic}, we show the solution of Eq.~\eqref{eq_boltzmann_Yx} for $\lambda \equiv \left. \Gamma / H \right|_{x=1} = 10^6$ by the yellow dotted line.
 In the calculation, we use the boundary condition $Y(x=1) = Y_{\mathrm{eq}} (x=1)$ and plot the normalized value $Y(x) / Y(x=1)$.  We also plot the function $Y_{\mathrm{eq}} (x) / Y_{\mathrm{eq}} (x=1)$ by the black dotted line.
 
@@ -368,13 +367,49 @@ Galaxy clusters may also be an interesting target since its power for the DM det
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.7\hsize]{IDplot.pdf}
-  \caption{
-    Constraints on the DM annihilation cross section from current and future planned indirect detection experiments.
-    The figure is taken from \cite{Roszkowski:2017nbc}.
-  }
-  \label{fig:indirect_detection}
+  \includegraphics[width=0.7\hsize]{Sommerfeld.pdf}
+  \caption{Ladder diagram contribution to the DM annihilation.}
+  \label{fig:ladder}
 \end{figure}
+
+There remains a missing piece to describe the phenomenology of $\mathrm{TeV}$-scale DMs: the Sommerfeld enhancement effect \cite{Hisano:2004ds, Hisano:2006nn}.
+This effect becomes important when the DM particles become non-relativistic like those in the current universe.
+Consider the repeated exchange of weak gauge bosons between two initial DM particles before the annihilation as shown in Fig.~\ref{fig:ladder}, which is sometimes called a ladder diagram.
+At a glance, the contribution of this diagram seems to be suppressed compared with the tree-level annihilation by a factor of $(\alpha/4\pi)^n$, where $\alpha \sim \alpha_1 \sim \alpha_2$ is a typical size of the coupling and $n$ is the number of gauge boson exchange.
+However, when the initial particles are non-relativistic, it turns out that the proper power counting should be something like $(\alpha/\beta)^n$ instead of $\alpha^n$, where $\beta$ is the velocity of initial particles, observed in the center-of-mass system for simplicity.
+This results in a possibly large contribution from ladder diagrams and we need to resum all of them to calculate the annihilation cross section accurately.
+
+This resummation procedure can be performed by the use of the Bethe-Salpeter equation \cite{Salpeter:1951sz} as in \cite{Strassler:1990nw}.
+Equivalently, this effect can be seen as the deformation of the two-DM wave function from the plane wave according to the potential energy between them caused by the electroweak interaction.
+In this view point, it is intuitive that the physics can be described by the Schr\"{o}dinger equation
+\begin{align}
+  \left[ - \frac{1}{m_\chi} \frac{d^2}{d r^2} + V(r) \right] \psi = E \psi,
+\end{align}
+where $\psi(r)$ is the s-wave part of the two-DM wave function, $r$ is the distance between two DMs, and $V(r)$ and $E = m_\chi \beta^2$ are the potential and kinetic energies of the two DM system, respectively.
+Besides, we impose the outgoing boundary condition
+\begin{align}
+  \psi(r) \to e^{i m_\chi \beta r} ~~ (r \to \infty),
+\end{align}
+with $p$ being the DM momentum.
+Remembering that the DM-DM interaction is local, the Sommerfeld enhancement factor $R$ that multiplies the tree-level cross section is given by $R = \left| \psi(\infty) / \psi(0) \right|^2$.
+For example, when we consider the Coulomb potential $V(r) = -\alpha / r$, the equation can be analytically solved and we obtain
+\begin{align}
+  R = \frac{\pi \alpha / \beta}{1 - e^{- \pi \alpha / \beta}},
+\end{align}
+which causes a huge enhancement of the cross section when $\beta$ is small and $\alpha > 0$, or equivalently, the force between DMs is attractive.
+
+
+
+
+% \begin{figure}[t]
+%   \centering
+%   \includegraphics[width=0.7\hsize]{IDplot.pdf}
+%   \caption{
+%     Constraints on the DM annihilation cross section from current and future planned indirect detection experiments.
+%     The figure is taken from \cite{Roszkowski:2017nbc}.
+%   }
+%   \label{fig:indirect_detection}
+% \end{figure}
 
 % \rem{NOT suitable for line spectrum??}
 % In Fig.~\ref{fig:indirect_detection}, we show the summary plot taken from \cite{Roszkowski:2017nbc} of the constrains on the DM annihilation cross section from current and future planned indirect detection experiments.
@@ -383,8 +418,6 @@ Galaxy clusters may also be an interesting target since its power for the DM det
 % Fermi-LAT collaboration plans to observe 45 dwarf galaxies during the 15 years data taking era \cite{Charles:2016pgz} and its prospect is shown in the dash-dotted-brown line.
 % Also shown in the dotted gray line is the annihilation cross section required for the correct thermal relic abundance \cite{Steigman:2012nb}.
 % From the figure, we can see that the current constraint of the thermally produced DM is on $m_\chi \lesssim 100\,\mathrm{GeV}$, while the future prospect of the observations of the Galactic Center and dwarf galaxies play complementary roles with each other and cover a large region around $m_\chi \sim 1\,\mathrm{TeV}$ and below.
-
-There remains a missing piece to describe the phenomenology of $\mathrm{TeV}$-scale DMs: the Sommerfeld enhancement effect.
 
 
 
