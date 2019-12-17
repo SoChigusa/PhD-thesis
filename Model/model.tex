@@ -34,8 +34,6 @@ Sec.~\ref{sec:model_summary} is devoted to the summary table of properties of WI
 \label{sec:MSSM}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\rem{Summary of SUSY particle names somewhere}
-
 \begin{figure}[b]
   \centering
   \includegraphics[width=0.6\hsize]{loop_correction.pdf}
@@ -53,11 +51,9 @@ For example, we can consider the one-loop correction to the Higgs mass from a We
 The corrections to the Higgs mass is given by
 \begin{align}
   \Delta m_h^2 &= -\frac{|\lambda_f|^2}{8 \pi^2} \left[
-  \Lambda_{\mathrm{UV}}^2 - 2 m_f^2 \ln \left( \frac{\Lambda_{\mathrm{UV}}}{m_f} \right)
-  + \cdots \right] & &\mathrm{(fermion)}, \label{eq:delmh_f}\\
+  \Lambda_{\mathrm{UV}}^2 + \mathcal{O} (\log(\Lambda_{\mathrm{UV}})) \right] & &\mathrm{(fermion)}, \label{eq:delmh_f}\\
   \Delta m_h^2 &= \frac{\lambda_S}{16 \pi^2} \left[
-  \Lambda_{\mathrm{UV}}^2 - 2 m_S^2 \ln \left( \frac{\Lambda_{\mathrm{UV}}}{m_S} \right)
-  + \cdots \right] & &\mathrm{(scalar)}, \label{eq:delmh_S}
+  \Lambda_{\mathrm{UV}}^2 + \mathcal{O} (\log(\Lambda_{\mathrm{UV}})) \right] & &\mathrm{(scalar)}, \label{eq:delmh_S}
 \end{align}
 where $\lambda_f$ and $m_f$ are the Higgs-fermion coupling constant and the fermion mass, respectively, while $\lambda_S$ and $m_S$ are those for the scalar $S$.
 We take the cut-off scale of the theory to be $\Lambda_{\mathrm{UV}}$ to regularize the otherwise divergent loop integral and neglect the lower order terms of $\Lambda_{\mathrm{UV}}$.
