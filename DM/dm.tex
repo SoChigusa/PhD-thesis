@@ -380,7 +380,7 @@ However, when the initial particles are non-relativistic, it turns out that the 
 This results in a possibly large contribution from ladder diagrams and we need to resum all of them to calculate the annihilation cross section accurately.
 
 This resummation procedure can be performed by the use of the Bethe-Salpeter equation \cite{Salpeter:1951sz} as in \cite{Strassler:1990nw}.
-Equivalently, this effect can be seen as the deformation of the two-DM wave function from the plane wave according to the potential energy between them caused by the electroweak interaction.
+Equivalently, this effect can be seen as the deformation of the two-DM wave function from the plane wave according to the potential energy between them source from the electroweak interaction.
 In this view point, it is intuitive that the physics can be described by the Schr\"{o}dinger equation
 \begin{align}
   \left[ - \frac{1}{m_\chi} \frac{d^2}{d r^2} + V(r) \right] \psi = E \psi,
@@ -398,31 +398,49 @@ For example, when we consider the Coulomb potential $V(r) = -\alpha / r$, the eq
 \end{align}
 which causes a huge enhancement of the cross section when $\beta$ is small and $\alpha > 0$, or equivalently, the force between DMs is attractive.
 
+The problem possesses an interesting feature when we consider a potential that is non-negligible only for a finite range such as the Yukawa potential for the electroweak interaction $V(r) = \alpha e^{-m_W r} / r$.
+In this case, when we neglect the small mass difference among an $SU(2)$ multiplet, the factor $R$ is strongly enhanced when the initial particle mass satisfies the equation
+\begin{align}
+  \sqrt{2} p_c = (2n - 1) \frac{\pi}{2}~~(n = 1, 2, \dots),
+\end{align}
+with $p_c \equiv \sqrt{2 \alpha_2 m_\chi / m_W}$.\footnote{
+  If the mass difference $\delta m$ among an $SU(2)_L$ multiplet is comparable or larger than $\alpha_2 m_W$, it moves the peaks to the heavier direction.
+  This may be the case for Higgsinos with a large mixing with gauginos.
+}
+Each choice of $n$ corresponds to a model point that has a bound state with zero binding energy and the enhancement is called the zero-energy resonance \cite{Landau1981Quantum}.
+Note that the first peak with $n=1$ corresponds to $m_\chi \sim 2\,\mathrm{TeV}$, which is compatible with the assumption of the Wino DM or the MDM.
+Accordingly, as we will see from now, small regions around peaks of such models have already been excluded by the indirect detection experiments.
 
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.6\hsize]{Present_limit.pdf}
+  \caption{
+    Constraint at $95\,\%$ confidence level on the DM annihilation cross section taken from \cite{Bhattacherjee:2014dya}.
+    The gray dotted line shows the combined result of $4$ years observation of $15$ dwarf galaxies by the Fermi-LAT collaboration, and the green bands show the observational errors.
+    Also shown in the black solid line is the annihilation cross section of Wino.
+  }
+  \label{fig:indirect_current}
+\end{figure}
 
+There are many astrophysical observations that focus on several different particles or photons with different wavelengths.
+Among them, the most stringent bound on DMs comes from the gamma ray observations provided by several currently working or future planned collaborations such as the Fermi-LAT \cite{Atwood_2009}, GAMMA-400 \cite{GALPER2013297}, H.E.S.S. \cite{Abdallah:2016ygi}, and CTA \cite{Carr:2015hta}.
+For Wino DM, for example, the annihilation mode into $W^{+} W^{-}$ dominates over the other modes and the photons emitted associated with the $W$-boson decay will be observed.
+In Fig.~\ref{fig:indirect_current}, we show the constraint at $95\,\%$ confidence level on the DM annihilation cross section, assuming $100\,\%$ branching ratio into $W^{+} W^{-}$ \cite{Bhattacherjee:2014dya}.
+The gray dotted line shows the combined result of $4$ years observation of $15$ dwarf galaxies by the Fermi-LAT collaboration, while the black solid line denotes the annihilation cross section of Wino.
+Note the existence of the zero-energy resonance at the position of $m_\chi \sim 2\,\mathrm{TeV}$ as estimated above.
+From the figure, we can see that the parameter regions of Wino DM $m_\chi \lesssim 400\,\mathrm{GeV}$ and $m_\chi \sim 2\,\mathrm{TeV}$ are already excluded.\footnote{
+  Currently, almost $10$-year observation data is expected to be accumulated and no sign of DM is reported.
+  According to the estimation in \cite{Bhattacherjee:2014dya}, this may correspond to the exclusion of $m_\chi \lesssim 800\,\mathrm{GeV}$ and a slightly larger range around $m_\chi \sim 2\,\mathrm{TeV}$.
+}
 
-% \begin{figure}[t]
-%   \centering
-%   \includegraphics[width=0.7\hsize]{IDplot.pdf}
-%   \caption{
-%     Constraints on the DM annihilation cross section from current and future planned indirect detection experiments.
-%     The figure is taken from \cite{Roszkowski:2017nbc}.
-%   }
-%   \label{fig:indirect_detection}
-% \end{figure}
-
-% \rem{NOT suitable for line spectrum??}
-% In Fig.~\ref{fig:indirect_detection}, we show the summary plot taken from \cite{Roszkowski:2017nbc} of the constrains on the DM annihilation cross section from current and future planned indirect detection experiments.
-% As for the current status, the H.E.S.S. observations of the Galactic Center \cite{Abdallah:2016ygi} (solid violet), the Fermi-LAT observations of dwarf galaxies \cite{Fermi-LAT:2016uux} (solid golden), and the combined analysis of the Fermi-LAT and MAGIC collaborations \cite{Ahnen:2016qkx} (solid black) are the most important results.
-% One of the future planned experiments aimed at the observation of the Galactic Center is the CTA collaboration \cite{Carr:2015hta}, whose results are shown in dashed pink and red lines corresponding to the two different choice of the DM profile.
-% Fermi-LAT collaboration plans to observe 45 dwarf galaxies during the 15 years data taking era \cite{Charles:2016pgz} and its prospect is shown in the dash-dotted-brown line.
-% Also shown in the dotted gray line is the annihilation cross section required for the correct thermal relic abundance \cite{Steigman:2012nb}.
-% From the figure, we can see that the current constraint of the thermally produced DM is on $m_\chi \lesssim 100\,\mathrm{GeV}$, while the future prospect of the observations of the Galactic Center and dwarf galaxies play complementary roles with each other and cover a large region around $m_\chi \sim 1\,\mathrm{TeV}$ and below.
+The similar analysis can be performed for other WIMP DM candidates.
+The Higgsino is currently constrained only up to $350\,\mathrm{GeV}$ \cite{Krall:2017xij} due to the smallness of the annihilation cross section in particular for the heavier region.
+For the MDM, 5-plet fermion is analyzed as an example in \cite{Abdalla:2018mve} and $m_\chi \lesssim 2\,\mathrm{TeV}$ and several narrow regions corresponding to the resonances are excluded.
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Summary}
+\subsection{Concluding remarks}
 \label{sec:summary_DM}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -434,7 +452,7 @@ Besides, the constraints shown above assume the whole DM is composed of a WIMP.
 From the next section, we will see more robust way of the WIMP search using collider experiments and consider whether we can probe the almost pure Higgsino efficiently.
 
 
-% \bibliographystyle{elsarticle-num}
-% \bibliography{../phd}
+\bibliographystyle{elsarticle-num}
+\bibliography{../phd}
 
 \end{document}
