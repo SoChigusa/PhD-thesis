@@ -206,14 +206,6 @@ A.~Albert, et~al., {Searching for Dark Matter Annihilation in Recently
   \href {https://doi.org/10.3847/1538-4357/834/2/110}
   {\path{doi:10.3847/1538-4357/834/2/110}}.
 
-\bibitem{Ahnen:2016qkx}
-M.~L. Ahnen, et~al., {Limits to Dark Matter Annihilation Cross-Section from a
-  Combined Analysis of MAGIC and Fermi-LAT Observations of Dwarf Satellite
-  Galaxies}, JCAP 1602~(02) (2016) 039.
-\newblock \href {http://arxiv.org/abs/1601.06590} {\path{arXiv:1601.06590}},
-  \href {https://doi.org/10.1088/1475-7516/2016/02/039}
-  {\path{doi:10.1088/1475-7516/2016/02/039}}.
-
 \bibitem{Abdallah:2016ygi}
 H.~Abdallah, et~al., {Search for dark matter annihilations towards the inner
   Galactic halo from 10 years of observations with H.E.S.S}, Phys. Rev. Lett.
@@ -953,6 +945,44 @@ M.~J. Strassler, M.~E. Peskin, {The Heavy top quark threshold: QCD and the
   Higgs}, Phys. Rev. D43 (1991) 1500--1514.
 \newblock \href {https://doi.org/10.1103/PhysRevD.43.1500}
   {\path{doi:10.1103/PhysRevD.43.1500}}.
+
+\bibitem{Landau1981Quantum}
+L.~D. Landau, L.~M. Lifshitz,
+  \href{http://www.worldcat.org/isbn/0750635398}{Quantum Mechanics
+  Non-Relativistic Theory, Third Edition: Volume 3}, 3rd Edition,
+  Butterworth-Heinemann, 1981.
+\newline\urlprefix\url{http://www.worldcat.org/isbn/0750635398}
+
+\bibitem{Atwood_2009}
+W.~B. Atwood, A.~A. Abdo, M.~Ackermann, W.~Althouse, B.~Anderson, M.~Axelsson,
+  L.~Baldini, J.~Ballet, D.~L. Band, G.~Barbiellini, et~al.,
+  \href{http://dx.doi.org/10.1088/0004-637X/697/2/1071}{The large area
+  telescope on thefermi gamma-ray space telescopemission}, The Astrophysical
+  Journal 697~(2) (2009) 1071–1102.
+\newblock \href {https://doi.org/10.1088/0004-637x/697/2/1071}
+  {\path{doi:10.1088/0004-637x/697/2/1071}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1088/0004-637X/697/2/1071}
+
+\bibitem{GALPER2013297}
+A.~Galper, O.~Adriani, R.~Aptekar, I.~Arkhangelskaja, A.~Arkhangelskiy,
+  M.~Boezio, V.~Bonvicini, K.~Boyarchuk, Y.~Gusakov, M.~Farber, M.~Fradkin,
+  V.~Kachanov, V.~Kaplin, M.~Kheymits, A.~Leonov, F.~Longo, P.~Maestro,
+  P.~Marrocchesi, E.~Mazets, E.~Mocchiutti, A.~Moiseev, N.~Mori, I.~Moskalenko,
+  P.~Naumov, P.~Papini, P.~Picozza, V.~Rodin, M.~Runtso, R.~Sparvoli,
+  P.~Spillantini, S.~Suchkov, M.~Tavani, N.~Topchiev, A.~Vacchi, E.~Vannuccini,
+  Y.~Yurkin, N.~Zampa, V.~Zverev,
+  \href{http://www.sciencedirect.com/science/article/pii/S0273117712000762}{Status
+  of the gamma-400 project}, Advances in Space Research 51~(2) (2013) 297 --
+  300, the Origins of Cosmic Rays: Resolving Hess's Century-Old Puzzle.
+\newblock \href {https://doi.org/https://doi.org/10.1016/j.asr.2012.01.019}
+  {\path{doi:https://doi.org/10.1016/j.asr.2012.01.019}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0273117712000762}
+
+\bibitem{Carr:2015hta}
+J.~Carr, et~al., {Prospects for Indirect Dark Matter Searches with the
+  Cherenkov Telescope Array (CTA)}, PoS ICRC2015 (2016) 1203, [34,1203(2015)].
+\newblock \href {http://arxiv.org/abs/1508.06128} {\path{arXiv:1508.06128}},
+  \href {https://doi.org/10.22323/1.236.1203} {\path{doi:10.22323/1.236.1203}}.
 
 \bibitem{Benedikt:2651300}
 M.~Benedikt, M.~Capeans~Garrido, F.~Cerutti, B.~Goddard, J.~Gutleber, J.~M.
