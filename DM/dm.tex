@@ -107,7 +107,7 @@ In the calculation, we use the boundary condition $Y(x=1) = Y_{\mathrm{eq}} (x=1
 
 Unfortunately, it is computationally hard to solve Eq.~\eqref{eq_boltzmann_Yx} for larger values of $\lambda$ because of the almost complete cancellation between two terms of the right-handed side for small $x\sim \mathcal{O}(1)$ and its amplification caused by large $\lambda$.
 We adopt instead to use an approximation that is the same as the one adopted in the public code \texttt{MicrOMEGAs}~\cite{Belanger:2001fz, Belanger:2018mqt}.
-For the small $x$ region, temperature is still high enough to maintain the equilibrium $Y \simeq Y_{\mathrm{eq}}$, which means that $d \Delta Y / d x \ll d Y_{\mathrm{eq}} / d x$ with $\Delta Y \equiv Y - Y_{\mathrm{eq}}$.
+For the small $x$ region, the temperature is still high enough to maintain the equilibrium $Y \simeq Y_{\mathrm{eq}}$, which means that $d \Delta Y / d x \ll d Y_{\mathrm{eq}} / d x$ with $\Delta Y \equiv Y - Y_{\mathrm{eq}}$.
 From this approximation, we obtain a formula
 \begin{align}
   \Delta Y \simeq -\frac{x}{2 \lambda} \frac{d Y_{\mathrm{eq}}}{d x}.\label{eq_relic_app_1}
@@ -165,7 +165,7 @@ There are many experiments aimed at the direct detection of the DM\footnote
 }
 proposed in \cite{Goodman:1984dc}.
 Here, we assume some interaction between the DM and SM particles and look for the recoil of a target SM particle due to the collision with the DM in the laboratory.
-In the case of WIMPs of our concern, any particle with non-zero electroweak charge can be a target particle, which interacts with WIMPs through the $t$-channel electroweak gauge boson exchange.
+In the case of WIMPs of our concern, any particle with non-zero electroweak charges can be a target particle, which interacts with WIMPs through the $t$-channel electroweak gauge boson exchange.
 In the traditional setup such as the XENON1T experiment \cite{Aprile:2012zx}, a nucleus (of xenon in XENON1T) and an electron are the frequently used target particles.
 From now on, we focus on the nucleus target since, as will be turned out later, it gives much better sensitivity than the electron target for DMs with a mass of $\mathcal{O} (\mathrm{TeV})$.
 In this case, there are several ways to read out the information of the nuclear recoil depending on the deposited energy, such as the use of heat (or photons), an excitation of the nucleus associated with the emission of scintillation light, and the ionization of the atom.
@@ -253,7 +253,7 @@ As for the MDM, the $5$-plet fermion is analyzed in \cite{Hisano:2011cs} and the
 However, the mass requirement $m_\chi \sim 10\,\mathrm{TeV}$ (see Table~\ref{tab:WIMP_property}) makes the detection difficult and the sensitivity will not cover the whole region of the viable parameter space.
 In general, a pure $SU(2)_L$ multiplet with non-zero hypercharge has a large contribution to $\sigma_p^{\mathrm{SI}}$ from the tree-level exchange of $Z$ boson \cite{Farina:2013mla}.
 Thus, for such a particle to be a viable DM candidate, we should modify the model to forbid the tree-level scattering.
-Related to this point, the Higgsino-like LSP is a kind of the mixed multiplet that can avoid the tree-level scattering via $Z$ boson.
+Related to this point, the Higgsino-like LSP is a kind of a mixed multiplet that can avoid the tree-level scattering via $Z$ boson.
 As is discussed in Sec.~\ref{sec:mass_splitting}, the mixing between Higgsino and gauginos splits the masses of two neutral components of the Higgsino-like state, making them two Majorana fermions.
 As a result, the neutral components have vanishing interaction with $Z$ boson and loop-suppressed scattering cross section for the direct detection.
 The constraint on the Higgsino-like state is highly model-dependent since the size of the mixing significantly modifies the scattering cross section.
@@ -271,14 +271,14 @@ The indirect detection of DM\footnote{
 }
 uses the DM annihilation process into SM particles to detect the DM signal.
 When DM is composed of WIMPs, their annihilation can be again explained by the electroweak interaction.
-Since DMs are non-relativistic in the current universe, the $s$-wave contribution to the annihilation cross section is strongly favored, which results in the dominant annihilation process coming from the $t$- and $u$-channel exchange of virtual WIMP.
-Then, some of the final state particles may fly to the earth and be observed by telescopes in the form of gamma-rays, neutrinos, cosmic-rays, and so on.
+Since DMs are non-relativistic in the current universe, the $s$-wave contribution to the annihilation cross section, if exists, dominates over others, which results in the dominant annihilation process coming from the $t$- and $u$-channel exchange of a virtual WIMP.
+Then, some of the final state particles may propagate to the earth and be observed by telescopes in the form of gamma-rays, neutrinos, cosmic rays, and so on.
 
-The DM annihilation rate at some point $\bm{x}$ of the universe has a quadratic dependence on the DM energy density $\rho_\chi (\bm{x})$.\footnote{
+The DM annihilation rate at some point $\bm{x}$ of the universe has a quadratic dependence on the local DM energy density $\rho_\chi (\bm{x})$.\footnote{
   More precisely, the annihilation rate has a quadratic dependence on the DM number density $n_\chi (\bm{x})$.
   This means that, for some fixed value of $\rho_\chi (\bm{x})$, the lighter DM has more chance to annihilate since $n_\chi = \rho_\chi / m_\chi$.
 }
-Thus, the main targets of indirect detection experiments are center of galaxies or galaxy clusters, where abundant DM is expected to be accumulated thanks to the strong gravitational potential.
+Thus, the main targets of indirect detection experiments are the center of galaxies or galaxy clusters, where abundant DM is expected to be accumulated thanks to the strong gravitational potential.
 The DM energy density distribution around each galaxy (cluster) can be determined by the observation of the rotation curve of luminous objects.
 One of the model functions introduced to fit such observations is the so-called the Navarro-Frenk-White (NFW) profile \cite{Navarro:1995iw, Navarro:1996gj} of the DM density distribution,
 \begin{align}
@@ -286,7 +286,7 @@ One of the model functions introduced to fit such observations is the so-called 
   { \left( \frac{r}{r_s} \right) \left[ 1 + \left( \frac{r}{r_s} \right) \right]^2},
 \end{align}
 where $r$ is the distance from the center of the galaxy of our concern.
-Free parameters $\rho_s$ and $r_s$ should be chosen to fit data for each galaxy, which gives for our galaxy $\rho_s \sim 1\times 10^7 M_\odot\, \mathrm{kpc}^{-3}$ and $r_s \sim 20\,\mathrm{kpc}$ \cite{Fornasa:2013iaa} with $M_\odot$ being the solar mass.
+Free parameters $\rho_s$ and $r_s$ should be chosen to fit the data for each galaxy, which gives for our galaxy $\rho_s \sim 1\times 10^7 M_\odot\, \mathrm{kpc}^{-3}$ and $r_s \sim 20\,\mathrm{kpc}$ \cite{Fornasa:2013iaa} with $M_\odot$ being the solar mass.
 
 \begin{figure}
   \centering
@@ -312,12 +312,13 @@ with $\rho_s \sim 5 \times 10^6 M_\odot\, \mathrm{kpc}^{-3}$, $\alpha \sim 0.2$,
 with $\rho_s \sim 9 \times 10^7 M_\odot\, \mathrm{kpc}^{-3}$ and $r_s \sim 6\, \mathrm{kpc}$ for our galaxy.
 In Fig.~\ref{fig:profile}, we show the DM energy density distribution in our galaxy.\footnote{
   In principle, all the profiles should reconstruct the DM density at the Sun $\rho (r \sim 8\, \mathrm{kpc}) \sim 0.3\, \mathrm{GeV} / \mathrm{cm}^3$, which is apparently not the case.
-  This deviation can be explained to be the effect of the fitting error, which results in an order of magnitude uncertainty in $\rho_\chi$ at the $68\,\%$ level.
+  This deviation can be explained by the effect of the fitting error, which results in an order of magnitude uncertainty in $\rho_\chi$ at the $68\,\%$ level.
 }
-As for the choice of parameters, we use the mean values of fits of several observations listed in \cite{Fornasa:2013iaa} and shown above.
-We can see the difference of shapes among three profiles at the small $r$ region.
+As for the choice of parameters, we use the mean values of fits of several observations listed in \cite{Fornasa:2013iaa}.
+We can see the difference in shapes among three profiles at the small $r$ region.
 
-The event rate at the laboratory can be divided into the particle physics part and the astrophyical part, the second of which, referred to as the $J$-factor, is related to the DM density distribution.
+Next we derive the formula to estimate the event rate of the indirect detection experiments.
+The event rate at the laboratory can be divided into the particle physics part and the astrophysical part, the second of which, referred to as the $J$-factor, is related to the DM density distribution.
 The $J$-factor for the DM annihilation for a sky patch with solid angle $\Delta\Omega$ around a sky direction $\hat{\bm{n}}$ is given by
 \begin{align}
   J(\hat{\bm{n}}, \Delta\Omega) = \int_{\Omega \sim \hat{\bm{n}}} d\Omega
@@ -328,7 +329,7 @@ where $\ell$ is a distance along the line-of-sight (LOS) defined by the directio
 The first integration performed over a region $\Delta\Omega$ around the direction $\hat{\bm{n}}$, while the second one sums up all the contributions from DMs on the LOS.
 Using this, the flux $\Phi_x(E, \hat{\bm{n}}, \Delta\Omega)$ of a SM particle $x$ with energy $E$ at the sky patch is expressed as\footnote{
   We identify the DM particle and anti-particle in the calculation of Eq.~\eqref{eq:flux}.
-  If it is not the case, the right-handed side should be multiplied by an extra factor of $1/2$.
+  If this is not the case, the right-handed side should be multiplied by an extra factor of $1/2$.
 }
 \begin{align}
   \Phi_x (E, \hat{\bm{n}}, \Delta\Omega) = \frac{\Braket{\sigma v}}{8\pi m_\chi^2}
@@ -357,12 +358,12 @@ We show the result with $\hat{\bm{n}}$ and $\Delta\Omega$ being the direction of
     J_T \equiv \frac{1}{4\pi D^2} \int dV \rho_\chi^2,
   \end{align}
   where $D$ is the distance from the earth to the target, while the integral is performed over the whole volume of the target.
-  This definition possesses an advantage especially for the assumption of the NFW profile, which becomes ill-defined around the origin in the integration process in Eq.~\eqref{eq:J-factor}.
-  Due to this, it is difficult to convert the $J$-factor of their definition calculated with the NFW profile into that of our definition, and the result of the rough estimation is shown in the table.
+  This definition possesses an advantage especially for the assumption of the NFW profile, which becomes ill-defined around the center of the target in the integration process in Eq.~\eqref{eq:J-factor}.
+  Due to this difference, it is difficult to convert the $J$-factor of their definition calculated with the NFW profile into that of our definition, and the result of the rough estimation is shown in the table.
 }
 In the table, the results for the center of our galaxy, $20$ dwarf galaxies in our galaxy, and $7$ galaxy clusters are shown.
-Among the targets listed in the table, the Galactic Center seems to be the best source for the indirect detection, which is however suffered from huge background events at the same time.
-Dwarf galaxies may be more promising target since it provides much cleaner signals and the combined analysis of several targets can be performed to enlarge the statistics.
+Among the targets listed in the table, the Galactic Center seems to be the best source for indirect detection, which is however suffered from huge background events at the same time.
+Dwarf galaxies may be a more promising target since it provides much cleaner signals and the combined analysis of several targets can be performed to enlarge the statistics.
 Galaxy clusters may also be an interesting target since its power for the DM detection strongly depends on the DM profile of each galaxy cluster and a large enhancement may be expected for clusters that have relatively cusped DM profiles for some reason.
 
 \begin{figure}[t]
@@ -374,23 +375,23 @@ Galaxy clusters may also be an interesting target since its power for the DM det
 
 There remains a missing piece to describe the phenomenology of $\mathrm{TeV}$-scale DMs: the Sommerfeld enhancement effect \cite{Hisano:2004ds, Hisano:2006nn}.
 This effect becomes important when the DM particles become non-relativistic like those in the current universe.
-Consider the repeated exchange of weak gauge bosons between two initial DM particles before the annihilation as shown in Fig.~\ref{fig:ladder}, which is sometimes called a ladder diagram.
+Consider the repeated exchange of electroweak gauge bosons between two initial DM particles before the annihilation as shown in Fig.~\ref{fig:ladder}, which is sometimes called a ladder diagram.
 At a glance, the contribution of this diagram seems to be suppressed compared with the tree-level annihilation by a factor of $(\alpha/4\pi)^n$, where $\alpha \sim \alpha_1 \sim \alpha_2$ is a typical size of the coupling and $n$ is the number of gauge boson exchange.
 However, when the initial particles are non-relativistic, it turns out that the proper power counting should be something like $(\alpha/\beta)^n$ instead of $\alpha^n$, where $\beta$ is the velocity of initial particles, observed in the center-of-mass system for simplicity.
 This results in a possibly large contribution from ladder diagrams and we need to resum all of them to calculate the annihilation cross section accurately.
 
 This resummation procedure can be performed by the use of the Bethe-Salpeter equation \cite{Salpeter:1951sz} as in \cite{Strassler:1990nw}.
-Equivalently, this effect can be seen as the deformation of the two-DM wave function from the plane wave according to the potential energy between them source from the electroweak interaction.
-In this view point, it is intuitive that the physics can be described by the Schr\"{o}dinger equation
+Or equivalently, this effect can be seen as the deformation of the two-DM wave function from the plane wave according to the potential energy between them sourced by the electroweak interaction.
+In this viewpoint, it is intuitive that the physics can be described by the Schr\"{o}dinger equation
 \begin{align}
   \left[ - \frac{1}{m_\chi} \frac{d^2}{d r^2} + V(r) \right] \psi = E \psi,
 \end{align}
 where $\psi(r)$ is the s-wave part of the two-DM wave function, $r$ is the distance between two DMs, and $V(r)$ and $E = m_\chi \beta^2$ are the potential and kinetic energies of the two DM system, respectively.
 Besides, we impose the outgoing boundary condition
 \begin{align}
-  \psi(r) \to e^{i m_\chi \beta r} ~~ (r \to \infty),
+  \psi(r) \to e^{i p r} ~~ (r \to \infty),
 \end{align}
-with $p$ being the DM momentum.
+with $p = m_\chi \beta$ being the DM momentum.
 Remembering that the DM-DM interaction is local, the Sommerfeld enhancement factor $R$ that multiplies the tree-level cross section is given by $R = \left| \psi(\infty) / \psi(0) \right|^2$.
 For example, when we consider the Coulomb potential $V(r) = -\alpha / r$, the equation can be analytically solved and we obtain
 \begin{align}
@@ -398,24 +399,24 @@ For example, when we consider the Coulomb potential $V(r) = -\alpha / r$, the eq
 \end{align}
 which causes a huge enhancement of the cross section when $\beta$ is small and $\alpha > 0$, or equivalently, the force between DMs is attractive.
 
-The problem possesses an interesting feature when we consider a potential that is non-negligible only for a finite range such as the Yukawa potential for the electroweak interaction $V(r) = \alpha e^{-m_W r} / r$.
+The problem possesses an interesting feature when we consider a potential that is non-negligible only for a finite range such as the Yukawa potential for the electroweak interaction $V(r) = \alpha_2 e^{-m_W r} / r$.
 In this case, when we neglect the small mass difference among an $SU(2)$ multiplet, the factor $R$ is strongly enhanced when the initial particle mass satisfies the equation
 \begin{align}
   \sqrt{2} p_c = (2n - 1) \frac{\pi}{2}~~(n = 1, 2, \dots),
 \end{align}
 with $p_c \equiv \sqrt{2 \alpha_2 m_\chi / m_W}$.\footnote{
-  If the mass difference $\delta m$ among an $SU(2)_L$ multiplet is comparable or larger than $\alpha_2 m_W$, it moves the peaks to the heavier direction.
+  If the mass difference $\delta m$ among an $SU(2)_L$ multiplet is comparable or larger than $\alpha_2 m_W$, the peaks move to the heavier direction.
   This may be the case for Higgsinos with a large mixing with gauginos.
 }
 Each choice of $n$ corresponds to a model point that has a bound state with zero binding energy and the enhancement is called the zero-energy resonance \cite{Landau1981Quantum}.
-Note that the first peak with $n=1$ corresponds to $m_\chi \sim 2\,\mathrm{TeV}$, which is compatible with the assumption of the Wino DM or the MDM.
+Note that the first peak with $n=1$ corresponds to $m_\chi \sim 2\,\mathrm{TeV}$, which is compatible with the assumption of the Wino DM or the MDM with the help of the non-thermal production.
 Accordingly, as we will see from now, small regions around peaks of such models have already been excluded by the indirect detection experiments.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.6\hsize]{Present_limit.pdf}
   \caption{
-    Constraint at $95\,\%$ confidence level on the DM annihilation cross section taken from \cite{Bhattacherjee:2014dya}.
+    Constraint at the $95\,\%$ confidence level on the DM annihilation cross section taken from \cite{Bhattacherjee:2014dya}.
     The gray dotted line shows the combined result of $4$ years observation of $15$ dwarf galaxies by the Fermi-LAT collaboration, and the green bands show the observational errors.
     Also shown in the black solid line is the annihilation cross section of Wino.
   }
@@ -423,9 +424,9 @@ Accordingly, as we will see from now, small regions around peaks of such models 
 \end{figure}
 
 There are many astrophysical observations that focus on several different particles or photons with different wavelengths.
-Among them, the most stringent bound on DMs comes from the gamma ray observations provided by several currently working or future planned collaborations such as the Fermi-LAT \cite{Atwood_2009}, GAMMA-400 \cite{GALPER2013297}, H.E.S.S. \cite{Abdallah:2016ygi}, and CTA \cite{Carr:2015hta}.
+Among them, the most stringent bound on DMs comes from the gamma-ray observations provided by several currently working or future planned collaborations such as the Fermi-LAT \cite{Atwood_2009}, GAMMA-400 \cite{GALPER2013297}, H.E.S.S. \cite{Abdallah:2016ygi}, and CTA \cite{Carr:2015hta}.
 For Wino DM, for example, the annihilation mode into $W^{+} W^{-}$ dominates over the other modes and the photons emitted associated with the $W$-boson decay will be observed.
-In Fig.~\ref{fig:indirect_current}, we show the constraint at $95\,\%$ confidence level on the DM annihilation cross section, assuming $100\,\%$ branching ratio into $W^{+} W^{-}$ \cite{Bhattacherjee:2014dya}.
+In Fig.~\ref{fig:indirect_current}, we show the constraint at the $95\,\%$ confidence level on the DM annihilation cross section, assuming $100\,\%$ branching ratio into $W^{+} W^{-}$ \cite{Bhattacherjee:2014dya}.
 The gray dotted line shows the combined result of $4$ years observation of $15$ dwarf galaxies by the Fermi-LAT collaboration, while the black solid line denotes the annihilation cross section of Wino.
 Note the existence of the zero-energy resonance at the position of $m_\chi \sim 2\,\mathrm{TeV}$ as estimated above.
 From the figure, we can see that the parameter regions of Wino DM $m_\chi \lesssim 400\,\mathrm{GeV}$ and $m_\chi \sim 2\,\mathrm{TeV}$ are already excluded.\footnote{
@@ -433,10 +434,13 @@ From the figure, we can see that the parameter regions of Wino DM $m_\chi \lesss
   According to the estimation in \cite{Bhattacherjee:2014dya}, this may correspond to the exclusion of $m_\chi \lesssim 800\,\mathrm{GeV}$ and a slightly larger range around $m_\chi \sim 2\,\mathrm{TeV}$.
 }
 
-The similar analysis can be performed for other WIMP DM candidates.
+A similar analysis can be performed for other WIMP DM candidates.
 The Higgsino is currently constrained only up to $350\,\mathrm{GeV}$ \cite{Krall:2017xij} due to the smallness of the annihilation cross section in particular for the heavier region.
 For the MDM, 5-plet fermion is analyzed as an example in \cite{Abdalla:2018mve} and $m_\chi \lesssim 2\,\mathrm{TeV}$ and several narrow regions corresponding to the resonances are excluded.
-
+As for the prospects of future experiments, firstly, an order of magnitude improvement on the constraint from that shown in Fig.~\ref{fig:indirect_current} is expected \cite{Bhattacherjee:2014dya} by a combination of the 15 years observation at the Fermi-LAT and the 10 years observation at the GAMMA-400, which covers most of the allowed parameter region of Wino DM.
+Besides, the observation of the Galactic Center at the CTA collaboration will probe the relatively heavier region $m_\chi \sim \mathcal{O}(1)\, \mathrm{TeV}$ efficiently, reaching $\sigma v \sim \text{(a few)} \times 10^{-26}\, \mathrm{cm^3\, s^{-1}}$.
+However, note that the observation of the Galactic Center is highly sensitive to the astrophysical uncertainties such as those on the $J$-factor.
+Note also that the thermal Higgsino DM may be a challenging target of this kind of experiment even in the future, whose mass and cross section are $m_\chi \sim 1\,\mathrm{TeV}$ and $\sigma v < 10^{-26}\, \mathrm{cm^3\, s^{-1}}$, respectively.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -448,8 +452,8 @@ In this section, we have described the possibility of WIMPs to be the dominant c
 We have seen that the $\mathrm{TeV}$-scale WIMPs with electroweak interactions can explain the DM relic abundance and studied two search methods of such WIMP DMs.
 Both direct and indirect detection have strong powers to explore a large region of the WIMP mass.
 However, it is revealed that the almost pure Higgsino will be difficult to probe because of its small scattering and annihilation cross section.
-Besides, the constraints shown above assume the whole DM is composed of a WIMP.
-From the next section, we will see more robust way of the WIMP search using collider experiments and consider whether we can probe the almost pure Higgsino efficiently.
+Besides, the constraints shown above assume the whole DM is composed of a WIMP and are also sensitive to the possibly large astrophysical uncertainties.
+From the next section, we will see more robust ways of the WIMP search using collider experiments and consider whether we can probe the regions of the parameter space that are difficult to probe using DM search experiments.
 
 
 % \bibliographystyle{elsarticle-num}
