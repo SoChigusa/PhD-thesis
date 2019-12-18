@@ -41,7 +41,8 @@ Then, it is clear that the maximization of $L$ is equivalent to the minimization
   \frac{\left(x_i - \mu_i (\bm{\theta}) \right)^2}{x_i},
 \end{align}
 which is the so-called Neyman's $\chi^2$ variable.
-$\chi^2$ obeys the chi-squared distribution when the distribution of $x_i$ is well approximated by the Gaussian and can be easily used to estimate the errors of $\bm{\theta}$ around the optimized values.
+$\chi^2$ obeys the chi-squared distribution with $n$ degrees of freedom when $x_i$ is truely described by the model $\bm{\theta}$ and the distribution of $x_i$ is well approximated by the Gaussian.
+In this case, $\chi^2$ defined above can be easily used to estimate the errors of $\bm{\theta}$ around the optimized values.
 
 Similarly, one can apply the likelihood maximization to the model test.
 Let $\bm{\theta}_{\mathrm{true}}$ and $\bm{\theta}_{\mathrm{test}}$ be the model in reality and that we want to test, respectively.
@@ -53,7 +54,7 @@ Then we can define the test-statistic
   {L(\bm{x} ; \bm{\theta}_{\mathrm{true}})},
 \end{align}
 which plays the role of the so-called $\Delta \chi^2$ variable according to the discussion above.
-Again $q$ may obey a chi-squared distribution with some degrees of freedom, and can be used to obtain sensitivities to the new physics, \textit{e.g.,} the $95\,\%$ C.L. exclusion and the $5\sigma$ discovery.
+Again $q$ may obey the chi-squared distribution with degrees of freedom equal to the number of model parameters $\bm{\theta}$ and can be used to obtain sensitivities to the new physics, \textit{e.g.,} the $95\,\%$ C.L. exclusion and the $5\sigma$ discovery.
 Note that the denominator of the test statistic can also be expressed as $L(\bm{x} ; \hat{\bm{\theta}})$, where the hat denotes the values of $\bm{\theta}$ that maximize the function $L$.
 
 However, the situation may be more complicated since some of the parameters $\bm{\theta}$ are not directly related to the model parameters, but express the background yield, detector effects, systematic errors, and so on, which should be determined from experimental data.
@@ -73,9 +74,6 @@ The motivation for this definition is provided by the Wilk's theorem \cite{wilks
 Note that this statement is highly non-trivial since the individual term $-2\ln L$ \textit{does not} obey a chi-squared distribution in this case.
 Thanks to the theorem, we can perform the same analysis under the existence of nuisance parameters and, in particular, absorb the effects of systematic errors into the choice of parameters $\bm{\theta}$.
 
-\rem{Clarify d.o.f}
-
-\rem{Comment on distribution of nuisance parameters?}
 
 % \bibliographystyle{elsarticle-num}
 % \bibliography{../phd}
