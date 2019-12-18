@@ -15,7 +15,7 @@
 
 In this section, we review the properties of WIMPs as DM candidates.
 It is revealed that, when we take a close look at the relic abundance of WIMP DM in Sec.~\ref{sec:relic}, a WIMP with the $\mathrm{TeV}$ scale mass is a good DM candidate, which is sometimes called \textit{WIMP miracle} and is a strong motivation to consider WIMPs.
-In Sec.~\ref{sec:direct_detection} and \ref{sec:indirect_detection}, we will consider two different ways to search for WIMP DM, called the direct and indirect detection.
+In Sec.~\ref{sec:direct_detection} and Sec.~\ref{sec:indirect_detection}, we will consider two different ways to search for WIMP DM, called the direct and indirect detection.
 Finally, Sec.~\ref{sec:summary_DM} is devoted to the summary and concluding remarks of this section.
 
 
@@ -87,7 +87,7 @@ where $\Gamma$ denotes the DM interaction rate defined as
     Plot of $Y(x) / Y(x=1)$ with $Y(x)$ being a solution of the evolution equation Eq.~\eqref{eq_boltzmann_Yx}.
     The yellow dotted line is a solution for $\lambda \equiv \left. \Gamma / H \right|_{x=1} = 10^6$, while the black dotted line denotes $Y_{\mathrm{eq}} (x) / Y_{\mathrm{eq}} (x=1)$.
     The solid lines are the approximation to the solutions described in the text.
-    The blue, red, and green colors correspond to $\lambda = 10^8$, $10^{10}$, and $10^{12}$, respectively.
+    The blue, red, and green colors correspond to $\lambda = 10^6$, $10^8$, and $10^{10}$, respectively.
     The vertical dotted lines denote the freezeout temperature $x_f$.
   }
   \label{fig_DM_relic}
@@ -112,7 +112,7 @@ From this approximation, we obtain a formula
 \begin{align}
   \Delta Y \simeq -\frac{x}{2 \lambda} \frac{d Y_{\mathrm{eq}}}{d x}.\label{eq_relic_app_1}
 \end{align}
-Then we define the time $x_f$, or equivalently the so-called freezeout temperature $T_f$, when the approximation becomes invalid through the equation\footnote{
+Then we define the time $x_f$, or equivalently the freezeout temperature $T_f$, when the approximation becomes invalid through the equation\footnote{
   One can easily check that the final relic abundance is not sensitive to the choice of the numerical coefficient $2.5$ in Eq.~\eqref{eq:freezeout_temperature}.
 }
 \begin{align}
@@ -130,6 +130,8 @@ In particular, the blue and the yellow lines almost completely overlap with each
 The vertical dotted lines in the figure show the freezeout temperature.
 It can be seen from the figure that $x = x_f$ does correspond to the time when $Y$ starts to deviate from $Y_{\mathrm{eq}}$.
 Note also that as $\lambda \propto \Braket{\sigma v}$ becomes larger, the freezeout time becomes later and the resulting relic abundance becomes smaller.
+It is known that for typical WIMPs with $m_\chi \sim \mathcal{O}(1)\mathrm{TeV}$, $\lambda \sim 10^8$ and thus $T_f \simeq m_\chi / 20$ from the figure.
+Then, the freezeout temperature is much larger than the temperature at the radiation-matter equality, and we can confirm that the assumption of the radiation dominated universe at the time of the freezeout is correct.
 
 When the DM properties (\textit{i.e.}, the mass $m_\chi$ and the annihilation cross section $\Braket{\sigma v}$ for a given temperature $T$) are given, corresponding relic abundance can be calculated using above procedure.
 In particular, $m_\chi$ determines the normalization of the figure, namely $Y_{\mathrm{eq}} (x=1) = Y_{\mathrm{eq}} (T=m_\chi)$, and $\Braket{\sigma v}$ determines the freezeout temperature through the combination of Eq.~\eqref{eq_lambda}.
@@ -149,7 +151,7 @@ Also, phenomenologically such $\mathrm{TeV}$-scale WIMPs are of great interest, 
 
 In Table \ref{tab:WIMP_property}, we summarize the value of $m_\chi$ for each WIMP model that predicts the correct relic abundance $\Omega_\chi h^2 \sim 0.12$.
 As described above, $\mathrm{TeV}$ scale masses are suitable for all WIMP DMs and the required mass becomes larger when we consider a larger $SU(2)_L$ $n$-plet because of the larger annihilation cross section.
-However, note that the precise estimation of the relic abundance solely using the last term of Eq.~\eqref{eq_relic_abundance} is not possible, because of the so-called Sommerfeld enhancement effect \cite{Hisano:2004ds,Hisano:2006nn} that significantly modifies the annihilation cross section.
+However, note that the precise estimation of the relic abundance solely using the last term of Eq.~\eqref{eq_relic_abundance} is not possible, because of the so-called Sommerfeld enhancement effect \cite{Hisano:2004ds,Hisano:2006nn} that may largely modify the annihilation cross section.
 We will review this effect in more detail in Sec.~\ref{sec:indirect_detection} in relation to the indirect detection experiments.
 Note also that $m_\chi$ in the table is only an upper bound on the WIMP DM mass because the existence of non-thermal production processes may allow lighter WIMPs to explain the whole relic abundance of DM in the current universe.
 
@@ -379,8 +381,9 @@ Consider the repeated exchange of electroweak gauge bosons between two initial D
 At a glance, the contribution of this diagram seems to be suppressed compared with the tree-level annihilation by a factor of $(\alpha/4\pi)^n$, where $\alpha \sim \alpha_1 \sim \alpha_2$ is a typical size of the coupling and $n$ is the number of gauge boson exchange.
 However, when the initial particles are non-relativistic, it turns out that the proper power counting should be something like $(\alpha/\beta)^n$ instead of $\alpha^n$, where $\beta$ is the velocity of initial particles, observed in the center-of-mass system for simplicity.
 This results in a possibly large contribution from ladder diagrams and we need to resum all of them to calculate the annihilation cross section accurately.
+This effect affects both the thermal relic abundance of DM and the event rate at the indirect detection experiments, but the effect on the latter is typically larger since the average value of $\beta$ is smaller in the current universe than that at the freezeout temperature.
 
-This resummation procedure can be performed by the use of the Bethe-Salpeter equation \cite{Salpeter:1951sz} as in \cite{Strassler:1990nw}.
+The resummation procedure can be performed by the use of the Bethe-Salpeter equation \cite{Salpeter:1951sz} as in \cite{Strassler:1990nw}.
 Or equivalently, this effect can be seen as the deformation of the two-DM wave function from the plane wave according to the potential energy between them sourced by the electroweak interaction.
 In this viewpoint, it is intuitive that the physics can be described by the Schr\"{o}dinger equation
 \begin{align}
