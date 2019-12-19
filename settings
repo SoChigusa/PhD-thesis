@@ -52,7 +52,6 @@ setpagesize=false,
 \makeatletter
   \renewcommand{\theequation}{%
   \thesection.\arabic{equation}}
-  \@addtoreset{equation}{subsection}
 \makeatother
 
 \renewcommand{\arraystretch}{1.2}
