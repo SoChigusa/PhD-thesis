@@ -63,7 +63,7 @@ This section is based on our works \cite{Chigusa:2018vxz, Abe:2019egv}.
 
 We investigate contributions of the WIMPs to the Drell-Yan processes through the vacuum polarization of the electroweak gauge bosons at the loop level.
 Throughout this section, we assume that all the other beyond the SM particles are heavy enough so that they do not affect the following discussion.
-After integrating out the WIMPs, the effective lagrangian is expressed as
+After integrating out the WIMPs, the effective lagrangian relevant for our analysis is expressed as
 \begin{align}
  \mathcal{L}_{\rm eff} = \mathcal{L}_{\rm SM} + C_2 g^2\, W_{\mu \nu}^a
  f\left(-\frac{D^2}{m^2}\right) W^{a\mu\nu} + C_1 g'^2\, B_{\mu\nu}
@@ -74,12 +74,7 @@ where $\mathcal{L}_{\rm SM}$ is the SM Lagrangian, $D$ is a covariant derivative
   Here we neglect a small mass splitting among the $SU(2)_L$ multiplet.
 }
 $g$ and $g'$ are the $SU(2)_L$ and $U(1)_Y$ gauge coupling constants, and $W_{\mu\nu}^a$ and $B_{\mu\nu}$ are the field strength associated with the $SU(2)_L$ and $U(1)_Y$ gauge group, respectively.
-The function $f(x)$ is defined as\footnote
-{
-  If a WIMP interacts only through the electroweak interaction, its decay width is of $\mathrm{O}(1)\%$ or less of its mass even if it is unstable.
-  We assume that this is the case, and neglect the small effect on the function $f(x)$ due to the small decay width.
-  Also, $f(x)$ corresponds to the finite part of the WIMP loop contribution after performing the renormalization in the $\overline{\mathrm{MS}}$ scheme.
-}
+The function $f(x)$ is defined as \cite{Matsumoto:2017vfu}
 \begin{align}
  f(x) = \begin{cases}
 	 \displaystyle{\frac{1}{16\pi^2} \int_0^1 dy\, y(1-y) \ln (1 -
@@ -89,7 +84,12 @@ The function $f(x)$ is defined as\footnote
 	 y(1-y)x - i0)} & {\rm (Scalar)},
 	\end{cases}\label{eq_f}
 \end{align}
-where the first (second) line corresponds to a fermionic (scalar) WIMP, respectively.
+where the first (second) line corresponds to a fermionic (scalar) WIMP, respectively.\footnote
+{
+  If a WIMP interacts only through the electroweak interaction, its decay width is of $\mathrm{O}(1)\%$ or less of its mass even if it is unstable.
+  We assume that this is the case, and neglect the small effect on the function $f(x)$ due to the small decay width.
+  Also, $f(x)$ corresponds to the finite part of the WIMP loop contribution after performing the renormalization in the $\overline{\mathrm{MS}}$ scheme.
+}
 The coefficients $C_1$ and $C_2$ for an $SU(2)_L$ $n$-plet WIMP with hypercharge $Y$ are given by
 \begin{align}
  C_1 &= \frac{\kappa}{8} n Y^2,\label{eq_C1}\\
@@ -102,7 +102,7 @@ The coefficients are uniquely determined by the representation of the WIMPs.
 For example, $(C_1, C_2) = (1, 1)$ for Higgsino, and $(C_1, C_2) = (0, 2)$ for Wino.
 We emphasize that, contrary to the usual effective field theory, our prescription is equally applied when the typical scale of the gauge boson four-momentum $q$ is larger than the WIMP mass scale $m$ since we do not perform a derivative expansion of $f$ in
 Eq.~\eqref{eq_lag}.
-It is important because, as we see soon, the effect of the WIMPs is maximized when $\sqrt{q^2}\sim m$, where the derivative expansion is not applicable.
+It is important because, as we see soon, the effect of the WIMPs is maximized when $q^2\sim m^2$, where the derivative expansion is not applicable.
 
 \begin{table}[t]
   \centering
@@ -156,7 +156,10 @@ Then, using Eqs.~\eqref{eq_m_sm} and~\eqref{eq_m_WIMP}, we define
  \mathcal{M}_{\rm WIMP}^{*} \left( q_\alpha q_\beta \to \ell\ell / \ell\nu
  \right) \right],\label{eq_sig_WIMP}
 \end{align}
-where we take the average and summation over spins.
+where we take the average and summation over spins.\footnote{
+  In Eq.~\eqref{eq_sig_WIMP}, we only take into account the contribution from WIMPs at the leading order of $g^{'2}$ and $g^2$, which corresponds to the real part of the loop function Eq.~\eqref{eq_f}.
+  The contribution from the imaginary part may be enhanced by a sizable numerical factor, but we neglect it simply because it is a higher order term of the gauge coupling expansion.
+}
 Here, $dL_{\alpha \beta} / d\sqrt{s'}$ is the so-called luminosity function for a fixed
 $\sqrt{s'}$:
 \begin{align}
