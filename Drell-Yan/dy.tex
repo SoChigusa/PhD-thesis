@@ -23,15 +23,15 @@
   \label{fig:NC_CC_WIMP}
 \end{figure}
 
-So far, we have argued several ways to search for WIMPs using DM searches and collider experiments.
+So far, we have discussed several ways to search for WIMPs using DM searches and collider experiments.
 We have seen that, while WIMPs with relatively large $SU(2)_L$ charges such as Wino and the 5-plet fermion are promising for these searches, Higgsino is typically more challenging to probe.
 Given this situation, another search strategy attracts a lot of attention~\cite{Chigusa:2018vxz, Abe:2019egv, Alves:2014cda, Harigaya:2015yaa, Gross:2016ioi, Farina:2016rws, Matsumoto:2017vfu, DiLuzio:2018jwd, Matsumoto:2018ioi} that probes WIMPs via the electroweak precision measurement at colliders.
-It utilizes a pair production of charged leptons or that of a charged lepton and a neutrino, where WIMPs affect the pair production processes through the vacuum polarizations of the electroweak gauge bosons as shown in Fig.~\ref{fig:NC_CC_WIMP}.
+It utilizes a pair production of charged leptons or that of a charged lepton and a neutrino, where WIMPs affect the pair production processes through the vacuum polarization of the electroweak gauge bosons as shown in Fig.~\ref{fig:NC_CC_WIMP}.
 It is an indirect search method in the sense that it does not produce on-shell WIMPs as final states.
 
 There are several virtues in this method such as the robustness against the change of the lifetime and the decay modes of WIMPs and the characteristic dip-like shape of the invariant mass distributions at the value close to twice the WIMP mass as we will see below.
 We will see that the latter point helps us to distinguish the WIMP effects from backgrounds and systematic errors.
-However, the obtained reach for Higgsino in most of the literature is still unsatisfactory since the use of the LHC or lepton colliders gives us only a small number of events at the position of the dip for heavy Higgsino, which results in the reach much below the thermal Higgsino DM mass $m_\chi \sim 1\,\mathrm{TeV}$.
+However, the obtained reach for Higgsino in most of the literature is still unsatisfactory since the use of the LHC or lepton colliders gives us only a small number of events at the position of the dip for a heavy Higgsino, which results in the reach much below the thermal Higgsino DM mass $m_\chi \sim 1\,\mathrm{TeV}$.
 
 \begin{figure}[t]
   \centering
@@ -45,8 +45,9 @@ However, the obtained reach for Higgsino in most of the literature is still unsa
 Thus, in this section, we pursue this indirect search method further, considering a much higher CM energy using the future $100\,{\rm TeV}$ hadron colliders such as FCC-hh~\cite{Mangano:2016jyj, Contino:2016spe, Golling:2016gvc, Benedikt:2651300} and SppC~\cite{CEPC-SPPCStudyGroup:2015csa, CEPC-SPPCStudyGroup:2015esa}.
 We concentrate on the Drell-Yan processes that have two charged leptons or mono-lepton plus a neutrino in the final state since they provide a very clean signal without any hadronic jets at least from the final state particles.
 In Fig.~\ref{fig:histMee}, we show the invariant mass distribution of the pair produced electrons, for example, at a $100\,\mathrm{TeV}$ collider with the integrated luminosity $\mathcal{L} = 3\,\mathrm{ab}^{-1}$.
+As we will discuss in Sec.~\ref{sec_event} in more detail, the NLO QCD effect is taken into account and \texttt{NNPDF2.3QED} with $\alpha_s (M_Z) = 0.118$~\cite{Ball:2013hta} is used as a canonical set of PDFs.
 In the figure, events are divided into bins with equal width of $100\,\mathrm{GeV}$.
-Thanks to the large CM energy, there are more than $10^4$ events around the invariant mass of $2\,\mathrm{TeV}$ that can be used to probe the $\mathcal{O}(1)\,\%$ effect of the new physics, which will be turned out to be useful for the $1\,\mathrm{TeV}$ Higgsino search.
+Thanks to the large CM energy, there are roughly $10^4$ events around the invariant mass of $2\,\mathrm{TeV}$ that can be used to probe the $\mathcal{O}(1)\,\%$ effect of the new physics, which will be turned out to be useful for the $1\,\mathrm{TeV}$ Higgsino search.
 
 Below, we will show that the indirect search method provides \textit{a comparable or better experimental reach for Higgsino} compared to the direct production search of WIMPs at future colliders~\cite{Low:2014cba, Cirelli:2014dsa, Han:2018wus, Mahbubani:2017gjh}.
 Besides, we demonstrate that the indirect search method can be applied not only to discover WIMPs but also \textit{to investigate their properties, such as charges, masses, and spins.}
@@ -247,7 +248,7 @@ In our analysis, we first generate the SM event sets for the NC processes $pp\to
 We use \texttt{MadGraph5\_aMC@NLO} (\texttt{v2.6.3.2})~\cite{Alwall:2011uj, Alwall:2014hca} for the event generation with the successive use of \texttt{Pythia8}~\cite{Sjostrand:2014zea} for the parton shower and the hadronization and \texttt{Delphes} (\texttt{v3.4.1})~\cite{deFavereau:2013fsa} with the card {\tt FCChh.tcl} for the detector simulation.
 We use \texttt{NNPDF2.3QED} with $\alpha_s (M_Z) = 0.118$~\cite{Ball:2013hta} as a canonical set of PDFs.
 For the renormalization and factorization scales, we use the default values of \texttt{MadGraph5\_aMC@NLO}, i.e., the central $m_T^2$ scale after $k_T$-clustering of the event (which we denote by $Q$).
-We take into account the NLO QCD effect by the \verb|[QCD]| option of \verb|MadGraph5_aMC@NLO| since it enhances the cross section roughly by a factor of $2$ compared to the LO calculation.\footnote
+We take into account the NLO QCD effect by the \verb|[QCD]| option of \verb|MadGraph5_aMC@NLO| which enhances the cross section roughly by a factor of $2$ compared to the LO calculation.\footnote
 {
   This large enhancement implies that the next-to-next-to-leading order QCD effect may also have a non-negligible effect on the cross section, and its calculation remains as a future task.
   However, due to its smooth dependence on $\sqrt{s'}$, it may not much affect the detection reach of the EWIMPs.
@@ -258,7 +259,9 @@ In both cases, we generated events with the characteristic mass within the range
 
 As for the event selection by a trigger, we may have to impose some cut on the lepton transverse momentum $p_T$.
 As we will see, we concentrate on events with high $p_T$ charged lepton(s) with which we expect the event may be triggered.
-For the NC processes, we use events with at least two high $p_T$ leptons.  For our analysis, we use events with $m_{\ell\ell}>500\ {\rm GeV}$; we assume that such events are triggered by using two energetic charged leptons so that we do not impose extra kinematical requirements.
+For the NC processes, we use events with at least two high $p_T$ leptons.  For our analysis, we use events with $m_{\ell\ell}>500\ {\rm GeV}$; we assume that such events are triggered by using two energetic charged leptons so that we do not impose any other kinematical requirement at the parton level.\footnote{
+  Note that the simplified geometry of detector layout is included in the \texttt{Delphes} card and, for example, muons with large absolute pseudorapidity $|\eta| > 6$ are automatically neglected at the detector simulation.
+}
 On the contrary, the CC events are characterized only by a lepton and a missing transverse momentum.
 For such events, we require that the $p_T$ of the charged lepton should be larger than $500\,\mathrm{GeV}$.
 \footnote{
@@ -272,7 +275,7 @@ We will come back to this point later.
 The WIMP effect is incorporated by rescaling the SM event by $\delta_\sigma$ defined in Eq.~\eqref{eq_dsigma}.
 With the parameter $\mu$ defined in Eq.~\eqref{eq_diffcrosssection}, the number of events corresponding to the SM+WIMP hypothesis in $i$-th bin, characterized by $m_{i, \mathrm{min}} < m_{\mathrm{char}} < m_{i, \mathrm{max}}$, is
 \begin{align}
-  x_{f,i} (\mu) = \sum_{m_{i, \mathrm{min}} < m_{\mathrm{char}} < m_{i, \mathrm{max}}}
+  x_{f,i} (\mu) = \sum_{\substack{\text{events that satisfy}\\m_{i, \mathrm{min}} < m_{\mathrm{char}} < m_{i, \mathrm{max}}}}
   \left[
     1 + \mu \delta_\sigma (\sqrt{s'})
   \right],
@@ -297,7 +300,7 @@ We denote the experimental data set as $\check{\bm{x}}_f$ that in principle is c
 Since we do not have an actual experimental data set for $100~\,\mathrm{TeV}$ colliders for now, however, we take $\check{\bm{x}}_f = \bm{x}_f(\mu = 1)$ (for some fixed values of the WIMP mass and charges) throughout our analysis, assuming that the WIMP does exist.  In particular, this choice tests the SM-only hypothesis if we take our theoretical model as $\bm{x}_f(\mu=0)$.
 
 If the expectation values of $x_{f,i} (\mu)$ are precisely known, the sensitivity to WIMPs can be studied only with statistical errors.
-In reality, however, the computation of $x_{f,i} (\mu)$ suffers various sources of uncertainties, which results in systematic errors in our theoretical model.
+In reality, however, the computation of $x_{f,i} (\mu)$ suffers from various sources of uncertainties, which results in systematic errors in our theoretical model.
 The sources include errors in the integrated luminosity, the beam energy, choices of the renormalization and the factorization scales, choices of PDF, the pile-up effect, higher order corrections to the cross section, and so on.
 In order to deal with these uncertainties, we introduce sets of free parameters $\bm{\theta}_f = \{ \theta_{f,\alpha} \}$ (i.e. nuisance parameters) which absorb (smooth) uncertainties of the number of events, and modify our theoretical model as
 \begin{align}
@@ -386,7 +389,8 @@ We estimate $\bm{\sigma}_f$ associated with the other sources of the errors, den
 Finally, the total values of $\bm{\sigma}_f$ are obtained by combining all the sources together as\footnote
 {
   There may be some correlations between the distribution of nuisance parameters $\bm{\theta}_{f}$.
-  In this section, we treat each of them as obeying to an independent Gaussian distribution for simplicity.
+  After the $100\,\mathrm{TeV}$ collider experiments will start and the sufficient amount of data will be accumulated, we should extract the information of correlations and use it to perform the analysis.
+  However, because the real data does not exist yet, we rely on a simplified analysis in this section, treating each of them as obeying to an independent Gaussian distribution.
 }
 \begin{align}
   \sigma_{f,\alpha} = \sqrt{(\sigma_{f,\alpha}^{\mathrm{lumi.}})^2
@@ -451,7 +455,7 @@ The values of $\bm{\sigma}_f$ are independent of the final state lepton flavors 
 However, we use different sets of fit parameters $\bm{\theta}_{ee}$ and $\bm{\theta}_{\mu\mu}$ for the NC processes and $\bm{\theta}_{e\nu_e}$ and $\bm{\theta}_{\mu\nu_\mu}$ for the CC processes because of the different detector response to electrons and muons.
 
 Several comments on other possible sources of systematic errors are in order.
-As for the beam energy error, we could not generate events at NLO due to the lack of sufficient computational power.
+Considering effects of the error on the beam energy, we could not generate events at NLO due to the lack of sufficient computational power.
 Instead, we checked at LO that the corresponding values of $\bm{\sigma}$ (assuming that the uncertainty of the beam energy is $1\,\%$) are small enough, and hence we simply ignored it.
 Two of the remaining sources are the pile-up effect and the underlying event, but they may be thought of as negligible since we are focusing on the very clean signal of two energetic leptons.
 Another one is the effect of higher order corrections to the cross section and that of background processes that are not considered in our analysis.
@@ -495,7 +499,7 @@ In this section, we just assume that these systematic errors from the detector e
   \caption{
     $\sqrt{q_0}$ as a function of the WIMP mass for the MDM models.
     The red and blue lines represent the results for 5-plet Majorana fermion and 5-plet real scalar, respectively, while the solid and dotted lines correspond to the result with and without the fitting procedure, respectively.
-    All lines denote the combination results of the NC and CC processes.
+    All lines denote the combined results of the NC and CC processes.
   }
   \label{fig:mchi_vs_sqq0_MDM}
 \end{figure}
@@ -641,6 +645,7 @@ In Fig.~\ref{fig_c1_c2}, we show the contours of $1\sigma$ (dotted) and $2\sigma
 The blue, green, and red lines denote the result obtained from the NC processes, the CC processes, and the combined analysis, respectively.
 The models in the gray region are in more than $2\sigma$ tension with the observation.
 We also show several star markers that correspond to the single $SU(2)_L$ multiplet contributions: the markers with ``$n_Y$'' represent an $SU(2)_L$ $n$-plet Dirac fermion with hypercharge $Y$, while those with ``$n_\mathrm{Maj}$'' an $SU(2)_L$ $n$-plet Majorana fermion.
+Among them, the blue one with ``$2_{1/2}$'' corresponds to the Higgsino and to the best fit values in our analysis.
 Both the NC and CC constraints are represented as straight bands in the $C_1~\mathrm{vs.}~C_2$ plane since each process depends on a specific linear combination of $C_1$ and $C_2$.
 In particular, the CC constraint is independent of $C_1$, or $Y$.
 In this sense, the NC and CC processes are complementary to each other, and thus we can separately constrain $C_1$ and $C_2$ only after combining these two results.

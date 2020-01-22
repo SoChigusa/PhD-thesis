@@ -849,6 +849,16 @@ S.~Knapen, T.~Lin, K.~M. Zurek, {Light Dark Matter: Models and Constraints},
   \href {https://doi.org/10.1103/PhysRevD.96.115021}
   {\path{doi:10.1103/PhysRevD.96.115021}}.
 
+\bibitem{Cushman:2013zza}
+P.~Cushman, et~al.,
+  \href{http://www.slac.stanford.edu/econf/C1307292/docs/CosmicFrontier/WIMPDirect-24.pdf}{{Working
+  Group Report: WIMP Dark Matter Direct Detection}}, in: {Proceedings, 2013
+  Community Summer Study on the Future of U.S. Particle Physics: Snowmass on
+  the Mississippi (CSS2013): Minneapolis, MN, USA, July 29-August 6, 2013},
+  2013.
+\newblock \href {http://arxiv.org/abs/1310.8327} {\path{arXiv:1310.8327}}.
+\newline\urlprefix\url{http://www.slac.stanford.edu/econf/C1307292/docs/CosmicFrontier/WIMPDirect-24.pdf}
+
 \bibitem{Billard:2013qya}
 J.~Billard, L.~Strigari, E.~Figueroa-Feliciano, {Implication of neutrino
   backgrounds on the reach of next generation dark matter direct detection
@@ -856,6 +866,16 @@ J.~Billard, L.~Strigari, E.~Figueroa-Feliciano, {Implication of neutrino
 \newblock \href {http://arxiv.org/abs/1307.5458} {\path{arXiv:1307.5458}},
   \href {https://doi.org/10.1103/PhysRevD.89.023524}
   {\path{doi:10.1103/PhysRevD.89.023524}}.
+
+\bibitem{Aalseth:2015mba}
+C.~E. Aalseth, et~al., {The DarkSide Multiton Detector for the Direct Dark
+  Matter Search}, Adv. High Energy Phys. 2015 (2015) 541362.
+\newblock \href {https://doi.org/10.1155/2015/541362}
+  {\path{doi:10.1155/2015/541362}}.
+
+\bibitem{Mount:2017qzi}
+B.~J. Mount, et~al., {LUX-ZEPLIN (LZ) Technical Design Report} (2017).
+\newblock \href {http://arxiv.org/abs/1703.09144} {\path{arXiv:1703.09144}}.
 
 \bibitem{Roszkowski:2014wqa}
 L.~Roszkowski, E.~M. Sessolo, A.~J. Williams, {What next for the CMSSM and the
