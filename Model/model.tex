@@ -31,14 +31,14 @@ We describe the mass splitting among the components of the WIMP multiplet in Sec
 Sec.~\ref{sec:model_summary} is devoted to the summary table of properties of WIMPs frequently considered below.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Minimally supersymmetric standard model}
+\subsection{Minimal supersymmetric standard model}
 \label{sec:MSSM}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}[b]
   \centering
   \includegraphics[width=0.6\hsize]{loop_correction.pdf}
-  \caption{One-loop correction to the Higgs mass from (a) a Weyl fermion $f$ and (b) a complex scalar $S$.}
+  \caption{One-loop correction to the Higgs mass from (a) Weyl fermions $f_L$ and $f_R$ and (b) complex scalars $S_L$ and $S_R$.}
   \label{fig:loop_correction}
 \end{figure}
 
@@ -48,7 +48,7 @@ The MSSM is the simple extension of the SM with $\mathcal{N} = 1$ supersymmetry 
 }
 One of the motivations to introduce SUSY is to solve the so-called hierarchy (or naturalness) problem \cite{Weinberg:1975gm,Gildener:1976ai,Susskind:1978ms} in the SM.
 The problem is related to the quantum correction to the SM Higgs boson mass from heavy new physics particles.
-For example, we can consider the one-loop correction to the Higgs mass from a Weyl fermion $f$ and a complex scalar $S$, both of which couple to the Higgs, as illustrated in Fig.~\ref{fig:loop_correction}.
+For example, we can consider the one-loop correction to the Higgs mass from Weyl fermions $f_L$ and $f_R$ and complex scalars $S_L$ and $S_R$, both of which couple to the Higgs, as illustrated in Fig.~\ref{fig:loop_correction}.
 The corrections to the Higgs mass is given by
 \begin{align}
   \Delta m_h^2 &= -\frac{|\lambda_f|^2}{8 \pi^2} \left[
@@ -60,7 +60,7 @@ where $\lambda_f$ is the Higgs-fermion coupling constant, while $\lambda_S$ the 
 We take the cut-off scale of the theory to be $\Lambda_{\mathrm{UV}}$ to regularize the otherwise divergent loop integral and neglect the lower order terms of $\Lambda_{\mathrm{UV}}$.
 Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} show the quadratic dependence of $\Delta m_H^2$ on $\Lambda_{\mathrm{UV}}$, which means that the Higgs mass is sensitive to the energy scale of the beyond the SM physics.
 However, there is at least one extremely high energy scale physics in nature, gravity at the Planck scale $M_{\mathrm{pl}} \sim 10^{18 \hyphen 19}\,\mathrm{GeV}$.
-By substituting $\Lambda_{\mathrm{UV}} = M_{\mathrm{pl}}$ in Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} and assuming $\lambda_f \sim \lambda_S \sim \mathcal{O} (1)$, we notice that orders-of-magnitude fine-tuning is required to obtain the correct Higgs mass $m_h = 125.10\,\mathrm{GeV}$ \cite{Tanabashi:2018oca}, which is unnatural.
+By substituting $\Lambda_{\mathrm{UV}} = M_{\mathrm{pl}}$ in Eqs.~\eqref{eq:delmh_f} and \eqref{eq:delmh_S} and assuming $\lambda_f \sim \lambda_S \sim \mathcal{O} (1)$, we notice that fine-tuning by mani orders of magnitude is required to obtain the correct Higgs mass $m_h = 125.10\,\mathrm{GeV}$ \cite{Tanabashi:2018oca}, which is unnatural.
 
 SUSY provides a nice solution to this fine-tuning problem.
 As is summarized in Appendix~\ref{sec:susy}, each Weyl fermion in a supersymmetric model is accompanied by two complex scalars with the same mass $m_f = m_S$.
@@ -77,8 +77,8 @@ This cancellation is ensured by the so-called non-renormalization theorem. \cite
     $\hat{U}_i$ & $\bar{\bm{3}}$ & $\bm{1}$ & $-2/3$ & squark & right-handed up-type quark \\
     $\hat{D}_i$ & $\bar{\bm{3}}$ & $\bm{1}$ & $1/3$ & squark & right-handed down-type quark \\
     $\hat{E}_i$ & $\bm{1}$ & $\bm{1}$ & $1$ & slepton & right-handed lepton\\
-    $\hat{H}_u$ & $\bm{1}$ & $\bm{2}$ & $1/2$ & Higgs & Higgsino\\
-    $\hat{H}_d$ & $\bm{1}$ & $\bm{2}$ & $-1/2$ & Higgs & Higgsino
+    $\hat{H}_u$ & $\bm{1}$ & $\bm{2}$ & $1/2$ & up-type Higgs & up-type Higgsino\\
+    $\hat{H}_d$ & $\bm{1}$ & $\bm{2}$ & $-1/2$ & down-type Higgs & down-type Higgsino
   \end{tabular}
   \caption{
     Notations and quantum numbers of the chiral superfields in the MSSM.
@@ -112,7 +112,7 @@ The supersymmetric part of the MSSM Lagrangian is described by the superpotentia
   - Y_e^{i j} \hat{E}_i \hat{L}_j \hat{H}_d + \mu \hat{H}_u \hat{H}_d,
   \label{eq:mssm_sup}
 \end{align}
-where $i,j=1,2,3$ label the quark and lepton generation, while $Q, L, U, D,$ and $E$ are superfields that contain the left-handed quark, left-handed lepton, right-handed up-type quark, right-handed down-type quark, and right-handed charged lepton, respectively.
+where $i,j=1,2,3$ refer to the quark and lepton generation, while $Q, L, U, D,$ and $E$ are superfields that contain the left-handed quark, left-handed lepton, right-handed up-type quark, right-handed down-type quark, and right-handed charged lepton, respectively.
 In Eq.~\eqref{eq:mssm_sup}, proper contraction of $SU(3)_C$ and $SU(2)_L$ indices is assumed.
 Note that two Higgs doublets $H_u$ and $H_d$ with opposite values of $U(1)_Y$ hypercharges are introduced, which is needed to cancel the contributions to the gauge anomaly from fermionic partners of the Higgs doublets.
 
@@ -125,7 +125,7 @@ Postulating SM gauge symmetries as a unique guideline to construct a model, ther
 where $\Delta L=1$ and $\Delta B=1$ represents the breaking of the lepton and baryon numbers by one, respectively.
 These terms with a lepton or baryon number breaking are phenomenologically problematic since they may cause a too fast proton decay, depending on parameters (see for example \cite{Sakai:1981pk}).
 To avoid this problem, we often rely on a symmetry called the R-parity \cite{Farrar:1978xj} or the matter parity \cite{Dimopoulos:1981zb, Weinberg:1981wj, Sakai:1981pk, Dimopoulos:1981yj}.
-Charges of the R-parity, which is basically a $Z_2$ symmetry, are calculated as
+Charges of the R-parity, which is basically a $Z_2$ symmetry, are defined as
 \begin{align}
   P_R = (-1)^{3(B-L)+2s},
 \end{align}
@@ -139,17 +139,17 @@ The SUSY breaking part of the Lagrangian is expressed as
 \begin{align}
   \mathcal{L}_{\mathrm{soft}} =&
   -\frac{1}{2} \left( M_3 \g \g + M_2 \W \W + M_1 \B \B + \mathrm{h.c.} \right) \notag \\&
-  -\left( A_u^{ij} \U_i \Q_j H_u - A_d^{ij} \D_i \Q_j H_d - A_e^{ij} \E_i \L_j H_d \right) \notag \\&
+  -\left( A_u^{ij} \U_i \Q_j H_u - A_d^{ij} \D_i \Q_j H_d - A_e^{ij} \E_i \L_j H_d + \mathrm{h.c.} \right) \notag \\&
   -m_Q^{2ij} \Q^\dagger_i \Q_j - m_L^{2ij} \L^\dagger_i \L_j - m_U^{2ij} \U^\dagger_i \U_j
   -m_D^{2ij} \D^\dagger_i \D_j - m_E^{2ij} \E^\dagger_i \E_j \notag \\&
   -m_{H_u}^2 H_u^{*} H_u - m_{H_d}^2 H_d^{*} H_d - \left( b H_u H_d + \mathrm{h.c.} \right),
   \label{eq:mssm_soft}
 \end{align}
 where the tilde is used to express the superpartner of the SM particle contained in a superfield, while fields without hat nor tilde denote particles in the SM.
-An exception is two Higgs doublets, where $H_u$ and $H_d$ express the scalar components, while $\tilde{H}_u$ and $\tilde{H}_d$ express their superpartners called Higgsinos.
+An exception is two Higgs doublets, where $H_u$ and $H_d$ represent the scalar components, while $\tilde{H}_u$ and $\tilde{H}_d$ represent their superpartners called Higgsinos.
 The SM-like Higgs doublet $H$ corresponds to a linear combination of $H_u$ and $H_d$, while the other combination becomes heavy.
 
-It is known that, within the MSSM, almost all SUSY breaking mechanisms, such as the F-term (O$^{\mathrm{\prime}}$Raifeartaigh) \cite{ORaifeartaigh:1975nky} or D-term (Fayet-Iliopoulos) SUSY breaking \cite{Fayet:1974jb, Fayet:1974pd}, fail to generate masses of superpartners with remaining the SM gauge group in the low energy effective theory.
+It is known that, within the MSSM, almost all SUSY breaking mechanisms, such as the F-term (O$^{\mathrm{\prime}}$Raifeartaigh) \cite{ORaifeartaigh:1975nky} or D-term (Fayet-Iliopoulos) SUSY breaking \cite{Fayet:1974jb, Fayet:1974pd}, fail to generate masses of superpartners with keeping the SM gauge group unbroken in the low energy effective theory.
 Thus, we need a so-called hidden sector in addition to the MSSM sector, in which SUSY is spontaneously broken.
 For the MSSM sector to have Lagrangian terms \eqref{eq:mssm_soft}, we also need some mediation mechanism of the SUSY breaking.
 The relative size of the SUSY breaking parameters in Eq.~\eqref{eq:mssm_soft} and thus the phenomenology of the model highly depends on the mediation mechanism.
@@ -174,7 +174,7 @@ Besides, all the LSP candidates described below (\textit{i.e.,} Wino and Higgsin
 
 Under the spontaneously or softly broken SUSY, the quantum correction to the Higgs boson is modified from that in the SUSY limit.
 One obvious consequence of the SUSY breaking is the hierarchy between the fermion and scalar masses that affects the logarithmic corrections to the Higgs mass.
-In the case of the MSSM, the largest contribution comes from the superpartner of the top quark, stop, which has the largest Yukawa coupling with the Higgs boson.
+In the case of the MSSM, the largest contribution comes from the superpartner of the top quark, stop, which has the largest coupling with the Higgs boson.
 
 \begin{table}[t]
   \centering
@@ -218,7 +218,10 @@ Then, according to \cite{Buttazzo:2013uya}, we obtain the relationship\footnote
 \end{align}
 where the $\overline{\mathrm{MS}}$ scheme is used to renormalize the divergence of loop integrals.
 
-In the MSSM, the value of $\lambda$ at the SUSY breaking scale $M_S$ is given by
+In the MSSM, the value of $\lambda$ at the SUSY breaking scale $M_S$ is given by\footnote{
+  The threshold correction $\delta \lambda$ includes terms required for the conversion from the $\overline{\text{DR}}$ to the $\overline{\text{MS}}$ scheme.
+  Since the contribution of these terms, which can be estimated as $\mathcal{O} (g_i^4 / 16\pi^2)$ with $i=1,2$, is typically smaller than that of stops given in Eq.~\eqref{eq:del_lambda}, we will neglect them in the following discussion.
+}
 \begin{align}
   \lambda (M_S) = \frac{g_1^2 (M_S) + g_2^2 (M_S)}{8} \cos^2 2\beta + \delta \lambda,
   \label{eq:lambda_at_ms}
@@ -267,8 +270,8 @@ Combined with the fact that there is still no sign of the superpartners at the c
 \subsubsection*{Light Higgsino and its relation to the naturalness}
 
 When we consider a heavy SUSY model concerning the Higgs mass, there is another problem called the little hierarchy problem.
-This mentions the hierarchy between the electroweak scale and the heavy SUSY breaking scale and an accompanying fine-tuning.
-Although the degree of the required fine-tuning is several orders of magnitude smaller than that for the large hierarchy between the electroweak and Planck scales, it will be more acceptable if some mechanism relieves the fine-tuning.
+This refers to the hierarchy between the electroweak scale and the heavy SUSY breaking scale and an accompanying fine-tuning.
+Although the degree of the required fine-tuning is many orders of magnitude smaller than that for the large hierarchy between the electroweak and Planck scales, it will be more acceptable if some mechanism relieves the fine-tuning.
 The required fine-tuning can be clearly expressed in the equation
 \begin{align}
   \frac{1}{2} m_Z^2 = \frac{m_{H_d}^2 - m_{H_u}^2 \tan^2 \beta}{\tan \beta^2 - 1} - \mu^2,
@@ -356,13 +359,13 @@ The gaugino scale is often defined through $M_3 (M_{\tilde{G}}) = M_{\tilde{G}}$
 
 In Fig.~\ref{fig:amsb_spectrum}, we show the dependence of gaugino masses on $m_{3/2}$ and $L$.
 In the left panel, we take $\tan\beta = 2.5$ and $L=0$, and the $m_{3/2}$ dependence is shown.
-Blue, green, and red lines denote the masses of Bino, Wino, and gluino, respectively.
-We can see that, throughout the parameter region used here, Wino becomes the lightest gaugino and becomes the LSP that can be a dark matter candidate.
+Blue, green, and red lines show the masses of Bino, Wino, and gluino, respectively.
+We can see that, throughout the parameter region used here, Wino becomes the lightest gaugino and the LSP that can be a dark matter candidate.
 In this choice of parameters, $m_{3/2} = 10^6\,\mathrm{GeV}$ roughly corresponds to the observed value of the Higgs mass $m_h \sim 125\,\mathrm{GeV}$, which at the same time realizes the $\mathcal{O}(1)\,\mathrm{TeV}$ mass for Wino.
 As we will see in Sec.~\ref{sec:relic}, the Wino dark matter in this mass range is well-motivated since it gives us a collect relic abundance of the dark matter.
 
 In the right panel of Fig.~\ref{fig:amsb_spectrum}, we also show the $L$ dependence of gaugino masses for $\tan\beta = 2.5$ and $m_{3/2} = 10^6\,\mathrm{GeV}$.
-For simplicity, we neglect the relative phase of $m_{3/2}$ and $L$ and only consider the relative sign of them.
+For simplicity, we neglect the relative phase of $m_{3/2}$ and $L$ and only consider the relative sign between them.
 It can be seen that the hierarchy between gaugino masses is changed when a large value of $|L|$ is considered.
 However, we can safely say that when the threshold correction is sufficiently small, $|L| \lesssim \mathcal{O}(m_{3/2})$, Wino remains to be the LSP.
 Besides, the dependence of $m_h$ on $L$ is negligibly small and $m_h$ changes only $\mathcal{O} (0.1)\,\mathrm{GeV}$ within the parameter choice of the right panel.
@@ -390,7 +393,7 @@ The stability of such multiplets can be understood through a simple group theore
 To write down the effective operator that describes the decay of an $n$-plet field to SM particles, we have to make an $n$-plet representation out of several SM fields.
 However, since the largest $SU(2)_L$ representation in the SM is doublet, we need at least $n-1$ SM fields in the operator.
 The operator made out of this large number of fields should be suppressed by a power of the cutoff scale $\Lambda$, at least by $\Lambda^{4-n}$ ($\Lambda^{3-n}$) for a scalar (fermion) MDM, and results in a small decay rate.
-Since the well-motivated DM mass is of $\mathcal{O} (\mathrm{TeV})$ as we will see in Sec.~\ref{sec:relic}, the resulting lifetime of the DM candidate is estimated as $\tau \sim \Lambda^{-2p} (\mathrm{TeV})^{2p-1}$ for an operator with a suppression factor $\Lambda^{-p}$.
+Since the well-motivated DM mass is of $\mathcal{O} (\mathrm{TeV})$ as we will see in Sec.~\ref{sec:relic}, the resulting lifetime of the DM candidate is estimated as $\tau^{-1} \sim \Lambda^{2p} (\mathrm{TeV})^{-2p-1}$ for an operator with a suppression factor $\Lambda^{-p}$.
 By demanding $\tau$ to be larger than the age of the universe under the assumption for the cut off scale $\Lambda < M_{\mathrm{pl}}$, we can conclude that the operator of the DM decay should have a dimension larger than five.
 Then, we recast this condition to that for $n$ and obtain
 \begin{align}
@@ -465,7 +468,7 @@ However, note that these properties may be changed due to a small modification t
 The final column shows examples of the viable DM candidates analyzed in the literature.
 
 From the table, we can see that there are two fascinating targets, $5$-plet fermion and $7$-plet scalar both of which have $Y=0$.
-Among them, we neglect the latter possibility because it has been pointed out \cite{DiLuzio:2015oha, DelNobile:2015bqo} that a dimension five operator combined with a loop consisted of the $\mathrm{TeV}$ scale $7$-plet scalar induces a sizable decay rate for the $U(1)_{\mathrm{EM}}$ neutral component.
+Among them, we neglect the latter possibility because it has been pointed out \cite{DiLuzio:2015oha, DelNobile:2015bqo} that a higher dimensional operator combined with a loop consisted of the $\mathrm{TeV}$ scale $7$-plet scalar induces a sizable decay rate for the $U(1)_{\mathrm{EM}}$ neutral component.
 Instead, we will take a $5$-plet scalar with $Y=0$ just as a working example, assuming that its stability is ensured by some other mechanism.
 
 
@@ -524,7 +527,7 @@ Note that the results agree with the previous order estimation with $\Lambda \si
 
 Next, we consider the loop correction to the WIMP masses.
 When the loop is composed of heavy particles, the effective operator that causes the mass splitting again becomes the same as above, which is now associated with a small loop factor.
-Thus, the largest contribution comes from the gauge boson $\hyphen$ WIMP loop.
+Thus, the largest contribution comes from the gauge boson--WIMP loop.
 For the charged components of Higgsino, the one-loop result is known: \cite{Fukuda:2017jmk}
 \begin{align}
   \Delta m_\chi^{\mathrm{(rad)}} \simeq \frac{1}{2} \alpha_2 M_Z \sin^2 \theta_W
