@@ -144,26 +144,15 @@ S.~Knapen, T.~Lin, K.~M. Zurek, {Light Dark Matter: Models and Constraints},
   \href {https://doi.org/10.1103/PhysRevD.96.115021}
   {\path{doi:10.1103/PhysRevD.96.115021}}.
 
-\bibitem{Aprile:2018dbl}
-E.~Aprile, et~al., {Dark Matter Search Results from a One Tonne$\times$Year
-  Exposure of XENON1T}, Phys. Rev. Lett. 121~(11) (2018) 111302.
-\newblock \href {http://arxiv.org/abs/1805.12562} {\path{arXiv:1805.12562}},
-  \href {https://doi.org/10.1103/PhysRevLett.121.111302}
-  {\path{doi:10.1103/PhysRevLett.121.111302}}.
-
-\bibitem{Akerib:2016vxi}
-D.~S. Akerib, et~al., {Results from a search for dark matter in the complete
-  LUX exposure}, Phys. Rev. Lett. 118~(2) (2017) 021303.
-\newblock \href {http://arxiv.org/abs/1608.07648} {\path{arXiv:1608.07648}},
-  \href {https://doi.org/10.1103/PhysRevLett.118.021303}
-  {\path{doi:10.1103/PhysRevLett.118.021303}}.
-
-\bibitem{Cui:2017nnn}
-X.~Cui, et~al., {Dark Matter Results From 54-Ton-Day Exposure of PandaX-II
-  Experiment}, Phys. Rev. Lett. 119~(18) (2017) 181302.
-\newblock \href {http://arxiv.org/abs/1708.06917} {\path{arXiv:1708.06917}},
-  \href {https://doi.org/10.1103/PhysRevLett.119.181302}
-  {\path{doi:10.1103/PhysRevLett.119.181302}}.
+\bibitem{Cushman:2013zza}
+P.~Cushman, et~al.,
+  \href{http://www.slac.stanford.edu/econf/C1307292/docs/CosmicFrontier/WIMPDirect-24.pdf}{{Working
+  Group Report: WIMP Dark Matter Direct Detection}}, in: {Proceedings, 2013
+  Community Summer Study on the Future of U.S. Particle Physics: Snowmass on
+  the Mississippi (CSS2013): Minneapolis, MN, USA, July 29-August 6, 2013},
+  2013.
+\newblock \href {http://arxiv.org/abs/1310.8327} {\path{arXiv:1310.8327}}.
+\newline\urlprefix\url{http://www.slac.stanford.edu/econf/C1307292/docs/CosmicFrontier/WIMPDirect-24.pdf}
 
 \bibitem{Billard:2013qya}
 J.~Billard, L.~Strigari, E.~Figueroa-Feliciano, {Implication of neutrino
@@ -172,6 +161,23 @@ J.~Billard, L.~Strigari, E.~Figueroa-Feliciano, {Implication of neutrino
 \newblock \href {http://arxiv.org/abs/1307.5458} {\path{arXiv:1307.5458}},
   \href {https://doi.org/10.1103/PhysRevD.89.023524}
   {\path{doi:10.1103/PhysRevD.89.023524}}.
+
+\bibitem{Aprile:2018dbl}
+E.~Aprile, et~al., {Dark Matter Search Results from a One Tonne$\times$Year
+  Exposure of XENON1T}, Phys. Rev. Lett. 121~(11) (2018) 111302.
+\newblock \href {http://arxiv.org/abs/1805.12562} {\path{arXiv:1805.12562}},
+  \href {https://doi.org/10.1103/PhysRevLett.121.111302}
+  {\path{doi:10.1103/PhysRevLett.121.111302}}.
+
+\bibitem{Aalseth:2015mba}
+C.~E. Aalseth, et~al., {The DarkSide Multiton Detector for the Direct Dark
+  Matter Search}, Adv. High Energy Phys. 2015 (2015) 541362.
+\newblock \href {https://doi.org/10.1155/2015/541362}
+  {\path{doi:10.1155/2015/541362}}.
+
+\bibitem{Mount:2017qzi}
+B.~J. Mount, et~al., {LUX-ZEPLIN (LZ) Technical Design Report} (2017).
+\newblock \href {http://arxiv.org/abs/1703.09144} {\path{arXiv:1703.09144}}.
 
 \bibitem{Hisano:2015rsa}
 J.~Hisano, K.~Ishiwata, N.~Nagata, {QCD Effects on Direct Detection of Wino

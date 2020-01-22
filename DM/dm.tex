@@ -28,26 +28,26 @@ One of the most important evidence of the beyond SM phenomena is the existence o
 DM is an unknown object that occupies a large fraction of the total energy of our universe but has not yet been directly observed because of its weak interaction with the SM particles.\footnote{
   At worst DM interacts with the SM particles through gravity, which is considerably weaker than all the other known interactions.
 }
-In spite of its invisibility, the existence of DM is confirmed by several astrophysical observations such as the mass measurement using the gravitational lensing effect caused by galaxies and clusters \cite{Zwicky:1937, Trimble:1987ee}, the flatness of galactic rotation curves further the optical radius \cite{1939LicOB..19...41B, Begeman:1991iy}, the measurement of the power spectrum of the cosmic microwave background (CMB), and so on.
+In spite of its invisibility, the existence of DM is confirmed by several astrophysical observations such as the mass measurement using the gravitational lensing effect caused by galaxies and clusters \cite{Zwicky:1937, Trimble:1987ee}, the flatness of galactic rotation curves beyond the optical radius \cite{1939LicOB..19...41B, Begeman:1991iy}, the measurement of the power spectrum of the cosmic microwave background (CMB), and so on.
 In particular, the observation of CMB allows us the precise determination of various cosmological parameters \cite{Jungman:1995av, Jungman:1995bz} including the normalized density of the non-relativistic matter $\Omega_m$ and that of baryon $\Omega_b$, which is currently determined as \cite{Aghanim:2018eyx}
 \begin{align}
   \Omega_m h^2 &= 0.1430 \pm 0.0011,\\
   \Omega_b h^2 &= 0.02237 \pm 0.00015,
 \end{align}
-where $h \sim \mathcal{O}(1)$ is the Hubble constant in units of $100\, \mathrm{km}\, \mathrm{s}^{-1}\, \mathrm{Mpc}^{-1}$.
+where $h \sim 0.7$ is the Hubble constant in units of $100\, \mathrm{km}\, \mathrm{s}^{-1}\, \mathrm{Mpc}^{-1}$.
 The difference between $\Omega_m h^2$ and $\Omega_b h^2$ implies the existence of DM and its abundance $\Omega_\chi h^2 \simeq 0.12$.
 
 In cosmology, DM production mechanisms that explain the DM abundance are divided into two large categories: thermal and non-thermal production.
-The former assumes the equilibrium between the DM and the thermal bath in the early universe.
+The former assumes the equilibrium between the DM and the SM thermal bath in the early universe.
 As the universe expands, the interaction rate that maintains the thermal equilibrium becomes smaller and the DM decouples from the thermal bath at some time, which is the so-called \textit{freezeout}.
-As we will see below, the resulting abundance of the DM in this scenario is mainly controlled by the temperature of the thermal bath $T_f$ when the freezeout occurs.
+As we will see below, the resulting abundance of the DM in this scenario is mainly controlled by the thermal averaged annihilation cross section $\Braket{\sigma v}$.
 On the other hand, non-thermal production assumes the DM production by some processes irrespective of the thermal bath such as the decay of a heavy particle.
-From now on, we mainly focus on the case only with the thermal production, which gives the smallest possible relic abundance for WIMPs that have an interaction with the thermal bath through the electroweak interaction.
+From now on, we mainly focus on the case without the non-thermal production, which still gives some relic abundance for WIMPs that have an interaction with the SM thermal bath through the electroweak interaction.
 
 We assume the stable DM particle $\chi$ with mass $m_\chi$ that pair annihilates into SM particles with some cross section $\sigma$.
 When DM is in thermal equilibrium with the thermal bath of temperature $T$, DM velocity obeys the corresponding Boltzmann distribution.
 Let $v$ be the relative velocity of annihilating DM particles and $\Braket{\sigma v}$ be the thermal average of the product of $\sigma$ and $v$.
-By using this quantity, we can write down the Boltzmann equation for the DM number density $n_\chi$ as
+By using this quantity, we can write down the Boltzmann equation for the DM number density $n_\chi$ in a simplified approximation as
 \begin{align}
   \frac{d (n_\chi a^3)}{d t} =
   - a^3 \Braket{\sigma v} (n_\chi^2 - n_{\mathrm{eq}}^2),\label{eq_boltzmann}
@@ -59,7 +59,8 @@ where $t$ and $a$ are the time coordinate and the scale factor, respectively, of
 while $n_{\mathrm{eq}}$ denotes the number density of DM in equilibrium.
 When DMs are non-relativistic, its temperature dependence is given by $n_{\mathrm{eq}} \propto T^{3/2} \exp \left( -m_\chi / T \right)$.
 The first term of the right-handed side of Eq.~\eqref{eq_boltzmann} represents the annihilation rate of DM pairs that should be proportional to $n_\chi^2$, while the second term describes the DM creation through the inverse process.
-As desired, the number density does not change in time if $n_\chi = n_{\mathrm{eq}}$.  Recalling the total entropy conservation in a comoving volume $s a^3 = (\mathrm{const})$, it turns out to be convenient to define the ratio $Y \equiv n_\chi / s$.
+As desired, the comoving number density does not change in time if $n_\chi = n_{\mathrm{eq}}$.
+Recalling the total entropy conservation in a comoving volume $s a^3 = (\mathrm{const})$, it turns out to be convenient to define the ratio $Y \equiv n_\chi / s$.
 In fact, this modification cancels the effect of the expansion of the universe $da / dt > 0$ from Eq.~\eqref{eq_boltzmann}, leading to a simpler equation
 \begin{align}
   \frac{d Y}{d t} =
@@ -85,7 +86,7 @@ where $\Gamma$ denotes the DM interaction rate defined as
   \includegraphics[width=0.5\hsize]{DMrelic.pdf}
   \caption{
     Plot of $Y(x) / Y(x=1)$ with $Y(x)$ being a solution of the evolution equation Eq.~\eqref{eq_boltzmann_Yx}.
-    The yellow dotted line is a solution for $\lambda \equiv \left. \Gamma / H \right|_{x=1} = 10^6$, while the black dotted line denotes $Y_{\mathrm{eq}} (x) / Y_{\mathrm{eq}} (x=1)$.
+    The yellow dotted line is a solution for $\lambda \equiv \left. \Gamma / H \right|_{x=1} = 10^6$, while the black dotted line shows $Y_{\mathrm{eq}} (x) / Y_{\mathrm{eq}} (x=1)$.
     The solid lines are the approximation to the solutions described in the text.
     The blue, red, and green colors correspond to $\lambda = 10^6$, $10^8$, and $10^{10}$, respectively.
     The vertical dotted lines denote the freezeout temperature $x_f$.
@@ -93,7 +94,7 @@ where $\Gamma$ denotes the DM interaction rate defined as
   \label{fig_DM_relic}
 \end{figure}
 
-Finally, $\Braket{\sigma v}$ is known to be expanded as~\cite{Gondolo:1990dk}
+Finally, it is known that $\Braket{\sigma v}$ can be expanded as~\cite{Gondolo:1990dk}
 \begin{align}
   \Braket{\sigma v} = \Braket{\sigma v}_s +
   \Braket{\sigma v}_p x^{-1} + \cdots,
@@ -151,7 +152,7 @@ Also, phenomenologically such $\mathrm{TeV}$-scale WIMPs are of great interest, 
 
 In Table \ref{tab:WIMP_property}, we summarize the value of $m_\chi$ for each WIMP model that predicts the correct relic abundance $\Omega_\chi h^2 \sim 0.12$.
 As described above, $\mathrm{TeV}$ scale masses are suitable for all WIMP DMs and the required mass becomes larger when we consider a larger $SU(2)_L$ $n$-plet because of the larger annihilation cross section.
-However, note that the precise estimation of the relic abundance solely using the last term of Eq.~\eqref{eq_relic_abundance} is not possible, because of the so-called Sommerfeld enhancement effect \cite{Hisano:2004ds,Hisano:2006nn} that may largely modify the annihilation cross section.
+However, note that the precise estimation of the relic abundance solely using the last term of Eq.~\eqref{eq_relic_abundance} is not possible, because of the so-called Sommerfeld enhancement effect \cite{Hisano:2004ds,Hisano:2006nn} that may significantly modify the annihilation cross section.
 We will review this effect in more detail in Sec.~\ref{sec:indirect_detection} in relation to the indirect detection experiments.
 Note also that $m_\chi$ in the table is only an upper bound on the WIMP DM mass because the existence of non-thermal production processes may allow lighter WIMPs to explain the whole relic abundance of DM in the current universe.
 
@@ -169,9 +170,9 @@ proposed in \cite{Goodman:1984dc}.
 Here, we assume some interaction between the DM and SM particles and look for the recoil of a target SM particle due to the collision with the DM in the laboratory.
 In the case of WIMPs of our concern, any particle with non-zero electroweak charges can be a target particle, which interacts with WIMPs through the $t$-channel electroweak gauge boson exchange.
 In the traditional setup such as the XENON1T experiment \cite{Aprile:2012zx}, a nucleus (of xenon in XENON1T) and an electron are the frequently used target particles.
-From now on, we focus on the nucleus target since, as will be turned out later, it gives much better sensitivity than the electron target for DMs with a mass of $\mathcal{O} (\mathrm{TeV})$.
+From now on, we focus on the nucleus target since, as we will see later, it gives much better sensitivity than the electron target for DMs with a mass of $\mathcal{O} (\mathrm{TeV})$.
 In this case, there are several ways to read out the information of the nuclear recoil depending on the deposited energy, such as the use of heat (or photons), an excitation of the nucleus associated with the emission of scintillation light, and the ionization of the atom.
-Among them, the XENON1T experiment uses the scintillation light.
+Among them, the XENON1T experiment uses the scintillation light and the ionization.
 
 To evaluate the event rate for this kind of experiment, it is important to know the DM energy density $\rho_0$ and velocity distribution around us.
 For this purpose, we model the DM profile in our galaxy using the so-called standard halo model (SHM) and adjust the parameters to the observations.
@@ -212,30 +213,31 @@ When the de Broglie wavelength corresponding to the momentum transfer $q$ is lon
   This corresponds to $q \lesssim \mathcal{O}(1)\,\mathrm{keV}$ or $m_\chi \lesssim \mathcal{O}(1)\,\mathrm{MeV}$ and thus we neglect this possibility here.
 }
 This results in the coherent contribution from all nucleons for the SI case, while only the unpaired nucleons contribute to the cross section for the SD case.
-In fact, for the WIMP DM, the SI cross section $\sigma_0^{\mathrm{SI}}$ is originally non-zero and enhanced thanks to the coherence by a large factor $A$ that is the mass number of the target nucleus ($A \simeq 130$ for the xenon) as
+In fact, for the WIMP DM, the SI cross section $\sigma_0^{\mathrm{SI}}$ is enhanced thanks to the coherence by a large factor $A$ that is the mass number of the target nucleus ($A \simeq 130$ for the xenon) as
 \begin{align}
   \sigma_0^{\mathrm{SI}} = A^2 \sigma_p^{\mathrm{SI}} \frac{\mu_T^2}{\mu_p^2}
 \end{align}
 where $\sigma_p^{\mathrm{SI}}$ is the SI scattering cross section for a DM and a single nucleon and $\mu_p$ is the reduced mass of the WIMP-nucleon system.
-The above expression dominates over the SD cross contribution for the WIMP DM.
+The above expression dominates over the SD cross contribution for the WIMP DM for most cases.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.5\hsize]{x1t_prelim_limits.pdf}
+  \includegraphics[width=0.8\hsize]{SNOWMASS_LimitPlot_SI_v3.pdf}
   \caption{
-    Current constraint on the DM SI cross section taken from \cite{Aprile:2018dbl}.
+    Current constraints and prospects on the DM SI cross section taken from \cite{Cushman:2013zza}.
     The $y$-axis corresponds to $\sigma_p^{\mathrm{SI}}$ in our notation.
   }
   \label{fig:XENON1T}
 \end{figure}
 
-In Fig.~\ref{fig:XENON1T}, we show the most recent constraint on the DM SI scattering cross section $\sigma_p^{\mathrm{SI}}$ as a function of its mass taken from \cite{Aprile:2018dbl} by the XENON1T collaboration.
-The previous results of the LUX \cite{Akerib:2016vxi} and the PandaX-II \cite{Cui:2017nnn} experiments are also shown.
-In the figure, the green and yellow bands represent the upper bound on the cross section with $1\sigma$ and $2\sigma$ experimental uncertainties, respectively.
-Black dotted line corresponds to the prospect for the future experiment called XENONnT, while the orange dotted line represents the cross section of the background events sourced by neutrinos \cite{Billard:2013qya}.
+In Fig.~\ref{fig:XENON1T}, we show the most recent constraint on the DM SI scattering cross section $\sigma_p^{\mathrm{SI}}$ as a function of its mass.
+See \cite{Cushman:2013zza} and references therein for the details of each experiment in the figure.
+In the figure, the parameter region above each line is excluded and the yellow region represents the cross section of the background events sourced by neutrinos \cite{Billard:2013qya}.
 This background often called as the neutrino floor, which is mainly determined by the solar neutrino for the region $m_\chi \lesssim 10\,\mathrm{GeV}$ and by the atmospheric and supernova neutrinos for $m_\chi \gtrsim 10\,\mathrm{GeV}$, roughly represents the maximum possible sensitivity of the direct detection method.\footnote{
   It may be possible, in particular for the solar neutrino background, to significantly reduce the number of background events and go beyond the neutrino floor by using the directional information of the signals.
 }
+Currently, the XENON1T collaboration~\cite{Aprile:2018dbl} provides the most stringent constraint in the (sub-)$\text{TeV}$ region of our interest.
+Prospects of future planned experiments called DarkSide G2 \cite{Aalseth:2015mba} and LZ \cite{Mount:2017qzi} are also shown in the figure.
 
 The qualitative description of the form of the sensitivity curve in Fig.~\ref{fig:XENON1T} can be given using the above discussion.
 The sensitivity for a very light WIMP is weak because of the finite threshold $E_{\mathrm{thr}}$ of the recoil energy required for the detection of the signal.
@@ -250,7 +252,8 @@ These two behaviors determine the best suitable $m_\chi$ for each choice of $m_T
 The latter choice is suitable when we search for lighter DMs.
 
 Although no signal of DM is observed yet, this null result is still consistent with WIMP models of our concern.
-For example, the calculation up to the next-to-leading order in $\alpha_s$ for the Wino DM reveals that the cross section almost mass-independently takes a small value of $\sigma_p^{\mathrm{SI}} \simeq 2.3 \times 10^{-47}\,\mathrm{cm}^2$~\cite{Hisano:2015rsa}, which is below the current constraint but is a region of future interest.
+For example, the Wino DM scatters with a nucleon through the t-channel exchange of a higgs boson or two $W$ gauge bosons at the one-loop order or higher.
+The calculation of the scattering cross section up to the next-to-leading order in $\alpha_s$ reveals that it almost mass-independently takes a small value of $\sigma_p^{\mathrm{SI}} \simeq 2.3 \times 10^{-47}\,\mathrm{cm}^2$~\cite{Hisano:2015rsa}, which is below the current constraint but is a region of future interest.
 As for the MDM, the $5$-plet fermion is analyzed in \cite{Hisano:2011cs} and the scattering cross section $\sigma_p^{\mathrm{SI}} \simeq 10^{-46}\,\mathrm{cm}^2$ is obtained.
 However, the mass requirement $m_\chi \sim 10\,\mathrm{TeV}$ (see Table~\ref{tab:WIMP_property}) makes the detection difficult and the sensitivity will not cover the whole region of the viable parameter space.
 In general, a pure $SU(2)_L$ multiplet with non-zero hypercharge has a large contribution to $\sigma_p^{\mathrm{SI}}$ from the tree-level exchange of $Z$ boson \cite{Farina:2013mla}.
@@ -280,7 +283,7 @@ The DM annihilation rate at some point $\bm{x}$ of the universe has a quadratic 
   More precisely, the annihilation rate has a quadratic dependence on the DM number density $n_\chi (\bm{x})$.
   This means that, for some fixed value of $\rho_\chi (\bm{x})$, the lighter DM has more chance to annihilate since $n_\chi = \rho_\chi / m_\chi$.
 }
-Thus, the main targets of indirect detection experiments are the center of galaxies or galaxy clusters, where abundant DM is expected to be accumulated thanks to the strong gravitational potential.
+In our case, we focus on the photons produced at the WIMP annihilation, and the main targets of indirect detection experiments are the center of galaxies or galaxy clusters, where abundant DM is expected to be accumulated thanks to the strong gravitational potential.
 The DM energy density distribution around each galaxy (cluster) can be determined by the observation of the rotation curve of luminous objects.
 One of the model functions introduced to fit such observations is the so-called the Navarro-Frenk-White (NFW) profile \cite{Navarro:1995iw, Navarro:1996gj} of the DM density distribution,
 \begin{align}
@@ -364,7 +367,7 @@ We show the result with $\hat{\bm{n}}$ and $\Delta\Omega$ being the direction of
   Due to this difference, it is difficult to convert the $J$-factor of their definition calculated with the NFW profile into that of our definition, and the result of the rough estimation is shown in the table.
 }
 In the table, the results for the center of our galaxy, $20$ dwarf galaxies in our galaxy, and $7$ galaxy clusters are shown.
-Among the targets listed in the table, the Galactic Center seems to be the best source for indirect detection, which is however suffered from huge background events at the same time.
+Among the targets listed in the table, the Galactic Center seems to be the best source for indirect detection, which however suffers from huge background events at the same time.
 Dwarf galaxies may be a more promising target since it provides much cleaner signals and the combined analysis of several targets can be performed to enlarge the statistics.
 Galaxy clusters may also be an interesting target since its power for the DM detection strongly depends on the DM profile of each galaxy cluster and a large enhancement may be expected for clusters that have relatively cusped DM profiles for some reason.
 
@@ -421,6 +424,7 @@ Accordingly, as we will see from now, small regions around peaks of such models 
   \caption{
     Constraint at the $95\,\%$ confidence level on the DM annihilation cross section taken from \cite{Bhattacherjee:2014dya}.
     The gray dotted line shows the combined result of $4$ years observation of $15$ dwarf galaxies by the Fermi-LAT collaboration, and the green bands show the observational errors.
+    For the calculation of the constraint, the NFW profile is used.
     Also shown in the black solid line is the annihilation cross section of Wino.
   }
   \label{fig:indirect_current}
@@ -430,7 +434,7 @@ There are many astrophysical observations that focus on several different partic
 Among them, the most stringent bound on DMs comes from the gamma-ray observations provided by several currently working or future planned collaborations such as the Fermi-LAT \cite{Atwood_2009}, GAMMA-400 \cite{GALPER2013297}, H.E.S.S. \cite{Abdallah:2016ygi}, and CTA \cite{Carr:2015hta}.
 For Wino DM, for example, the annihilation mode into $W^{+} W^{-}$ dominates over the other modes and the photons emitted associated with the $W$-boson decay will be observed.
 In Fig.~\ref{fig:indirect_current}, we show the constraint at the $95\,\%$ confidence level on the DM annihilation cross section, assuming $100\,\%$ branching ratio into $W^{+} W^{-}$ \cite{Bhattacherjee:2014dya}.
-The gray dotted line shows the combined result of $4$ years observation of $15$ dwarf galaxies by the Fermi-LAT collaboration, while the black solid line denotes the annihilation cross section of Wino.
+The gray dotted line shows the combined result of $4$-year observation of $15$ dwarf galaxies by the Fermi-LAT collaboration, while the black solid line denotes the annihilation cross section of Wino.
 Note the existence of the zero-energy resonance at the position of $m_\chi \sim 2\,\mathrm{TeV}$ as estimated above.
 From the figure, we can see that the parameter regions of Wino DM $m_\chi \lesssim 400\,\mathrm{GeV}$ and $m_\chi \sim 2\,\mathrm{TeV}$ are already excluded.\footnote{
   Currently, almost $10$-year observation data is expected to be accumulated and no sign of DM is reported.
@@ -440,7 +444,7 @@ From the figure, we can see that the parameter regions of Wino DM $m_\chi \lesss
 A similar analysis can be performed for other WIMP DM candidates.
 The Higgsino is currently constrained only up to $350\,\mathrm{GeV}$ \cite{Krall:2017xij} due to the smallness of the annihilation cross section in particular for the heavier region.
 For the MDM, 5-plet fermion is analyzed as an example in \cite{Abdalla:2018mve} and $m_\chi \lesssim 2\,\mathrm{TeV}$ and several narrow regions corresponding to the resonances are excluded.
-As for the prospects of future experiments, firstly, an order of magnitude improvement on the constraint from that shown in Fig.~\ref{fig:indirect_current} is expected \cite{Bhattacherjee:2014dya} by a combination of the 15 years observation at the Fermi-LAT and the 10 years observation at the GAMMA-400, which covers most of the allowed parameter region of Wino DM.
+As for the prospects of future experiments, firstly, an order of magnitude improvement on the constraint from that shown in Fig.~\ref{fig:indirect_current} is expected \cite{Bhattacherjee:2014dya} by a combination of the $15$-year observation at the Fermi-LAT and the $10$-year observation at the GAMMA-400, which covers most of the allowed parameter region of Wino DM.
 Besides, the observation of the Galactic Center at the CTA collaboration will probe the relatively heavier region $m_\chi \sim \mathcal{O}(1)\, \mathrm{TeV}$ efficiently, reaching $\sigma v \sim \text{(a few)} \times 10^{-26}\, \mathrm{cm^3\, s^{-1}}$.
 However, note that the observation of the Galactic Center is highly sensitive to the astrophysical uncertainties such as those on the $J$-factor.
 Note also that the thermal Higgsino DM may be a challenging target of this kind of experiment even in the future, whose mass and cross section are $m_\chi \sim 1\,\mathrm{TeV}$ and $\sigma v < 10^{-26}\, \mathrm{cm^3\, s^{-1}}$, respectively.
@@ -459,7 +463,7 @@ Besides, the constraints shown above assume the whole DM is composed of a WIMP a
 From the next section, we will see more robust ways of the WIMP search using collider experiments and consider whether we can probe the regions of the parameter space that are difficult to probe using DM search experiments.
 
 
-% \bibliographystyle{elsarticle-num}
-% \bibliography{../phd}
+\bibliographystyle{elsarticle-num}
+\bibliography{../phd}
 
 \end{document}
