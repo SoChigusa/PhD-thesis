@@ -1303,6 +1303,11 @@ S.~Iwamoto,
 F.~James, {MINUIT Function Minimization and Error Analysis: Reference Manual
   Version 94.1} (1994).
 
+\bibitem{10.1007/978-3-642-57489-4_11}
+C.~S. Bos, A comparison of marginal likelihood computation methods, in:
+  W.~H{¥"a}rdle, B.~R{¥"o}nz (Eds.), Compstat, Physica-Verlag HD, Heidelberg,
+  2002, pp. 111--116.
+
 \bibitem{wilks1938}
 S.~S. Wilks, \href{https://doi.org/10.1214/aoms/1177732360}{The large-sample
   distribution of the likelihood ratio for testing composite hypotheses}, Ann.

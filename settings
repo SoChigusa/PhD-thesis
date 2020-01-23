@@ -34,6 +34,7 @@ setpagesize=false,
 \usepackage{comment}
 \usepackage{bm}
 \usepackage{listings}
+\lstset{language=Mathematica}
 
 \setlength{\textwidth}{16.5cm}
 \setlength{\textheight}{21.5cm}
