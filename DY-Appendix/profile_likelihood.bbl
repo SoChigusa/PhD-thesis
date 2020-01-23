@@ -18,6 +18,11 @@ G.~Cowan, K.~Cranmer, E.~Gross, O.~Vitells, {Asymptotic formulae for
   10.1140/epjc/s10052-013-2501-z} {\path{doi:10.1140/epjc/s10052-011-1554-0,
   10.1140/epjc/s10052-013-2501-z}}.
 
+\bibitem{10.1007/978-3-642-57489-4_11}
+C.~S. Bos, A comparison of marginal likelihood computation methods, in:
+  W.~H{¥"a}rdle, B.~R{¥"o}nz (Eds.), Compstat, Physica-Verlag HD, Heidelberg,
+  2002, pp. 111--116.
+
 \bibitem{wilks1938}
 S.~S. Wilks, \href{https://doi.org/10.1214/aoms/1177732360}{The large-sample
   distribution of the likelihood ratio for testing composite hypotheses}, Ann.

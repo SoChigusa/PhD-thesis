@@ -59,9 +59,10 @@ Note that the denominator of the test statistic can also be expressed as $L(\bm{
 
 However, the situation may be more complicated since some of the parameters $\bm{\theta}$ are not directly related to the model parameters, but express the background yield, detector effects, systematic errors, and so on, which should be determined from experimental data.
 Such additional parameters are often called nuisance parameters.
-To treat nuisance parameters, it is convenient to rely on the profile likelihood method \cite{Cowan:2010js}.
+To treat nuisance parameters, there are several ways such as the profile likelihood method \cite{Cowan:2010js} and the marginal likelihood method \cite{10.1007/978-3-642-57489-4_11}.
+In this appendix, we focus on the profile likelihood method.
 
-For this purpose, we divide the parameters into two categories: the model parameter of our interest $\bm{\mu}$ and nuisance parameters $\bm{\theta}$.
+We divide the parameters into two categories: the model parameter of our interest $\bm{\mu}$ and nuisance parameters $\bm{\theta}$.
 Similarly to the discussion without the nuisance parameters, let $\bm{\mu}$ be the model that we want to test.
 The test static is defined as
 \begin{align}
