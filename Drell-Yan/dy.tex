@@ -76,15 +76,15 @@ where $\mathcal{L}_{\rm SM}$ is the SM Lagrangian, $D$ is a covariant derivative
 $g$ and $g'$ are the $SU(2)_L$ and $U(1)_Y$ gauge coupling constants, and $W_{\mu\nu}^a$ and $B_{\mu\nu}$ are the field strength associated with the $SU(2)_L$ and $U(1)_Y$ gauge group, respectively.
 The function $f(x)$ is defined as \cite{Matsumoto:2017vfu}
 \begin{align}
- f(x) = \begin{cases}
-	 \displaystyle{\frac{1}{16\pi^2} \int_0^1 dy\, y(1-y) \ln (1 -
-	 y(1-y)x - i0)} & {\rm (Fermion)},\\[5mm]
-	 %%
-	 \displaystyle{\frac{1}{16\pi^2} \int_0^1 dy\, (1-2y)^2 \ln (1-
-	 y(1-y)x - i0)} & {\rm (Scalar)},
-	\end{cases}\label{eq_f}
+  f(x) = \begin{cases}
+    \displaystyle{\frac{1}{16\pi^2} \int_0^1 dy\, (1-2y)^2 \ln (1-
+    y(1-y)x - i0)} & {\rm (Scalar)},\\[5mm]
+	  %%
+    \displaystyle{\frac{1}{16\pi^2} \int_0^1 dy\, y(1-y) \ln (1 -
+	  y(1-y)x - i0)} & {\rm (Fermion)},
+  \end{cases}\label{eq_f}
 \end{align}
-where the first (second) line corresponds to a fermionic (scalar) WIMP, respectively.\footnote
+where the first (second) line corresponds to a scalar (fermionic) WIMP, respectively.\footnote
 {
   If a WIMP interacts only through the electroweak interaction, its decay width is of $\mathrm{O}(1)\%$ or less of its mass even if it is unstable.
   We assume that this is the case, and neglect the small effect on the function $f(x)$ due to the small decay width.
@@ -205,6 +205,8 @@ There is a dip around $\sqrt{s'} = 2m$ for all the cases of the WIMPs which orig
 The WIMP contributions to the NC processes show a similar dip structure that again comes from $f$.
 This dip is crucial not only for the discovery of the WIMP signal (see Sec.~\ref{sec_detection}) but also for the determination of the properties of the WIMPs (see Sec.~\ref{sec_property}).
 In particular, the WIMP mass can be extracted from the dip position, while the WIMP charges ($n$ and $Y$) can be determined from the depth of the dip.
+The negative sign of the WIMP contributions can be understood from the consideration using the optical theorem and the analytic structure of the loop function.
+See Appendix \ref{sec:reim} for the detailed discussion.
 
 \begin{figure}[t]
   \centering
@@ -223,7 +225,7 @@ We use the transverse mass defined as
   m_T^2 \equiv 2 p_{T, \ell}\,\Slash{p}_T \left( 1-\cos \phi \right),
 \end{align}
 where $p_{T, \ell}$ denotes the transverse momentum of the charged lepton and $\phi$ is the difference between the azimuth angles of $p_{T,\ell}$ and $\Slash{p}_T$.
-The important property of $m_T$ is that the distribution of $m_T$ peaks at $m_T = m_{\ell\nu}$ (see Appendix.~\ref{sec:mT} for more detailed description of the quantity $m_T$).
+The important property of $m_T$ is that the distribution of $m_T$ peaks at $m_T = m_{\ell\nu}$ (see Appendix~\ref{sec:mT} for more detailed description of the quantity $m_T$).
 Because of this property, the characteristic shape of $\delta_\sigma$ remains in the $m_T$ distribution in the CC events.
 To see this, we plot in Fig.~\ref{fig_mT_vs_dN} the WIMP effect on the number of events as a function of $m_T$.
 Here, the vertical axis is the ratio of the WIMP correction to the number of events $\Delta N$ to the number of events in the SM $N$ for each bin with the bin width of $100\, {\rm GeV}$.\footnote
